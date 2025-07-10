@@ -1,0 +1,202 @@
+{
+  "_resourceType": "actor",
+  "id": "eae73921-c0b8-45b5-ba2d-76a013409705",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_0",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "¡Bienvenidas y \nbienvenidos\na la Game Jam!",
+          "Es momento de \nrevelar el tema \nsecreto!!!",
+          ":o :o :o ",
+          "El tema es...",
+          "¡La Biblioteca \nNacional de \nAntropología e\nHistoria!!!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "4069d1a5-99ec-4924-83e5-e501471bad0d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "¡¿Qué?!",
+          "¿Cómo se supone\nque haré un juego\nsobre la \nbiblioteca?",
+          "Yo solo tengo\neBooks :s"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "4786bd63-6aee-4baf-96c1-499996eaaaa9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "A continuación...",
+          "les dejamos un \nvideo muy especial"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "aa932ee1-c279-4300-906c-b768ec4f7465"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Mi nombre es \n*José Guadalupe\nMartínez García*",
+          "Soy director de \nla BNAH",
+          "Trabajo aquí desde\nhace 23 años",
+          "cuidando su \nhistoria y sus \n--tesoros--",
+          "Sus habitaciones\nhan cambiado \nmuchas veces",
+          "hasta llegar al \nedificio actual",
+          "En Chapuletpec\nen 1964!!!",
+          "...",
+          "Pero su verdadero\norigen surge de un\nhombre:",
+          "*Don Lorenzo \nBoturini*",
+          "Él reunió un\nTESORO tan valioso",
+          "que muchos aún \nsiguen dedicando\nsu vida",
+          "a buscarlo entre\nlos libros de su\ncolección"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "dbbf3592-9789-4efc-bcfb-5e26951a8b4a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "¿Un TESORO?",
+          "Quizá sea más\nfácil encontrar \nese tesoro ",
+          "y dejar de\npreocuparme",
+          "por querer vivir\nde componer \n-chiptunes-",
+          "Además...",
+          "Además mi equipo\nno se pone de \nacuerdo",
+          "en si quieren\nfantasmas o \naliens.",
+          "Pff...",
+          "Nunca he ido a la\nbiblioteca :s",
+          "Bueno...",
+          "Siempre hay una\nprimera vez",
+          "...",
+          "Mmmm...",
+          "¿Qué estación del\nmetro me dejará\ncerca?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8b9dac87-f941-44b8-9c8c-7fcfc6727f1f"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "c9288d55-5048-4277-abec-14e10b39371c",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 7
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "207b9f4d-7b88-43d5-9999-fbcb0bfa1be2"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 15,
+  "y": 7,
+  "_index": 0
+}

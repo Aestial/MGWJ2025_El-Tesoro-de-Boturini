@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "11c9d6b1-0bc5-43fb-aaf9-7daaf4b332ab",
+  "_index": 0,
+  "name": "Dani_Room",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 152,
+  "y": 80,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false
+}
