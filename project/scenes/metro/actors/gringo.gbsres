@@ -1,0 +1,73 @@
+{
+  "_resourceType": "actor",
+  "id": "1e65eeae-611d-44e1-80c6-bc29170b4354",
+  "name": "gringo",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "3385f2e4-fae5-4160-b8c4-2b35d5cbd34e",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_10",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Where is the \nAztecs museum???"
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "d505c174-5150-40f1-9f99-71bab71c7f0e"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "706dd4c6-2a58-41a0-a866-90113001faf9"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        }
+      },
+      "id": "897eacfc-a70c-421b-ac04-9e6f9649e694"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 23,
+  "y": 13,
+  "_index": 2
+}

@@ -1,0 +1,131 @@
+{
+  "_resourceType": "actor",
+  "id": "0d36760d-255b-4dc7-9285-2558404a16a2",
+  "name": "gringa",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "74cac517-9742-471c-ac09-ff5b40e535fd",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_8",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Hola!!\nPLEASE HELP!\nWe are lost!"
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "0e123988-60b3-4518-94eb-6f7e33f91478"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        }
+      },
+      "id": "4e64fe1c-e729-4e3d-84d1-84e10792805f"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "c091e1a3-acb2-42ff-823f-ae4886df542c"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        }
+      },
+      "id": "fb7a29ff-09ba-497e-b7b9-91d2f32e4371"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "52e8d90d-3839-47e3-aa8a-dd9f3eb77028"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        }
+      },
+      "id": "aa784e66-5b07-44a6-bfc0-ba828e2b6fb4"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "21ba29ff-0dfb-4c5b-a553-49a11777d117"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        }
+      },
+      "id": "94342950-16de-4c6a-b974-2390e0a71521"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "e4ffe8c5-e198-497c-84ab-b65e29c99566"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 23,
+  "y": 11,
+  "_index": 0
+}

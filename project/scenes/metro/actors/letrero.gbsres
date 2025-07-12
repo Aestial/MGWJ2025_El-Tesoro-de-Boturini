@@ -1,0 +1,54 @@
+{
+  "_resourceType": "actor",
+  "id": "aee59243-bddd-4c5a-922a-2dc09da439bc",
+  "name": "letrero",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "adb96737-9823-4970-a5bc-84e648997b5f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_11",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "METRO REFINERÍA"
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "8d223a0e-4d42-423b-aec6-f812cc0987ed"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 26,
+  "y": 13,
+  "_index": 3
+}
