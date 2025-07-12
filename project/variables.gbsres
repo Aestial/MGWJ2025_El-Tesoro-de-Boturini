@@ -20,6 +20,16 @@
       "id": "3",
       "name": "QuestStarted",
       "symbol": "var_queststarted"
+    },
+    {
+      "id": "c9288d55-5048-4277-abec-14e10b39371c__L0",
+      "name": "CurrentFrame",
+      "symbol": "var_currentframe"
+    },
+    {
+      "id": "4",
+      "name": "IsTrainMoving",
+      "symbol": "var_istrainmoving"
     }
   ]
 }

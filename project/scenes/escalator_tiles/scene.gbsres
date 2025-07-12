@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "ffa02b4e-40dd-43c0-b260-9780b7dbc87f",
+  "_index": 10,
+  "name": "escalator_tiles",
+  "backgroundId": "84b4d3e6-0d06-49e9-8552-8134a89df8c0",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 60,
+  "y": 384,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "purple"
+}

@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "f3033a5d-3cf3-44ea-8420-7e7b5031acc1",
-  "name": "salida_metro",
+  "id": "bea779d3-59a8-43f3-be61-51a45ceb0c23",
+  "name": "entrada_metro_atras",
   "prefabId": "",
-  "x": 9,
-  "y": 15,
-  "symbol": "trigger_2",
+  "x": 12,
+  "y": 7,
+  "symbol": "trigger_6",
   "prefabScriptOverrides": {},
   "width": 2,
   "height": 1,
@@ -13,22 +13,21 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "c9288d55-5048-4277-abec-14e10b39371c",
+        "sceneId": "e23da37e-3ccc-49c1-8fdd-f15bb41f91e5",
         "x": {
           "type": "number",
-          "value": 21
+          "value": 9
         },
         "y": {
           "type": "number",
-          "value": 28
+          "value": 16
         },
         "direction": "up",
-        "fadeSpeed": "2",
-        "__collapse": false
+        "fadeSpeed": "2"
       },
-      "id": "a665e449-f6a0-478d-9cf9-e9e0b2de3057"
+      "id": "2b21b2f6-c014-4f4f-8a60-7c408cf06058"
     }
   ],
   "leaveScript": [],
-  "_index": 0
+  "_index": 2
 }

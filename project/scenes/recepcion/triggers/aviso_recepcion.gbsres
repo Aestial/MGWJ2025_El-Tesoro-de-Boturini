@@ -1,7 +1,7 @@
 {
   "_resourceType": "trigger",
   "id": "4e72308a-ec2e-42db-80b7-3457f9d8b5e4",
-  "name": "trigger_aviso",
+  "name": "aviso_recepcion",
   "prefabId": "",
   "x": 3,
   "y": 1,

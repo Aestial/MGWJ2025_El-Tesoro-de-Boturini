@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "5c8c9932-1cd8-475a-85c1-875e1e885f23",
+  "name": "interior_tiles",
+  "symbol": "bg_interior_tiles",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "interior_tiles.png",
+  "tileColors": ""
+}

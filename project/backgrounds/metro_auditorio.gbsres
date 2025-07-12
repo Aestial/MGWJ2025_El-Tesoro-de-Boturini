@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "8d00037b-f163-44f6-bc1a-6243917e9704",
+  "name": "metro_auditorio",
+  "symbol": "bg_metro_auditorio",
+  "width": 29,
+  "height": 18,
+  "imageWidth": 232,
+  "imageHeight": 144,
+  "filename": "metro_auditorio.png",
+  "tileColors": "",
+  "autoColor": false
+}

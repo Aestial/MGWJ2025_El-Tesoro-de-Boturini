@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "84b4d3e6-0d06-49e9-8552-8134a89df8c0",
+  "name": "escalator_tiles",
+  "symbol": "bg_escalator_tiles",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "escalator_tiles.png",
+  "tileColors": "",
+  "autoColor": false
+}

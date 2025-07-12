@@ -1,33 +1,33 @@
 {
   "_resourceType": "trigger",
-  "id": "15feccb1-774d-4b50-96c5-1d5da18322c9",
-  "name": "entrada_biblioteca",
+  "id": "a9391790-ba1a-4b55-87bd-9b8484971e93",
+  "name": "sale_metro",
   "prefabId": "",
-  "x": 4,
-  "y": 0,
-  "symbol": "trigger_0",
+  "x": 1,
+  "y": 7,
+  "symbol": "trigger_5",
   "prefabScriptOverrides": {},
-  "width": 2,
+  "width": 1,
   "height": 1,
   "script": [
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "f190a4cb-4476-4fad-afac-ef12a4d6d6bb",
+        "sceneId": "11c9d6b1-0bc5-43fb-aaf9-7daaf4b332ab",
         "x": {
           "type": "number",
-          "value": 5
+          "value": 9
         },
         "y": {
           "type": "number",
-          "value": 26
+          "value": 10
         },
-        "direction": "up",
+        "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "f806505c-83ea-403d-8b75-3b98d95c7352"
+      "id": "09b439a8-9582-48e8-98a4-0da8e244055e"
     }
   ],
   "leaveScript": [],
-  "_index": 0
+  "_index": 1
 }

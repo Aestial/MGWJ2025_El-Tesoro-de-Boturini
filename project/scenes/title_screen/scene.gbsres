@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
-  "x": 60,
-  "y": 216,
+  "x": 240,
+  "y": 32,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -140,5 +140,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "labelColor": "orange"
 }

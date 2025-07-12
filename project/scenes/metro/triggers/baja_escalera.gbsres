@@ -1,0 +1,83 @@
+{
+  "_resourceType": "trigger",
+  "id": "e79dfe51-190d-4e40-8c20-886b9888e79c",
+  "name": "baja_escalera",
+  "prefabId": "",
+  "x": 3,
+  "y": 9,
+  "symbol": "trigger_7",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 1
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "983c30a8-084d-4baf-8f7d-55632f767212"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 0.5
+      },
+      "id": "eaa34e89-a09d-4247-bf7e-f666883656d8"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 2
+        },
+        "y": {
+          "type": "number",
+          "value": 2
+        },
+        "moveType": "diagonal",
+        "useCollisions": false
+      },
+      "id": "ea979b75-a7fa-4795-81ad-bfa6d36f3fe2"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "098f4b49-e542-4517-bba1-b4c8586f1abb"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 2
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "b262924b-bcfb-4add-abd1-877597b66c56"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}
