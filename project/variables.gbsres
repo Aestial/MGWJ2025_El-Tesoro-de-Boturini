@@ -1,4 +1,25 @@
 {
   "_resourceType": "variables",
-  "variables": []
+  "variables": [
+    {
+      "id": "0",
+      "name": "NewGame",
+      "symbol": "var_newgame"
+    },
+    {
+      "id": "1",
+      "name": "SeenPresentation",
+      "symbol": "var_seenpresentation"
+    },
+    {
+      "id": "2",
+      "name": "AccessGranted",
+      "symbol": "var_accessgranted"
+    },
+    {
+      "id": "3",
+      "name": "QuestStarted",
+      "symbol": "var_queststarted"
+    }
+  ]
 }

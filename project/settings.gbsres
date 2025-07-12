@@ -1,8 +1,8 @@
 {
   "_resourceType": "settings",
-  "startSceneId": "98698bb4-7246-4e86-9886-0818b9156392",
-  "startX": 7,
-  "startY": 6,
+  "startSceneId": "11c9d6b1-0bc5-43fb-aaf9-7daaf4b332ab",
+  "startX": 9,
+  "startY": 9,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
   "startDirection": "down",
@@ -35,12 +35,12 @@
   "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
   "defaultCharacterEncoding": "",
   "defaultPlayerSprites": {
-    "TOPDOWN": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "TOPDOWN": "c7f6d71e-7301-493b-96f7-17267a2b914e",
     "PLATFORM": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
     "ADVENTURE": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
     "SHMUP": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-    "POINTNCLICK": "",
-    "LOGO": ""
+    "POINTNCLICK": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "LOGO": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
   },
   "musicDriver": "huge",
   "cartType": "mbc5",

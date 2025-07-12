@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "58c679af-2a64-47d0-a66f-26934da7c5a0",
+  "name": "dani-room",
+  "symbol": "bg_dani_room",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "dani-room.png",
+  "tileColors": ""
+}

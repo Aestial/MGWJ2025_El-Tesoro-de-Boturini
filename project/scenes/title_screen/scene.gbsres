@@ -1,0 +1,144 @@
+{
+  "_resourceType": "scene",
+  "id": "98698bb4-7246-4e86-9886-0818b9156392",
+  "_index": 8,
+  "name": "Title_Screen",
+  "backgroundId": "2dffa142-9d95-4e26-a2cc-85f3a695760b",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_13",
+  "x": 60,
+  "y": 216,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "0de8f33b-68df-444c-8c49-f48e41daf2ab"
+    },
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "a",
+          "b",
+          "start",
+          "select"
+        ]
+      },
+      "id": "e3fc5fd1-4586-4d43-954b-71411ddd9088"
+    },
+    {
+      "command": "EVENT_RNG_SEED",
+      "args": {},
+      "id": "ae02ddbc-77bf-426e-bc12-45819a02b419"
+    },
+    {
+      "command": "EVENT_LOOP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "0",
+              "trueText": "Nuevo juego",
+              "falseText": "Continuar"
+            },
+            "id": "cdcb4032-6632-4293-96ef-3b17f05e2128"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "0"
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "11c9d6b1-0bc5-43fb-aaf9-7daaf4b332ab",
+                    "x": {
+                      "type": "number",
+                      "value": 9
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 8
+                    },
+                    "direction": "down",
+                    "fadeSpeed": 2
+                  },
+                  "id": "61b3c901-fcbd-41a1-8938-a934d7ec3d63"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_IF_SAVED_DATA",
+                  "args": {
+                    "saveSlot": 0,
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_LOAD_DATA",
+                        "args": {
+                          "saveSlot": 0
+                        },
+                        "id": "69f6d721-f4a3-417a-8b49-8491b4540b70"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "ac396bf2-9801-47eb-9849-1403e9767cc7"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "No hay juegos \nguardados.."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "257c4279-0d5e-4c92-928a-6f9173e4fa58"
+                }
+              ]
+            },
+            "id": "f2435d3e-d890-450a-acba-7d01814ec75d"
+          }
+        ]
+      },
+      "id": "c1ccd663-7a23-4aa2-b68e-3ad1b6da8f03"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
