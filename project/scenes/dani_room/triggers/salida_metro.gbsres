@@ -1,7 +1,7 @@
 {
   "_resourceType": "trigger",
   "id": "f3033a5d-3cf3-44ea-8420-7e7b5031acc1",
-  "name": "",
+  "name": "salida_metro",
   "prefabId": "",
   "x": 9,
   "y": 15,

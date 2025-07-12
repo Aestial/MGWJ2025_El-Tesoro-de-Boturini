@@ -1,7 +1,7 @@
 {
   "_resourceType": "trigger",
   "id": "a9391790-ba1a-4b55-87bd-9b8484971e93",
-  "name": "",
+  "name": "salida_cuarto",
   "prefabId": "",
   "x": 21,
   "y": 30,
@@ -16,11 +16,11 @@
         "sceneId": "11c9d6b1-0bc5-43fb-aaf9-7daaf4b332ab",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 9
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 10
         },
         "direction": "",
         "fadeSpeed": "2"

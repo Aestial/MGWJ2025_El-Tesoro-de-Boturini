@@ -1,7 +1,7 @@
 {
   "_resourceType": "trigger",
   "id": "0eff4bf5-e730-422b-af92-a986b40a41cf",
-  "name": "",
+  "name": "entrada_metro",
   "prefabId": "",
   "x": 24,
   "y": 18,

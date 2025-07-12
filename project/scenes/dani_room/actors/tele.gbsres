@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "eae73921-c0b8-45b5-ba2d-76a013409705",
-  "name": "Computadora",
+  "name": "Tele",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "10c71679-7f2f-4126-8cc6-cf8db364ce2c",
@@ -32,15 +32,15 @@
             "args": {
               "text": [
                 "Que esperas...",
-                "Calla y \ndesarrolla!"
+                "¡Calla y \ndesarrolla! :D"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "0db0c970-fe79-4963-96d0-594f44e8764d",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
@@ -50,7 +50,8 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "58b42092-98a1-4c18-8d6c-a7a89d064d7a"
           }
@@ -60,19 +61,19 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¡Bienvenidas y \nbienvenidos\na la Game Jam!",
-                "Es momento de \nrevelar el tema \nsecreto!!!",
-                ":o :o :o ",
+                "¡Bienvenidas y\nbienvenidos\na la Game Jam!",
+                "¡Es momento de\nrevelar el\ntema secreto!",
+                ":o :o :o",
                 "El tema es...",
-                "¡La Biblioteca \nNacional de \nAntropología e\nHistoria!!!"
+                "¡La Biblioteca\nNacional de\nAntropología\ne Historia!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "0db0c970-fe79-4963-96d0-594f44e8764d",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
@@ -82,7 +83,8 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "4069d1a5-99ec-4924-83e5-e501471bad0d"
           },
@@ -91,26 +93,28 @@
             "args": {
               "text": [
                 "¡¿Qué?!",
-                "¿Cómo se supone\nque haré un juego\nsobre la \nbiblioteca?",
+                "¿Cómo se supone\nque haré un \njuego...",
+                "sobre la \nbiblioteca?",
                 "Yo solo tengo\neBooks :s"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "4786bd63-6aee-4baf-96c1-499996eaaaa9"
           },
@@ -118,26 +122,26 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "A continuación...",
-                "les dejamos un \nvideo muy especial"
+                "¡A continuación\nles dejamos un\nvideo muy\nespecial!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "0db0c970-fe79-4963-96d0-594f44e8764d",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "aa932ee1-c279-4300-906c-b768ec4f7465"
           },
@@ -145,37 +149,38 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Mi nombre es \n*José Guadalupe\nMartínez García*",
-                "Soy director de \nla BNAH",
-                "Trabajo aquí desde\nhace 23 años",
-                "cuidando su \nhistoria y sus \n--tesoros--",
-                "Sus habitaciones\nhan cambiado \nmuchas veces",
-                "hasta llegar al \nedificio actual",
-                "En Chapuletpec\nen 1964!!!",
+                "Mi nombre es\n!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!José Guadalupe\nMartínez García",
+                "Soy director\nde la !F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!BNAH",
+                "¡Trabajo aquí\ndesde hace\n23 años,",
+                "cuidando su\nhistoria y sus\n!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!tesoros!",
+                "Sus\nhabitaciones\nhan cambiado\nmuchas veces",
+                "hasta llegar\nal edificio\nactual...",
+                "en Chapuletpec,\nen el año 1964!",
                 "...",
-                "Pero su verdadero\norigen surge de un\nhombre:",
-                "*Don Lorenzo \nBoturini*",
-                "Él reunió un\nTESORO tan valioso",
-                "que muchos aún \nsiguen dedicando\nsu vida",
-                "a buscarlo entre\nlos libros de su\ncolección"
+                "Pero su\nverdadero\norigen surge\nde un hombre:",
+                "!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Don Lorenzo\nBoturini",
+                "Él reunió un\n!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!TESORO!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! tan\nvalioso...",
+                "que muchos\naún siguen\ndedicando\nsu vida,",
+                "a buscarlo\nentre los\nlibros de su\ncolección!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "590383cc-d13f-4e3e-9b08-50325c09f488",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "dbbf3592-9789-4efc-bcfb-5e26951a8b4a"
           },
@@ -183,38 +188,38 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¿Un TESORO?",
-                "Quizá sea más\nfácil encontrar \nese tesoro ",
-                "y dejar de\npreocuparme",
-                "por querer vivir\nde componer \n-chiptunes-",
+                "¿Un !F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!TESORO!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!?",
+                "¡Quizá sea\nmás fácil\nencontrar ese\n!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!TESORO!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!",
+                "y dejar de\npreocuparme...",
+                "por querer\nvivir de\ncomponer\n!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!chiptunes!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!!!!",
                 "Además...",
-                "Además mi equipo\nno se pone de \nacuerdo",
-                "en si quieren\nfantasmas o \naliens.",
-                "Pff...",
-                "Nunca he ido a la\nbiblioteca :s",
+                "Además mi\nequipo no se\npone de\nacuerdo...",
+                "en si quieren\nfantasmas o\naliens.",
+                "Pff... :/",
+                "Nunca he ido a\nla biblioteca!!",
                 "Bueno...",
-                "Siempre hay una\nprimera vez",
-                "...",
+                "Siempre hay una\nprimera vez.",
                 "Mmmm...",
-                "¿Qué estación del\nmetro me dejará\ncerca?"
+                "¿Qué estación\ndel metro me\ndejará cerca?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "8b9dac87-f941-44b8-9c8c-7fcfc6727f1f"
           },

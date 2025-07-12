@@ -1,20 +1,20 @@
 {
   "_resourceType": "trigger",
-  "id": "4e72308a-ec2e-42db-80b7-3457f9d8b5e4",
-  "name": "",
+  "id": "5227d723-d158-45fe-b386-c55e64804cc5",
+  "name": "Computadora",
   "prefabId": "",
-  "x": 3,
-  "y": 1,
-  "symbol": "trigger_1",
+  "x": 12,
+  "y": 5,
+  "symbol": "trigger_4",
   "prefabScriptOverrides": {},
-  "width": 4,
-  "height": 2,
+  "width": 2,
+  "height": 1,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "La biblioteca \ncierra en 30 \nminutos!"
+          "La GPU ya no \nfunciona..."
         ],
         "__section": "text",
         "avatarId": "",
@@ -33,7 +33,24 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "d5206031-0293-4d7c-822d-b850c36d1306"
+      "id": "ea585eb9-0b22-4637-b23d-b3bf1e511bf9"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 2
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "10dbd633-7bc8-441f-9dce-fd40473e21e1"
     }
   ],
   "leaveScript": [],

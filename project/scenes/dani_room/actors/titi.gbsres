@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "74c1b71d-5d9f-4a07-922d-ef252945929a",
-  "name": "",
+  "id": "24f558ce-a3cf-4253-9a63-f714be3a9e3a",
+  "name": "Titi",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "e407c6ba-4835-4f32-b732-9ca3d7a33248",
+  "spriteSheetId": "a143709f-dd88-4ac7-bfc2-10830258ed8e",
   "prefabId": "",
-  "direction": "up",
+  "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -14,13 +14,13 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_6",
+  "symbol": "actor_7",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Miau!"
+          "Guau!!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -37,9 +37,10 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": false
       },
-      "id": "0fb6c20c-4bfc-407d-9a61-a7bc1215370e"
+      "id": "fe2053bf-aac5-41e8-a394-edb8aba51185"
     }
   ],
   "startScript": [],
@@ -47,7 +48,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 13,
-  "y": 13,
-  "_index": 1
+  "x": 3,
+  "y": 9,
+  "_index": 2
 }

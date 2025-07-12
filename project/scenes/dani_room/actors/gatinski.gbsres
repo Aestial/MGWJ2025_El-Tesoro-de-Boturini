@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "24f558ce-a3cf-4253-9a63-f714be3a9e3a",
-  "name": "",
+  "id": "74c1b71d-5d9f-4a07-922d-ef252945929a",
+  "name": "Gatinski",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "a143709f-dd88-4ac7-bfc2-10830258ed8e",
+  "spriteSheetId": "e407c6ba-4835-4f32-b732-9ca3d7a33248",
   "prefabId": "",
-  "direction": "down",
+  "direction": "up",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -14,13 +14,13 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_7",
+  "symbol": "actor_6",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Guau!!"
+          "Miau!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -39,7 +39,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "fe2053bf-aac5-41e8-a394-edb8aba51185"
+      "id": "0fb6c20c-4bfc-407d-9a61-a7bc1215370e"
     }
   ],
   "startScript": [],
@@ -47,7 +47,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 3,
-  "y": 9,
-  "_index": 2
+  "x": 13,
+  "y": 13,
+  "_index": 1
 }
