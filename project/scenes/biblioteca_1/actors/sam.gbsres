@@ -4,7 +4,7 @@
   "name": "Sam",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "f3ec058e-807a-41ef-a195-b95c16b726c0",
+  "spriteSheetId": "a4a1c3ad-0430-420d-9270-5b23fc53d358",
   "prefabId": "",
   "direction": "left",
   "moveSpeed": 1,
@@ -17,13 +17,41 @@
   "symbol": "actor_2",
   "script": [
     {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Claro, todos\nsaben dónde está"
+        ],
+        "__section": "text",
+        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
+      },
+      "id": "0278bcd2-7754-4dbb-937c-ef1c6b4bbfb2"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
           "type": "variable",
           "value": "3"
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -63,22 +91,23 @@
                 "Se acaba el día y\ntengo mil cosas\npor hacer"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "c3793ece-6343-4e01-a14b-e610d77daa9b"
           },
@@ -86,25 +115,26 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Oye ¿tú trabajas\naquí?"
+                "Oye ¿tú \ntrabajas aquí?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "405e4483-74f4-4c00-9184-aed1c123fec6"
           },
@@ -115,22 +145,23 @@
                 "Servicio Social"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "47fd20a7-6428-4f72-b619-e2eb3a2713cc"
           },
@@ -142,22 +173,23 @@
                 "¿Dónde está el \ncuadro de \nBoturini?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "b2bd77a4-d7de-481f-a7d6-713698a06119"
           },
@@ -168,22 +200,23 @@
                 "¿Siempre eres así \ncon las personas?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "7c323593-cf1a-4bf2-877b-1ae01f6cc0df"
           },
@@ -194,50 +227,52 @@
                 "¿Qué? ¿entonces\nno sabes?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "919bfde6-10a1-4f40-b76c-c3ebf7dba714"
           },
           {
             "command": "EVENT_TEXT",
             "args": {
-              "text": [
-                "Claro, todos\nsaben dónde está"
-              ],
-              "__section": "text",
-              "avatarId": "",
+              "position": "bottom",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
+              "textHeight": 6,
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Claro, todos\nsaben dónde\nestá"
+              ],
+              "__section": "text",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "__collapse": true
             },
-            "id": "0278bcd2-7754-4dbb-937c-ef1c6b4bbfb2"
+            "id": "cf1e80d3-8dcb-4a69-8841-27839d1081e0"
           },
           {
             "command": "EVENT_TEXT",
@@ -246,22 +281,23 @@
                 "Allá afuera no\ntenían idea"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "4a50085a-c6c3-47f2-a042-2cfbd92ef979"
           },
@@ -269,25 +305,27 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Tal vez no te \ndijeron por la\nforma en la que lo\npediste"
+                "Tal vez no te \ndijeron",
+                "por la forma en\nla que lo \npediste"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "4bd64c0e-5c43-4d7e-92fa-6ec5c0518058"
           },
@@ -297,23 +335,24 @@
               "text": [
                 "Eso es una \ntontería"
               ],
-              "__section": "text",
-              "avatarId": "",
+              "__section": "presets",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "183e6507-18b8-463f-acd7-b28029fa8142"
           },
@@ -323,23 +362,24 @@
               "text": [
                 "..."
               ],
-              "__section": "text",
-              "avatarId": "",
+              "__section": "presets",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "fba3bd81-1dd5-40b2-9eae-55ae7794a689"
           },
@@ -348,28 +388,30 @@
             "args": {
               "text": [
                 "De acuerdo",
-                "¿Serías tan amable\nde indicarme dónde\npuedo encontrar",
+                "¿Serías tan \namable de",
+                "indicarme dónde\npuedo encontrar",
                 "EL CUADRO DE \nBOTURINI? :o",
                 "...",
                 "Es para una \ntarea :)"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "9e5ab0c8-9b7a-44a1-8ed7-13f2f3daa575"
           },
@@ -378,27 +420,28 @@
             "args": {
               "text": [
                 "Sí, claro que\npodría",
-                "¿Tú podrías \nayudarme con mi \ntrabajo?",
-                "Tengo muchas cosas\nque hacer ",
+                "¿Tú podrías \nayudarme con\nmi trabajo?",
+                "Tengo muchas\ncosas que hacer",
                 "y me estás \nquitando tiempo"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "24b16519-59be-4317-af01-dd412060efaa"
           },
@@ -407,27 +450,28 @@
             "args": {
               "text": [
                 "Oye, soy\nbásicamente un \ncliente aquí",
-                "y ya sabes lo que\ndicen:",
-                "\"Dale lo que \nquiere al cliente",
-                "y cierra la boca\"\n\nD:"
+                "y ya sabes lo\nque dicen:",
+                "\"Dale lo que \nquiere al \ncliente",
+                "y cierra la \nboca\" D:"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "c102956a-e1bf-4709-8f3d-28c661fdda28"
           },
@@ -435,26 +479,27 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Eso es todo. No te\nlo diré",
-                "Adiós!"
+                "Eso es todo. \nNo te lo diré",
+                "¡Adiós!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "1378bbbf-295b-4ccb-854e-65b715830093"
           },
@@ -462,28 +507,29 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¡No puedes hacer\neso! ",
-                "Soy el personaje\nprincipal del \njuego",
-                "y tienes que ser\namable con las \npersonas",
+                "¡No puedes\nhacer eso! ",
+                "Soy el\npersonaje\nprincipal del \njuego",
+                "y tienes que\nser amable con\nlas personas",
                 "¡Para eso te \npagan!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "b0da6706-dc66-4214-a5e7-1ad6a8dadc59"
           },
@@ -494,23 +540,24 @@
                 "...",
                 "Servicio Social"
               ],
-              "__section": "text",
-              "avatarId": "",
+              "__section": "presets",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "a422368d-cc6b-4595-a2f0-b36e34b93e51"
           },
@@ -518,25 +565,26 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Cierto, lo siento\n\n):"
+                "Cierto, lo\nsiento     ):"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "5e990452-c090-4d30-964f-888002836f56"
           },
@@ -544,27 +592,28 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Escucha, déjame\nayudarte con lo \nque sea que estés\nhaciendo",
-                "y después tú \npodrías ayudarme\na mí",
+                "Escucha, déjame\nayudarte con \nlo que sea que\nestés haciendo",
+                "y después tú \npodrías \nayudarme a mí",
                 "¿Qué te parece?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "b253c0c0-6605-4c91-a52e-3a151ec8729d"
           },
@@ -572,35 +621,37 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Qué insistente...",
+                "Qué\ninsistente...",
                 "En fin",
-                "¿Ves las cuatro \nhabitaciones que\nestán al frente?",
+                "¿Ves las cuatro\nhabitaciones\nque están al\nfrente?",
                 "Entra en ellas",
-                "ahí encontrarás\nmesas de trabajo",
-                "con algunas tareas\nque tengo que\nrealizar",
-                "Hazlas por mí, son\nmuy sencillas",
-                "y no te tomará\nmucho tiempo",
-                "Encontrarás\ninstrucciones para\ntodo",
+                "ahí encontrarás\nmesas de \ntrabajo",
+                "con algunas\ntareas que\ntengo que \nrealizar",
+                "Hazlas por mí,\nson muy \nsencillas",
+                "y no te tomará\nmucho tiempo.",
                 "No te preocupes",
-                "Cuando termines, \nregresa conmigo."
+                "Encontrarás\ninstrucciones\npara todo",
+                "Cuando\ntermines,",
+                "regresa conmigo"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "dfe11e15-857c-4144-bc37-23472df0aba5"
           },
@@ -609,25 +660,27 @@
             "args": {
               "text": [
                 "Ah mira, bien \nfácil",
-                "¿te traigo un \ntamal rosita de \nlos que venden \naquí afuera?"
+                "¿te traigo un \ntamal rosita",
+                "de los que \nvenden aquí\nafuera?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "9c34e114-4edd-45b1-846b-4ebcbf45e896"
           },
@@ -661,25 +714,26 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Nomás en lo que \ndescansas, digo"
+                "Nomás en lo que\ndescansas, digo"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "f5d831b5-480d-487e-b7a2-88e1517ad42c"
           },
@@ -690,22 +744,23 @@
                 "¿Quieres llegar\nal cuadro o no?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "3481ebba-938f-457d-ad17-186dfa0443c7"
           },
@@ -713,26 +768,28 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Solo porque no\ntengo de otra...",
+                "Está bien, lo \nharé.",
+                "Solo porque no\ntengo de\notra...",
                 "Adiós"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "a2422a43-5a30-4bfd-9d96-74e8b30dda2e"
           },
@@ -742,23 +799,24 @@
               "text": [
                 "¡Espera!"
               ],
-              "__section": "text",
-              "avatarId": "",
+              "__section": "presets",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "9964c0df-a1c3-491a-9533-3b6ba6a81f92"
           },
@@ -766,26 +824,27 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "IT'S DANGEROUS TO\nGO ALONE!",
+                "IT'S DANGEROUS\nTO GO ALONE!",
                 "TAKE THIS."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "789034ac-a94b-4a6e-9da0-c48b899d5757"
           },
@@ -795,23 +854,24 @@
               "text": [
                 "..."
               ],
-              "__section": "text",
-              "avatarId": "",
+              "__section": "presets",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "b4654815-3f52-49cb-ab0e-d0c566bdad4b"
           },
@@ -821,23 +881,24 @@
               "text": [
                 "..."
               ],
-              "__section": "text",
-              "avatarId": "",
+              "__section": "presets",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "6bfb0277-e324-4dcd-99e4-6e69c10f6086"
           },
@@ -847,25 +908,81 @@
               "text": [
                 "Jeje"
               ],
-              "__section": "text",
-              "avatarId": "",
+              "__section": "presets",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "b27cfdf6-d4db-46fd-845d-b3bcbd3d98f1"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Anda, ya vete"
+              ],
+              "__section": "presets",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+              "__collapse": true
+            },
+            "id": "cafb05aa-3d3b-4f40-a633-2805457fbb7b"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "SAM te dio la\nllave maestra.",
+                "Ahora puedes\nentrar a casi\ntodas las puertas"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "__collapse": true
+            },
+            "id": "cd35f474-93db-4524-a199-17687df8c63c"
           },
           {
             "command": "EVENT_SET_VALUE",

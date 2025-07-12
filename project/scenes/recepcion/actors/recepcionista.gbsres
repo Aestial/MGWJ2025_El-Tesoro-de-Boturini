@@ -7,7 +7,7 @@
   "spriteSheetId": "1bd1ceea-0817-4f70-b4cb-19f2d58f1273",
   "prefabId": "",
   "direction": "down",
-  "moveSpeed": 1,
+  "moveSpeed": 0.5,
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
@@ -23,7 +23,8 @@
           "type": "variable",
           "value": "2"
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -39,25 +40,26 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Adelante,\nsientete como \nen casa."
+                "Adelante,\nsientete cómo \nen casa."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "24a3290c-494e-4f16-81a7-f40a48742513",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "659737e3-6eda-4136-a568-13ce0c5ba198"
           }
@@ -69,23 +71,24 @@
               "text": [
                 "¡Muy buenas \ntardes!"
               ],
-              "__section": "text",
-              "avatarId": "",
+              "__section": "presets",
+              "avatarId": "24a3290c-494e-4f16-81a7-f40a48742513",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "e0ee81dc-349f-4caf-b377-e90fe9d7843a"
           },
@@ -97,22 +100,23 @@
                 "¿Dónde está?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "0feb07cd-532a-46fb-aad1-2753827a0d25"
           },
@@ -123,22 +127,23 @@
                 "¿Disculpa?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "24a3290c-494e-4f16-81a7-f40a48742513",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "ae0709c4-f483-491e-a2ee-0858be7bcf18"
           },
@@ -151,22 +156,23 @@
                 "¿En qué \nhabitación?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "c861a6bf-3a16-41ef-9e1a-23c36c977274"
           },
@@ -177,22 +183,23 @@
                 "Ehh... ¿buscas un\ncuadro en una\nbiblioteca? "
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "24a3290c-494e-4f16-81a7-f40a48742513",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "5cf5ece1-c437-4bcf-9462-cc377b74db12"
           },
@@ -200,26 +207,27 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¡Ay no puede ser!",
+                "¡Ay no puede \nser!",
                 "Muevete, \nyo lo busco..."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "feedce83-bbda-41fa-9887-423d1bbbf1e0"
           },
@@ -266,7 +274,8 @@
           "type": "variable",
           "value": "2"
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -283,14 +292,14 @@
                 "value": 0
               },
               "moveType": "horizontal",
-              "useCollisions": false
+              "useCollisions": true
             },
             "id": "23f0b508-7b34-45b5-91f6-03fc8f52bba0"
           },
           {
             "command": "EVENT_WAIT",
             "args": {
-              "time": 1,
+              "time": 2,
               "frames": 30
             },
             "id": "b9427966-6fca-4895-8a01-af8fab92c58c"
@@ -308,7 +317,7 @@
                 "value": 0
               },
               "moveType": "horizontal",
-              "useCollisions": false
+              "useCollisions": true
             },
             "id": "c485749d-6d28-4da0-b27c-633864f8a140"
           }
