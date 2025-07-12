@@ -1,0 +1,67 @@
+{
+  "_resourceType": "scene",
+  "id": "027619bc-3fa5-4237-ba84-887fe84c2aff",
+  "_index": 5,
+  "name": "Final_Boss",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_10",
+  "x": 1304,
+  "y": 424,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "(Pregunta 1)"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f7729f1f-6fc0-4d0f-a832-51f50797754f"
+    },
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 3,
+        "option1": "",
+        "option2": "",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue",
+        "__collapse": false
+      },
+      "id": "6cddf484-7a34-4c8c-84a6-5519a336fdc6"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

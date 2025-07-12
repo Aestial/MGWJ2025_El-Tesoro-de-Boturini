@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "4e72308a-ec2e-42db-80b7-3457f9d8b5e4",
+  "name": "",
+  "prefabId": "",
+  "x": 3,
+  "y": 1,
+  "symbol": "trigger_1",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "La biblioteca \ncierra en 30 \nminutos!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "d5206031-0293-4d7c-822d-b850c36d1306"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

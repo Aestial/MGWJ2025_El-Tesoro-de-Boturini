@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
-  "id": "c9288d55-5048-4277-abec-14e10b39371c",
-  "_index": 1,
-  "name": "Metro",
+  "id": "98698bb4-7246-4e86-9886-0818b9156392",
+  "_index": 8,
+  "name": "Splash_Screen",
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
   "width": 20,
@@ -12,30 +12,29 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_2",
-  "x": 384,
-  "y": 448,
+  "symbol": "scene_13",
+  "x": 200,
+  "y": 64,
   "script": [
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "e23da37e-3ccc-49c1-8fdd-f15bb41f91e5",
+        "sceneId": "11c9d6b1-0bc5-43fb-aaf9-7daaf4b332ab",
         "x": {
           "type": "number",
-          "value": 9
+          "value": 7
         },
         "y": {
           "type": "number",
-          "value": 16
+          "value": 7
         },
-        "direction": "up",
+        "direction": "down",
         "fadeSpeed": "2"
       },
-      "id": "74650c51-4466-4764-a551-12cdaf75d088"
+      "id": "61b3c901-fcbd-41a1-8938-a934d7ec3d63"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": [],
-  "playerSpriteSheetId": ""
+  "playerHit3Script": []
 }
