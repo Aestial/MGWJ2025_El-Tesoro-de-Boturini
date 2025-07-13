@@ -20,7 +20,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Miau!"
+          "!F:d923f6f8-8526-4576-bc69-e8c980835bff!Miau!"
         ],
         "__section": "text",
         "avatarId": "",

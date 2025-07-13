@@ -65,7 +65,7 @@
                 "¡Es momento de\nrevelar el\ntema secreto!",
                 ":o :o :o",
                 "El tema es...",
-                "¡La Biblioteca\nNacional de\nAntropología\ne Historia!"
+                "!F:d923f6f8-8526-4576-bc69-e8c980835bff!¡La Biblioteca\nNacional de\nAntropología\ne Historia!"
               ],
               "__section": "text",
               "avatarId": "0db0c970-fe79-4963-96d0-594f44e8764d",
@@ -83,7 +83,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true,
+              "__collapse": false,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "4069d1a5-99ec-4924-83e5-e501471bad0d"
@@ -149,17 +149,17 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Mi nombre es\n!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!José Guadalupe\nMartínez García",
-                "Soy director\nde la !F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!BNAH",
+                "Mi nombre es\n!F:d923f6f8-8526-4576-bc69-e8c980835bff!José Guadalupe\nMartínez García",
+                "Soy director\nde la !F:7f4c8d4e-d530-4b5e-a49b-ccd83619d8ad!BNAH",
                 "¡Trabajo aquí\ndesde hace\n23 años,",
-                "cuidando su\nhistoria y sus\n!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!tesoros!",
+                "cuidando su\nhistoria y sus\n!F:d923f6f8-8526-4576-bc69-e8c980835bff!tesoros!",
                 "Sus\nhabitaciones\nhan cambiado\nmuchas veces",
                 "hasta llegar\nal edificio\nactual...",
                 "en Chapuletpec,\nen el año 1964!",
                 "...",
                 "Pero su\nverdadero\norigen surge\nde un hombre:",
-                "!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Don Lorenzo\nBoturini",
-                "Él reunió un\n!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!TESORO!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! tan\nvalioso...",
+                "!F:7f4c8d4e-d530-4b5e-a49b-ccd83619d8ad!Don Lorenzo\nBoturini",
+                "Él reunió un\n!F:d923f6f8-8526-4576-bc69-e8c980835bff!TESORO!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! tan\nvalioso...",
                 "que muchos\naún siguen\ndedicando\nsu vida,",
                 "a buscarlo\nentre los\nlibros de su\ncolección!"
               ],
@@ -188,10 +188,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "¿Un !F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!TESORO!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!?",
-                "¡Quizá sea\nmás fácil\nencontrar ese\n!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!TESORO!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!",
+                "¿Un !F:d923f6f8-8526-4576-bc69-e8c980835bff!TESORO!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!?",
+                "¡Quizá sea\nmás fácil\nencontrar ese\n!F:d923f6f8-8526-4576-bc69-e8c980835bff!TESORO!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!",
                 "y dejar de\npreocuparme...",
-                "por querer\nvivir de\ncomponer\n!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!chiptunes!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!!!!",
+                "por querer\nvivir de\ncomponer\n!F:d923f6f8-8526-4576-bc69-e8c980835bff!chiptunes!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!!!!",
                 "Además...",
                 "Además mi\nequipo no se\npone de\nacuerdo...",
                 "en si quieren\nfantasmas o\naliens.",
@@ -218,7 +218,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "8b9dac87-f941-44b8-9c8c-7fcfc6727f1f"
