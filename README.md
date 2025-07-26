@@ -72,3 +72,19 @@ https://www.gbstudio.dev/download/
 
 #### Abrir proyecto en GB Studio
 https://www.gbstudio.dev/docs/getting-started/saving-loading
+
+### 📄 Licencia
+
+Este proyecto está bajo Licencia CC0 1.0 Universal - dominio público.
+Puedes usar libremente el código, arte y diseño para cualquier propósito.
+
+### 🌐 Enlaces importantes
+* 🎮 [Página del juego en itch.io](https://aestial.itch.io/el-tesoro-de-boturini).
+* 🕹️ [Mini Game Work Jam 2025](https://itch.io/jam/mini-game-work-jam-2025).
+* 📚 [Biblioteca Nacional de Antropología e Historia](https://www.bnah.inah.gob.mx/).
+* 🛠️ [Documentación de GB Studio](https://www.gbstudio.dev/docs/).
+
+> [!NOTE]
+>  ¡Síguenos! 🌟 Dale una estrella al repositorio si te gusta el proyecto
+> 
+> ¿Preguntas? ✉️ Contacto: aestial@me.com
