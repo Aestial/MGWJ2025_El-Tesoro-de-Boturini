@@ -11,22 +11,83 @@
   "height": 1,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "c9288d55-5048-4277-abec-14e10b39371c",
-        "x": {
-          "type": "number",
-          "value": 1
+        "condition": {
+          "type": "variable",
+          "value": "1"
         },
-        "y": {
-          "type": "number",
-          "value": 9
-        },
-        "direction": "right",
-        "fadeSpeed": "2",
-        "__collapse": false
+        "__collapseElse": false
       },
-      "id": "a665e449-f6a0-478d-9cf9-e9e0b2de3057"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "c9288d55-5048-4277-abec-14e10b39371c",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "right",
+              "fadeSpeed": "2",
+              "__collapse": false
+            },
+            "id": "a665e449-f6a0-478d-9cf9-e9e0b2de3057"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "¡Todavía no sé \nqué debo hacer!"
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb"
+            },
+            "id": "1b5fa063-02ad-475d-8a97-95b4021089fc"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": -2
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": false
+            },
+            "id": "8a3ef211-4b00-434f-930c-b5b91145401d"
+          }
+        ]
+      },
+      "id": "69a1d774-b35a-4e12-a55f-2b63e1f8f7c4"
     }
   ],
   "leaveScript": [],

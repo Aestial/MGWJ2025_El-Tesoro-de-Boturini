@@ -61,7 +61,8 @@
                 "type": "variable",
                 "value": "0"
               },
-              "__collapseElse": false
+              "__collapseElse": false,
+              "__collapse": true
             },
             "children": {
               "true": [
