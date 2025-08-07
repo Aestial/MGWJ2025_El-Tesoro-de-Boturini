@@ -19,7 +19,7 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "L0",
+        "variable": "10",
         "value": {
           "type": "number",
           "value": 0
