@@ -1,0 +1,93 @@
+{
+  "_resourceType": "actor",
+  "id": "3456abe7-90ba-4afe-9312-192f593444e8",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "10c71679-7f2f-4126-8cc6-cf8db364ce2c",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_12",
+  "script": [
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Guardar juego",
+        "falseText": "Cancelar"
+      },
+      "id": "b59ff5ed-c3f5-4834-a033-55b75982612f"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SAVE_DATA",
+            "args": {
+              "saveSlot": 0,
+              "__scriptTabs": "save"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "position": "bottom",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 2,
+                    "textY": 1,
+                    "textHeight": 6,
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "any",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+                    "text": [
+                      "El progreso ha\nsido guardado!",
+                      "Es seguro apagar\nel sistema..."
+                    ],
+                    "__section": "text",
+                    "avatarId": ""
+                  },
+                  "id": "83a44818-0739-4bb0-8f5e-7246bbefcbe4"
+                }
+              ],
+              "load": []
+            },
+            "id": "f94192ce-70d8-46a8-b50d-fb440ce48eb6"
+          }
+        ],
+        "false": []
+      },
+      "id": "8e62b413-02c0-4159-a9aa-26d19e8d7748"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 17,
+  "y": 12,
+  "_index": 1
+}
