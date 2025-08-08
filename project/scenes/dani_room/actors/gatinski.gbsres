@@ -17,6 +17,17 @@
   "symbol": "actor_6",
   "script": [
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 440,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "7772d564-e4bb-4489-b114-bcdd14a3bee2"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
