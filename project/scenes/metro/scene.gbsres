@@ -17,6 +17,18 @@
   "y": 384,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "0072a16f-85f8-4339-bb4f-a359a63e1d77"
+      },
+      "id": "06f37215-5c9b-4a85-aeab-3661a37fde30"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "9dff050d-7b2b-4701-8d6a-24157722ae30"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "10",
@@ -43,7 +55,8 @@
               "top_left_x": 4,
               "top_left_y": 7,
               "current_frame": "L0",
-              "source_name": "escalator_tiles"
+              "source_name": "escalator_tiles",
+              "__collapse": true
             },
             "id": "2c9729cb-68e6-4db2-b800-8136f1488d19"
           },
@@ -54,7 +67,8 @@
                 "type": "expression",
                 "value": "$L0$%2 == 0"
               },
-              "__collapseElse": false
+              "__collapseElse": false,
+              "__collapse": true
             },
             "children": {
               "true": [
