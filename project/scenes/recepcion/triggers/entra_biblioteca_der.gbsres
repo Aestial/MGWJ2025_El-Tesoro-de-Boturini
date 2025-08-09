@@ -4,7 +4,7 @@
   "name": "entra_biblioteca_der",
   "prefabId": "",
   "x": 14,
-  "y": 5,
+  "y": 4,
   "symbol": "trigger_11",
   "prefabScriptOverrides": {},
   "width": 4,
@@ -20,7 +20,7 @@
         },
         "y": {
           "type": "number",
-          "value": 30
+          "value": 28
         },
         "direction": "up",
         "fadeSpeed": "2"
