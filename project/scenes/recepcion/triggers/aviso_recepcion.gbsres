@@ -4,36 +4,66 @@
   "name": "aviso_recepcion",
   "prefabId": "",
   "x": 3,
-  "y": 1,
+  "y": 6,
   "symbol": "trigger_1",
   "prefabScriptOverrides": {},
-  "width": 4,
-  "height": 2,
+  "width": 16,
+  "height": 1,
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          "La biblioteca \ncierra en 30 \nminutos!"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "T0"
+          }
+        },
+        "__collapseElse": false,
+        "__disableElse": true
       },
-      "id": "d5206031-0293-4d7c-822d-b850c36d1306"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "La biblioteca \ncierra en 30 \nminutos!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "d5206031-0293-4d7c-822d-b850c36d1306"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "T0",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "abd57a0a-ba9b-4a67-9298-4f0177f7316f"
+          }
+        ],
+        "false": []
+      },
+      "id": "a0533a35-f530-4828-aef4-556d1a09514f"
     }
   ],
   "leaveScript": [],

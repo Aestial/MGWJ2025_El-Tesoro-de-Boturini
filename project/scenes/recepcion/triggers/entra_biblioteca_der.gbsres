@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "8547cfb1-5165-49bb-8989-db4f8fe0692f",
+  "name": "entra_biblioteca_der",
+  "prefabId": "",
+  "x": 14,
+  "y": 4,
+  "symbol": "trigger_11",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f190a4cb-4476-4fad-afac-ef12a4d6d6bb",
+        "x": {
+          "type": "number",
+          "value": 22
+        },
+        "y": {
+          "type": "number",
+          "value": 28
+        },
+        "direction": "up",
+        "fadeSpeed": "2"
+      },
+      "id": "40a4c761-dc7d-4cfa-aa6c-c0d4ee2a30b0"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "e8899160-13ec-4dfc-be8e-d8bdf1dfc7c6",
+  "name": "recepcion",
+  "symbol": "bg_recepcion",
+  "width": 22,
+  "height": 20,
+  "imageWidth": 176,
+  "imageHeight": 160,
+  "filename": "recepcion.png",
+  "tileColors": "",
+  "autoColor": false
+}

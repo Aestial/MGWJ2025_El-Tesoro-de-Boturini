@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "98698bb4-7246-4e86-9886-0818b9156392",
-  "_index": 8,
+  "_index": 7,
   "name": "Title_Screen",
   "backgroundId": "2dffa142-9d95-4e26-a2cc-85f3a695760b",
   "tilesetId": "",
@@ -14,7 +14,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
   "x": 248,
-  "y": 30,
+  "y": 64,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -55,92 +55,136 @@
           {
             "command": "EVENT_CHOICE",
             "args": {
-              "variable": "0",
-              "trueText": "Nuevo juego",
-              "falseText": "Continuar",
-              "__collapse": true
+              "variable": "L0",
+              "trueText": "Jugar",
+              "falseText": "Creditos"
             },
-            "id": "cdcb4032-6632-4293-96ef-3b17f05e2128"
+            "id": "d58b7bb2-0547-4652-a134-9a54df6781ef"
           },
           {
             "command": "EVENT_IF",
             "args": {
               "condition": {
                 "type": "variable",
-                "value": "0"
+                "value": "L0"
               },
-              "__collapseElse": false,
-              "__collapse": true
+              "__collapseElse": false
             },
             "children": {
               "true": [
                 {
-                  "command": "EVENT_SWITCH_SCENE",
+                  "command": "EVENT_CHOICE",
                   "args": {
-                    "sceneId": "11c9d6b1-0bc5-43fb-aaf9-7daaf4b332ab",
-                    "x": {
-                      "type": "number",
-                      "value": 9
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": 8
-                    },
-                    "direction": "down",
-                    "fadeSpeed": 2
+                    "variable": "0",
+                    "trueText": "Nuevo juego",
+                    "falseText": "Continuar",
+                    "__collapse": false
                   },
-                  "id": "61b3c901-fcbd-41a1-8938-a934d7ec3d63"
-                }
-              ],
-              "false": [
+                  "id": "cdcb4032-6632-4293-96ef-3b17f05e2128"
+                },
                 {
-                  "command": "EVENT_IF_SAVED_DATA",
+                  "command": "EVENT_IF",
                   "args": {
-                    "saveSlot": 0,
-                    "__collapseElse": true
+                    "condition": {
+                      "type": "variable",
+                      "value": "0"
+                    },
+                    "__collapseElse": false,
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
                       {
-                        "command": "EVENT_LOAD_DATA",
+                        "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "saveSlot": 0
+                          "sceneId": "11c9d6b1-0bc5-43fb-aaf9-7daaf4b332ab",
+                          "x": {
+                            "type": "number",
+                            "value": 9
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 8
+                          },
+                          "direction": "down",
+                          "fadeSpeed": 2
                         },
-                        "id": "69f6d721-f4a3-417a-8b49-8491b4540b70"
+                        "id": "61b3c901-fcbd-41a1-8938-a934d7ec3d63"
                       }
                     ],
-                    "false": []
+                    "false": [
+                      {
+                        "command": "EVENT_IF_SAVED_DATA",
+                        "args": {
+                          "saveSlot": 0,
+                          "__collapseElse": true
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_LOAD_DATA",
+                              "args": {
+                                "saveSlot": 0
+                              },
+                              "id": "69f6d721-f4a3-417a-8b49-8491b4540b70"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "ac396bf2-9801-47eb-9849-1403e9767cc7"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "No hay juegos \nguardados.."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "257c4279-0d5e-4c92-928a-6f9173e4fa58"
+                      }
+                    ]
                   },
-                  "id": "ac396bf2-9801-47eb-9849-1403e9767cc7"
-                },
+                  "id": "f2435d3e-d890-450a-acba-7d01814ec75d"
+                }
+              ],
+              "false": [
                 {
-                  "command": "EVENT_TEXT",
+                  "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "text": [
-                      "No hay juegos \nguardados.."
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
+                    "sceneId": "ff2872d2-61fd-471c-b52b-c963853f5799",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2",
+                    "__collapse": false
                   },
-                  "id": "257c4279-0d5e-4c92-928a-6f9173e4fa58"
+                  "id": "a5b6d1f6-8dd9-474a-9ff8-1fd5b008bcfa"
                 }
               ]
             },
-            "id": "f2435d3e-d890-450a-acba-7d01814ec75d"
+            "id": "7026ff24-a0ac-49e7-bfeb-03d5ba17136d"
           }
         ]
       },

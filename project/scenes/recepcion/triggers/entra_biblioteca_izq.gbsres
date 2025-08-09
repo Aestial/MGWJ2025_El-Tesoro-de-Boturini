@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "15feccb1-774d-4b50-96c5-1d5da18322c9",
+  "name": "entra_biblioteca_izq",
+  "prefabId": "",
+  "x": 4,
+  "y": 4,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f190a4cb-4476-4fad-afac-ef12a4d6d6bb",
+        "x": {
+          "type": "number",
+          "value": 8
+        },
+        "y": {
+          "type": "number",
+          "value": 28
+        },
+        "direction": "up",
+        "fadeSpeed": "2"
+      },
+      "id": "f806505c-83ea-403d-8b75-3b98d95c7352"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

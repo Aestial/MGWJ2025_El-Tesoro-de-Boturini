@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "ba957d81-f496-4f76-bca4-4f1ad448df56",
+  "name": "sala_izq",
+  "prefabId": "",
+  "x": 7,
+  "y": 4,
+  "symbol": "trigger_12",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "ff2872d2-61fd-471c-b52b-c963853f5799",
+        "x": {
+          "type": "number",
+          "value": 16
+        },
+        "y": {
+          "type": "number",
+          "value": 10
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "d4dc0e0b-c5c9-4c33-9806-bdc8fe692526"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

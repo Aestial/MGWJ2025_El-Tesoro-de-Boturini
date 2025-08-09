@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "06659e6b-dc83-4035-91c8-b6b2817a406a",
+  "name": "tamalrosita-credits",
+  "symbol": "bg_tamalrosita_credits",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "tamalrosita-credits.png",
+  "tileColors": "",
+  "autoColor": false
+}
