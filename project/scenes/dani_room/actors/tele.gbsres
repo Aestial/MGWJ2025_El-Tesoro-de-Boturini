@@ -23,7 +23,8 @@
           "type": "variable",
           "value": "1"
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -60,9 +61,23 @@
           {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
-              "musicId": "564d60d1-2234-45b8-9aeb-b73df778914f"
+              "musicId": "564d60d1-2234-45b8-9aeb-b73df778914f",
+              "__collapse": true
             },
             "id": "b47e293e-7a45-4fa3-b596-8e28f60e5eae"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 440,
+              "duration": 0.05,
+              "effect": 0,
+              "__comment": false,
+              "__collapse": false
+            },
+            "id": "ff8361aa-0d3a-4a8a-a312-744f32db196b"
           },
           {
             "command": "EVENT_TEXT",
@@ -96,6 +111,19 @@
             "id": "4069d1a5-99ec-4924-83e5-e501471bad0d"
           },
           {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 550,
+              "duration": 0.05,
+              "effect": 0,
+              "__comment": false,
+              "__collapse": false
+            },
+            "id": "e8b327b3-1471-493c-8d91-6ff67634cbee"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -126,6 +154,19 @@
             "id": "4786bd63-6aee-4baf-96c1-499996eaaaa9"
           },
           {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 440,
+              "duration": 0.05,
+              "effect": 0,
+              "__comment": false,
+              "__collapse": false
+            },
+            "id": "f59aee60-1803-4a5b-a9e8-c30a319e70fb"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -151,6 +192,19 @@
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "aa932ee1-c279-4300-906c-b768ec4f7465"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 420,
+              "duration": 0.05,
+              "effect": 0,
+              "__comment": false,
+              "__collapse": false
+            },
+            "id": "97448ee6-d011-449b-b4c4-380f8589c673"
           },
           {
             "command": "EVENT_TEXT",
@@ -192,6 +246,19 @@
             "id": "dbbf3592-9789-4efc-bcfb-5e26951a8b4a"
           },
           {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 550,
+              "duration": 0.05,
+              "effect": 0,
+              "__comment": false,
+              "__collapse": false
+            },
+            "id": "5a2bb76a-9883-4925-9d22-abf5bf091dd4"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -231,11 +298,6 @@
             "id": "8b9dac87-f941-44b8-9c8c-7fcfc6727f1f"
           },
           {
-            "command": "EVENT_MUSIC_STOP",
-            "args": {},
-            "id": "90011505-1e8c-41ab-a012-28ce148099ca"
-          },
-          {
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "1",
@@ -245,6 +307,19 @@
               "__collapse": true
             },
             "id": "4a58c94a-a3a6-481f-b260-d7bc26ff210c"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "none",
+              "pitch": 4,
+              "frequency": 440,
+              "duration": 0.05,
+              "effect": 0,
+              "__comment": false,
+              "__collapse": false
+            },
+            "id": "3dd99642-1427-45ed-8a0a-ef9c86de810d"
           }
         ]
       },

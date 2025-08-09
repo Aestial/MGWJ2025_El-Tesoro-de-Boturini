@@ -11,17 +11,6 @@
   "height": 1,
   "script": [
     {
-      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
-      "args": {
-        "type": "crash",
-        "pitch": 4,
-        "frequency": 300,
-        "duration": 0.05,
-        "effect": 0
-      },
-      "id": "0c217517-cb36-42fc-be48-07e7a81c8629"
-    },
-    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -45,6 +34,19 @@
         "closeDelayFrames": 30
       },
       "id": "ea585eb9-0b22-4637-b23d-b3bf1e511bf9"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "463057d4-a4ba-4557-ba85-27b4aefb2937"
     },
     {
       "command": "EVENT_ACTOR_MOVE_RELATIVE",

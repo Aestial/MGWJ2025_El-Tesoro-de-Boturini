@@ -13,9 +13,17 @@
   "collisions": "0f4+002+0ff+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f5+002+0f12+002+0ff+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f15+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
-  "x": 480,
-  "y": 208,
-  "script": [],
+  "x": 464,
+  "y": 200,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "242da7b3-aca9-4185-8f57-3b4c3128da1a"
+      },
+      "id": "fe2d87b3-dcd4-4938-99a5-abcd57607c1d"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

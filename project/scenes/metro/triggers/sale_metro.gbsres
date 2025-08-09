@@ -23,7 +23,8 @@
           "value": 10
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__comment": true
       },
       "id": "09b439a8-9582-48e8-98a4-0da8e244055e"
     }

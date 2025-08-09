@@ -21,7 +21,8 @@
       "args": {
         "variable": "L0",
         "trueText": "Guardar juego",
-        "falseText": "Cancelar"
+        "falseText": "Cancelar",
+        "__collapse": true
       },
       "id": "b59ff5ed-c3f5-4834-a033-55b75982612f"
     },
@@ -32,7 +33,8 @@
           "type": "variable",
           "value": "L0"
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [

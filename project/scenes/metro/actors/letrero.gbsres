@@ -41,6 +41,73 @@
         "avatarId": ""
       },
       "id": "8d223a0e-4d42-423b-aec6-f812cc0987ed"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Guardar juego",
+        "falseText": "Cancelar",
+        "__collapse": false
+      },
+      "id": "03d61afb-5ca8-4f3d-9e6b-a1ba337f1a0f"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SAVE_DATA",
+            "args": {
+              "saveSlot": 0,
+              "__scriptTabs": "save"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "position": "bottom",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 2,
+                    "textY": 1,
+                    "textHeight": 6,
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "any",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+                    "text": [
+                      "El progreso ha\nsido guardado!",
+                      "Es seguro apagar\nel sistema..."
+                    ],
+                    "__section": "text",
+                    "avatarId": ""
+                  },
+                  "id": "494658c2-5031-47ec-9406-603068a63134"
+                }
+              ],
+              "load": []
+            },
+            "id": "37540df6-f452-4b7c-9671-ef66fe643d86"
+          }
+        ],
+        "false": []
+      },
+      "id": "1260235a-d52f-4440-bec6-2a2746087fc8"
     }
   ],
   "startScript": [],

@@ -13,22 +13,22 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
-  "x": 240,
-  "y": 32,
+  "x": 248,
+  "y": 30,
   "script": [
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "242da7b3-aca9-4185-8f57-3b4c3128da1a"
-      },
-      "id": "ce84badd-7ae1-4fc6-8035-d7d7240ead7d"
-    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"
       },
       "id": "0de8f33b-68df-444c-8c49-f48e41daf2ab"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "242da7b3-aca9-4185-8f57-3b4c3128da1a"
+      },
+      "id": "ce84badd-7ae1-4fc6-8035-d7d7240ead7d"
     },
     {
       "command": "EVENT_AWAIT_INPUT",
@@ -57,7 +57,8 @@
             "args": {
               "variable": "0",
               "trueText": "Nuevo juego",
-              "falseText": "Continuar"
+              "falseText": "Continuar",
+              "__collapse": true
             },
             "id": "cdcb4032-6632-4293-96ef-3b17f05e2128"
           },

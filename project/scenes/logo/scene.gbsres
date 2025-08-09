@@ -7,7 +7,7 @@
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "type": "LOGO",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "00168+",
@@ -48,11 +48,6 @@
         "speed": 1
       },
       "id": "beb1f1b4-d08c-41a6-a6a5-4b94196935d0"
-    },
-    {
-      "command": "EVENT_MUSIC_STOP",
-      "args": {},
-      "id": "047d5232-2b7c-4fe3-aeb2-9cd9808c19eb"
     },
     {
       "command": "EVENT_WAIT",

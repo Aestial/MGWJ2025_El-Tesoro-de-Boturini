@@ -23,9 +23,25 @@
         "pitch": 4,
         "frequency": 440,
         "duration": 0.05,
-        "effect": 0
+        "effect": 0,
+        "__comment": true,
+        "__collapse": true
       },
       "id": "7772d564-e4bb-4489-b114-bcdd14a3bee2"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "tone",
+        "priority": "high",
+        "pitch": 4,
+        "frequency": 440,
+        "duration": 0.05,
+        "wait": true,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "f8907f18-2b48-4891-b22d-af53c76f37b5"
     },
     {
       "command": "EVENT_TEXT",

@@ -17,6 +17,20 @@
   "symbol": "actor_7",
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "tone",
+        "priority": "high",
+        "pitch": 4,
+        "frequency": 220,
+        "duration": 0.1,
+        "wait": true,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "8ba4f6af-1531-476f-aee2-aaebbeddd358"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
