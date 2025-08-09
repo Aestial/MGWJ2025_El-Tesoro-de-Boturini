@@ -35,6 +35,11 @@
       "id": "c9288d55-5048-4277-abec-14e10b39371c__L0",
       "name": "CurrentFrame",
       "symbol": "var_currentframe_0"
+    },
+    {
+      "id": "98698bb4-7246-4e86-9886-0818b9156392__L0",
+      "name": "Play",
+      "symbol": "var_play"
     }
   ]
 }
