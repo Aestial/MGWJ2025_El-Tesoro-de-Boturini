@@ -1,22 +1,83 @@
 {
   "_resourceType": "scene",
-  "id": "ea7f6dfa-fb2e-43f9-aa78-becb4f86ee8a",
-  "_index": 7,
+  "id": "ff2872d2-61fd-471c-b52b-c963853f5799",
+  "_index": 10,
   "name": "Creditos",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "06659e6b-dc83-4035-91c8-b6b2817a406a",
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "POINTNCLICK",
+  "type": "LOGO",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_12",
-  "x": 1240,
-  "y": 184,
-  "script": [],
+  "symbol": "scene_6",
+  "x": 448,
+  "y": 30,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "be066e46-f78f-410e-8c60-c68be3393fab",
+        "__collapse": false
+      },
+      "id": "90d3e2cd-646a-498e-b83b-d0f3fb090bb5"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "0a302ef2-8e01-4d16-8e3d-b17869999073"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 0,
+        "y": 0
+      },
+      "id": "2afddd09-e570-4b9a-a4b1-c4b5dae2f4e7"
+    },
+    {
+      "command": "EVENT_OVERLAY_MOVE_TO",
+      "args": {
+        "x": 0,
+        "y": 18,
+        "speed": 1
+      },
+      "id": "cc85b562-8e79-4760-b684-090859ccc564"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30
+      },
+      "id": "ce18fa8a-39aa-4bff-8a2f-71175b01bfb7"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "98698bb4-7246-4e86-9886-0818b9156392",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "231ce227-44d1-4940-af1d-37f9ad2d6ec9"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false,
+  "labelColor": "yellow"
 }

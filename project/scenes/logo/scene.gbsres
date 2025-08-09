@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "c1ac33bf-8a9a-4eb5-9444-1ff47d16ddeb",
-  "_index": 9,
+  "_index": 8,
   "name": "Logo",
   "backgroundId": "8721cc40-0909-44f1-aede-0375351088eb",
   "tilesetId": "",
@@ -13,8 +13,8 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_0",
-  "x": 60,
-  "y": 32,
+  "x": 64,
+  "y": 112,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",

@@ -1,13 +1,13 @@
 {
   "_resourceType": "trigger",
   "id": "15feccb1-774d-4b50-96c5-1d5da18322c9",
-  "name": "entra_biblioteca",
+  "name": "entra_biblioteca_izq",
   "prefabId": "",
   "x": 4,
-  "y": 0,
+  "y": 5,
   "symbol": "trigger_0",
   "prefabScriptOverrides": {},
-  "width": 2,
+  "width": 4,
   "height": 1,
   "script": [
     {
@@ -16,11 +16,11 @@
         "sceneId": "f190a4cb-4476-4fad-afac-ef12a4d6d6bb",
         "x": {
           "type": "number",
-          "value": 5
+          "value": 8
         },
         "y": {
           "type": "number",
-          "value": 26
+          "value": 30
         },
         "direction": "up",
         "fadeSpeed": "2"

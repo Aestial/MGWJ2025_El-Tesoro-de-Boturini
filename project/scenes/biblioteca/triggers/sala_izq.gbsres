@@ -1,0 +1,15 @@
+{
+  "_resourceType": "trigger",
+  "id": "ba957d81-f496-4f76-bca4-4f1ad448df56",
+  "name": "sala_izq",
+  "prefabId": "",
+  "x": 7,
+  "y": 4,
+  "symbol": "trigger_12",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 2,
+  "script": [],
+  "leaveScript": [],
+  "_index": 0
+}

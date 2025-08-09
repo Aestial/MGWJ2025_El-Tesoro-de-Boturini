@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "98698bb4-7246-4e86-9886-0818b9156392",
-  "_index": 8,
+  "_index": 7,
   "name": "Title_Screen",
   "backgroundId": "2dffa142-9d95-4e26-a2cc-85f3a695760b",
   "tilesetId": "",
@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
-  "x": 264,
-  "y": 30,
+  "x": 248,
+  "y": 64,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",

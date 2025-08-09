@@ -1,0 +1,15 @@
+{
+  "_resourceType": "trigger",
+  "id": "cff79b26-a156-4ae0-99da-2ae1532dda11",
+  "name": "sala_der",
+  "prefabId": "",
+  "x": 22,
+  "y": 4,
+  "symbol": "trigger_13",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 2,
+  "script": [],
+  "leaveScript": [],
+  "_index": 1
+}

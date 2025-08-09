@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "8769cf1c-b66f-4ce1-a35d-5711d717ee8d",
+  "name": "biblioteca",
+  "symbol": "bg_biblioteca",
+  "width": 32,
+  "height": 32,
+  "imageWidth": 256,
+  "imageHeight": 256,
+  "filename": "biblioteca.png",
+  "tileColors": "",
+  "autoColor": false
+}

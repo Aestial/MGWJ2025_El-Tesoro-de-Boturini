@@ -4,11 +4,11 @@
   "name": "aviso_recepcion",
   "prefabId": "",
   "x": 3,
-  "y": 1,
+  "y": 6,
   "symbol": "trigger_1",
   "prefabScriptOverrides": {},
-  "width": 4,
-  "height": 2,
+  "width": 16,
+  "height": 1,
   "script": [
     {
       "command": "EVENT_TEXT",
