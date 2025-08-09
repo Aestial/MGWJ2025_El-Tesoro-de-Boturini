@@ -1,9 +1,9 @@
 {
   "_resourceType": "music",
   "id": "564d60d1-2234-45b8-9aeb-b73df778914f",
-  "name": "song_dani_room",
+  "name": "song_game-jam",
   "symbol": "song_song_template_0",
-  "filename": "song_dani_room.uge",
+  "filename": "song_game-jam.uge",
   "settings": {},
   "type": "uge"
 }
