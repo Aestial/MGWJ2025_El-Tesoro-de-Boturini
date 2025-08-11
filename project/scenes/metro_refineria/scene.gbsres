@@ -44,7 +44,7 @@
               "top_left_y": 7,
               "current_frame": "L0",
               "source_name": "escalator_tiles",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "2c9729cb-68e6-4db2-b800-8136f1488d19"
           },
@@ -56,7 +56,7 @@
                 "value": "$L0$%2 == 0"
               },
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [

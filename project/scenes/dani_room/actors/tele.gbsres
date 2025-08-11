@@ -123,7 +123,8 @@
                 "value": 9
               },
               "moveType": "horizontal",
-              "useCollisions": false
+              "useCollisions": false,
+              "__collapse": true
             },
             "id": "6b6e520b-ce74-44d9-a3c5-1e73857cf140"
           },
@@ -183,7 +184,8 @@
                 "value": 9
               },
               "moveType": "horizontal",
-              "useCollisions": false
+              "useCollisions": false,
+              "__collapse": true
             },
             "id": "6e7bfd85-7013-4865-8585-6c3aca019285"
           },
@@ -337,7 +339,7 @@
               },
               "moveType": "vertical",
               "useCollisions": false,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "5f9f3faf-995c-4dc9-98f7-b3ed0c5bd8ac"
           },
@@ -387,17 +389,6 @@
             "id": "61cbce1e-92c2-47c5-b5c8-dd61880494ba"
           },
           {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "1",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "4a58c94a-a3a6-481f-b260-d7bc26ff210c"
-          },
-          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "player",
@@ -411,7 +402,7 @@
               },
               "moveType": "vertical",
               "useCollisions": false,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "3caace9b-5e3c-420b-b3f0-3a36642d4622"
           },
@@ -429,7 +420,7 @@
               },
               "moveType": "horizontal",
               "useCollisions": false,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "413d9feb-2b37-43a9-a0c9-249fa8413386"
           },
@@ -442,9 +433,20 @@
               "duration": 0.05,
               "effect": 0,
               "__comment": false,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "3dd99642-1427-45ed-8a0a-ef9c86de810d"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "4a58c94a-a3a6-481f-b260-d7bc26ff210c"
           }
         ]
       },

@@ -8,5 +8,6 @@
   "imageWidth": 336,
   "imageHeight": 144,
   "filename": "train_interior_commuter_b.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
