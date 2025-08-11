@@ -75,7 +75,7 @@
               "duration": 0.05,
               "effect": 0,
               "__comment": false,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "ff8361aa-0d3a-4a8a-a312-744f32db196b"
           },
@@ -111,6 +111,23 @@
             "id": "4069d1a5-99ec-4924-83e5-e501471bad0d"
           },
           {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 4
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "6b6e520b-ce74-44d9-a3c5-1e73857cf140"
+          },
+          {
             "command": "EVENT_TEXT_SET_SOUND_EFFECT",
             "args": {
               "type": "tone",
@@ -119,7 +136,7 @@
               "duration": 0.05,
               "effect": 0,
               "__comment": false,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "e8b327b3-1471-493c-8d91-6ff67634cbee"
           },
@@ -154,6 +171,23 @@
             "id": "4786bd63-6aee-4baf-96c1-499996eaaaa9"
           },
           {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 14
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "6e7bfd85-7013-4865-8585-6c3aca019285"
+          },
+          {
             "command": "EVENT_TEXT_SET_SOUND_EFFECT",
             "args": {
               "type": "tone",
@@ -162,7 +196,7 @@
               "duration": 0.05,
               "effect": 0,
               "__comment": false,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "f59aee60-1803-4a5b-a9e8-c30a319e70fb"
           },
@@ -202,7 +236,7 @@
               "duration": 0.05,
               "effect": 0,
               "__comment": false,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "97448ee6-d011-449b-b4c4-380f8589c673"
           },
@@ -254,7 +288,7 @@
               "duration": 0.05,
               "effect": 0,
               "__comment": false,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "5a2bb76a-9883-4925-9d22-abf5bf091dd4"
           },
@@ -266,15 +300,7 @@
                 "¡Quizá sea\nmás fácil\nencontrar ese\n!F:d923f6f8-8526-4576-bc69-e8c980835bff!TESORO!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!",
                 "y dejar de\npreocuparme...",
                 "por querer\nvivir de\ncomponer\n!F:d923f6f8-8526-4576-bc69-e8c980835bff!chiptunes!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!!!!",
-                "Además...",
-                "Además mi\nequipo no se\npone de\nacuerdo...",
-                "en si quieren\nfantasmas o\naliens.",
-                "Pff... :/",
-                "Nunca he ido a\nla biblioteca!!",
-                "Bueno...",
-                "Siempre hay una\nprimera vez.",
-                "Mmmm...",
-                "¿Qué estación\ndel metro me\ndejará cerca?"
+                "Además..."
               ],
               "__section": "text",
               "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
@@ -298,6 +324,69 @@
             "id": "8b9dac87-f941-44b8-9c8c-7fcfc6727f1f"
           },
           {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 16
+              },
+              "y": {
+                "type": "number",
+                "value": 6
+              },
+              "moveType": "vertical",
+              "useCollisions": false,
+              "__collapse": false
+            },
+            "id": "5f9f3faf-995c-4dc9-98f7-b3ed0c5bd8ac"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "player",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              },
+              "__collapse": true
+            },
+            "id": "575d0265-def8-4a02-97f8-1e3038b4bca3"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Además mi\nequipo no se\npone de\nacuerdo...",
+                "en si quieren\nfantasmas o\naliens.",
+                "Pff... :/",
+                "Nunca he ido a\nla biblioteca!!",
+                "Bueno...",
+                "Siempre hay una\nprimera vez.",
+                "¿Qué estación\ndel metro me\ndejará cerca?"
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
+            },
+            "id": "61cbce1e-92c2-47c5-b5c8-dd61880494ba"
+          },
+          {
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "1",
@@ -307,6 +396,42 @@
               "__collapse": true
             },
             "id": "4a58c94a-a3a6-481f-b260-d7bc26ff210c"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 16
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "moveType": "vertical",
+              "useCollisions": false,
+              "__collapse": false
+            },
+            "id": "3caace9b-5e3c-420b-b3f0-3a36642d4622"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": false
+            },
+            "id": "413d9feb-2b37-43a9-a0c9-249fa8413386"
           },
           {
             "command": "EVENT_TEXT_SET_SOUND_EFFECT",
