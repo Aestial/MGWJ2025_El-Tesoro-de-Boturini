@@ -106,7 +106,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "c3793ece-6343-4e01-a14b-e610d77daa9b"
@@ -133,7 +133,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "405e4483-74f4-4c00-9184-aed1c123fec6"
@@ -160,7 +160,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "47fd20a7-6428-4f72-b619-e2eb3a2713cc"
@@ -188,10 +188,17 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "b2bd77a4-d7de-481f-a7d6-713698a06119"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "564d60d1-2234-45b8-9aeb-b73df778914f"
+            },
+            "id": "67ea58a0-9b64-4c61-8171-954c0394d5e7"
           },
           {
             "command": "EVENT_TEXT",
@@ -215,7 +222,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "7c323593-cf1a-4bf2-877b-1ae01f6cc0df"
@@ -242,7 +249,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "919bfde6-10a1-4f40-b76c-c3ebf7dba714"
@@ -270,7 +277,7 @@
               ],
               "__section": "text",
               "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "cf1e80d3-8dcb-4a69-8841-27839d1081e0"
           },
@@ -296,7 +303,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "4a50085a-c6c3-47f2-a042-2cfbd92ef979"

@@ -13,7 +13,7 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "c9288d55-5048-4277-abec-14e10b39371c",
+        "sceneId": "5d4c01a9-3279-440a-b130-b4007bec61e4",
         "x": {
           "type": "number",
           "value": 1
@@ -25,7 +25,7 @@
         "direction": "",
         "fadeSpeed": "2",
         "__collapse": false,
-        "__comment": true
+        "__comment": false
       },
       "id": "1ed21f33-db13-43a6-b7e1-7ada1411dab4"
     }
