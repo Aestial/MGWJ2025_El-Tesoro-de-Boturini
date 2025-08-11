@@ -111,6 +111,15 @@
             "id": "4069d1a5-99ec-4924-83e5-e501471bad0d"
           },
           {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "player",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+              "__collapse": false
+            },
+            "id": "0a6d12ba-b1e8-40a3-8e76-13b5a6619870"
+          },
+          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "player",
@@ -293,6 +302,15 @@
               "__collapse": true
             },
             "id": "5a2bb76a-9883-4925-9d22-abf5bf091dd4"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "player",
+              "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+              "__collapse": false
+            },
+            "id": "2ef1199c-b9ec-4bad-81bf-def5a6f574ff"
           },
           {
             "command": "EVENT_TEXT",
