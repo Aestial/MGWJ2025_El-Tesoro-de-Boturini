@@ -13,10 +13,11 @@
   "collisions": "00c6+0f2+0012+0f2+0026+0f2+0012+0f2+0050+",
   "autoFadeSpeed": 1,
   "symbol": "scene_11",
-  "x": 880,
-  "y": 192,
+  "x": 1032,
+  "y": 176,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "labelColor": "red"
 }

@@ -13,8 +13,8 @@
   "collisions": "0f128+006+0f1a+006+0f3+008+0118+008+0f2+0028+0f2+0028+0f2+0028+0f2+008+0218+008+0f2+008+0f18+008+0fa9+",
   "autoFadeSpeed": 1,
   "symbol": "scene_12",
-  "x": 192,
-  "y": 720,
+  "x": 184,
+  "y": 704,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -26,5 +26,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "labelColor": "yellow"
 }

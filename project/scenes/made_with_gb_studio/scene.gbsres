@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "c1ac33bf-8a9a-4eb5-9444-1ff47d16ddeb",
-  "_index": 8,
-  "name": "Logo",
-  "backgroundId": "8721cc40-0909-44f1-aede-0375351088eb",
+  "id": "679d8a00-d97f-4c67-83c7-debe26f53e83",
+  "_index": 13,
+  "name": "Made with GB Studio",
+  "backgroundId": "dfac0fb4-1ef6-4669-abfd-9c28b75d806a",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,9 +12,9 @@
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_0",
-  "x": 60,
-  "y": 96,
+  "symbol": "scene_14",
+  "x": 248,
+  "y": 56,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -22,14 +22,14 @@
         "musicId": "be066e46-f78f-410e-8c60-c68be3393fab",
         "__collapse": false
       },
-      "id": "fa8322a0-483c-4f99-bed2-97a7c4a58f9e"
+      "id": "12e52719-9a5a-4a52-a26b-eb0c8988f443"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"
       },
-      "id": "3c937946-3782-40a2-8777-5302954550da"
+      "id": "272aa37a-883d-416d-8066-7c7726586c90"
     },
     {
       "command": "EVENT_OVERLAY_SHOW",
@@ -38,7 +38,7 @@
         "x": 0,
         "y": 0
       },
-      "id": "eb982b37-37cf-402a-a7e4-f937f3b1a13a"
+      "id": "5af993f4-6599-4269-afdd-bffff8dc333d"
     },
     {
       "command": "EVENT_OVERLAY_MOVE_TO",
@@ -47,7 +47,7 @@
         "y": 18,
         "speed": 1
       },
-      "id": "beb1f1b4-d08c-41a6-a6a5-4b94196935d0"
+      "id": "ebd1752b-ee16-4d51-9f69-25908979c71e"
     },
     {
       "command": "EVENT_WAIT",
@@ -55,12 +55,12 @@
         "time": 2,
         "frames": 30
       },
-      "id": "8b0b3ee6-3587-4a4d-9cd7-238ad343fa5a"
+      "id": "53d4ed22-391b-47a6-a323-bebe9babf7bc"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "679d8a00-d97f-4c67-83c7-debe26f53e83",
+        "sceneId": "98698bb4-7246-4e86-9886-0818b9156392",
         "x": {
           "type": "number",
           "value": 0
@@ -72,12 +72,12 @@
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "429eb24b-0669-48e6-a7ae-01ec6e153d0c"
+      "id": "7a37cf1e-73e4-4bd1-bd2e-c7f6c6b5689c"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
   "autoFadeEventCollapse": false,
-  "labelColor": "orange"
+  "labelColor": "green"
 }

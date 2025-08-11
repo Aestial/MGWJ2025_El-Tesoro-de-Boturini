@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_10",
-  "x": 1088,
-  "y": 184,
+  "x": 1240,
+  "y": 168,
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -63,5 +63,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "labelColor": "red"
 }
