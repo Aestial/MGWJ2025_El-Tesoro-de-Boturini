@@ -1,0 +1,121 @@
+{
+  "_resourceType": "actor",
+  "id": "13449c72-9a87-4273-812e-2498d91ac458",
+  "name": "letrero",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "adb96737-9823-4970-a5bc-84e648997b5f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_17",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "!F:7f4c8d4e-d530-4b5e-a49b-ccd83619d8ad!METRO AUDITORIO"
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "d4d11e47-ec46-4936-8f1b-3d0f84807f39"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Guardar juego",
+        "falseText": "Cancelar",
+        "__collapse": false
+      },
+      "id": "3594ad54-24b3-42da-84ab-ab6cff9735bf"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SAVE_DATA",
+            "args": {
+              "saveSlot": 0,
+              "__scriptTabs": "save"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "position": "bottom",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 2,
+                    "textY": 1,
+                    "textHeight": 6,
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "any",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+                    "text": [
+                      "El progreso ha\nsido guardado!",
+                      "Es seguro apagar\nel sistema..."
+                    ],
+                    "__section": "text",
+                    "avatarId": ""
+                  },
+                  "id": "a8f91e94-9b53-4f3c-ad92-13ae1c77b8b4"
+                }
+              ],
+              "load": []
+            },
+            "id": "c0db78c5-9c0a-4980-ad7e-b5858335ad9b"
+          }
+        ],
+        "false": []
+      },
+      "id": "6a0292fd-aa9c-4bb1-944e-b396c0f9a555"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 26,
+  "y": 13,
+  "_index": 0
+}

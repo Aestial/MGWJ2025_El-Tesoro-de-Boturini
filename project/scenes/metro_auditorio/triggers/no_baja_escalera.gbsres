@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "93b49f32-88b3-424e-ab50-4134896a0e8f",
+  "name": "no_baja_escalera",
+  "prefabId": "",
+  "x": 4,
+  "y": 7,
+  "symbol": "trigger_22",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": -1
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "aa8fd478-a881-4593-b3d4-397840a76976"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

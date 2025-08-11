@@ -1,0 +1,99 @@
+{
+  "_resourceType": "scene",
+  "id": "c9288d55-5048-4277-abec-14e10b39371c",
+  "_index": 1,
+  "name": "Metro Refineria",
+  "backgroundId": "8d00037b-f163-44f6-bc1a-6243917e9704",
+  "tilesetId": "",
+  "width": 29,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0fae+016+0f18+005+01!0f3+012+002+016+002+013+0f5+006+013+00f+0f5+001b+0f6+002+0f2+0013+0f7+02!0015+0fa+0013+0f3+003+023+01!0013+0f3+003+0f3+02!0013+0f3+003+0f3+01!0013+0f3+003+0f3+0014+0f1e+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 64,
+  "y": 520,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "10",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "9f8c99c1-1622-4fe6-b5da-b9fe14b0870c"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.5,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_ESCALATOR_ANIMATOR",
+            "args": {
+              "top_left_x": 4,
+              "top_left_y": 7,
+              "current_frame": "L0",
+              "source_name": "escalator_tiles",
+              "__collapse": true
+            },
+            "id": "2c9729cb-68e6-4db2-b800-8136f1488d19"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "expression",
+                "value": "$L0$%2 == 0"
+              },
+              "__collapseElse": false,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TILE_ANIMATOR",
+                  "args": {
+                    "target_x": 17,
+                    "target_y": 3,
+                    "source_idx": 32,
+                    "source_name": "escalator_tiles"
+                  },
+                  "id": "55cae9db-ea2e-4ea6-adda-9b1215320b10"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TILE_ANIMATOR",
+                  "args": {
+                    "target_x": 17,
+                    "target_y": 3,
+                    "source_idx": 33,
+                    "source_name": "escalator_tiles"
+                  },
+                  "id": "67fb862b-d4fd-47fd-9aef-52611d5ea618"
+                }
+              ]
+            },
+            "id": "bc50898e-caeb-4fe2-904a-a298d2a472c5"
+          }
+        ]
+      },
+      "id": "1637d6bf-5692-43b6-9acd-7c66c6dd8224"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "c7f6d71e-7301-493b-96f7-17267a2b914e",
+  "labelColor": "green"
+}

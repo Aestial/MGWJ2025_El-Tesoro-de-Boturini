@@ -1,0 +1,30 @@
+{
+  "_resourceType": "scene",
+  "id": "ad8c72b5-2e33-4885-a2e7-e79cdd4d2eac",
+  "_index": 11,
+  "name": "Vagon",
+  "backgroundId": "2d4476eb-df3a-4980-8aa9-a804edcd67d0",
+  "tilesetId": "",
+  "width": 42,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f128+006+0f1a+006+0f3+008+0118+008+0f2+0028+0f2+0028+0f2+0028+0f2+008+0218+008+0f2+008+0f18+008+0fa9+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_12",
+  "x": 192,
+  "y": 720,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "242da7b3-aca9-4185-8f57-3b4c3128da1a"
+      },
+      "id": "42a6d5bc-242d-4d96-a8ce-f29aa2af9e3b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

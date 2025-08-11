@@ -1,0 +1,48 @@
+{
+  "_resourceType": "trigger",
+  "id": "bea779d3-59a8-43f3-be61-51a45ceb0c23",
+  "name": "entrada_metro_atras",
+  "prefabId": "",
+  "x": 12,
+  "y": 7,
+  "symbol": "trigger_6",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "0072a16f-85f8-4339-bb4f-a359a63e1d77"
+      },
+      "id": "917106ef-c02b-4057-8bcd-32de72dd8ba8"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 3,
+        "frames": 30
+      },
+      "id": "b90411f2-3f1b-478b-998a-8f13b2fbbcfc"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "ad8c72b5-2e33-4885-a2e7-e79cdd4d2eac",
+        "x": {
+          "type": "number",
+          "value": 3
+        },
+        "y": {
+          "type": "number",
+          "value": 7
+        },
+        "direction": "up",
+        "fadeSpeed": "2"
+      },
+      "id": "2b21b2f6-c014-4f4f-8a60-7c408cf06058"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

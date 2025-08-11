@@ -1,0 +1,34 @@
+{
+  "_resourceType": "trigger",
+  "id": "33ac8402-b74f-47d4-919f-b660d28f7ec1",
+  "name": "sale_metro",
+  "prefabId": "",
+  "x": 1,
+  "y": 7,
+  "symbol": "trigger_18",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "e23da37e-3ccc-49c1-8fdd-f15bb41f91e5",
+        "x": {
+          "type": "number",
+          "value": 8
+        },
+        "y": {
+          "type": "number",
+          "value": 16
+        },
+        "direction": "up",
+        "fadeSpeed": "2",
+        "__comment": false
+      },
+      "id": "1e496f4e-35f7-4db8-b293-b51c1d261749"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

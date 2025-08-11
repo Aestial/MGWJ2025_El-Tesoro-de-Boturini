@@ -40,6 +40,11 @@
       "id": "98698bb4-7246-4e86-9886-0818b9156392__L0",
       "name": "Play",
       "symbol": "var_play"
+    },
+    {
+      "id": "5d4c01a9-3279-440a-b130-b4007bec61e4__L0",
+      "name": "CurrentFrame",
+      "symbol": "var_currentframe_1"
     }
   ]
 }

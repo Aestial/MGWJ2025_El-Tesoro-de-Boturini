@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "454009cf-3478-43ae-911f-4ccdecc61ddc",
+  "name": "no_sube_escalera",
+  "prefabId": "",
+  "x": 7,
+  "y": 11,
+  "symbol": "trigger_23",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 1
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "cd973366-87ed-4ccd-9fe3-28f5361e28d5"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 4
+}

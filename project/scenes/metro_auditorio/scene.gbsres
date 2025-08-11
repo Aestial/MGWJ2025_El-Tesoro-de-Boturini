@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
-  "id": "c9288d55-5048-4277-abec-14e10b39371c",
-  "_index": 1,
-  "name": "Metro",
+  "id": "5d4c01a9-3279-440a-b130-b4007bec61e4",
+  "_index": 12,
+  "name": "Metro Auditorio",
   "backgroundId": "8d00037b-f163-44f6-bc1a-6243917e9704",
   "tilesetId": "",
   "width": 29,
@@ -12,9 +12,9 @@
   "spritePaletteIds": [],
   "collisions": "0fae+016+0f18+005+01!0f3+012+002+016+002+013+0f5+006+013+00f+0f5+001b+0f6+002+0f2+0013+0f7+02!0015+0fa+0013+0f3+003+023+01!0013+0f3+003+0f3+02!0013+0f3+003+0f3+01!0013+0f3+003+0f3+0014+0f1e+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_2",
-  "x": 312,
-  "y": 480,
+  "symbol": "scene_7",
+  "x": 440,
+  "y": 496,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -25,7 +25,7 @@
           "value": 0
         }
       },
-      "id": "9f8c99c1-1622-4fe6-b5da-b9fe14b0870c"
+      "id": "cb73b9dc-dd0e-433a-a6bb-76424456159f"
     },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -46,7 +46,7 @@
               "source_name": "escalator_tiles",
               "__collapse": true
             },
-            "id": "2c9729cb-68e6-4db2-b800-8136f1488d19"
+            "id": "58611497-1123-44fc-8acd-7aaf266ec35a"
           },
           {
             "command": "EVENT_IF",
@@ -68,7 +68,7 @@
                     "source_idx": 32,
                     "source_name": "escalator_tiles"
                   },
-                  "id": "55cae9db-ea2e-4ea6-adda-9b1215320b10"
+                  "id": "9b0c70a6-f0eb-43d3-948d-e20c06500d31"
                 }
               ],
               "false": [
@@ -80,15 +80,22 @@
                     "source_idx": 33,
                     "source_name": "escalator_tiles"
                   },
-                  "id": "67fb862b-d4fd-47fd-9aef-52611d5ea618"
+                  "id": "7ed7a74e-51ed-4f21-a59c-a9e4cc49e169"
                 }
               ]
             },
-            "id": "bc50898e-caeb-4fe2-904a-a298d2a472c5"
+            "id": "d94e7622-b6a4-46c8-9a52-06f5238b8a1c"
           }
         ]
       },
-      "id": "1637d6bf-5692-43b6-9acd-7c66c6dd8224"
+      "id": "81550938-2b35-464b-9dd2-be69f405ebba"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3"
+      },
+      "id": "42cc15e8-fc5d-4f4f-a56a-55ec571d2391"
     }
   ],
   "playerHit1Script": [],
