@@ -41,6 +41,14 @@
         "avatarId": ""
       },
       "id": "0e123988-60b3-4518-94eb-6f7e33f91478"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+      },
+      "id": "f147b205-cb52-4161-8e4f-3201d8cbad7a"
     }
   ],
   "startScript": [],

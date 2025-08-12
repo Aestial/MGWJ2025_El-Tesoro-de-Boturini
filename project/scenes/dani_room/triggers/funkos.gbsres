@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
-  "id": "25da8485-72f5-400f-9595-fdecbbc22fdd",
-  "name": "",
+  "id": "0a9ead68-711a-4d6d-9fcc-603c3f3d9c43",
+  "name": "funkos",
   "prefabId": "",
-  "x": 15,
-  "y": 13,
-  "symbol": "trigger_32",
+  "x": 16,
+  "y": 5,
+  "symbol": "trigger_28",
   "prefabScriptOverrides": {},
-  "width": 1,
-  "height": 2,
+  "width": 2,
+  "height": 1,
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -40,24 +40,16 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "Hermoso..."
+                "Mi colección de\nfunkos..."
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "e06ae09d-015d-4fdf-8b14-50813128ca86"
+            "id": "37466e07-dac6-4107-971f-c34a86bea54b"
           }
         ]
       },
-      "id": "594c1a9d-d167-4fe1-a499-c3842653c003"
-    },
-    {
-      "command": "EVENT_ACTOR_EMOTE",
-      "args": {
-        "actorId": "$self$",
-        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
-      },
-      "id": "d16d9376-137a-444d-af5e-baa3e8d75a74"
+      "id": "9bf27eb3-b217-4979-9e95-404e789a9647"
     }
   ],
   "leaveScript": [
@@ -68,8 +60,8 @@
           "a"
         ]
       },
-      "id": "51b88823-390e-49d4-b1bc-ab4405fce1f7"
+      "id": "b45cf25f-38c0-4350-8811-2ed52583aeca"
     }
   ],
-  "_index": 6
+  "_index": 2
 }

@@ -24,7 +24,7 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "9f8c99c1-1622-4fe6-b5da-b9fe14b0870c"
     },
@@ -36,19 +36,22 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": true,
+        "__comment": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_MUSIC_STOP",
-            "args": {},
+            "args": {
+              "__collapse": true
+            },
             "id": "30441230-c2f8-4652-a236-df8e6dd10113"
           },
           {
             "command": "EVENT_MENU",
             "args": {
-              "variable": "L0",
+              "variable": "T0",
               "items": 2,
               "option1": "Reanudar",
               "option2": "Menú principal",
@@ -68,14 +71,15 @@
           {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
-              "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3"
+              "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3",
+              "__collapse": false
             },
             "id": "51ef4971-0f4c-4844-bf36-d989a7b7809b"
           },
           {
             "command": "EVENT_SWITCH",
             "args": {
-              "variable": "L0",
+              "variable": "T0",
               "choices": 2,
               "__collapseCase0": false,
               "value0": 1,
@@ -109,7 +113,8 @@
               "value14": 15,
               "__collapseCase15": false,
               "value15": 16,
-              "__collapseElse": false
+              "__collapseElse": false,
+              "__collapse": false
             },
             "children": {
               "true0": [],
@@ -161,7 +166,7 @@
         "duration": 0.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -217,71 +222,6 @@
         ]
       },
       "id": "1637d6bf-5692-43b6-9acd-7c66c6dd8224"
-    },
-    {
-      "command": "EVENT_SET_TIMER_SCRIPT",
-      "args": {
-        "timer": 2,
-        "duration": 0.1,
-        "frames": 30,
-        "__scriptTabs": "end"
-      },
-      "children": {
-        "script": [
-          {
-            "command": "EVENT_IF_INPUT",
-            "args": {
-              "input": [
-                "a",
-                "b",
-                "start"
-              ],
-              "__collapseElse": true,
-              "__collapse": false
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_IF",
-                  "args": {
-                    "condition": {
-                      "type": "variable",
-                      "value": "T0"
-                    },
-                    "__collapseElse": true
-                  },
-                  "children": {
-                    "true": [
-                      {
-                        "command": "EVENT_SWITCH_SCENE",
-                        "args": {
-                          "sceneId": "ad8c72b5-2e33-4885-a2e7-e79cdd4d2eac",
-                          "x": {
-                            "type": "number",
-                            "value": 4
-                          },
-                          "y": {
-                            "type": "number",
-                            "value": 9
-                          },
-                          "direction": "down",
-                          "fadeSpeed": "2"
-                        },
-                        "id": "a208940d-1e98-4ba7-94f4-00542f4c7f9d"
-                      }
-                    ],
-                    "false": []
-                  },
-                  "id": "219da359-40d6-4780-9a49-1933f102ab1d"
-                }
-              ],
-              "false": []
-            },
-            "id": "9cf3f9b7-9fc9-4aea-ae8b-be7d6030a339"
-          }
-        ]
-      },
-      "id": "db70f133-0084-492f-a3f9-9cf6ffd550d6"
     }
   ],
   "playerHit1Script": [],

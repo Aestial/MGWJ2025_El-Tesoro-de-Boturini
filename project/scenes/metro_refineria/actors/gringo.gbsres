@@ -51,6 +51,14 @@
       "id": "706dd4c6-2a58-41a0-a866-90113001faf9"
     },
     {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+      },
+      "id": "2df7d2ff-8d8a-41b8-8617-d59a29f44e6b"
+    },
+    {
       "command": "EVENT_ACTOR_SET_DIRECTION",
       "args": {
         "actorId": "$self$",
@@ -60,6 +68,14 @@
         }
       },
       "id": "897eacfc-a70c-421b-ac04-9e6f9649e694"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
+      },
+      "id": "7aa818f9-67fe-4f09-9f08-880f67c4d9b6"
     }
   ],
   "startScript": [],
