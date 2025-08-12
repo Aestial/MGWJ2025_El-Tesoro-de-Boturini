@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
-  "id": "25da8485-72f5-400f-9595-fdecbbc22fdd",
-  "name": "",
+  "id": "57be9a59-e1d1-4beb-b729-0ee97f5cd76e",
+  "name": "cama_trigger",
   "prefabId": "",
-  "x": 15,
-  "y": 13,
-  "symbol": "trigger_32",
+  "x": 6,
+  "y": 7,
+  "symbol": "trigger_30",
   "prefabScriptOverrides": {},
-  "width": 1,
-  "height": 2,
+  "width": 2,
+  "height": 1,
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -40,24 +40,16 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "Hermoso..."
+                "Mi cama, cómoda \npero no tanto."
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "e06ae09d-015d-4fdf-8b14-50813128ca86"
+            "id": "0fa3f2eb-aa6d-4485-8ffc-c6e139aaee8f"
           }
         ]
       },
-      "id": "594c1a9d-d167-4fe1-a499-c3842653c003"
-    },
-    {
-      "command": "EVENT_ACTOR_EMOTE",
-      "args": {
-        "actorId": "$self$",
-        "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
-      },
-      "id": "d16d9376-137a-444d-af5e-baa3e8d75a74"
+      "id": "800e43e8-3221-4fcc-8809-3ad65004f90b"
     }
   ],
   "leaveScript": [
@@ -68,8 +60,8 @@
           "a"
         ]
       },
-      "id": "51b88823-390e-49d4-b1bc-ab4405fce1f7"
+      "id": "fc8cd67c-be3d-42d1-8f14-6effd6685c53"
     }
   ],
-  "_index": 6
+  "_index": 5
 }

@@ -36,19 +36,22 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": true,
+        "__comment": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_MUSIC_STOP",
-            "args": {},
+            "args": {
+              "__collapse": true
+            },
             "id": "30441230-c2f8-4652-a236-df8e6dd10113"
           },
           {
             "command": "EVENT_MENU",
             "args": {
-              "variable": "L0",
+              "variable": "T0",
               "items": 2,
               "option1": "Reanudar",
               "option2": "Menú principal",
@@ -68,14 +71,15 @@
           {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
-              "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3"
+              "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3",
+              "__collapse": false
             },
             "id": "51ef4971-0f4c-4844-bf36-d989a7b7809b"
           },
           {
             "command": "EVENT_SWITCH",
             "args": {
-              "variable": "L0",
+              "variable": "T0",
               "choices": 2,
               "__collapseCase0": false,
               "value0": 1,
@@ -109,7 +113,8 @@
               "value14": 15,
               "__collapseCase15": false,
               "value15": 16,
-              "__collapseElse": false
+              "__collapseElse": false,
+              "__collapse": false
             },
             "children": {
               "true0": [],
@@ -161,7 +166,7 @@
         "duration": 0.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -172,7 +177,7 @@
               "top_left_y": 7,
               "current_frame": "L0",
               "source_name": "escalator_tiles",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "2c9729cb-68e6-4db2-b800-8136f1488d19"
           },
@@ -184,7 +189,7 @@
                 "value": "$L0$%2 == 0"
               },
               "__collapseElse": false,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -223,5 +228,6 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "c7f6d71e-7301-493b-96f7-17267a2b914e",
-  "labelColor": "yellow"
+  "labelColor": "yellow",
+  "autoFadeEventCollapse": false
 }

@@ -8,5 +8,6 @@
   "imageWidth": 232,
   "imageHeight": 144,
   "filename": "metro.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

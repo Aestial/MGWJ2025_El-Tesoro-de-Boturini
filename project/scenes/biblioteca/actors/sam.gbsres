@@ -85,6 +85,18 @@
             "id": "c3793ece-6343-4e01-a14b-e610d77daa9b"
           },
           {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              },
+              "__collapse": true
+            },
+            "id": "4cde2e32-c83f-4323-bb99-466036495121"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -139,6 +151,50 @@
             "id": "47fd20a7-6428-4f72-b619-e2eb3a2713cc"
           },
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "crash",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.2,
+              "wait": false,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "95f365da-bc1b-4203-b742-c0c41b705dab"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 19
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              },
+              "moveType": "vertical",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "d4030c83-89a4-4055-ac29-1bddf0f72847"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              },
+              "__collapse": true
+            },
+            "id": "bbfa9d8e-5172-4b01-9708-a7bf008c7529"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -169,9 +225,22 @@
           {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
-              "musicId": "564d60d1-2234-45b8-9aeb-b73df778914f"
+              "musicId": "564d60d1-2234-45b8-9aeb-b73df778914f",
+              "__collapse": true
             },
             "id": "67ea58a0-9b64-4c61-8171-954c0394d5e7"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "right"
+              },
+              "__collapse": true
+            },
+            "id": "cf526a40-8ea9-4828-9de6-6594178b14aa"
           },
           {
             "command": "EVENT_TEXT",
@@ -199,6 +268,36 @@
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "7c323593-cf1a-4bf2-877b-1ae01f6cc0df"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 21
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              },
+              "moveType": "vertical",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "f3195ad0-281b-4e96-acea-39ba0bc2c4d5"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "player",
+              "direction": {
+                "type": "direction",
+                "value": "left"
+              },
+              "__collapse": true
+            },
+            "id": "4d53d6dd-739a-408b-935d-de6584effbd3"
           },
           {
             "command": "EVENT_TEXT",
@@ -304,10 +403,28 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "4bd64c0e-5c43-4d7e-92fa-6ec5c0518058"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 19
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "892a8f08-7d5c-4a65-a6d9-23cd719c5c89"
           },
           {
             "command": "EVENT_TEXT",
@@ -331,7 +448,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "183e6507-18b8-463f-acd7-b28029fa8142"
@@ -358,10 +475,28 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "fba3bd81-1dd5-40b2-9eae-55ae7794a689"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 20
+              },
+              "y": {
+                "type": "number",
+                "value": 14
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "f6cd9927-22c7-488b-88d5-24054a4284cc"
           },
           {
             "command": "EVENT_TEXT",
@@ -390,10 +525,21 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "9e5ab0c8-9b7a-44a1-8ed7-13f2f3daa575"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "down"
+              }
+            },
+            "id": "82903d98-f2ac-48c5-8c14-75701fba676d"
           },
           {
             "command": "EVENT_TEXT",
@@ -420,7 +566,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "24b16519-59be-4317-af01-dd412060efaa"
@@ -450,7 +596,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "c102956a-e1bf-4709-8f3d-28c661fdda28"
@@ -478,10 +624,21 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "1378bbbf-295b-4ccb-854e-65b715830093"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              }
+            },
+            "id": "b284f14b-89fd-4406-99f5-206263f88561"
           },
           {
             "command": "EVENT_TEXT",
@@ -542,6 +699,23 @@
             "id": "a422368d-cc6b-4595-a2f0-b36e34b93e51"
           },
           {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 15
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "moveType": "vertical",
+              "useCollisions": false
+            },
+            "id": "427b6be9-0fe7-428e-a18b-93abd2d2d5ce"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -567,6 +741,23 @@
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "5e990452-c090-4d30-964f-888002836f56"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 19
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "moveType": "vertical",
+              "useCollisions": false
+            },
+            "id": "61c6bcc0-af7a-46e8-98e2-6503ce5766bb"
           },
           {
             "command": "EVENT_TEXT",
@@ -598,12 +789,23 @@
             "id": "b253c0c0-6605-4c91-a52e-3a151ec8729d"
           },
           {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "right"
+              }
+            },
+            "id": "b9c93c9c-3481-4abc-aa52-919c6414f719"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
                 "Qué\ninsistente...",
                 "En fin",
-                "¿Ves las cuatro\nhabitaciones\nque están al\nfrente?",
+                "¿Ves las\nhabitaciones\nque están al\nfrente?",
                 "Entra en ellas",
                 "ahí encontrarás\nmesas de \ntrabajo",
                 "con algunas\ntareas que\ntengo que \nrealizar",
@@ -612,7 +814,7 @@
                 "No te preocupes",
                 "Encontrarás\ninstrucciones\npara todo",
                 "Cuando\ntermines,",
-                "regresa conmigo"
+                "regresa conmigo..."
               ],
               "__section": "text",
               "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
@@ -634,6 +836,23 @@
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "dfe11e15-857c-4144-bc37-23472df0aba5"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 17
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "3ea7461a-1433-4699-bea1-677c073836b5"
           },
           {
             "command": "EVENT_TEXT",
@@ -671,7 +890,7 @@
                 "¿Tamal rosita?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -753,7 +972,7 @@
                 "Adiós"
               ],
               "__section": "text",
-              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 2,
@@ -861,7 +1080,7 @@
               "text": [
                 "..."
               ],
-              "__section": "presets",
+              "__section": "text",
               "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "minHeight": 4,
               "maxHeight": 7,

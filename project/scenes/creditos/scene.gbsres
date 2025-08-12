@@ -13,8 +13,8 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_6",
-  "x": 608,
-  "y": 56,
+  "x": 432,
+  "y": 48,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -60,7 +60,7 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "98698bb4-7246-4e86-9886-0818b9156392",
+        "sceneId": "679d8a00-d97f-4c67-83c7-debe26f53e83",
         "x": {
           "type": "number",
           "value": 0

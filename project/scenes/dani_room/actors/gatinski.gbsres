@@ -17,17 +17,12 @@
   "symbol": "actor_6",
   "script": [
     {
-      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "command": "EVENT_ACTOR_EMOTE",
       "args": {
-        "type": "tone",
-        "pitch": 4,
-        "frequency": 440,
-        "duration": 0.05,
-        "effect": 0,
-        "__comment": true,
-        "__collapse": true
+        "actorId": "player",
+        "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2"
       },
-      "id": "7772d564-e4bb-4489-b114-bcdd14a3bee2"
+      "id": "c65e801b-e2a1-482d-bc07-55545f9300f7"
     },
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",

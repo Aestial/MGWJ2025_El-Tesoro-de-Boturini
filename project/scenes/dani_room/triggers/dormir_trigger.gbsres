@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
   "id": "93109951-1be4-4dbb-92a4-393a009f6993",
-  "name": "",
+  "name": "dormir_trigger",
   "prefabId": "",
-  "x": 6,
-  "y": 7,
+  "x": 8,
+  "y": 5,
   "symbol": "trigger_31",
   "prefabScriptOverrides": {},
-  "width": 2,
-  "height": 1,
+  "width": 1,
+  "height": 2,
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -35,6 +35,36 @@
         "avatarId": ""
       },
       "id": "bea7a8d8-a0c8-4dc5-9ca9-6abd98f53be2"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "tone",
+        "priority": "medium",
+        "pitch": 6,
+        "frequency": 220,
+        "duration": 0.05,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "af03e8dc-207b-4fed-88d6-f7e18b358029"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "b9b50486-67e3-4271-b6db-f3a25d903efe"
     }
   ],
   "leaveScript": [],

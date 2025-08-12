@@ -126,6 +126,14 @@
               "avatarId": ""
             },
             "id": "46532d2f-6917-458d-a24c-7d6f7465d863"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+            },
+            "id": "91bafd37-2325-40f8-a2e4-8dde570d4f65"
           }
         ],
         "true1": [
@@ -251,6 +259,14 @@
               "avatarId": ""
             },
             "id": "ce3fd73d-cf87-45c2-8ee0-9279a3842371"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+            },
+            "id": "b7c98969-d872-4472-8e4d-4a82a5ee92d4"
           }
         ],
         "true4": [],

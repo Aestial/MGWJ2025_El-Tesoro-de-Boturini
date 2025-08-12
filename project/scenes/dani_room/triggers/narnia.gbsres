@@ -1,7 +1,7 @@
 {
   "_resourceType": "trigger",
   "id": "45acee8e-f476-491d-b0e0-2a3dceab92d3",
-  "name": "",
+  "name": "narnia",
   "prefabId": "",
   "x": 3,
   "y": 5,
@@ -14,11 +14,11 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "select",
-          "a"
+          "select"
         ],
         "override": true,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -27,9 +27,9 @@
             "args": {
               "variable": "L1",
               "items": 5,
-              "option1": "Refi",
-              "option2": "Vagon",
-              "option3": "Auditorio",
+              "option1": "M. Refi",
+              "option2": "Vagon metro",
+              "option3": "M.Auditorio",
               "option4": "Recepcion",
               "option5": "Biblio",
               "option6": "",
@@ -37,7 +37,7 @@
               "option8": "",
               "cancelOnB": true,
               "layout": "dialogue",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "89f9f6ea-d8a8-486f-ae73-584464f28f71"
           },
@@ -107,7 +107,7 @@
                     "sceneId": "ad8c72b5-2e33-4885-a2e7-e79cdd4d2eac",
                     "x": {
                       "type": "number",
-                      "value": 3
+                      "value": 4
                     },
                     "y": {
                       "type": "number",

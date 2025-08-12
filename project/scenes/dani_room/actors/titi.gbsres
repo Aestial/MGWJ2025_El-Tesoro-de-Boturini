@@ -17,6 +17,14 @@
   "symbol": "actor_7",
   "script": [
     {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2"
+      },
+      "id": "db54d04a-ba45-45ee-87ea-f3d3f42106ac"
+    },
+    {
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
         "type": "tone",

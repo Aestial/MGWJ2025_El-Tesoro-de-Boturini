@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
-  "x": 424,
-  "y": 56,
+  "x": 256,
+  "y": 48,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -53,88 +53,106 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_CHOICE",
+            "command": "EVENT_MENU",
             "args": {
               "variable": "L0",
-              "trueText": "Jugar",
-              "falseText": "Creditos",
+              "items": 3,
+              "option1": "Nuevo juego",
+              "option2": "Continuar",
+              "option3": "Creditos",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "__comment": false,
+              "cancelOnLastOption": true,
               "__collapse": true
             },
-            "id": "d58b7bb2-0547-4652-a134-9a54df6781ef"
+            "id": "af2dcde6-69c7-40c4-b817-7bdb1774ce88"
           },
           {
-            "command": "EVENT_IF",
+            "command": "EVENT_SWITCH",
             "args": {
-              "condition": {
-                "type": "variable",
-                "value": "L0"
-              },
+              "variable": "L0",
+              "choices": 2,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
-              "true": [
+              "true0": [
                 {
-                  "command": "EVENT_CHOICE",
+                  "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "variable": "0",
-                    "trueText": "Nuevo juego",
-                    "falseText": "Continuar",
-                    "__collapse": false
-                  },
-                  "id": "cdcb4032-6632-4293-96ef-3b17f05e2128"
-                },
-                {
-                  "command": "EVENT_IF",
-                  "args": {
-                    "condition": {
-                      "type": "variable",
-                      "value": "0"
+                    "sceneId": "11c9d6b1-0bc5-43fb-aaf9-7daaf4b332ab",
+                    "x": {
+                      "type": "number",
+                      "value": 9
                     },
+                    "y": {
+                      "type": "number",
+                      "value": 9
+                    },
+                    "direction": "down",
+                    "fadeSpeed": 2,
+                    "__collapse": true
+                  },
+                  "id": "61b3c901-fcbd-41a1-8938-a934d7ec3d63"
+                }
+              ],
+              "true1": [
+                {
+                  "command": "EVENT_IF_SAVED_DATA",
+                  "args": {
+                    "saveSlot": 0,
                     "__collapseElse": false,
                     "__collapse": false
                   },
                   "children": {
                     "true": [
                       {
-                        "command": "EVENT_SWITCH_SCENE",
+                        "command": "EVENT_LOAD_DATA",
                         "args": {
-                          "sceneId": "11c9d6b1-0bc5-43fb-aaf9-7daaf4b332ab",
-                          "x": {
-                            "type": "number",
-                            "value": 9
-                          },
-                          "y": {
-                            "type": "number",
-                            "value": 9
-                          },
-                          "direction": "down",
-                          "fadeSpeed": 2
+                          "saveSlot": 0
                         },
-                        "id": "61b3c901-fcbd-41a1-8938-a934d7ec3d63"
+                        "id": "f176bcd3-f4dd-4107-b2b6-db7116e68b8a"
                       }
                     ],
                     "false": [
-                      {
-                        "command": "EVENT_IF_SAVED_DATA",
-                        "args": {
-                          "saveSlot": 0,
-                          "__collapseElse": true
-                        },
-                        "children": {
-                          "true": [
-                            {
-                              "command": "EVENT_LOAD_DATA",
-                              "args": {
-                                "saveSlot": 0
-                              },
-                              "id": "69f6d721-f4a3-417a-8b49-8491b4540b70"
-                            }
-                          ],
-                          "false": []
-                        },
-                        "id": "ac396bf2-9801-47eb-9849-1403e9767cc7"
-                      },
                       {
                         "command": "EVENT_TEXT",
                         "args": {
@@ -156,15 +174,30 @@
                           "closeWhen": "key",
                           "closeButton": "a",
                           "closeDelayTime": 0.5,
-                          "closeDelayFrames": 30
+                          "closeDelayFrames": 30,
+                          "__collapse": true
                         },
                         "id": "257c4279-0d5e-4c92-928a-6f9173e4fa58"
                       }
                     ]
                   },
-                  "id": "f2435d3e-d890-450a-acba-7d01814ec75d"
+                  "id": "19c1e9ca-cea0-4d17-933e-06683ba1a6de"
                 }
               ],
+              "true2": [],
+              "true3": [],
+              "true4": [],
+              "true5": [],
+              "true6": [],
+              "true7": [],
+              "true8": [],
+              "true9": [],
+              "true10": [],
+              "true11": [],
+              "true12": [],
+              "true13": [],
+              "true14": [],
+              "true15": [],
               "false": [
                 {
                   "command": "EVENT_SWITCH_SCENE",
@@ -186,7 +219,7 @@
                 }
               ]
             },
-            "id": "7026ff24-a0ac-49e7-bfeb-03d5ba17136d"
+            "id": "5773e4dd-7910-42ea-b0b5-73a81245fb93"
           }
         ]
       },
