@@ -27,9 +27,9 @@
             "args": {
               "variable": "L1",
               "items": 5,
-              "option1": "Refi",
-              "option2": "Vagon",
-              "option3": "Auditorio",
+              "option1": "M. Refi",
+              "option2": "Vagon metro",
+              "option3": "M.Auditorio",
               "option4": "Recepcion",
               "option5": "Biblio",
               "option6": "",
@@ -37,7 +37,7 @@
               "option8": "",
               "cancelOnB": true,
               "layout": "dialogue",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "89f9f6ea-d8a8-486f-ae73-584464f28f71"
           },

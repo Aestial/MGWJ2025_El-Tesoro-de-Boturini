@@ -23,6 +23,32 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "88d66031-f869-44ba-b213-e67f0c869aa6",
+              "x": {
+                "type": "number",
+                "value": 20
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "moveType": "diagonal",
+              "useCollisions": true,
+              "__collapse": false
+            },
+            "id": "bbb43d01-f181-490d-a4aa-cfcc915e36a5"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "88d66031-f869-44ba-b213-e67f0c869aa6",
+              "__collapse": false
+            },
+            "id": "b7482f61-72d6-4036-97fd-ce86f73de93b"
+          },
+          {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
               "musicId": "0072a16f-85f8-4339-bb4f-a359a63e1d77",
@@ -71,7 +97,7 @@
               "time": 2,
               "frames": 30,
               "__comment": false,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "a58a4cf1-5a57-4e2a-95d4-9a525da7fd1f"
           },

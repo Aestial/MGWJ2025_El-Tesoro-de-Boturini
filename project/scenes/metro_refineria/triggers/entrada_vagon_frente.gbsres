@@ -23,6 +23,32 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "88d66031-f869-44ba-b213-e67f0c869aa6",
+              "x": {
+                "type": "number",
+                "value": 12
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "437511fb-5a42-4d1c-87f0-178bc8505020"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "88d66031-f869-44ba-b213-e67f0c869aa6",
+              "__collapse": false
+            },
+            "id": "162666ce-7f08-412e-8ff4-69d3739f62d8"
+          },
+          {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
               "musicId": "0072a16f-85f8-4339-bb4f-a359a63e1d77",
