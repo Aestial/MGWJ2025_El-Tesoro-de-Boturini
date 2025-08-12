@@ -8,5 +8,6 @@
   "imageWidth": 176,
   "imageHeight": 160,
   "filename": "sala_izq.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

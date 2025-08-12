@@ -23,7 +23,8 @@
         "value": {
           "type": "number",
           "value": 0
-        }
+        },
+        "__collapse": true
       },
       "id": "9f8c99c1-1622-4fe6-b5da-b9fe14b0870c"
     },
@@ -33,7 +34,8 @@
         "timer": 1,
         "duration": 0.5,
         "frames": 30,
-        "__scriptTabs": "end"
+        "__scriptTabs": "end",
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -44,7 +46,7 @@
               "top_left_y": 7,
               "current_frame": "L0",
               "source_name": "escalator_tiles",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "2c9729cb-68e6-4db2-b800-8136f1488d19"
           },
@@ -56,7 +58,7 @@
                 "value": "$L0$%2 == 0"
               },
               "__collapseElse": false,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -89,11 +91,77 @@
         ]
       },
       "id": "1637d6bf-5692-43b6-9acd-7c66c6dd8224"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 2,
+        "duration": 0.1,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_IF_INPUT",
+            "args": {
+              "input": [
+                "a",
+                "b",
+                "start"
+              ],
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "variable",
+                      "value": "T0"
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "ad8c72b5-2e33-4885-a2e7-e79cdd4d2eac",
+                          "x": {
+                            "type": "number",
+                            "value": 4
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 9
+                          },
+                          "direction": "down",
+                          "fadeSpeed": "2"
+                        },
+                        "id": "a208940d-1e98-4ba7-94f4-00542f4c7f9d"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "219da359-40d6-4780-9a49-1933f102ab1d"
+                }
+              ],
+              "false": []
+            },
+            "id": "9cf3f9b7-9fc9-4aea-ae8b-be7d6030a339"
+          }
+        ]
+      },
+      "id": "db70f133-0084-492f-a3f9-9cf6ffd550d6"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "c7f6d71e-7301-493b-96f7-17267a2b914e",
-  "labelColor": "yellow"
+  "labelColor": "yellow",
+  "autoFadeEventCollapse": false
 }
