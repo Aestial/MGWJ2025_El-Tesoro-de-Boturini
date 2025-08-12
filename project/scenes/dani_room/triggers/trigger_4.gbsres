@@ -1,0 +1,42 @@
+{
+  "_resourceType": "trigger",
+  "id": "57be9a59-e1d1-4beb-b729-0ee97f5cd76e",
+  "name": "",
+  "prefabId": "",
+  "x": 8,
+  "y": 6,
+  "symbol": "trigger_30",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Mi cama, cómoda \npero no tanto."
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "0fa3f2eb-aa6d-4485-8ffc-c6e139aaee8f"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 5
+}

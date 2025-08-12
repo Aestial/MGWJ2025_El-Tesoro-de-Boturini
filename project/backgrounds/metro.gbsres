@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "30d06cbb-b68b-4ba7-9428-a26ece8f1c96",
+  "name": "metro",
+  "symbol": "bg_metro",
+  "width": 29,
+  "height": 18,
+  "imageWidth": 232,
+  "imageHeight": 144,
+  "filename": "metro.png",
+  "tileColors": ""
+}
