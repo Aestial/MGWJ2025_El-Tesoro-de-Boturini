@@ -17,33 +17,6 @@
   "symbol": "actor_2",
   "script": [
     {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Claro, todos\nsaben dónde está"
-        ],
-        "__section": "text",
-        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 2,
-        "textY": 1,
-        "textHeight": 6,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "any",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__collapse": false,
-        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
-      },
-      "id": "0278bcd2-7754-4dbb-937c-ef1c6b4bbfb2"
-    },
-    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -87,8 +60,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "No puede ser",
-                "Se acaba el día y\ntengo mil cosas\npor hacer"
+                "No puede ser...",
+                "Se acaba el día\ny tengo mil\ncosas por hacer"
               ],
               "__section": "text",
               "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",

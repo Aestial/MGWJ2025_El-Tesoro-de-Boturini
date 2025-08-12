@@ -1,0 +1,67 @@
+{
+  "_resourceType": "trigger",
+  "id": "35a77f3b-f964-426d-829f-076d3c179f10",
+  "name": "",
+  "prefabId": "",
+  "x": 6,
+  "y": 25,
+  "symbol": "trigger_27",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "La biblioteca es\nmuy grande"
+              ],
+              "__section": "text",
+              "avatarId": ""
+            },
+            "id": "546dce65-e3a2-4df0-b341-a07881aeba8e"
+          }
+        ]
+      },
+      "id": "552ce04f-332a-4b82-a63c-e76cfee9c44d"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "44ac34eb-e85a-41b2-a3a6-6251143f2c6a"
+    }
+  ],
+  "_index": 4
+}

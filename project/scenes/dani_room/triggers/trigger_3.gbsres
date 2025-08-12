@@ -1,0 +1,42 @@
+{
+  "_resourceType": "trigger",
+  "id": "93109951-1be4-4dbb-92a4-393a009f6993",
+  "name": "",
+  "prefabId": "",
+  "x": 6,
+  "y": 7,
+  "symbol": "trigger_31",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Ya no puedo\ndormir más"
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "bea7a8d8-a0c8-4dc5-9ca9-6abd98f53be2"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 4
+}

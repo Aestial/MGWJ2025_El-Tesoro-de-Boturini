@@ -45,6 +45,16 @@
       "id": "5d4c01a9-3279-440a-b130-b4007bec61e4__L0",
       "name": "CurrentFrame",
       "symbol": "var_currentframe_1"
+    },
+    {
+      "id": "11c9d6b1-0bc5-43fb-aaf9-7daaf4b332ab__L0",
+      "name": "Menu pausa",
+      "symbol": "var_menu_pausa"
+    },
+    {
+      "id": "45acee8e-f476-491d-b0e0-2a3dceab92d3__L1",
+      "name": "Atajo Escenas",
+      "symbol": "var_atajo_escenas"
     }
   ]
 }
