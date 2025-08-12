@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "976445f9-567f-47da-887d-ef400d1d4aa1",
-  "name": "",
+  "id": "36a4f74c-10c5-4acb-86b4-515c7a697e93",
+  "name": "sale_recepcion_der",
   "prefabId": "",
-  "x": 8,
-  "y": 18,
-  "symbol": "trigger_16",
+  "x": 22,
+  "y": 30,
+  "symbol": "trigger_15",
   "prefabScriptOverrides": {},
   "width": 2,
   "height": 1,
@@ -13,21 +13,19 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "5d4c01a9-3279-440a-b130-b4007bec61e4",
+        "sceneId": "e23da37e-3ccc-49c1-8fdd-f15bb41f91e5",
         "x": {
           "type": "number",
-          "value": 1
+          "value": 15
         },
         "y": {
           "type": "number",
-          "value": 9
+          "value": 6
         },
         "direction": "",
-        "fadeSpeed": "2",
-        "__collapse": false,
-        "__comment": false
+        "fadeSpeed": "2"
       },
-      "id": "1ed21f33-db13-43a6-b7e1-7ada1411dab4"
+      "id": "a61d670e-91e1-4bf5-a78f-0bd15a7f7427"
     }
   ],
   "leaveScript": [],

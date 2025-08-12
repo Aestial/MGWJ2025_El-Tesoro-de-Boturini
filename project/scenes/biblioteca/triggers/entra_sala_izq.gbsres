@@ -1,7 +1,7 @@
 {
   "_resourceType": "trigger",
   "id": "ba957d81-f496-4f76-bca4-4f1ad448df56",
-  "name": "sala_izq",
+  "name": "entra_sala_izq",
   "prefabId": "",
   "x": 7,
   "y": 4,
@@ -16,13 +16,13 @@
         "sceneId": "4f73e47b-2bd5-47ae-9296-8f1264e2b86e",
         "x": {
           "type": "number",
-          "value": 5
+          "value": 8
         },
         "y": {
           "type": "number",
-          "value": 16
+          "value": 15
         },
-        "direction": "",
+        "direction": "up",
         "fadeSpeed": "2"
       },
       "id": "d4dc0e0b-c5c9-4c33-9806-bdc8fe692526"

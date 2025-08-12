@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "2728218e-2b9b-4d6e-a4d6-94a42b6b00b5",
+  "name": "sala_izq",
+  "symbol": "bg_sala_der",
+  "width": 22,
+  "height": 20,
+  "imageWidth": 176,
+  "imageHeight": 160,
+  "filename": "sala_izq.png",
+  "tileColors": ""
+}

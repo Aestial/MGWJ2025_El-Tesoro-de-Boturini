@@ -1,0 +1,48 @@
+{
+  "_resourceType": "trigger",
+  "id": "2fa13711-a012-41de-8e50-d5d0971b59bf",
+  "name": "sale_vagon",
+  "prefabId": "",
+  "x": 35,
+  "y": 7,
+  "symbol": "trigger_17",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "0072a16f-85f8-4339-bb4f-a359a63e1d77"
+      },
+      "id": "ff456c23-4c72-44a3-abdb-42cdfba6aefd"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30
+      },
+      "id": "8272258e-a6d3-4068-8c88-94b65acca59d"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "5d4c01a9-3279-440a-b130-b4007bec61e4",
+        "x": {
+          "type": "number",
+          "value": 20
+        },
+        "y": {
+          "type": "number",
+          "value": 7
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "a87f458b-8cbd-4d78-ab7c-577ca7459bb5"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

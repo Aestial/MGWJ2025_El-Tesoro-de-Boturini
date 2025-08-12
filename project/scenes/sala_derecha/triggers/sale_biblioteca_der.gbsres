@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "36a4f74c-10c5-4acb-86b4-515c7a697e93",
-  "name": "entra_biblioteca_der",
+  "id": "a8d79b05-a43e-4e59-b9c5-e1162ff19905",
+  "name": "sale_biblioteca_der",
   "prefabId": "",
-  "x": 22,
-  "y": 30,
-  "symbol": "trigger_15",
+  "x": 8,
+  "y": 18,
+  "symbol": "trigger_26",
   "prefabScriptOverrides": {},
   "width": 2,
   "height": 1,
@@ -13,21 +13,21 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "e23da37e-3ccc-49c1-8fdd-f15bb41f91e5",
+        "sceneId": "f190a4cb-4476-4fad-afac-ef12a4d6d6bb",
         "x": {
           "type": "number",
-          "value": 15
+          "value": 23
         },
         "y": {
           "type": "number",
           "value": 6
         },
-        "direction": "",
+        "direction": "down",
         "fadeSpeed": "2"
       },
-      "id": "a61d670e-91e1-4bf5-a78f-0bd15a7f7427"
+      "id": "56f0057b-71ae-4a26-b8f1-c428daaaa684"
     }
   ],
   "leaveScript": [],
-  "_index": 3
+  "_index": 0
 }
