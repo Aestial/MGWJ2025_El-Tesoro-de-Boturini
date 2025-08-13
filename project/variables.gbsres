@@ -2,21 +2,6 @@
   "_resourceType": "variables",
   "variables": [
     {
-      "id": "0",
-      "name": "NewGame",
-      "symbol": "var_newgame"
-    },
-    {
-      "id": "4",
-      "name": "IsTrainMoving",
-      "symbol": "var_istrainmoving"
-    },
-    {
-      "id": "5",
-      "name": "TurnBasedBattle",
-      "symbol": "var_turnbasedbattle"
-    },
-    {
       "id": "10",
       "name": "CurrentFrame",
       "symbol": "var_currentframe"
@@ -50,6 +35,11 @@
       "id": "1",
       "name": "Llaves",
       "symbol": "var_llaves"
+    },
+    {
+      "id": "0",
+      "name": "IsTrainMoving",
+      "symbol": "var_istrainmoving"
     }
   ]
 }

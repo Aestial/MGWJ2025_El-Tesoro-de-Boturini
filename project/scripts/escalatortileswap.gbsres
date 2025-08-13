@@ -10,7 +10,7 @@
     {
       "command": "EVENT_SWITCH",
       "args": {
-        "variable": "4",
+        "variable": "0",
         "choices": 3,
         "__collapseCase0": false,
         "value0": 0,
@@ -59,8 +59,8 @@
           {
             "command": "EVENT_INC_VALUE",
             "args": {
-              "variable": "4",
-              "__collapse": true
+              "variable": "0",
+              "__collapse": false
             },
             "id": "b8628da5-0419-4bf4-af98-da5ce908bff1"
           }
@@ -77,7 +77,7 @@
           {
             "command": "EVENT_INC_VALUE",
             "args": {
-              "variable": "4"
+              "variable": "0"
             },
             "id": "217586fa-6bec-4271-9091-0584e69ec6a9"
           }
@@ -94,7 +94,7 @@
           {
             "command": "EVENT_INC_VALUE",
             "args": {
-              "variable": "4"
+              "variable": "0"
             },
             "id": "88be3031-52ca-4639-85f7-9780ed6d42fa"
           }
@@ -123,7 +123,7 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "4",
+              "variable": "0",
               "value": {
                 "type": "number",
                 "value": 0
