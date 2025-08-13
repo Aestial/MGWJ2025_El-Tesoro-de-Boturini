@@ -57,15 +57,6 @@
             "id": "03930db9-4ce0-434c-aaad-d65198166dd5"
           },
           {
-            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
-            "args": {
-              "actorId": "$self$",
-              "speed": 0.5,
-              "__collapse": true
-            },
-            "id": "f3bfffe8-2ce8-49cd-98d2-13ecc42e0f5c"
-          },
-          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "$self$",
@@ -121,13 +112,13 @@
             "id": "76cb9c85-7d4f-45f4-8f82-244f3c9bc54b"
           },
           {
-            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "command": "EVENT_REMOVE_INPUT_SCRIPT",
             "args": {
-              "actorId": "$self$",
-              "speed": 1,
-              "__collapse": true
+              "input": [
+                "a"
+              ]
             },
-            "id": "4fec3cdd-9085-4ef0-b857-17d52460f729"
+            "id": "1f677bba-1a89-4e4d-b697-638bed97ab3b"
           }
         ]
       },

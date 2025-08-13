@@ -57,15 +57,6 @@
             "id": "7ac5148f-1b70-46df-86db-23ad82b2524d"
           },
           {
-            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
-            "args": {
-              "actorId": "$self$",
-              "speed": 0.5,
-              "__collapse": true
-            },
-            "id": "0571f206-7d3b-4e82-a428-18d9177de0c1"
-          },
-          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "$self$",
@@ -121,13 +112,13 @@
             "id": "7cd8277e-b1d4-4553-a375-1cb3a5bb9664"
           },
           {
-            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "command": "EVENT_REMOVE_INPUT_SCRIPT",
             "args": {
-              "actorId": "$self$",
-              "speed": 1,
-              "__collapse": true
+              "input": [
+                "a"
+              ]
             },
-            "id": "6be0baa1-7569-4c4d-b4f5-574467fcbcd3"
+            "id": "06152168-2d41-4dd3-8146-907cb19d663c"
           }
         ]
       },
@@ -150,7 +141,8 @@
           "type": "direction",
           "value": "up"
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
         "true": [
