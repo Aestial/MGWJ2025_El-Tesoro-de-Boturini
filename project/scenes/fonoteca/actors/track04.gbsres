@@ -1,0 +1,61 @@
+{
+  "_resourceType": "actor",
+  "id": "838a6175-596e-4395-9ff2-944c81b98fc1",
+  "name": "track04",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "4ffb8a61-3a7f-40e8-a479-ca3b680bc893",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_24",
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "564d60d1-2234-45b8-9aeb-b73df778914f"
+      },
+      "id": "2bc2ef68-822e-48a6-a48a-c5b6e72d4a58"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Track: El Tema\nSecreto"
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "600278c3-654a-4226-b5cb-d2a2208b86dc"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 13,
+  "y": 11,
+  "_index": 2
+}

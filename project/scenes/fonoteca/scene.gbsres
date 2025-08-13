@@ -1,0 +1,31 @@
+{
+  "_resourceType": "scene",
+  "id": "b68bd904-a86d-4c31-9366-656a4845064c",
+  "_index": 14,
+  "name": "Fonoteca",
+  "backgroundId": "105d7fdb-7feb-48aa-bb20-c0d2dca0a764",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f2a+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0fb+002+0f31+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_15",
+  "x": 280,
+  "y": 256,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3"
+      },
+      "id": "95de7c2c-a89f-45d5-8d53-3141bafbfa33"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "yellow"
+}

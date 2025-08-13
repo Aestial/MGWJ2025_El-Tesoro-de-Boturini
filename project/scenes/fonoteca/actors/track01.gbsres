@@ -1,0 +1,61 @@
+{
+  "_resourceType": "actor",
+  "id": "584873db-6476-4e09-b1c7-32f7bf60e2e6",
+  "name": "track01",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "4ffb8a61-3a7f-40e8-a479-ca3b680bc893",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_21",
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "242da7b3-aca9-4185-8f57-3b4c3128da1a"
+      },
+      "id": "2db94ae6-3651-4f36-9bdf-dbdb23e1310c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Track: Boturini"
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "5eaaa80d-1011-4c5f-8274-4b8efee506b3"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 13,
+  "y": 6,
+  "_index": 0
+}
