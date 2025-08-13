@@ -37,7 +37,7 @@
               "option8": "",
               "cancelOnB": true,
               "layout": "dialogue",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "89f9f6ea-d8a8-486f-ae73-584464f28f71"
           },
@@ -78,7 +78,8 @@
               "value14": 15,
               "__collapseCase15": false,
               "value15": 16,
-              "__collapseElse": false
+              "__collapseElse": false,
+              "__collapse": true
             },
             "children": {
               "true0": [

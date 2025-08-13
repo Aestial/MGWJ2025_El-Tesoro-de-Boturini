@@ -13,8 +13,8 @@
   "collisions": "0fae+016+0f18+005+01!0f3+012+002+016+002+013+0f5+006+013+00f+0f5+001b+0f6+002+0f2+0013+0f7+02!0015+0fa+0013+0f3+001a+0f3+001a+0f3+001a+0f3+001a+0f1e+",
   "autoFadeSpeed": 1,
   "symbol": "scene_7",
-  "x": 432,
-  "y": 520,
+  "x": 424,
+  "y": 496,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -42,13 +42,15 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
           {
             "command": "EVENT_MUSIC_STOP",
-            "args": {},
+            "args": {
+              "__collapse": true
+            },
             "id": "46114e21-65a9-4d93-9f35-6d5bd1c3fd30"
           },
           {
@@ -81,14 +83,15 @@
               "cancelOnB": true,
               "layout": "dialogue",
               "cancelOnLastOption": false,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "4e5ccf38-df6d-409b-a8ff-fa9512a06f61"
           },
           {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
-              "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3"
+              "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3",
+              "__collapse": true
             },
             "id": "02bcbfb0-6da4-43eb-8bcd-4d5e6c4ae1f1"
           },
@@ -129,7 +132,8 @@
               "value14": 15,
               "__collapseCase15": false,
               "value15": 16,
-              "__collapseElse": false
+              "__collapseElse": false,
+              "__collapse": true
             },
             "children": {
               "true0": [],

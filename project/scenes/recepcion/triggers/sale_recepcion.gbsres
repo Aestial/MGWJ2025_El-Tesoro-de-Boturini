@@ -22,7 +22,7 @@
           "type": "number",
           "value": 9
         },
-        "direction": "",
+        "direction": "right",
         "fadeSpeed": "2",
         "__collapse": false,
         "__comment": false

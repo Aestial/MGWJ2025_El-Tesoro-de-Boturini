@@ -2,7 +2,7 @@
   "_resourceType": "sound",
   "id": "92439556-5e22-4f11-9bc1-81ee89b2d8ab",
   "name": "SweetSounds_SFX/WAV/Cancel.wav",
-  "symbol": "sound_sweetsounds_sfx_wav_c_2",
+  "symbol": "sound_sweetsounds_sfx_wav_c",
   "filename": "SweetSounds_SFX/WAV/Cancel.wav",
   "type": "wav"
 }

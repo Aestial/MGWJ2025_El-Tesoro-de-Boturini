@@ -2,7 +2,7 @@
   "_resourceType": "sound",
   "id": "52f9525a-8dec-4372-b00a-36308921bc68",
   "name": "SweetSounds_SFX/Player_VGM/Bottle_Break.vgm",
-  "symbol": "sound_sweetsounds_sfx_playe_1",
+  "symbol": "sound_sweetsounds_sfx_playe",
   "filename": "SweetSounds_SFX/Player_VGM/Bottle_Break.vgm",
   "type": "vgm"
 }

@@ -2,7 +2,7 @@
   "_resourceType": "sound",
   "id": "b69981dd-3983-41d6-b484-5c2ce4ae108f",
   "name": "SweetSounds_SFX/WAV/Pause.wav",
-  "symbol": "sound_sweetsounds_sfx_wav_p_1",
+  "symbol": "sound_sweetsounds_sfx_wav_p",
   "filename": "SweetSounds_SFX/WAV/Pause.wav",
   "type": "wav"
 }
