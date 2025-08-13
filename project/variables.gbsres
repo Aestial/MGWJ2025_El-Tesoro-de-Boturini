@@ -55,6 +55,11 @@
       "id": "45acee8e-f476-491d-b0e0-2a3dceab92d3__L1",
       "name": "Atajo Escenas",
       "symbol": "var_atajo_escenas"
+    },
+    {
+      "id": "5",
+      "name": "TurnBasedBattle",
+      "symbol": "var_turnbasedbattle"
     }
   ]
 }

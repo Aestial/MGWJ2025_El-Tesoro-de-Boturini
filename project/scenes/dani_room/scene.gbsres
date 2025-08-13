@@ -37,8 +37,24 @@
         "true": [
           {
             "command": "EVENT_MUSIC_STOP",
-            "args": {},
+            "args": {
+              "__collapse": true
+            },
             "id": "0c6f4c17-9485-4e7e-a257-f61b93712ae0"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "ff08e7a8-6dd3-452f-a49e-10ee2cc9d6c5",
+              "priority": "high",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "1effe7da-c90d-4964-bda7-2604fc606c0b"
           },
           {
             "command": "EVENT_MENU",
@@ -63,7 +79,8 @@
           {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
-              "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3"
+              "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3",
+              "__collapse": true
             },
             "id": "5841b55a-dd6a-4d83-aed4-2b6c1717f733"
           },
@@ -104,7 +121,8 @@
               "value14": 15,
               "__collapseCase15": false,
               "value15": 16,
-              "__collapseElse": false
+              "__collapseElse": false,
+              "__collapse": true
             },
             "children": {
               "true0": [],

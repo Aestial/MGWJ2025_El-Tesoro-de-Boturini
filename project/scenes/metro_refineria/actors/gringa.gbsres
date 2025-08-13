@@ -43,6 +43,19 @@
       "id": "0e123988-60b3-4518-94eb-6f7e33f91478"
     },
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "72cb6a8c-4716-4463-8aac-753dc9920d58"
+    },
+    {
       "command": "EVENT_ACTOR_EMOTE",
       "args": {
         "actorId": "$self$",

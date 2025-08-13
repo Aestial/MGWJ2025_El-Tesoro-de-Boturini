@@ -36,7 +36,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -47,6 +47,20 @@
               "__collapse": true
             },
             "id": "30441230-c2f8-4652-a236-df8e6dd10113"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "ff08e7a8-6dd3-452f-a49e-10ee2cc9d6c5",
+              "priority": "high",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "79a40c06-e47e-4a01-9cf9-36caa374f4ff"
           },
           {
             "command": "EVENT_MENU",
@@ -166,7 +180,7 @@
         "duration": 0.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [

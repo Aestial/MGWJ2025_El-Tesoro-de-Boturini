@@ -148,6 +148,20 @@
         ]
       },
       "id": "e1b7dd91-4e7c-4a7c-bf39-a15ed6afb836"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "ff08e7a8-6dd3-452f-a49e-10ee2cc9d6c5",
+        "priority": "high",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "4b06c214-9625-4708-b9ec-2b224170469a"
     }
   ],
   "playerHit1Script": [],

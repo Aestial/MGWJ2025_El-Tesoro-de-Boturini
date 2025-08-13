@@ -31,7 +31,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -39,6 +39,20 @@
             "command": "EVENT_MUSIC_STOP",
             "args": {},
             "id": "1a81c7de-7d47-4166-a6f3-6ccb7c28a351"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "ff08e7a8-6dd3-452f-a49e-10ee2cc9d6c5",
+              "priority": "high",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "1f355dce-bb07-4dea-adf1-a3517172d11c"
           },
           {
             "command": "EVENT_MENU",

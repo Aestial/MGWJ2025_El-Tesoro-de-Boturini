@@ -69,7 +69,7 @@
               "layout": "dialogue",
               "__comment": false,
               "cancelOnLastOption": true,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "af2dcde6-69c7-40c4-b817-7bdb1774ce88"
           },

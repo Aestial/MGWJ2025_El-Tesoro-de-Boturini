@@ -27,7 +27,7 @@
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "type": "tone",
+        "type": "5376ac4a-cc99-4d29-9491-59f2efea8bec",
         "priority": "high",
         "pitch": 4,
         "frequency": 440,

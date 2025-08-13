@@ -138,6 +138,19 @@
         ],
         "true1": [
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "a9823e87-471a-4a3c-81e5-fb21c34bb3eb",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "fdaf7ba9-2dfc-4dad-a5bd-ee609cf0eccc"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "position": "bottom",
