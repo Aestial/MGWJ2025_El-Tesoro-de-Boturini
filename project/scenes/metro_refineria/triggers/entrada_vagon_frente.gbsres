@@ -44,7 +44,7 @@
             "command": "EVENT_ACTOR_HIDE",
             "args": {
               "actorId": "88d66031-f869-44ba-b213-e67f0c869aa6",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "162666ce-7f08-412e-8ff4-69d3739f62d8"
           },
@@ -128,8 +128,8 @@
       "command": "EVENT_ACTOR_EMOTE",
       "args": {
         "actorId": "$self$",
-        "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
-        "__collapse": true
+        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202",
+        "__collapse": false
       },
       "id": "e802a833-5217-4b61-a59e-022d333866e9"
     },

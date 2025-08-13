@@ -1,0 +1,36 @@
+{
+  "_resourceType": "actor",
+  "id": "5e2f6530-b6b0-46fc-80e0-0d38f422a8e1",
+  "name": "estorbo 2",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f3ec058e-807a-41ef-a195-b95c16b726c0",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 0.5,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_18",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+      },
+      "id": "dcba76f4-e3ca-4ef3-9d99-54403c2173e5"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 17,
+  "y": 11,
+  "_index": 1
+}

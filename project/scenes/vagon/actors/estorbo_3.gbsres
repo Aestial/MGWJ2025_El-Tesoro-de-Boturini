@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
   "id": "60d46bcc-863a-492c-80df-f0b083f95302",
-  "name": "",
+  "name": "estorbo 3",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "1bd1ceea-0817-4f70-b4cb-19f2d58f1273",
@@ -44,31 +44,11 @@
     }
   ],
   "startScript": [],
-  "updateScript": [
-    {
-      "command": "EVENT_ACTOR_MOVE_TO",
-      "args": {
-        "actorId": "$self$",
-        "x": {
-          "type": "number",
-          "value": 4
-        },
-        "y": {
-          "type": "number",
-          "value": 11
-        },
-        "moveType": "horizontal",
-        "useCollisions": true,
-        "__collapse": false,
-        "__comment": false
-      },
-      "id": "d45cc1d0-989f-4fe9-9d17-f13c42657466"
-    }
-  ],
+  "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 25,
+  "x": 22,
   "y": 9,
   "_index": 2
 }

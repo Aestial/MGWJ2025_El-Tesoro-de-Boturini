@@ -1,0 +1,54 @@
+{
+  "_resourceType": "actor",
+  "id": "81ddb2a9-f649-4d87-b0bd-cfc87ccb8662",
+  "name": "estorbo 4",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "1bd1ceea-0817-4f70-b4cb-19f2d58f1273",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 0.5,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_14",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Déjame pasaaar!"
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "fc039ee5-f6b5-43a2-8742-7fc4195ea9da"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 29,
+  "y": 11,
+  "_index": 4
+}
