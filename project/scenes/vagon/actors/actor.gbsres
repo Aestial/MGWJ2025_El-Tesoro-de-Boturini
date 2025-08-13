@@ -15,7 +15,16 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_14",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+      },
+      "id": "d0edd728-8793-473e-9290-e2fcf8e23ecb"
+    }
+  ],
   "startScript": [],
   "updateScript": [
     {

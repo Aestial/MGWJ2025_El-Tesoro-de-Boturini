@@ -38,7 +38,8 @@
           "Es hora..."
         ],
         "__section": "text",
-        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38"
+        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+        "__collapse": true
       },
       "id": "417fb671-079f-4acb-bba5-d10eeb577e0f"
     },
@@ -64,7 +65,8 @@
           "De de de de"
         ],
         "__section": "presets",
-        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38"
+        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+        "__collapse": true
       },
       "id": "17a0f8ee-8825-4953-a5aa-2fa96b862020"
     },
@@ -90,7 +92,8 @@
           "Del duelo!!!"
         ],
         "__section": "presets",
-        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38"
+        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+        "__collapse": true
       },
       "id": "c2594375-6efb-4a23-882f-273e6cb126ba"
     }

@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "5e9bf2d5-3627-4df1-8674-c5b4d45d25d0",
+  "_index": 14,
+  "name": "Duelo",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_15",
+  "x": 328,
+  "y": 888,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "red"
+}

@@ -6,7 +6,7 @@
   "animate": false,
   "spriteSheetId": "a4a1c3ad-0430-420d-9270-5b23fc53d358",
   "prefabId": "",
-  "direction": "up",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -24,7 +24,7 @@
           "value": "3"
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -56,34 +56,6 @@
           }
         ],
         "false": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "No puede ser...",
-                "Se acaba el día\ny tengo mil\ncosas por hacer"
-              ],
-              "__section": "text",
-              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 2,
-              "textY": 1,
-              "textHeight": 6,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "any",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true,
-              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
-            },
-            "id": "c3793ece-6343-4e01-a14b-e610d77daa9b"
-          },
           {
             "command": "EVENT_ACTOR_SET_DIRECTION",
             "args": {
@@ -198,7 +170,6 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Funciona",
                 "¿Dónde está el \ncuadro de \n!F:7f4c8d4e-d530-4b5e-a49b-ccd83619d8ad!Boturini!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!?"
               ],
               "__section": "text",
@@ -537,7 +508,8 @@
               "direction": {
                 "type": "direction",
                 "value": "down"
-              }
+              },
+              "__collapse": true
             },
             "id": "82903d98-f2ac-48c5-8c14-75701fba676d"
           },
@@ -636,7 +608,8 @@
               "direction": {
                 "type": "direction",
                 "value": "up"
-              }
+              },
+              "__collapse": true
             },
             "id": "b284f14b-89fd-4406-99f5-206263f88561"
           },
@@ -665,7 +638,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "b0da6706-dc66-4214-a5e7-1ad6a8dadc59"
@@ -693,7 +666,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "a422368d-cc6b-4595-a2f0-b36e34b93e51"
@@ -711,7 +684,8 @@
                 "value": 8
               },
               "moveType": "vertical",
-              "useCollisions": false
+              "useCollisions": false,
+              "__collapse": true
             },
             "id": "427b6be9-0fe7-428e-a18b-93abd2d2d5ce"
           },
@@ -737,7 +711,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "5e990452-c090-4d30-964f-888002836f56"
@@ -755,7 +729,8 @@
                 "value": 8
               },
               "moveType": "vertical",
-              "useCollisions": false
+              "useCollisions": false,
+              "__collapse": true
             },
             "id": "61c6bcc0-af7a-46e8-98e2-6503ce5766bb"
           },
@@ -783,7 +758,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "b253c0c0-6605-4c91-a52e-3a151ec8729d"
@@ -795,7 +770,8 @@
               "direction": {
                 "type": "direction",
                 "value": "right"
-              }
+              },
+              "__collapse": true
             },
             "id": "b9c93c9c-3481-4abc-aa52-919c6414f719"
           },
@@ -814,7 +790,7 @@
                 "No te preocupes",
                 "Encontrarás\ninstrucciones\npara todo",
                 "Cuando\ntermines,",
-                "regresa conmigo..."
+                "regresa\nconmigo..."
               ],
               "__section": "text",
               "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
@@ -832,7 +808,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "dfe11e15-857c-4144-bc37-23472df0aba5"
@@ -850,7 +826,8 @@
                 "value": 8
               },
               "moveType": "horizontal",
-              "useCollisions": false
+              "useCollisions": false,
+              "__collapse": true
             },
             "id": "3ea7461a-1433-4699-bea1-677c073836b5"
           },
@@ -878,7 +855,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "9c34e114-4edd-45b1-846b-4ebcbf45e896"
@@ -905,7 +882,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "a90cbe69-83b1-4ef8-a15c-b16f19e4b08c"
           },
@@ -931,7 +908,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "f5d831b5-480d-487e-b7a2-88e1517ad42c"
@@ -958,7 +935,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "3481ebba-938f-457d-ad17-186dfa0443c7"
@@ -987,7 +964,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "a2422a43-5a30-4bfd-9d96-74e8b30dda2e"
@@ -1014,7 +991,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "9964c0df-a1c3-491a-9533-3b6ba6a81f92"
@@ -1042,7 +1019,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "789034ac-a94b-4a6e-9da0-c48b899d5757"
@@ -1069,7 +1046,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "b4654815-3f52-49cb-ab0e-d0c566bdad4b"
@@ -1096,7 +1073,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "6bfb0277-e324-4dcd-99e4-6e69c10f6086"
@@ -1123,7 +1100,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "b27cfdf6-d4db-46fd-845d-b3bcbd3d98f1"
@@ -1151,7 +1128,7 @@
               ],
               "__section": "text",
               "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "cafb05aa-3d3b-4f40-a633-2805457fbb7b"
           },
@@ -1179,7 +1156,7 @@
               ],
               "__section": "text",
               "avatarId": "",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "cd35f474-93db-4524-a199-17687df8c63c"
           },
@@ -1189,7 +1166,8 @@
               "variable": "3",
               "value": {
                 "type": "true"
-              }
+              },
+              "__collapse": false
             },
             "id": "147aa7cc-b57e-41cb-aa55-6d28187d9aee"
           }
@@ -1198,8 +1176,181 @@
       "id": "6b2103f0-9e58-4e4d-8bd3-e856bd6029f7"
     }
   ],
-  "startScript": [],
-  "updateScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.4,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": false
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "T0"
+              },
+              "__collapseElse": false,
+              "__collapse": false,
+              "__comment": false
+            },
+            "children": {
+              "true": [],
+              "false": [
+                {
+                  "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+                  "args": {
+                    "actorId": "player",
+                    "operator": "<=",
+                    "distance": {
+                      "type": "number",
+                      "value": 5
+                    },
+                    "otherActorId": "$self$",
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "position": "bottom",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 2,
+                          "textY": 1,
+                          "textHeight": 6,
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "any",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+                          "text": [
+                            "No puede ser...",
+                            "Se acaba el día\ny tengo mil\ncosas por hacer"
+                          ],
+                          "__section": "text",
+                          "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38"
+                        },
+                        "id": "43d41f18-4a6d-4881-ad13-d7aba7599a24"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "T0",
+                          "value": {
+                            "type": "true"
+                          }
+                        },
+                        "id": "2f10b0b8-c1c5-4a33-bd48-4193cad3bf58"
+                      },
+                      {
+                        "command": "EVENT_TIMER_DISABLE",
+                        "args": {
+                          "timer": 1,
+                          "__collapse": false
+                        },
+                        "id": "924d4582-c1f1-4635-90ff-2733ac3c322b"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "fadfad19-9451-450c-b982-cac74b84a0b1"
+                }
+              ]
+            },
+            "id": "834b8e7c-280f-4791-b221-114d875e8844"
+          }
+        ]
+      },
+      "id": "caf891a0-90bf-4e1a-a218-45fa3eb3e4c3"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "T0"
+        },
+        "__collapseElse": false,
+        "__collapse": false,
+        "__comment": true
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+            "args": {
+              "actorId": "player",
+              "operator": "<=",
+              "distance": {
+                "type": "number",
+                "value": 5
+              },
+              "otherActorId": "$self$",
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "position": "bottom",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 2,
+                    "textY": 1,
+                    "textHeight": 6,
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "any",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+                    "text": [
+                      "No puede ser...",
+                      "Se acaba el día\ny tengo mil\ncosas por hacer"
+                    ],
+                    "__section": "text",
+                    "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38"
+                  },
+                  "id": "130c637c-1146-4046-b291-4b73a1d6ea9e"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "T0",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "7cea6676-7f6c-4368-bd46-b00da92bcfb1"
+                }
+              ],
+              "false": []
+            },
+            "id": "cf8806e7-9cb7-4bed-a950-549624e3a5ef"
+          }
+        ]
+      },
+      "id": "f65df9af-713b-4192-9d43-7ea24ffacf99"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
