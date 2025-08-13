@@ -34,10 +34,8 @@
       "command": "EVENT_AWAIT_INPUT",
       "args": {
         "input": [
-          "a",
-          "b",
           "start",
-          "select"
+          "a"
         ]
       },
       "id": "e3fc5fd1-4586-4d43-954b-71411ddd9088"
@@ -56,11 +54,11 @@
             "command": "EVENT_MENU",
             "args": {
               "variable": "L0",
-              "items": 3,
+              "items": 4,
               "option1": "Nuevo juego",
               "option2": "Continuar",
-              "option3": "Creditos",
-              "option4": "",
+              "option3": "Fonoteca",
+              "option4": "Créditos",
               "option5": "",
               "option6": "",
               "option7": "",
@@ -77,7 +75,7 @@
             "command": "EVENT_SWITCH",
             "args": {
               "variable": "L0",
-              "choices": 2,
+              "choices": 3,
               "__collapseCase0": false,
               "value0": 1,
               "__collapseCase1": false,
@@ -184,7 +182,26 @@
                   "id": "19c1e9ca-cea0-4d17-933e-06683ba1a6de"
                 }
               ],
-              "true2": [],
+              "true2": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "b68bd904-a86d-4c31-9366-656a4845064c",
+                    "x": {
+                      "type": "number",
+                      "value": 5
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 11
+                    },
+                    "direction": "down",
+                    "fadeSpeed": "2",
+                    "__collapse": false
+                  },
+                  "id": "14bfdb4e-fcde-4075-a2c0-9038d993fee0"
+                }
+              ],
               "true3": [],
               "true4": [],
               "true5": [],
@@ -213,7 +230,7 @@
                     },
                     "direction": "",
                     "fadeSpeed": "2",
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "a5b6d1f6-8dd9-474a-9ff8-1fd5b008bcfa"
                 }
@@ -229,5 +246,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "orange"
+  "labelColor": "green"
 }
