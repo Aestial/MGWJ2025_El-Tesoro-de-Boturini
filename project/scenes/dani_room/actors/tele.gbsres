@@ -17,14 +17,11 @@
   "symbol": "actor_0",
   "script": [
     {
-      "command": "EVENT_IF",
+      "command": "EVENT_IF_FLAGS_COMPARE",
       "args": {
-        "condition": {
-          "type": "variable",
-          "value": "1"
-        },
-        "__collapseElse": false,
-        "__collapse": false
+        "variable": "1",
+        "flag": 0,
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -115,7 +112,7 @@
             "args": {
               "actorId": "player",
               "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "0a6d12ba-b1e8-40a3-8e76-13b5a6619870"
           },
@@ -308,7 +305,7 @@
             "args": {
               "actorId": "player",
               "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "2ef1199c-b9ec-4bad-81bf-def5a6f574ff"
           },
@@ -456,19 +453,31 @@
             "id": "3dd99642-1427-45ed-8a0a-ef9c86de810d"
           },
           {
-            "command": "EVENT_SET_VALUE",
+            "command": "EVENT_ADD_FLAGS",
             "args": {
               "variable": "1",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
+              "flag1": true,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
             },
-            "id": "4a58c94a-a3a6-481f-b260-d7bc26ff210c"
+            "id": "b1dc2b63-8876-4323-8ad8-27363b28208c"
           }
         ]
       },
-      "id": "b2e59cf6-4db0-49c4-a51e-2920a85e2f56"
+      "id": "0e55cbc0-4a48-4780-a157-52ffdced8ee9"
     }
   ],
   "startScript": [],

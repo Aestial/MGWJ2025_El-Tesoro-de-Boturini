@@ -17,14 +17,11 @@
   "symbol": "actor_2",
   "script": [
     {
-      "command": "EVENT_IF",
+      "command": "EVENT_IF_FLAGS_COMPARE",
       "args": {
-        "condition": {
-          "type": "variable",
-          "value": "3"
-        },
-        "__collapseElse": false,
-        "__collapse": true
+        "variable": "1",
+        "flag": 2,
+        "__collapseElse": true
       },
       "children": {
         "true": [
@@ -1161,19 +1158,32 @@
             "id": "cd35f474-93db-4524-a199-17687df8c63c"
           },
           {
-            "command": "EVENT_SET_VALUE",
+            "command": "EVENT_ADD_FLAGS",
             "args": {
-              "variable": "3",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": false
+              "variable": "1",
+              "flag1": false,
+              "flag2": false,
+              "flag3": true,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false,
+              "__collapse": true
             },
-            "id": "147aa7cc-b57e-41cb-aa55-6d28187d9aee"
+            "id": "cf4cbce6-eba7-4dce-a338-61cac1de7d2c"
           }
         ]
       },
-      "id": "6b2103f0-9e58-4e4d-8bd3-e856bd6029f7"
+      "id": "a54f02bc-3ac2-4083-b379-9d99f430d9b8"
     }
   ],
   "startScript": [
@@ -1275,82 +1285,7 @@
       "id": "caf891a0-90bf-4e1a-a218-45fa3eb3e4c3"
     }
   ],
-  "updateScript": [
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "variable",
-          "value": "T0"
-        },
-        "__collapseElse": false,
-        "__collapse": false,
-        "__comment": true
-      },
-      "children": {
-        "true": [],
-        "false": [
-          {
-            "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
-            "args": {
-              "actorId": "player",
-              "operator": "<=",
-              "distance": {
-                "type": "number",
-                "value": 5
-              },
-              "otherActorId": "$self$",
-              "__collapseElse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "position": "bottom",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 2,
-                    "textY": 1,
-                    "textHeight": 6,
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "any",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30,
-                    "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
-                    "text": [
-                      "No puede ser...",
-                      "Se acaba el día\ny tengo mil\ncosas por hacer"
-                    ],
-                    "__section": "text",
-                    "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38"
-                  },
-                  "id": "130c637c-1146-4046-b291-4b73a1d6ea9e"
-                },
-                {
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "T0",
-                    "value": {
-                      "type": "true"
-                    }
-                  },
-                  "id": "7cea6676-7f6c-4368-bd46-b00da92bcfb1"
-                }
-              ],
-              "false": []
-            },
-            "id": "cf8806e7-9cb7-4bed-a950-549624e3a5ef"
-          }
-        ]
-      },
-      "id": "f65df9af-713b-4192-9d43-7ea24ffacf99"
-    }
-  ],
+  "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

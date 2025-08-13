@@ -11,12 +11,10 @@
   "height": 1,
   "script": [
     {
-      "command": "EVENT_IF",
+      "command": "EVENT_IF_FLAGS_COMPARE",
       "args": {
-        "condition": {
-          "type": "variable",
-          "value": "1"
-        },
+        "variable": "1",
+        "flag": 0,
         "__collapseElse": false
       },
       "children": {
@@ -87,7 +85,7 @@
           }
         ]
       },
-      "id": "69a1d774-b35a-4e12-a55f-2b63e1f8f7c4"
+      "id": "12178993-0c8c-463d-8f6b-fa2d613863b4"
     }
   ],
   "leaveScript": [],

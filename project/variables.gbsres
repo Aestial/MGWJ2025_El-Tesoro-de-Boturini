@@ -7,21 +7,6 @@
       "symbol": "var_newgame"
     },
     {
-      "id": "1",
-      "name": "SeenPresentation",
-      "symbol": "var_seenpresentation"
-    },
-    {
-      "id": "2",
-      "name": "AccessGranted",
-      "symbol": "var_accessgranted"
-    },
-    {
-      "id": "3",
-      "name": "QuestStarted",
-      "symbol": "var_queststarted"
-    },
-    {
       "id": "4",
       "name": "IsTrainMoving",
       "symbol": "var_istrainmoving"
@@ -60,6 +45,11 @@
       "id": "45acee8e-f476-491d-b0e0-2a3dceab92d3__L1",
       "name": "Atajo Escenas",
       "symbol": "var_atajo_escenas"
+    },
+    {
+      "id": "1",
+      "name": "Llaves",
+      "symbol": "var_llaves"
     }
   ]
 }

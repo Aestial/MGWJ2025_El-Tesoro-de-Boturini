@@ -11,21 +11,70 @@
   "height": 1,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF_FLAGS_COMPARE",
       "args": {
-        "sceneId": "ef8277d1-a13e-4a24-b077-25d996ad9209",
-        "x": {
-          "type": "number",
-          "value": 8
-        },
-        "y": {
-          "type": "number",
-          "value": 15
-        },
-        "direction": "up",
-        "fadeSpeed": "2"
+        "variable": "1",
+        "flag": 2,
+        "__collapseElse": false
       },
-      "id": "1450022a-5c75-49b1-9390-374f8f02f4dd"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "ef8277d1-a13e-4a24-b077-25d996ad9209",
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
+            },
+            "id": "1450022a-5c75-49b1-9390-374f8f02f4dd"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "No tengo la\nllave..."
+              ],
+              "__section": "text",
+              "avatarId": ""
+            },
+            "id": "f0e77be3-254c-4827-8b39-8815c6d9cbfe"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+            },
+            "id": "1b9b1837-5216-46a2-93cb-ec1e766c5231"
+          }
+        ]
+      },
+      "id": "6df69732-837c-4a56-b6d4-e439e3bfe570"
     }
   ],
   "leaveScript": [],
