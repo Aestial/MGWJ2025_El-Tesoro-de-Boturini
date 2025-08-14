@@ -28,7 +28,8 @@
                 "value": "left"
               },
               "__collapseElse": true,
-              "__disableElse": true
+              "__disableElse": true,
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -117,7 +118,7 @@
                     },
                     "moveType": "horizontal",
                     "useCollisions": true,
-                    "__collapse": false,
+                    "__collapse": true,
                     "__comment": false
                   },
                   "id": "8c6a2c16-a7c2-43bc-85e3-d68c2b0dd3fe"

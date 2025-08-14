@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f128+006+0f1a+006+0f3+008+0118+008+0f2+0028+0f2+0028+0f2+0028+0f2+008+0218+008+0f2+008+0f18+008+0fa9+",
+  "collisions": "0f128+006+0f1a+006+0f3+0028+0f2+0028+0f2+0028+0f2+0028+0f2+0028+0f2+008+0f18+008+0fa9+",
   "autoFadeSpeed": 1,
   "symbol": "scene_12",
   "x": 208,
@@ -157,7 +157,7 @@
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
-        "duration": 0.3,
+        "duration": 0.5,
         "frames": 30,
         "__scriptTabs": "end",
         "__collapse": false
