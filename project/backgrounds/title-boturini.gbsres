@@ -1,12 +1,13 @@
 {
   "_resourceType": "background",
   "id": "0bf6cbb9-f729-42b3-ad58-a25e52680606",
-  "name": "title_tesoro-boturini",
+  "name": "title-boturini",
   "symbol": "bg_title_tesoro_boturini",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
   "imageHeight": 144,
-  "filename": "title_tesoro-boturini.png",
-  "tileColors": ""
+  "filename": "title-boturini.png",
+  "tileColors": "",
+  "autoColor": false
 }

@@ -33,7 +33,7 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "!F:d923f6f8-8526-4576-bc69-e8c980835bff!PRESIONA START",
+        "text": "!F:7f4c8d4e-d530-4b5e-a49b-ccd83619d8ad!PRESIONA START",
         "x": 3,
         "y": 14,
         "location": "background"

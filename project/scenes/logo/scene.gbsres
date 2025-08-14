@@ -20,14 +20,15 @@
       "command": "EVENT_MUSIC_PLAY",
       "args": {
         "musicId": "be066e46-f78f-410e-8c60-c68be3393fab",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "fa8322a0-483c-4f99-bed2-97a7c4a58f9e"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": true
       },
       "id": "3c937946-3782-40a2-8777-5302954550da"
     },
@@ -36,7 +37,8 @@
       "args": {
         "color": "black",
         "x": 0,
-        "y": 0
+        "y": 0,
+        "__collapse": true
       },
       "id": "eb982b37-37cf-402a-a7e4-f937f3b1a13a"
     },
@@ -45,7 +47,8 @@
       "args": {
         "x": 0,
         "y": 18,
-        "speed": 1
+        "speed": 1,
+        "__collapse": true
       },
       "id": "beb1f1b4-d08c-41a6-a6a5-4b94196935d0"
     },
@@ -53,7 +56,8 @@
       "command": "EVENT_WAIT",
       "args": {
         "time": 2,
-        "frames": 30
+        "frames": 30,
+        "__collapse": true
       },
       "id": "8b0b3ee6-3587-4a4d-9cd7-238ad343fa5a"
     },
@@ -70,7 +74,8 @@
           "value": 0
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__collapse": true
       },
       "id": "429eb24b-0669-48e6-a7ae-01ec6e153d0c"
     }
@@ -78,6 +83,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false,
+  "autoFadeEventCollapse": true,
   "labelColor": "green"
 }
