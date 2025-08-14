@@ -8,5 +8,6 @@
   "imageWidth": 2040,
   "imageHeight": 144,
   "filename": "leaving_earth.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

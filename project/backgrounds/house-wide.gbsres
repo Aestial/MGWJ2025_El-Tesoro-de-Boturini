@@ -8,5 +8,6 @@
   "imageWidth": 256,
   "imageHeight": 144,
   "filename": "house-wide.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
