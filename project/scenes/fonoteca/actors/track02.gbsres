@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "3b963ab9-3aff-4628-8126-f68b513fed54",
+  "id": "fbda53ec-2ebb-4831-ac19-e588de1d0be6",
   "name": "track02",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "4ffb8a61-3a7f-40e8-a479-ca3b680bc893",
+  "spriteSheetId": "c8a51190-d5df-4a61-b6c2-c40064df9ac6",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,14 +14,15 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_23",
+  "symbol": "actor_26",
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3"
+        "musicId": "242da7b3-aca9-4185-8f57-3b4c3128da1a",
+        "__collapse": false
       },
-      "id": "53632323-d7f7-464a-b809-cb6c0ba0f313"
+      "id": "dcf55b21-080a-415a-a13a-d13bf1383d3a"
     },
     {
       "command": "EVENT_TEXT",
@@ -42,12 +43,12 @@
         "closeDelayFrames": 30,
         "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
         "text": [
-          "Track: Dani Room"
+          "Track: Boturini"
         ],
         "__section": "text",
         "avatarId": ""
       },
-      "id": "f2e7321b-9748-42d6-b577-af8f9540d9d5"
+      "id": "35b1b2ee-3c6f-480d-8b77-6c70080fe960"
     }
   ],
   "startScript": [],
@@ -55,7 +56,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 5,
-  "y": 6,
+  "x": 15,
+  "y": 7,
   "_index": 1
 }

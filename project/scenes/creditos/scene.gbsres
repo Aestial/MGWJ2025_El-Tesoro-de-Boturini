@@ -3,11 +3,11 @@
   "id": "ff2872d2-61fd-471c-b52b-c963853f5799",
   "_index": 10,
   "name": "Creditos",
-  "backgroundId": "06659e6b-dc83-4035-91c8-b6b2817a406a",
+  "backgroundId": "3658e558-18a9-41b6-a73e-5dd1462c6932",
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "LOGO",
+  "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "00168+",
@@ -23,6 +23,16 @@
         "__collapse": false
       },
       "id": "90d3e2cd-646a-498e-b83b-d0f3fb090bb5"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "!F:e37cb3fc-2de7-4eea-8602-acfdf4268590!Desarrollado\npor:\n\n!F:0ec06c16-adde-4958-9a99-9b47445996f1!Cris, Jaime y\n  Sebastián.\n\n\n  !F:eb868072-9c52-4c7c-9f38-5cdf615d1615!MGWJ 2025",
+        "x": 3,
+        "y": 5,
+        "location": "background"
+      },
+      "id": "dbb71b66-6d8c-4546-8288-81afa74ce161"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -56,6 +66,17 @@
         "frames": 30
       },
       "id": "ce18fa8a-39aa-4bff-8a2f-71175b01bfb7"
+    },
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "start",
+          "a",
+          "b"
+        ]
+      },
+      "id": "6f05006c-3bc2-46f2-98c5-8f5d8c0f2f4a"
     },
     {
       "command": "EVENT_SWITCH_SCENE",

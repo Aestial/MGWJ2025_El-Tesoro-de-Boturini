@@ -13,7 +13,7 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
-  "x": 256,
+  "x": 248,
   "y": 48,
   "script": [
     {
@@ -121,7 +121,7 @@
               "__collapseCase15": false,
               "value15": 16,
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true0": [
@@ -201,13 +201,13 @@
                     "sceneId": "b68bd904-a86d-4c31-9366-656a4845064c",
                     "x": {
                       "type": "number",
-                      "value": 5
+                      "value": 12
                     },
                     "y": {
                       "type": "number",
-                      "value": 11
+                      "value": 12
                     },
-                    "direction": "down",
+                    "direction": "up",
                     "fadeSpeed": "2",
                     "__collapse": false
                   },
