@@ -1,10 +1,10 @@
 {
   "_resourceType": "font",
   "id": "d923f6f8-8526-4576-bc69-e8c980835bff",
-  "name": "Slant Font",
+  "name": "light-slant",
   "symbol": "font_ascii",
   "width": 128,
   "height": 112,
-  "filename": "slant.png",
+  "filename": "light-slant.png",
   "mapping": {}
 }

@@ -1,10 +1,10 @@
 {
   "_resourceType": "font",
   "id": "7f4c8d4e-d530-4b5e-a49b-ccd83619d8ad",
-  "name": "Thick Font",
+  "name": "light-thick",
   "symbol": "font_thick_font",
   "width": 128,
   "height": 112,
-  "filename": "thick.png",
+  "filename": "light-thick.png",
   "mapping": {}
 }
