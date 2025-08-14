@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "0588ce61-fac0-4e0d-a93c-0f1d28d367c7",
+  "name": "stars_wide",
+  "symbol": "bg_stars_wide",
+  "width": 255,
+  "height": 18,
+  "imageWidth": 2040,
+  "imageHeight": 144,
+  "filename": "stars_wide.png",
+  "tileColors": ""
+}

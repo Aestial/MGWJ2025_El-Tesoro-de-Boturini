@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "86ebf3b5-a164-4087-afa6-40722927c992",
+  "name": "stars",
+  "symbol": "bg_stars",
+  "width": 32,
+  "height": 32,
+  "imageWidth": 256,
+  "imageHeight": 256,
+  "filename": "stars.png",
+  "tileColors": ""
+}

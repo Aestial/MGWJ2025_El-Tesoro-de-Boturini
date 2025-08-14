@@ -1,0 +1,159 @@
+{
+  "_resourceType": "sprite",
+  "id": "b424859f-b608-482a-8fdc-43bfc34d3b1f",
+  "name": "machine",
+  "symbol": "sprite_machine",
+  "numFrames": 2,
+  "filename": "machine.png",
+  "checksum": "10e86bdc2747f98c29c83028783152acac542177",
+  "width": 32,
+  "height": 16,
+  "states": [
+    {
+      "id": "2a6f546f-e3a0-4d1a-af11-b3734f9e2b53",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "0bad5e76-4e0a-4ac1-95d5-7cc003141f6a",
+          "frames": [
+            {
+              "id": "55f2d57e-ad80-42ef-914f-960fbae89423",
+              "tiles": [
+                {
+                  "id": "310d0585-4112-44f7-92ff-2ba1a644d87f",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "65d10be6-34df-4150-ac36-33455da79a10",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "7b89c984-234e-440e-8450-f44d0b272f6b",
+              "tiles": [
+                {
+                  "id": "a2962e91-c54d-4285-a00f-ae4a3c30ca43",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "b13de451-e36b-48b8-99ce-67841b7c86be",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "09fe582f-3af5-4130-ac07-aca6f1416902",
+          "frames": [
+            {
+              "id": "1dcc9585-516c-493c-8864-6d23d1617c83",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "421b4eb3-b561-4479-b2fc-43b0119e8d6c",
+          "frames": [
+            {
+              "id": "50f6b767-44a7-4c97-ab92-2876f6058681",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7e64e526-59ca-4368-b145-6c9a8da89024",
+          "frames": [
+            {
+              "id": "8ec114b8-9bfe-44c9-bfcc-942d0f601078",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "989fe98e-995d-4692-8dac-e41cc961a51e",
+          "frames": [
+            {
+              "id": "d1c37180-8c1e-413a-8f60-4db6db66f3dc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1589691b-bc83-4afc-8009-47f15f77dad0",
+          "frames": [
+            {
+              "id": "0488e8e5-00fb-4fb1-83b8-f32dc8cfbd75",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1bc5968c-7eea-4c1d-95cf-ec936533fc01",
+          "frames": [
+            {
+              "id": "cdbb5029-5f79-4139-a918-bf58c512bedc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d0650e73-db3f-4bcc-aa86-729cc6e0b268",
+          "frames": [
+            {
+              "id": "9aadd13b-9887-48d7-b2f0-3d62c33a783e",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": 0,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15
+}

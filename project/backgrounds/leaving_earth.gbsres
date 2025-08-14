@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "122b0030-c792-41aa-8317-2b9c6ce83057",
+  "name": "leaving_earth",
+  "symbol": "bg_leaving_earth",
+  "width": 255,
+  "height": 18,
+  "imageWidth": 2040,
+  "imageHeight": 144,
+  "filename": "leaving_earth.png",
+  "tileColors": ""
+}
