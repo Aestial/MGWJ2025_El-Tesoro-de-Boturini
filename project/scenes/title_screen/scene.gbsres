@@ -3,7 +3,7 @@
   "id": "98698bb4-7246-4e86-9886-0818b9156392",
   "_index": 7,
   "name": "Title_Screen",
-  "backgroundId": "2dffa142-9d95-4e26-a2cc-85f3a695760b",
+  "backgroundId": "0bf6cbb9-f729-42b3-ad58-a25e52680606",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -31,6 +31,16 @@
       "id": "ce84badd-7ae1-4fc6-8035-d7d7240ead7d"
     },
     {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "!F:d923f6f8-8526-4576-bc69-e8c980835bff!PRESIONA START",
+        "x": 3,
+        "y": 14,
+        "location": "background"
+      },
+      "id": "cb7cdbdb-b321-4db7-b199-e98016606a48"
+    },
+    {
       "command": "EVENT_AWAIT_INPUT",
       "args": {
         "input": [
@@ -47,7 +57,9 @@
     },
     {
       "command": "EVENT_LOOP",
-      "args": {},
+      "args": {
+        "__collapse": false
+      },
       "children": {
         "true": [
           {
@@ -67,7 +79,7 @@
               "layout": "dialogue",
               "__comment": false,
               "cancelOnLastOption": true,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "af2dcde6-69c7-40c4-b817-7bdb1774ce88"
           },
@@ -109,7 +121,7 @@
               "__collapseCase15": false,
               "value15": 16,
               "__collapseElse": false,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true0": [
