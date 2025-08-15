@@ -31,7 +31,7 @@
               "variable": "33",
               "flag": 0,
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [

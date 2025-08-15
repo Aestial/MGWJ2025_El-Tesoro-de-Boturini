@@ -59,7 +59,7 @@
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "fed56c2f-8044-4679-aedc-3daa8bcd90df",
-        "spriteStateId": "",
+        "spriteStateId": "Hidden",
         "loopAnim": true
       },
       "id": "ba7325b0-2d18-4fbe-9b67-174b235409ad"
