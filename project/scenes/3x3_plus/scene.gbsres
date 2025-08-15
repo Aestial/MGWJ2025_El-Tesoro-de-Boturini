@@ -13,8 +13,8 @@
   "collisions": "007f+0f5+00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f5+0094+",
   "autoFadeSpeed": 1,
   "symbol": "scene_17",
-  "x": 952,
-  "y": 832,
+  "x": 1096,
+  "y": 512,
   "script": [
     {
       "id": "6ff3b518-8896-4e8d-8dc6-66631a2bc189",
@@ -10343,7 +10343,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -10430,7 +10430,7 @@
                           "value15": 16,
                           "__collapseElse": false,
                           "__disableElse": true,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "1"
                         },
                         "children": {
@@ -10925,7 +10925,7 @@
                           "value15": 16,
                           "__collapseElse": false,
                           "__disableElse": true,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "2"
                         },
                         "children": {
@@ -11420,7 +11420,7 @@
                           "value15": 16,
                           "__collapseElse": false,
                           "__disableElse": true,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "3"
                         },
                         "children": {
@@ -15447,7 +15447,7 @@
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "ff2872d2-61fd-471c-b52b-c963853f5799",
+                          "sceneId": "59e2d2cb-9aeb-4ecf-9702-2026a0b75127",
                           "x": {
                             "type": "number",
                             "value": 15
@@ -15458,7 +15458,7 @@
                           },
                           "direction": "right",
                           "fadeSpeed": "2",
-                          "__collapse": false
+                          "__collapse": true
                         },
                         "id": "c9a000cb-5c72-4bac-9a97-95bc4e9d2526"
                       }
@@ -15766,5 +15766,5 @@
   "playerHit3Script": [],
   "playerSpriteSheetId": "2bd69faf-84df-43f1-9e44-01514636adbe",
   "autoFadeEventCollapse": true,
-  "labelColor": "orange"
+  "labelColor": "yellow"
 }

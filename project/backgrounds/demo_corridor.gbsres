@@ -8,5 +8,6 @@
   "imageWidth": 320,
   "imageHeight": 144,
   "filename": "demo corridor.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

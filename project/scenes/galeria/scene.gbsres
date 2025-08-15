@@ -1,0 +1,213 @@
+{
+  "_resourceType": "scene",
+  "id": "59e2d2cb-9aeb-4ecf-9702-2026a0b75127",
+  "_index": 19,
+  "name": "Galeria",
+  "backgroundId": "966f9cba-02f0-4c46-9f1e-15f8bf9015cb",
+  "tilesetId": "",
+  "width": 40,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "002d0+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_20",
+  "x": 1040,
+  "y": 240,
+  "script": [
+    {
+      "id": "9b331b03-3f52-4408-b5a4-d6e66b32967e",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "Paintings"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "33",
+              "flag": 0,
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_GBVM_SCRIPT",
+                  "args": {
+                    "script": "VM_PUSH_CONST 4\nVM_REPLACE_TILE_XY 15, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 4\nVM_REPLACE_TILE_XY 15, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 4\nVM_REPLACE_TILE_XY 15, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 4\nVM_REPLACE_TILE_XY 16, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 4\nVM_REPLACE_TILE_XY 16, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 4\nVM_REPLACE_TILE_XY 16, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 4\nVM_REPLACE_TILE_XY 17, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 4\nVM_REPLACE_TILE_XY 17, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 4\nVM_REPLACE_TILE_XY 17, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\n\nVM_POP 9\n\n",
+                    "__collapse": true
+                  },
+                  "id": "04bd7c1d-42aa-4f86-97f4-9138fd853b7f"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_GBVM_SCRIPT",
+                  "args": {
+                    "script": "VM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 15, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 15, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 15, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 16, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 16, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 16, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 17, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 17, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 17, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\n\nVM_POP 9\n\n"
+                  },
+                  "id": "6a229352-e634-4b3d-94f9-d5f052178264"
+                }
+              ]
+            },
+            "id": "435da916-8691-4e6c-a0be-7d5eee794e9d"
+          },
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "33",
+              "flag": 1,
+              "__collapseElse": false,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_GBVM_SCRIPT",
+                  "args": {
+                    "script": "VM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 22, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 17\nVM_REPLACE_TILE_XY 22, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 20\nVM_REPLACE_TILE_XY 22, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 15\nVM_REPLACE_TILE_XY 23, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 18\nVM_REPLACE_TILE_XY 23, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 21\nVM_REPLACE_TILE_XY 23, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 16\nVM_REPLACE_TILE_XY 24, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 19\nVM_REPLACE_TILE_XY 24, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 22\nVM_REPLACE_TILE_XY 24, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\n\nVM_POP 9\n\n",
+                    "__collapse": true
+                  },
+                  "id": "255122e5-0729-464e-bbf6-4dcc28ffe539"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_GBVM_SCRIPT",
+                  "args": {
+                    "script": "VM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 22, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 22, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 22, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 23, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 23, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 23, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 24, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 24, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 24, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\n\nVM_POP 9\n\n",
+                    "__collapse": true
+                  },
+                  "id": "528e5cc7-7e9b-46c4-ae82-bb7c58930b26"
+                }
+              ]
+            },
+            "id": "26c5cd5f-387b-47f6-8a65-605c255d7d40"
+          },
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "33",
+              "flag": 2,
+              "__collapseElse": false,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_GBVM_SCRIPT",
+                  "args": {
+                    "script": "VM_PUSH_CONST 5\nVM_REPLACE_TILE_XY 29, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 8\nVM_REPLACE_TILE_XY 29, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 11\nVM_REPLACE_TILE_XY 29, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 6\nVM_REPLACE_TILE_XY 30, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 9\nVM_REPLACE_TILE_XY 30, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 12\nVM_REPLACE_TILE_XY 30, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 7\nVM_REPLACE_TILE_XY 31, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 10\nVM_REPLACE_TILE_XY 31, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 13\nVM_REPLACE_TILE_XY 31, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\n\nVM_POP 9\n\n",
+                    "__collapse": true
+                  },
+                  "id": "27c42937-a343-49cf-975e-30226afc9e98"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_GBVM_SCRIPT",
+                  "args": {
+                    "script": "VM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 29, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 29, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 29, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 30, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 30, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 30, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 31, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 31, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 31, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\n\nVM_POP 9\n\n",
+                    "__collapse": true
+                  },
+                  "id": "18ee60c4-4467-4dd4-b410-a63c29997f74"
+                }
+              ]
+            },
+            "id": "8ba6d29a-e334-41a3-9b64-0646566cb328"
+          }
+        ]
+      }
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "hide buttons",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "fed56c2f-8044-4679-aedc-3daa8bcd90df",
+              "spriteStateId": "Hidden",
+              "__collapse": false
+            },
+            "id": "cf014a69-a2de-4eb4-b6c4-54c54dba5220"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "97d177e8-9369-4c4d-af99-58379bca0506",
+              "spriteStateId": "Hidden",
+              "__collapse": false
+            },
+            "id": "4d78c8ca-f3e9-4316-95e7-4f9a5e0aef9a"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "ca569d9e-3ca8-4cbe-ac9d-e3f668981df3",
+              "spriteStateId": "Hidden",
+              "__collapse": false
+            },
+            "id": "e1a466f7-b564-4eb3-b8eb-17b758e714b5"
+          }
+        ]
+      },
+      "id": "f18e4bb1-6c1c-4d56-b55a-87400a2f49a8"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "45240ab8-686c-4f2a-b1dc-665094272a04"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 7,
+        "__collapse": true
+      },
+      "id": "049bdddd-62fe-4b17-b96a-7985ea7701fb"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1.5,
+        "__collapse": true
+      },
+      "id": "01ffddb4-115b-4119-a775-736557015fcf"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "up",
+          "down"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": []
+      },
+      "id": "56e31870-e23b-4456-abc0-426258b88893"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "c3786f59-b8d7-4f07-8668-6ddac496766d",
+  "labelColor": "orange"
+}
