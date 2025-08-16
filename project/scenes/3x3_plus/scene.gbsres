@@ -13,8 +13,8 @@
   "collisions": "007f+0f5+00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f5+0094+",
   "autoFadeSpeed": 1,
   "symbol": "scene_17",
-  "x": 1096,
-  "y": 512,
+  "x": 1080,
+  "y": 448,
   "script": [
     {
       "id": "6ff3b518-8896-4e8d-8dc6-66631a2bc189",
@@ -5328,7 +5328,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -9371,7 +9371,7 @@
                           "value15": 16,
                           "__collapseElse": false,
                           "__disableElse": true,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "9"
                         },
                         "children": {
@@ -9866,7 +9866,7 @@
                           "value15": 16,
                           "__collapseElse": false,
                           "__disableElse": true,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "10"
                         },
                         "children": {

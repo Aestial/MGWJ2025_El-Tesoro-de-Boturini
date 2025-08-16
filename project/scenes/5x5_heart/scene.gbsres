@@ -13,8 +13,8 @@
   "collisions": "007f+0f7+00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f7+006a+",
   "autoFadeSpeed": 1,
   "symbol": "scene_18",
-  "x": 1280,
-  "y": 512,
+  "x": 1264,
+  "y": 448,
   "script": [
     {
       "id": "92fbb259-499e-465f-93db-ac291312f3de",
@@ -5328,7 +5328,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -9335,7 +9335,7 @@
                       {
                         "command": "EVENT_SWITCH",
                         "args": {
-                          "variable": "1",
+                          "variable": "32",
                           "choices": 10,
                           "__collapseCase0": false,
                           "value0": 7,
@@ -9866,7 +9866,7 @@
                           "value15": 16,
                           "__collapseElse": false,
                           "__disableElse": true,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "10"
                         },
                         "children": {
