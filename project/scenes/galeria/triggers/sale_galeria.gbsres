@@ -1,0 +1,60 @@
+{
+  "_resourceType": "trigger",
+  "id": "3213f1ff-20fb-4589-8a1c-80169a597681",
+  "name": "sale_galeria",
+  "prefabId": "",
+  "x": 5,
+  "y": 14,
+  "symbol": "trigger_36",
+  "prefabScriptOverrides": {},
+  "width": 3,
+  "height": 4,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "up"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "f190a4cb-4476-4fad-afac-ef12a4d6d6bb",
+              "x": {
+                "type": "number",
+                "value": 23
+              },
+              "y": {
+                "type": "number",
+                "value": 6
+              },
+              "direction": "down",
+              "fadeSpeed": "2",
+              "__collapse": false
+            },
+            "id": "bab6fae7-881c-4e5e-bec7-e5a47413db78"
+          }
+        ]
+      },
+      "id": "00d4acaf-e123-4018-a37c-88650733361b"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "985c5f63-2bd8-4963-8c16-33df612df87f"
+    }
+  ],
+  "_index": 3
+}
