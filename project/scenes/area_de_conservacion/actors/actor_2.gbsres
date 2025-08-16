@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "bdec5274-33af-4607-a9fc-5b0009b449cb",
+  "id": "3d9f9127-72c5-4c47-b885-65d4a6ab84a8",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "74cac517-9742-471c-ac09-ff5b40e535fd",
+  "spriteSheetId": "e0fefde3-a660-407e-a285-641b7cdd679c",
   "prefabId": "",
-  "direction": "left",
+  "direction": "up",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_19",
+  "symbol": "actor_41",
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -35,15 +35,14 @@
         "closeDelayFrames": 30,
         "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
         "text": [
-          "El sujeto en\naquella esquina",
-          "Me desafió a un \nduelo de Picross",
-          "...",
-          "Apostamos y perdí\nmi dinero."
+          "El polvo es\nenemigo del\npapel...",
+          "Contiene esporas,\nácidos e incluso\nmetales y...",
+          "excremento que \npueden dañar el\npapel"
         ],
         "__section": "text",
         "avatarId": ""
       },
-      "id": "a6380587-3cf9-42c2-84fd-5e61d503943a"
+      "id": "7e14fa3c-9c63-41db-9679-c720e86f09ab"
     }
   ],
   "startScript": [],
@@ -51,7 +50,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 19,
-  "y": 14,
+  "x": 10,
+  "y": 7,
   "_index": 2
 }

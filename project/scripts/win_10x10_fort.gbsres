@@ -43,7 +43,7 @@
           {
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": true,
+              "__collapse": false,
               "__label": "flags check"
             },
             "children": {
@@ -85,7 +85,7 @@
                           "variable": "21",
                           "flag": 1,
                           "__collapseElse": false,
-                          "__collapse": true
+                          "__collapse": false
                         },
                         "children": {
                           "true": [],
@@ -2480,7 +2480,7 @@
               "comparator": 100,
               "__collapseElse": false,
               "__disableElse": false,
-              "__collapse": false,
+              "__collapse": true,
               "condition": {
                 "type": "eq",
                 "valueA": {
@@ -2515,7 +2515,7 @@
                     "flag14": false,
                     "flag15": false,
                     "flag16": false,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "3bdc5f98-6f3f-446c-ba0f-450698a31aae"
                 },

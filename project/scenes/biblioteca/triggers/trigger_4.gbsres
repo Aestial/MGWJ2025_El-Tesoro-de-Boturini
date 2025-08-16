@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "bd7e5c24-5c60-4564-9116-88d154554a56",
+  "id": "ea27b297-08b9-4df5-a76b-934128cd781c",
   "name": "",
   "prefabId": "",
-  "x": 2,
+  "x": 14,
   "y": 25,
-  "symbol": "trigger_37",
+  "symbol": "trigger_41",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,20 +40,20 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "La BNAH resguarda\nmanuscritos",
-                "de hasta 500 años\nde antigüedad.",
-                "Por ejemplo: los\ncódices"
+                "Un solo códice\npuede tardar\nmeses",
+                "en restaurarse\npor completo.",
+                "O hasta años!"
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "5f2ee63e-0f6c-4efe-bff0-e7733c1b8486"
+            "id": "425d8463-938f-49e7-aade-24606cee5082"
           }
         ]
       },
-      "id": "5f04aec6-9cac-4f87-9fd5-3a7f20abd050"
+      "id": "80db5493-a8f9-487b-9d6e-6b1b7bb464da"
     }
   ],
   "leaveScript": [],
-  "_index": 4
+  "_index": 7
 }

@@ -1,0 +1,42 @@
+{
+  "_resourceType": "trigger",
+  "id": "7bfc233f-c092-4d3e-953d-03c024c0c4a1",
+  "name": "",
+  "prefabId": "",
+  "x": 13,
+  "y": 6,
+  "symbol": "trigger_38",
+  "prefabScriptOverrides": {},
+  "width": 5,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Los hongos pueden\ndesarrollarse en\nel papel\ncontaminado en\nlugares húmedos."
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "29084be9-459c-4c42-87a5-62db394ac7ba"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

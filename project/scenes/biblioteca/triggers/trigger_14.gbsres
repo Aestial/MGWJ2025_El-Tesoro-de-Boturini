@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "bd7e5c24-5c60-4564-9116-88d154554a56",
+  "id": "d7271670-938c-4071-8f07-cbba78e6b6f5",
   "name": "",
   "prefabId": "",
-  "x": 2,
-  "y": 25,
-  "symbol": "trigger_37",
+  "x": 6,
+  "y": 13,
+  "symbol": "trigger_50",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,20 +40,20 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "La BNAH resguarda\nmanuscritos",
-                "de hasta 500 años\nde antigüedad.",
-                "Por ejemplo: los\ncódices"
+                "Generalmente,\nel papel común",
+                "fabricado con\npulpa de madera",
+                "se vuelve ácido y\namarillo con el\ntiempo."
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "5f2ee63e-0f6c-4efe-bff0-e7733c1b8486"
+            "id": "3b815acf-5aab-4655-9163-eb2863144bf0"
           }
         ]
       },
-      "id": "5f04aec6-9cac-4f87-9fd5-3a7f20abd050"
+      "id": "9984d648-afea-4135-b936-c42fda5ebac8"
     }
   ],
   "leaveScript": [],
-  "_index": 4
+  "_index": 17
 }

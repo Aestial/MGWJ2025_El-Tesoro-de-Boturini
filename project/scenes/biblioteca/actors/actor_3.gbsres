@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "bdec5274-33af-4607-a9fc-5b0009b449cb",
+  "id": "5e48d2a0-4299-4957-bcf1-4e6f16c1d459",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "74cac517-9742-471c-ac09-ff5b40e535fd",
+  "spriteSheetId": "adb96737-9823-4970-a5bc-84e648997b5f",
   "prefabId": "",
-  "direction": "left",
+  "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_19",
+  "symbol": "actor_39",
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -35,15 +35,12 @@
         "closeDelayFrames": 30,
         "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
         "text": [
-          "El sujeto en\naquella esquina",
-          "Me desafió a un \nduelo de Picross",
-          "...",
-          "Apostamos y perdí\nmi dinero."
+          "Galería"
         ],
         "__section": "text",
         "avatarId": ""
       },
-      "id": "a6380587-3cf9-42c2-84fd-5e61d503943a"
+      "id": "6fade19a-4097-465b-9085-9022969f08d8"
     }
   ],
   "startScript": [],
@@ -51,7 +48,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 19,
-  "y": 14,
-  "_index": 2
+  "x": 26,
+  "y": 5,
+  "_index": 3
 }

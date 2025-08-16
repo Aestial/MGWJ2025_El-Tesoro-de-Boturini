@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "bdec5274-33af-4607-a9fc-5b0009b449cb",
+  "id": "da420df6-ff09-484e-b160-bf88a18cf887",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "74cac517-9742-471c-ac09-ff5b40e535fd",
+  "spriteSheetId": "913465ef-e17a-4de4-ab60-e1ceabd6b833",
   "prefabId": "",
-  "direction": "left",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_19",
+  "symbol": "actor_42",
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -35,15 +35,14 @@
         "closeDelayFrames": 30,
         "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
         "text": [
-          "El sujeto en\naquella esquina",
-          "Me desafió a un \nduelo de Picross",
-          "...",
-          "Apostamos y perdí\nmi dinero."
+          "En la\nconservación los\nguantes y las...",
+          "manos limpias\nprotegen a los\ndocumentos...",
+          "y a los usuarios."
         ],
         "__section": "text",
         "avatarId": ""
       },
-      "id": "a6380587-3cf9-42c2-84fd-5e61d503943a"
+      "id": "18e409ed-312f-4233-afea-061f98be78c2"
     }
   ],
   "startScript": [],
@@ -51,7 +50,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 19,
-  "y": 14,
-  "_index": 2
+  "x": 5,
+  "y": 12,
+  "_index": 3
 }

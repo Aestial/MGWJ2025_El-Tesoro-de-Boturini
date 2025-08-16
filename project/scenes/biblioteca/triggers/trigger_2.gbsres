@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "bd7e5c24-5c60-4564-9116-88d154554a56",
+  "id": "c35cb1de-8a14-48b7-8d73-7220e7e17615",
   "name": "",
   "prefabId": "",
-  "x": 2,
+  "x": 6,
   "y": 25,
-  "symbol": "trigger_37",
+  "symbol": "trigger_39",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,20 +40,21 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "La BNAH resguarda\nmanuscritos",
-                "de hasta 500 años\nde antigüedad.",
-                "Por ejemplo: los\ncódices"
+                "El acervo de la\nBNAH incluye\nmapas,",
+                "planos y cartas\nnáuticas. ",
+                "También fotos,\nmicrofilms",
+                "y entre otras\ncosas, audios."
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "5f2ee63e-0f6c-4efe-bff0-e7733c1b8486"
+            "id": "a7013ca9-ca1c-4323-b4db-f16c07cdeeb9"
           }
         ]
       },
-      "id": "5f04aec6-9cac-4f87-9fd5-3a7f20abd050"
+      "id": "97c153af-6a94-4453-bebd-2e43ccdca66e"
     }
   ],
   "leaveScript": [],
-  "_index": 4
+  "_index": 5
 }

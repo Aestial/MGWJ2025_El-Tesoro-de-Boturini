@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "bd7e5c24-5c60-4564-9116-88d154554a56",
+  "id": "08696394-fcbd-433d-85aa-e17d778d72e2",
   "name": "",
   "prefabId": "",
-  "x": 2,
-  "y": 25,
-  "symbol": "trigger_37",
+  "x": 10,
+  "y": 19,
+  "symbol": "trigger_45",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,20 +40,20 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "La BNAH resguarda\nmanuscritos",
-                "de hasta 500 años\nde antigüedad.",
-                "Por ejemplo: los\ncódices"
+                "La BNAH alberga\ndocumentos en",
+                "lenguas indígenas\nde todo México.",
+                "Como vocabularios\ny diccionarios."
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "5f2ee63e-0f6c-4efe-bff0-e7733c1b8486"
+            "id": "35afc43c-8614-403c-b481-b61eeac671f0"
           }
         ]
       },
-      "id": "5f04aec6-9cac-4f87-9fd5-3a7f20abd050"
+      "id": "4f0d5fb0-04aa-4542-bce8-acb7fc878974"
     }
   ],
   "leaveScript": [],
-  "_index": 4
+  "_index": 12
 }

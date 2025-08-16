@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "bd7e5c24-5c60-4564-9116-88d154554a56",
+  "id": "a52da68e-31ae-438b-bcae-349e9217dbab",
   "name": "",
   "prefabId": "",
-  "x": 2,
+  "x": 22,
   "y": 25,
-  "symbol": "trigger_37",
+  "symbol": "trigger_42",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,20 +40,19 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "La BNAH resguarda\nmanuscritos",
-                "de hasta 500 años\nde antigüedad.",
-                "Por ejemplo: los\ncódices"
+                "La BNAH custodia\nel archivo\npersonal de...",
+                "destacados \nhistoriadores\nmexicanos."
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "5f2ee63e-0f6c-4efe-bff0-e7733c1b8486"
+            "id": "14f0702c-674b-4d13-8fda-b49d770df4d7"
           }
         ]
       },
-      "id": "5f04aec6-9cac-4f87-9fd5-3a7f20abd050"
+      "id": "1025be2c-fea9-4501-89d8-fba53c42175a"
     }
   ],
   "leaveScript": [],
-  "_index": 4
+  "_index": 8
 }

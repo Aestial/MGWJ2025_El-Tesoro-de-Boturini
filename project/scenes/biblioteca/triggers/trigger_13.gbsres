@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "bd7e5c24-5c60-4564-9116-88d154554a56",
+  "id": "f581a9cf-1120-437c-a863-e5d2df86c799",
   "name": "",
   "prefabId": "",
   "x": 2,
-  "y": 25,
-  "symbol": "trigger_37",
+  "y": 13,
+  "symbol": "trigger_49",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,20 +40,19 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "La BNAH resguarda\nmanuscritos",
-                "de hasta 500 años\nde antigüedad.",
-                "Por ejemplo: los\ncódices"
+                "La BNAH también\nguarda periódicos",
+                "y revistas de\nhace más de\n150 años."
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "5f2ee63e-0f6c-4efe-bff0-e7733c1b8486"
+            "id": "ecb8a03c-8c6b-40c8-ae14-6667b6bd29b1"
           }
         ]
       },
-      "id": "5f04aec6-9cac-4f87-9fd5-3a7f20abd050"
+      "id": "af4b1e30-927d-46c6-9ec0-c87c34eaa9fd"
     }
   ],
   "leaveScript": [],
-  "_index": 4
+  "_index": 16
 }

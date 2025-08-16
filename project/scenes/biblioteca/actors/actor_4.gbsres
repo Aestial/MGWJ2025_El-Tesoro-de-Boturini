@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "bdec5274-33af-4607-a9fc-5b0009b449cb",
+  "id": "40aaa4ca-70a0-4422-9555-662d1a5da3df",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_19",
+  "symbol": "actor_44",
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -35,15 +35,13 @@
         "closeDelayFrames": 30,
         "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
         "text": [
-          "El sujeto en\naquella esquina",
-          "Me desafió a un \nduelo de Picross",
-          "...",
-          "Apostamos y perdí\nmi dinero."
+          "El acervo\ndocumental crece\ncada año con...",
+          "nuevas\nadquisiciones y\ndonaciones."
         ],
         "__section": "text",
         "avatarId": ""
       },
-      "id": "a6380587-3cf9-42c2-84fd-5e61d503943a"
+      "id": "d203ab28-0a6d-46f4-b9e5-bcaa0174482c"
     }
   ],
   "startScript": [],
@@ -51,7 +49,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 19,
-  "y": 14,
-  "_index": 2
+  "x": 26,
+  "y": 28,
+  "_index": 4
 }

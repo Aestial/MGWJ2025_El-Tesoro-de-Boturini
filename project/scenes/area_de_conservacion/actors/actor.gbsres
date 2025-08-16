@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "bdec5274-33af-4607-a9fc-5b0009b449cb",
+  "id": "e6e774fb-0f19-49a4-9435-d0ae16b2d708",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "74cac517-9742-471c-ac09-ff5b40e535fd",
+  "spriteSheetId": "1e11d47e-733a-4342-94fb-d1a95b3b86a7",
   "prefabId": "",
-  "direction": "left",
+  "direction": "up",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_19",
+  "symbol": "actor_40",
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -35,15 +35,16 @@
         "closeDelayFrames": 30,
         "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
         "text": [
-          "El sujeto en\naquella esquina",
-          "Me desafió a un \nduelo de Picross",
-          "...",
-          "Apostamos y perdí\nmi dinero."
+          "La luz directa\ndel sol puede...",
+          "borrar la tinta\nde un documento\nantiguo.",
+          "El daño por luz \nes acumulativo e \nirreversible... ",
+          "y genera\ndeterioro como...",
+          "desvanecimiento\nde las tintas."
         ],
         "__section": "text",
         "avatarId": ""
       },
-      "id": "a6380587-3cf9-42c2-84fd-5e61d503943a"
+      "id": "816fb77f-47c9-4c92-b047-62cc39930ffb"
     }
   ],
   "startScript": [],
@@ -51,7 +52,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 19,
-  "y": 14,
-  "_index": 2
+  "x": 5,
+  "y": 7,
+  "_index": 1
 }
