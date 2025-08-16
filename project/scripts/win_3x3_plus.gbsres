@@ -45,7 +45,7 @@
           {
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": false,
+              "__collapse": true,
               "__label": "flags check"
             },
             "children": {
@@ -295,7 +295,7 @@
                 {
                   "command": "EVENT_GROUP",
                   "args": {
-                    "__collapse": true,
+                    "__collapse": false,
                     "__label": "2"
                   },
                   "children": {
@@ -2482,7 +2482,7 @@
               "comparator": 100,
               "__collapseElse": false,
               "__disableElse": false,
-              "__collapse": true,
+              "__collapse": false,
               "condition": {
                 "type": "eq",
                 "valueA": {

@@ -293,7 +293,7 @@
       "args": {
         "actorId": "$self$",
         "speed": 10,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "16a0dfae-bd9f-46cd-8e14-aa0417fb6ac8"
     },
@@ -400,7 +400,7 @@
                           "value15": 16,
                           "__collapseElse": false,
                           "__disableElse": true,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "1"
                         },
                         "children": {
@@ -421,7 +421,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "162379c4-9bb7-4687-b066-c66b80c62752"
+                              "id": "659d4ea7-5602-41e7-923c-6ae902c2519e"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -445,7 +445,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "6fd9abca-bb63-4179-8454-3d5e207d1ccb"
+                              "id": "c95f5c46-d753-4cbc-9c96-c7344ec7f5ed"
                             }
                           ],
                           "true1": [
@@ -465,7 +465,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "b65f8491-f178-4382-9703-3b3b9456cb02"
+                              "id": "acf90bb3-8c1e-4b41-b29a-2915bd30c9eb"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -489,7 +489,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "ad537667-401d-496e-847d-6cce93c85e69"
+                              "id": "370d8712-baf1-4322-92cc-bc27f7a3548a"
                             }
                           ],
                           "true2": [
@@ -509,7 +509,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "fff4ada2-0dc9-47e5-9bf7-f2e10563a7ef"
+                              "id": "14b79914-1deb-463c-bd32-95e797f8adde"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -533,7 +533,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "23f3486b-3904-40de-9df1-45b41403f329"
+                              "id": "f1f14731-302f-4586-9141-404aad21877a"
                             }
                           ],
                           "true3": [
@@ -553,7 +553,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "9c931c0a-b1d6-4eed-9929-fbc476a8d201"
+                              "id": "d742795e-c4fe-4a18-83ff-abe9562eee82"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -577,7 +577,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "262c5d40-6567-489e-aeaa-4719e72d4c89"
+                              "id": "5597633d-4b85-4f13-8503-a3e263fdaf1a"
                             }
                           ],
                           "true4": [
@@ -597,7 +597,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "cced86b1-622b-4e34-8323-0a2f0f82ea50"
+                              "id": "75378dff-4075-49df-bd99-44842ddeedc4"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -621,7 +621,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "f52c5b90-1a28-4619-a50f-d190397c4dad"
+                              "id": "5195722e-8084-405d-959c-2c04fe4c6aa1"
                             }
                           ],
                           "true5": [
@@ -641,7 +641,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "bad93b6a-9211-47dc-ac72-47e0e5c569a9"
+                              "id": "6dc79a73-dc7c-41d9-92d2-22ddc6572ae2"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -665,7 +665,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "0bdc6bbc-db61-4a61-8b5d-5f430a70151b"
+                              "id": "521be110-1cdc-4f72-8431-57337d15f56d"
                             }
                           ],
                           "true6": [
@@ -685,7 +685,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "c90b9f41-ff84-4082-8e11-8c30a12c5756"
+                              "id": "9d7b4355-02b0-4469-9048-b1d9b1cb8115"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -709,7 +709,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "627b5239-88ea-43ab-b7d7-4d79224b4926"
+                              "id": "c00af029-2998-4028-9fdd-52d0b1b41efc"
                             }
                           ],
                           "true7": [
@@ -729,7 +729,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "da2b3801-afbe-4684-b3a8-618965793656"
+                              "id": "aba0ebb4-8db4-4a0f-bac8-c1b976df49b7"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -753,7 +753,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "963ac75e-3b3a-4713-b0b4-3c0881b38f07"
+                              "id": "a7725bab-6a97-4193-8ce5-bbd3c7aea286"
                             }
                           ],
                           "true8": [
@@ -773,7 +773,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "3a9f0042-8c4f-4f66-83f3-b95262d32100"
+                              "id": "a2540194-7ad5-48b3-8440-38ea18e6a824"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -797,7 +797,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "c2c71b91-5e7c-46d0-902f-0d01295b4be3"
+                              "id": "00b2d120-cd9b-43e3-8d88-204b0381a3c4"
                             }
                           ],
                           "true9": [
@@ -817,7 +817,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "c80ecfac-dce6-4f7d-a0af-1cae6da1b06f"
+                              "id": "675e02c8-5ce7-4a42-89de-ecb933fdeb9c"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -841,7 +841,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "622cd5a8-41f0-4241-bd7a-a89f4edd4c5d"
+                              "id": "0b589185-d858-473b-b36d-ece5bac29e89"
                             }
                           ],
                           "true10": [],
@@ -852,7 +852,7 @@
                           "true15": [],
                           "false": []
                         },
-                        "id": "87d83947-5c47-46cb-8abe-9889a5b99d3d"
+                        "id": "601f95dd-c0f1-4b5d-b430-539bde428899"
                       }
                     ],
                     "true1": [
@@ -916,7 +916,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "3c421fd2-c627-48a9-87be-5ca4c29ce6a3"
+                              "id": "7bf3af40-b56b-4af0-8f96-83c90d6ab9bd"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -940,7 +940,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "801bd61d-14cf-45b6-bb2a-36357c7293ff"
+                              "id": "5f4da74c-5b05-498c-85fd-41cd322bbe80"
                             }
                           ],
                           "true1": [
@@ -960,7 +960,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "f8cd466e-e158-48a0-aef5-f4647337e2e1"
+                              "id": "3d5c7cc8-3834-4121-8930-e60a88651561"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -984,7 +984,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "81a8ef21-36cc-4d12-9040-c4d85995f5d4"
+                              "id": "fa99602a-954a-48bf-be66-08e049e6bcda"
                             }
                           ],
                           "true2": [
@@ -1004,7 +1004,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "0fb0b48a-99ed-48cc-8ab5-9c4394cac236"
+                              "id": "17f7d9aa-64cf-4bdf-81d7-2faa501ed7f4"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1028,7 +1028,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "b6b8fd9e-92c1-49c5-8643-1baf81492bc5"
+                              "id": "3ba8c5f9-a3aa-4e5c-9b62-7f447dcc987a"
                             }
                           ],
                           "true3": [
@@ -1048,7 +1048,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "5de0d5bf-b8e7-408c-b7e7-2c14cfb74266"
+                              "id": "ce291d16-3b35-4cde-91dd-0c7a854dd590"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1072,7 +1072,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "3c06d2e4-a919-40ec-867e-a16efc5f6d45"
+                              "id": "019c030d-e5b4-4ca1-8064-eddd35d8fadb"
                             }
                           ],
                           "true4": [
@@ -1092,7 +1092,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "e93cf016-5312-431d-a0df-39977a578484"
+                              "id": "e7cb6814-6938-4559-9aca-cfae535f2a6d"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1116,7 +1116,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "0c922e4b-cf3e-424c-a413-7f3760435ab8"
+                              "id": "7d42b34d-ed84-4ffc-935a-27ed5c67f4b0"
                             }
                           ],
                           "true5": [
@@ -1136,7 +1136,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "dcfc6c47-9e78-4aaf-b8a1-38e40846af69"
+                              "id": "fe294e13-d2c8-4e75-bf66-cbc78683f322"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1160,7 +1160,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "d7369305-1782-4dfe-b690-9159d7476d68"
+                              "id": "9dab9eef-0aed-456e-9ca1-ba1593645895"
                             }
                           ],
                           "true6": [
@@ -1180,7 +1180,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "d0206844-bc03-4be9-81df-6d7c94c6eec1"
+                              "id": "163cbbc5-2c27-422d-8e23-fde118d5aa1a"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1204,7 +1204,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "7efadd4a-32e4-49e5-99f1-5c19b5ccc602"
+                              "id": "cd7dde54-5537-4a36-b187-a0cc24c6f0f8"
                             }
                           ],
                           "true7": [
@@ -1224,7 +1224,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "1f4c10dc-5627-4bf5-b0c2-e47625a6d97a"
+                              "id": "0fb2ef43-7363-4fe4-abbd-0a435b9461d2"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1248,7 +1248,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "5634d583-5936-4d59-9ecc-b6bc9b627001"
+                              "id": "75b5fbb5-1a78-4699-9eec-d3f85bc4c674"
                             }
                           ],
                           "true8": [
@@ -1268,7 +1268,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "8d3311a1-3765-4c18-b5be-f0e5644435fa"
+                              "id": "e45726e4-c53b-43a2-b5af-93862b7df2b8"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1292,7 +1292,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "c118d0bd-2b2b-4328-b578-f035e4eb3359"
+                              "id": "6b92db97-07e7-4888-8297-fb57a2533cf0"
                             }
                           ],
                           "true9": [
@@ -1312,7 +1312,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "a101dbbd-d4d5-446a-bb9f-b3c4f4984dbe"
+                              "id": "630ed3d9-ee8d-4ea0-b63a-59fbe9e23bee"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1336,7 +1336,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "a075f31e-c229-4ded-877f-b3aea50f02f0"
+                              "id": "164646e5-025e-4683-b28d-178f50685f1d"
                             }
                           ],
                           "true10": [],
@@ -1347,7 +1347,7 @@
                           "true15": [],
                           "false": []
                         },
-                        "id": "1ddf028c-ef20-4016-b067-59731e7b9711"
+                        "id": "a6c1609e-b2dc-44bd-858f-14b60a6a3034"
                       }
                     ],
                     "true2": [
@@ -1411,7 +1411,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "f912ea29-546f-4f88-b704-115bf1f1a4a0"
+                              "id": "9cf7f5d2-0f4a-4d3f-ae53-da04ce381009"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1435,7 +1435,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "7ca4499a-a74c-470c-a8d5-1d598f40bc4a"
+                              "id": "428827c0-7670-44ca-afc2-ef06cc91e983"
                             }
                           ],
                           "true1": [
@@ -1455,7 +1455,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "d5e1ec29-5ac6-47e0-9542-3aae5492e75a"
+                              "id": "cadf9225-e8d1-4df0-b302-d64ba1c08c17"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1479,7 +1479,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "fe5669ea-8881-4506-a544-78ba7be96307"
+                              "id": "76562180-9a04-448b-a3f3-ad6a2edec5db"
                             }
                           ],
                           "true2": [
@@ -1499,7 +1499,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "57322b96-864d-4806-a978-14c7eb6b7b1f"
+                              "id": "2184f0f3-9f16-47b7-93a0-3ad6d5f474b6"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1523,7 +1523,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "79ff84cb-7f33-4089-be6b-64aad7c7f99d"
+                              "id": "9476c1ab-4b13-4eac-8913-f3b62a0e930e"
                             }
                           ],
                           "true3": [
@@ -1543,7 +1543,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "a6a7f636-c7b5-43f7-adf1-ce8215022d98"
+                              "id": "e166582c-9bbe-46d1-a6ac-2f326b577b1b"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1567,7 +1567,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "1ee2222e-9e7b-4844-b3b4-a55795835722"
+                              "id": "ff9bc13d-e20c-484c-8427-8c8f30258c24"
                             }
                           ],
                           "true4": [
@@ -1587,7 +1587,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "ca5aeaf8-9675-4c5f-a29e-7594e597b346"
+                              "id": "8372523c-2801-4c59-b57e-862293c84a6e"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1611,7 +1611,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "cc8d3ef6-6503-4824-ba3b-83279cfb9586"
+                              "id": "2e2f69c8-3f8e-4d8c-8055-c64d7b28c981"
                             }
                           ],
                           "true5": [
@@ -1631,7 +1631,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "70aa12b0-1b79-4fb0-ba34-ccb0f707da19"
+                              "id": "1cfc8549-6688-4e46-a3ea-98672e82bf38"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1655,7 +1655,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "9078aa73-1503-452f-8d76-b0c0192a0cdf"
+                              "id": "d06c0cdf-f75d-4dba-a6b2-aacacd8a2ba5"
                             }
                           ],
                           "true6": [
@@ -1675,7 +1675,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "3398d50a-b079-464a-8734-5cb6f4375af2"
+                              "id": "905b175b-92e5-4dec-be4d-86049575cd2e"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1699,7 +1699,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "b172d936-4e07-4ebd-82e9-e149287f76b8"
+                              "id": "9f1bf640-0748-4d86-84bb-237fced001a1"
                             }
                           ],
                           "true7": [
@@ -1719,7 +1719,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "ecb53227-5758-428c-b36c-345bb8e3b7d4"
+                              "id": "7739c442-9a0f-4745-8347-04f2b34daa5d"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1743,7 +1743,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "14ee5571-ad28-47be-a50b-f99988a7e670"
+                              "id": "c420b820-7938-4c99-9aa3-2488593ad18b"
                             }
                           ],
                           "true8": [
@@ -1763,7 +1763,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "96f13722-2f9e-446f-b222-9d005c161e4c"
+                              "id": "97d593d9-8a7e-452b-a6f3-f90897aa5628"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1787,7 +1787,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "5292b8ef-089c-4fd2-bf06-f028a492ecde"
+                              "id": "ed43478b-4076-4c23-9dea-5770ef3e039c"
                             }
                           ],
                           "true9": [
@@ -1807,7 +1807,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "58d26257-c468-4714-ab06-883d24dfd509"
+                              "id": "6b8d36fa-0445-4d22-ab46-5261a6e0800f"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1831,7 +1831,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "9d117d6b-78ac-4d9b-b703-48b60a1e1171"
+                              "id": "7f5badbb-cebc-4e3e-80d0-c9993541b5b2"
                             }
                           ],
                           "true10": [],
@@ -1842,7 +1842,7 @@
                           "true15": [],
                           "false": []
                         },
-                        "id": "c6cc7e4e-caea-4720-9d96-a2dd7d11da19"
+                        "id": "32970e77-b2be-4c66-af14-db138e7de31f"
                       }
                     ],
                     "true3": [
@@ -1885,7 +1885,7 @@
                           "value15": 16,
                           "__collapseElse": false,
                           "__disableElse": true,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "4"
                         },
                         "children": {
@@ -1906,7 +1906,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "f94838d5-91cc-46c0-b30e-a0bf002e382b"
+                              "id": "72a27370-7fb4-414d-acb9-87572f51a31c"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1930,7 +1930,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "f1340e10-c465-4ffc-924e-347df69beab6"
+                              "id": "a6648595-5ebf-4cb9-8376-311313d450de"
                             }
                           ],
                           "true1": [
@@ -1950,7 +1950,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "1fe07c91-0f94-4497-bc27-18c1356b43c0"
+                              "id": "88d228de-2a99-4049-aa1a-c1bb39491253"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -1974,7 +1974,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "3e9dde84-5f3e-4068-9dd8-f14fbae45cd1"
+                              "id": "75a0ce3d-ca6e-412f-8f74-8b8dc6893b96"
                             }
                           ],
                           "true2": [
@@ -1994,7 +1994,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "8a209126-3d6b-49ff-a053-67fa1f5e85a3"
+                              "id": "6ff6921c-bed4-4c5f-8d78-54a05502f3a9"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -2018,7 +2018,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "796c4b16-2751-4fc1-91b7-c202718df80a"
+                              "id": "3281286d-ffe5-4de1-ac67-705f86573346"
                             }
                           ],
                           "true3": [
@@ -2038,7 +2038,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "a466c69a-d9dc-4f07-ad19-4d3ec0a4881c"
+                              "id": "cfb83234-6748-41aa-9712-10b18b11668f"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -2062,7 +2062,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "a511553d-a69a-4718-958e-33d8ae434425"
+                              "id": "8ad0f88d-948a-4e49-b1fc-85851c1893d4"
                             }
                           ],
                           "true4": [
@@ -2082,7 +2082,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "bf505fbd-819e-4aa6-ab6c-33dbdb561d2f"
+                              "id": "3a846375-d3c3-4997-9380-bc8ccc799d64"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -2106,7 +2106,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "f6605a28-a184-48e1-acbc-9fc367223ac9"
+                              "id": "6b153e16-11d1-408b-b6b2-2fd94523f929"
                             }
                           ],
                           "true5": [
@@ -2126,7 +2126,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "c56ca11a-8ec1-4523-b064-261b65661e74"
+                              "id": "34784d27-2194-44ea-94ae-2f002d98af02"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -2150,7 +2150,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "22cb2ef1-1a78-42ff-af13-d43757b1a975"
+                              "id": "0fef2241-a7a0-469e-addb-a75e9131ed4e"
                             }
                           ],
                           "true6": [
@@ -2170,7 +2170,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "efbe4830-78ee-45a4-ab92-2898fc711b8d"
+                              "id": "fa8289c0-019a-4bd9-b26d-a32a7da2a98c"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -2194,7 +2194,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "93cc221e-5f1f-479f-a648-14fb50865c24"
+                              "id": "c45f6669-2f49-4c20-85de-b7eddfd99934"
                             }
                           ],
                           "true7": [
@@ -2214,7 +2214,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "36a253e0-0134-4048-a2a7-d9bdb40656ed"
+                              "id": "b2dbcbaf-b05f-422e-9979-a430095d9fd0"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -2238,7 +2238,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "ab854ce2-a113-45fa-8881-00cbd49b7c42"
+                              "id": "17ba2ac6-17cc-47f3-bdae-e41fc5d8f7ec"
                             }
                           ],
                           "true8": [
@@ -2258,7 +2258,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "ef175ce3-77a1-4b2a-b691-2fe5d78e4811"
+                              "id": "6e85246b-04a6-4b10-b12a-104f377da1ac"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -2282,7 +2282,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "576484b2-4e50-4cde-a82b-292bacc960f4"
+                              "id": "8f4ab3f4-cd8e-424e-ae73-14a38bc22128"
                             }
                           ],
                           "true9": [
@@ -2302,7 +2302,7 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "a3c878b9-a7c8-4b9c-a2eb-bea57c66fc4e"
+                              "id": "7c29430b-e54a-496a-bac8-1a7a479ae7da"
                             },
                             {
                               "command": "EVENT_ADD_FLAGS",
@@ -2326,7 +2326,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "16e3ddd6-fda3-439c-9792-55f2df93dd4d"
+                              "id": "e729ace0-73f6-42b2-94bb-ce17abd63d0b"
                             }
                           ],
                           "true10": [],
@@ -2337,7 +2337,7 @@
                           "true15": [],
                           "false": []
                         },
-                        "id": "66ff3b78-ee1c-4f48-8bdb-3db144c0198d"
+                        "id": "c305be6d-5201-46cf-88d2-7bdd34807fc9"
                       }
                     ],
                     "true4": [
@@ -2380,7 +2380,7 @@
                           "value15": 16,
                           "__collapseElse": false,
                           "__disableElse": true,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "5"
                         },
                         "children": {
@@ -2401,10 +2401,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "ffb5c0f7-ca7d-4317-8879-3a16ff89d3ec"
+                              "id": "e2607eba-8ebf-4d5e-be5f-2d7ea8cd3b52"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "25",
                                 "flag1": true,
@@ -2425,7 +2425,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "369c6c8c-559e-44c3-b28e-c6872ee93f39"
+                              "id": "77480bcd-0f6b-4f84-bf29-7468c1cb5596"
                             }
                           ],
                           "true1": [
@@ -2445,10 +2445,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "9d8d03b6-592f-42c0-b5df-21219622becd"
+                              "id": "65c44e40-129a-4a44-8dc7-7cce24fd7d6e"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "25",
                                 "flag1": false,
@@ -2469,7 +2469,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "b016e1fb-ac81-4384-afdb-243a2a376d48"
+                              "id": "dcfffea0-dcb6-46b9-8f8d-3179b851341a"
                             }
                           ],
                           "true2": [
@@ -2489,10 +2489,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "46db5b0e-5289-4769-8bd9-681e6299cc75"
+                              "id": "8aa5ea8c-0686-41ad-8d2a-a6bb4f0dc765"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "25",
                                 "flag1": false,
@@ -2513,7 +2513,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "78491ff2-98f4-4b09-9067-00a5f9e150de"
+                              "id": "dd66d762-f850-463a-a068-ed9bda1ca422"
                             }
                           ],
                           "true3": [
@@ -2533,10 +2533,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "17572289-4e3f-4c65-9322-e0572986c4cb"
+                              "id": "66ad61fc-eea9-4c2f-97dc-aab06cb608dd"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "25",
                                 "flag1": false,
@@ -2557,7 +2557,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "08bfaf2b-c5f9-4d3e-9feb-be1d41804f36"
+                              "id": "3a332834-a2cd-4b69-9a41-e07411ab9bd7"
                             }
                           ],
                           "true4": [
@@ -2577,10 +2577,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "60c5a4dc-b1ba-4c29-9a05-ef50fca2bb82"
+                              "id": "5361b2bf-9980-4fa2-8812-26c433c83d2f"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "25",
                                 "flag1": false,
@@ -2601,7 +2601,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "ff814ed9-56af-4348-b61d-74c373a63b6b"
+                              "id": "e16e72a8-e4c5-41a1-92b4-345f92ff654e"
                             }
                           ],
                           "true5": [
@@ -2621,10 +2621,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "a4a90c7d-10bc-4d94-9038-6fabc450d2da"
+                              "id": "0b461530-9683-4bb7-8668-79841e8f6d5e"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "25",
                                 "flag1": false,
@@ -2645,7 +2645,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "df9a3ead-0279-43a6-ba42-616798c143c8"
+                              "id": "716c9677-d976-45bf-a8c8-f515115962f0"
                             }
                           ],
                           "true6": [
@@ -2665,10 +2665,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "9c46dbcb-d404-4332-aef6-7614aeef6acf"
+                              "id": "0f383f61-3bf4-4d89-9623-f5801bc60318"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "25",
                                 "flag1": false,
@@ -2689,7 +2689,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "41bb6850-fbdd-4942-bc6f-e172a6202219"
+                              "id": "e9d0c1e7-1f97-43f7-a21c-569863c1994a"
                             }
                           ],
                           "true7": [
@@ -2709,10 +2709,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "871adc10-5cbd-4c9e-a37d-2f8f6fd07876"
+                              "id": "37edfc28-1296-4733-9b67-5a52ff5658c6"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "25",
                                 "flag1": false,
@@ -2733,7 +2733,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "2bcd3b77-7f6e-465e-8e4e-499b79eadb18"
+                              "id": "29c1b5c8-6f3a-4207-b064-21ebd0efa80f"
                             }
                           ],
                           "true8": [
@@ -2753,10 +2753,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "db14a5ec-7069-4f56-a1ed-9ce50c3a0822"
+                              "id": "f9ea17ed-e9ed-417a-af7f-21137fbe1375"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "25",
                                 "flag1": false,
@@ -2777,7 +2777,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "b692421e-031d-4cc7-810b-2e813ad387a7"
+                              "id": "a8b40f34-1dd5-4da4-85c7-7e77716172ba"
                             }
                           ],
                           "true9": [
@@ -2797,10 +2797,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "8b6509f2-e488-49a3-9c09-333321eadf8d"
+                              "id": "e202e88f-bb83-4fee-9ca5-2208edc41d78"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "25",
                                 "flag1": false,
@@ -2821,7 +2821,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "2ce1b1f4-b7b4-4255-8da4-a0772576ee67"
+                              "id": "a5369e9d-ea79-4a06-8c98-5b8917249744"
                             }
                           ],
                           "true10": [],
@@ -2832,7 +2832,7 @@
                           "true15": [],
                           "false": []
                         },
-                        "id": "b522101c-5c69-4cd4-8547-d9ea76be3098"
+                        "id": "1f638777-f5b2-4380-8d03-be663c0d6bb3"
                       }
                     ],
                     "true5": [
@@ -2875,7 +2875,7 @@
                           "value15": 16,
                           "__collapseElse": false,
                           "__disableElse": true,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "6"
                         },
                         "children": {
@@ -2896,10 +2896,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "8b962242-89d7-4ccf-8cea-bf6d0327e4a0"
+                              "id": "abfeddda-159f-4410-9403-7978ea583d74"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "26",
                                 "flag1": true,
@@ -2920,7 +2920,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "355c2d3c-e96d-4150-8731-9d057a61bf86"
+                              "id": "08ab1099-e92b-4528-9845-370604335b08"
                             }
                           ],
                           "true1": [
@@ -2940,10 +2940,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "535d76b4-99e2-4a7e-9bd1-b17b481a9c8f"
+                              "id": "b9df5889-5737-449a-9095-fbd42925de69"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "26",
                                 "flag1": false,
@@ -2964,7 +2964,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "dde5342c-f7d0-44b8-963f-ea75c638165f"
+                              "id": "01ec087c-fa7d-4d9c-8da3-267c29ef32a9"
                             }
                           ],
                           "true2": [
@@ -2984,10 +2984,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "ee53e64d-298a-42a0-9cf3-c3cd94412a35"
+                              "id": "5046c2ad-4f15-424f-a555-08f00b8b8ade"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "26",
                                 "flag1": false,
@@ -3008,7 +3008,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "604c5d2f-9115-47f7-b02f-496ebb803c76"
+                              "id": "b779f7c4-fae6-45ee-9fd4-6d99db981eec"
                             }
                           ],
                           "true3": [
@@ -3028,10 +3028,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "d1fd656c-bedd-4ffb-a1da-f4cf01aff31a"
+                              "id": "66455302-2fd2-442f-bbc1-fe8f652ad34f"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "26",
                                 "flag1": false,
@@ -3052,7 +3052,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "89fa49fc-64b1-4e1a-abdc-f7ddd6b04ee7"
+                              "id": "421aa898-b492-483e-9ed9-8696f201ec2b"
                             }
                           ],
                           "true4": [
@@ -3072,10 +3072,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "044d6622-710c-4054-9c4d-9c23b26ef3ba"
+                              "id": "f9bf20fc-3c29-4b2e-a6bf-49ae3230d973"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "26",
                                 "flag1": false,
@@ -3096,7 +3096,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "afb0f042-13c4-4e41-ab1f-4aff31e55307"
+                              "id": "2cd543de-14ac-4c8e-9eab-b449155e5e9b"
                             }
                           ],
                           "true5": [
@@ -3116,10 +3116,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "2812e19e-483d-4a4e-9714-8ce71d71b33b"
+                              "id": "38813588-5aab-47b0-9248-e0cf5aaaf9ed"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "26",
                                 "flag1": false,
@@ -3140,7 +3140,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "ca59b5b5-f54e-42ed-bb0c-123446f7668b"
+                              "id": "eb5e0579-95e4-4077-96de-96762b8528fc"
                             }
                           ],
                           "true6": [
@@ -3160,10 +3160,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "beb36ec0-7669-4ad8-bf41-aa72a8883613"
+                              "id": "8e2e38c4-cb41-4aae-8f4f-58bb55873e38"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "26",
                                 "flag1": false,
@@ -3184,7 +3184,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "edd62110-3c33-421c-b3a1-49eac47191df"
+                              "id": "51f2c5cd-7e2e-4e3e-a557-ac7cfe12b7e3"
                             }
                           ],
                           "true7": [
@@ -3204,10 +3204,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "77ecdaab-262f-4dda-9126-a6c7ce78bc60"
+                              "id": "94bf21a3-290b-4684-ba9d-62a3f638c559"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "26",
                                 "flag1": false,
@@ -3228,7 +3228,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "96101de2-67bb-45ee-b691-bbd646fe70c4"
+                              "id": "8c06a2b8-1329-40a3-bf5e-ffeccfdc401a"
                             }
                           ],
                           "true8": [
@@ -3248,10 +3248,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "ef293eb7-4d14-4d1a-8384-c5c106f77150"
+                              "id": "81b3d584-3eeb-4705-9811-ed47be65093f"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "26",
                                 "flag1": false,
@@ -3272,7 +3272,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "93dbff12-9a1b-490b-ae3e-4078827ce401"
+                              "id": "98878a1d-70f9-44b7-8a61-636334a18aaf"
                             }
                           ],
                           "true9": [
@@ -3292,10 +3292,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "1657a137-543c-4706-9e6e-0a24db089b95"
+                              "id": "ce1e2a3c-a950-4793-bfbe-f95e8ee908bd"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "26",
                                 "flag1": false,
@@ -3316,7 +3316,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "732bfbc5-ab9a-4aca-a9d1-2a94339b1678"
+                              "id": "4a2faa65-d7c5-4758-bf3a-272fe460591d"
                             }
                           ],
                           "true10": [],
@@ -3327,7 +3327,7 @@
                           "true15": [],
                           "false": []
                         },
-                        "id": "f09525a6-e3c4-4b1d-b9f6-8b02ae301102"
+                        "id": "fd5a9463-dd26-49d8-b5c8-a2e8697b3a90"
                       }
                     ],
                     "true6": [
@@ -3370,7 +3370,7 @@
                           "value15": 16,
                           "__collapseElse": false,
                           "__disableElse": true,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "7"
                         },
                         "children": {
@@ -3391,10 +3391,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "a2ebd006-4627-42e5-b78e-5ea8436ae22a"
+                              "id": "90e9d9ac-9b09-4aae-a36e-fd33f2e96726"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "27",
                                 "flag1": true,
@@ -3415,7 +3415,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "859ead06-4c0a-4518-a606-d2a7f84553e8"
+                              "id": "458c15a6-533f-41fc-9c55-03203c3bc894"
                             }
                           ],
                           "true1": [
@@ -3435,10 +3435,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "58d30124-d403-4bf8-8571-4dd92fe66f70"
+                              "id": "63ed3ffd-54d2-41a3-b92b-38fd1eae7d33"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "27",
                                 "flag1": false,
@@ -3459,7 +3459,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "8792ef8c-8a78-4223-8cb0-164894bef0c0"
+                              "id": "238af8d2-3790-465f-861f-792c4a3c1f94"
                             }
                           ],
                           "true2": [
@@ -3479,10 +3479,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "ad453c13-2749-488b-b83e-42840cbf4a6e"
+                              "id": "b98dd610-245a-47fc-9b73-2bcdae0cb8b0"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "27",
                                 "flag1": false,
@@ -3503,7 +3503,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "56b24e93-8647-4121-9004-ce04cc2af848"
+                              "id": "d80f223b-cae3-4577-be79-8a736a7285a2"
                             }
                           ],
                           "true3": [
@@ -3523,10 +3523,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "6b0e4d5f-cac1-4c19-bf5a-a092f365c499"
+                              "id": "56edefc1-0f0e-4256-b934-8ceb8bcee3e1"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "27",
                                 "flag1": false,
@@ -3547,7 +3547,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "a2aaebb2-b1ee-4cc5-85c9-668172e3528e"
+                              "id": "d56bed1a-eb59-4b16-90e3-6acdf0b1657b"
                             }
                           ],
                           "true4": [
@@ -3567,10 +3567,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "72281e91-c380-4b30-8b30-9316d1723c91"
+                              "id": "64239dd5-95da-4dce-8b1f-7d21598c5dc4"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "27",
                                 "flag1": false,
@@ -3591,7 +3591,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "bf6af200-4271-484d-9858-1a3d3d65667a"
+                              "id": "26d2b1fd-6167-4e44-9016-1ef6a5b55535"
                             }
                           ],
                           "true5": [
@@ -3611,10 +3611,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "c2407c0e-0556-4f76-916d-091d2b71f1c0"
+                              "id": "d99d01ed-1e49-43b0-8181-a52a7571e449"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "27",
                                 "flag1": false,
@@ -3635,7 +3635,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "3eb7d973-e6c7-486e-ad25-06e69cad3be4"
+                              "id": "8f11b93a-de4c-4a04-91ac-9595154d9ecd"
                             }
                           ],
                           "true6": [
@@ -3655,10 +3655,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "38ad0e19-0f6e-4883-88ee-0770938689e4"
+                              "id": "5c2bfa55-e27d-4336-b514-6a8f354f1288"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "27",
                                 "flag1": false,
@@ -3679,7 +3679,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "457bb1c0-ea02-42d0-aa5b-b69b892465b1"
+                              "id": "11ecf788-ed1b-4677-b162-265685e4bcab"
                             }
                           ],
                           "true7": [
@@ -3699,10 +3699,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "d25347e6-4ee7-491d-bac0-5877495e45d9"
+                              "id": "9d0ce976-59f7-4eb2-b036-7d80138b6b96"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "27",
                                 "flag1": false,
@@ -3723,7 +3723,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "458f2fe8-3ef3-4bf4-b8d8-1c0b8639fc10"
+                              "id": "f7ea0e2f-776e-497c-a54d-70bf0319a21d"
                             }
                           ],
                           "true8": [
@@ -3743,10 +3743,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "4a72e3d1-1c20-4f5f-867d-b3ef40408e33"
+                              "id": "75aa35be-aa98-4ec3-89b7-381c46e39138"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "27",
                                 "flag1": false,
@@ -3767,7 +3767,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "26197e9d-d2b2-4c7b-be37-6af4ecb68d58"
+                              "id": "295e6583-3995-43ad-a658-fad33ccf6b40"
                             }
                           ],
                           "true9": [
@@ -3787,10 +3787,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "1c0eb554-0e0a-40f7-a12b-2464e03cda1e"
+                              "id": "28a2a9ec-8472-4e8f-83b8-95606a29beec"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "27",
                                 "flag1": false,
@@ -3811,7 +3811,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "92d17751-0f30-46c7-8fa0-ebe9a3117b28"
+                              "id": "0a5c0b32-5cf7-4c2f-b990-6c5ec51f19b6"
                             }
                           ],
                           "true10": [],
@@ -3822,7 +3822,7 @@
                           "true15": [],
                           "false": []
                         },
-                        "id": "fdea8fa3-da8a-46d4-b575-e2fdec181a99"
+                        "id": "a574be2b-1e7d-4634-9470-6339b0e0008b"
                       }
                     ],
                     "true7": [
@@ -3886,10 +3886,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "83ae30ff-61aa-468a-879b-675fba15b698"
+                              "id": "0efe3492-3a8e-45bf-9abf-06a4e83f05de"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "28",
                                 "flag1": true,
@@ -3910,7 +3910,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "f2b71535-e9ec-412b-a654-2a15e63536b4"
+                              "id": "bb1361a4-b0de-45ce-958d-ef567092b653"
                             }
                           ],
                           "true1": [
@@ -3930,10 +3930,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "a6036c15-e01f-465e-a8bf-378e6e11b137"
+                              "id": "d3496f0f-72c5-4f9d-913a-dfb0ff65faaa"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "28",
                                 "flag1": false,
@@ -3954,7 +3954,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "ae11795d-0e0e-4e7d-a995-6d230abedb41"
+                              "id": "7b0fcc28-d98f-4262-95f4-49647aa4cc5c"
                             }
                           ],
                           "true2": [
@@ -3974,10 +3974,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "29583b58-1765-40e9-90ef-23364c3c53f3"
+                              "id": "40678b4b-a62c-45a4-8f4c-90abda3d76a1"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "28",
                                 "flag1": false,
@@ -3998,7 +3998,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "6f80e3a1-35f0-4183-82bf-27926b133d0f"
+                              "id": "d81c64bc-24b7-4127-a78d-97c8873aaf6c"
                             }
                           ],
                           "true3": [
@@ -4018,10 +4018,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "02637251-83cb-404a-8af9-b5bb2a08a929"
+                              "id": "b0196df2-dafe-4002-8401-4b07ee1f1f1b"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "28",
                                 "flag1": false,
@@ -4042,7 +4042,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "aa444844-2e2a-462d-ab4e-33c6864910d1"
+                              "id": "abb52754-32ab-4f14-a375-4a6df22e75c5"
                             }
                           ],
                           "true4": [
@@ -4062,10 +4062,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "28fd7206-4d67-4d4e-b575-d44cb12c7de4"
+                              "id": "e3e80bb9-b613-49b7-8e19-f70e64e6da5d"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "28",
                                 "flag1": false,
@@ -4086,7 +4086,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "e5d1461c-c36e-43a7-9fa6-89961c3cecef"
+                              "id": "f61147f3-ce5f-4651-a768-6b09ab30a731"
                             }
                           ],
                           "true5": [
@@ -4106,10 +4106,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "49813bd6-9c15-4348-8655-1c5eae68c078"
+                              "id": "4f640e24-1d28-405b-86d8-79788f407052"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "28",
                                 "flag1": false,
@@ -4130,7 +4130,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "9f180415-2281-46af-a3d8-fa09791394b7"
+                              "id": "8104e7ce-4b2a-45b3-a8f5-3a3984a7d2bc"
                             }
                           ],
                           "true6": [
@@ -4150,10 +4150,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "dc531c77-5c3b-4731-a354-29ab963e0a83"
+                              "id": "0ed65513-f2e4-473f-b2ef-9920a6462a04"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "28",
                                 "flag1": false,
@@ -4174,7 +4174,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "7c316829-97d5-43fe-bd56-599af031cec4"
+                              "id": "d146b73e-c24e-4dc4-a820-b1ac237e0e3b"
                             }
                           ],
                           "true7": [
@@ -4190,12 +4190,12 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "e2f0c4f6-28b7-48f4-8994-b6f4d09a550b"
+                              "id": "9895e05b-8ffa-4acc-b7d7-f74fd950dfe4"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
-                                "variable": "9",
+                                "variable": "28",
                                 "flag1": false,
                                 "flag2": false,
                                 "flag3": false,
@@ -4214,7 +4214,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "8d4483b6-6d04-4b7b-a9b2-684a2929d96d"
+                              "id": "05a1d69e-48b9-4d7a-81cb-7ba45d1abac8"
                             }
                           ],
                           "true8": [
@@ -4234,10 +4234,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "9000c295-5ddc-4868-a589-3c0475fc27f0"
+                              "id": "ad457bc3-5c44-487a-8986-39a8048112cb"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "28",
                                 "flag1": false,
@@ -4258,7 +4258,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "eb704853-c547-4ee6-9598-dbd3a7731dd3"
+                              "id": "74ac86a4-75d8-4086-9c6d-54b5bc819dfe"
                             }
                           ],
                           "true9": [
@@ -4278,10 +4278,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "0041f01a-70f7-431e-9f3d-71924ced7e8e"
+                              "id": "f31baccc-a24b-4c53-889f-ea536fa70c38"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "28",
                                 "flag1": true,
@@ -4302,7 +4302,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "7a082899-626a-4d4f-8e7d-c5da0621973c"
+                              "id": "8a557c46-1945-4191-b863-0d38e5346988"
                             }
                           ],
                           "true10": [],
@@ -4313,7 +4313,7 @@
                           "true15": [],
                           "false": []
                         },
-                        "id": "fdba8a56-dc8f-44fe-baf4-566f5c9c6a2b"
+                        "id": "783a5c29-dc91-46fb-a2d3-49139228b245"
                       }
                     ],
                     "true8": [
@@ -4322,9 +4322,9 @@
                         "args": {
                           "variable": "32",
                           "choices": 10,
-                          "__collapseCase0": false,
+                          "__collapseCase0": true,
                           "value0": 7,
-                          "__collapseCase1": false,
+                          "__collapseCase1": true,
                           "value1": 8,
                           "__collapseCase2": false,
                           "value2": 9,
@@ -4377,10 +4377,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "e1cf7498-6e3e-4525-b013-9d07418d9442"
+                              "id": "6bbd0a73-3638-400b-bc16-fefef37462cf"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "29",
                                 "flag1": true,
@@ -4401,7 +4401,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "4575c45e-c4f8-47f5-b1ea-1e03ff32a9c9"
+                              "id": "2fa68f2d-d82d-499e-a1c4-ac3bc3586aed"
                             }
                           ],
                           "true1": [
@@ -4421,10 +4421,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "031ef8d4-aff6-4212-a9bc-8f77172a14b1"
+                              "id": "90ea7472-9726-4f0b-813f-1a57c5d7a435"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "29",
                                 "flag1": false,
@@ -4445,7 +4445,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "5c8a3283-2162-4971-92cc-1d4fe08b93db"
+                              "id": "3caa815b-b229-4908-9c04-4b15fdb9d6c1"
                             }
                           ],
                           "true2": [
@@ -4465,10 +4465,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "5b2e33c0-eb42-4c51-9e31-c2b040e1c28a"
+                              "id": "a38718c4-2ef3-4b78-a4e3-7b6ce9022cf9"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "29",
                                 "flag1": false,
@@ -4489,7 +4489,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "dcc7fe8f-af84-42d7-b617-80135897ca16"
+                              "id": "8d48bb5b-ceca-4353-a4a8-9502698c2665"
                             }
                           ],
                           "true3": [
@@ -4509,10 +4509,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "3e55d6fb-66cf-4386-bcaa-4f673d111cf0"
+                              "id": "35f15f5f-ef7f-4d75-a26a-36a7f4a1e1cf"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "29",
                                 "flag1": false,
@@ -4533,7 +4533,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "eee92d98-04be-40f2-83e7-673a5ef519ab"
+                              "id": "40eeb127-e9c0-4cdd-a3a1-a5ade0da99a3"
                             }
                           ],
                           "true4": [
@@ -4553,10 +4553,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "66ee7c44-1599-4349-9ba3-e636cd8b24bf"
+                              "id": "d78e7262-28cc-40a0-9c4e-7c414ccaf917"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "29",
                                 "flag1": false,
@@ -4577,7 +4577,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "324deae4-42f6-4307-8e7f-709e243f7070"
+                              "id": "8b256992-c7c1-4898-b0c3-3f25daab4fc5"
                             }
                           ],
                           "true5": [
@@ -4597,10 +4597,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "f4a2f773-300a-4c38-9809-da1ee539ed9c"
+                              "id": "33c83ea2-2f86-49ec-a251-302917cf35be"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "29",
                                 "flag1": false,
@@ -4621,7 +4621,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "f54036d5-7c6e-4b31-b887-b06d05a19109"
+                              "id": "748e1de9-fd5c-4c85-b342-a30f908a7b49"
                             }
                           ],
                           "true6": [
@@ -4641,10 +4641,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "4a49ae13-1507-44bc-8d84-103ec1982a9f"
+                              "id": "fd4a8ee8-b6e2-42dc-a6cf-640847b71222"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "29",
                                 "flag1": false,
@@ -4665,7 +4665,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "60062139-f3b6-4594-8d26-e4d3a27d5097"
+                              "id": "d4ad99d7-ceae-41da-86ab-e3a09f4e5a02"
                             }
                           ],
                           "true7": [
@@ -4685,10 +4685,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "08217e37-986c-4e7d-b2c4-497210fe4969"
+                              "id": "a95b1f00-770b-4f32-98b8-f114552dfc4c"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "29",
                                 "flag1": false,
@@ -4709,7 +4709,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "4eac4dfd-56d1-4900-855a-8b11c03fbbd0"
+                              "id": "f7bb328a-c098-46f3-ad6f-649d0b7f9357"
                             }
                           ],
                           "true8": [
@@ -4729,10 +4729,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "d46df190-c31b-4af2-83be-309b4d856571"
+                              "id": "322b3447-9dc8-49da-b31a-997bf20e26ef"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "29",
                                 "flag1": false,
@@ -4753,7 +4753,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "d98a5b57-28ec-4853-b8b8-64918488399c"
+                              "id": "05f4c4cc-cc16-4c47-9e2a-d019c61cecda"
                             }
                           ],
                           "true9": [
@@ -4773,10 +4773,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "747f497a-54e2-4d60-9e82-3cf001388c2e"
+                              "id": "1e099b2b-5f57-4ba6-aa96-b216f8f95cea"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "29",
                                 "flag1": false,
@@ -4797,7 +4797,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "5816cae9-e61d-4d51-980a-74fab3d25f5e"
+                              "id": "8aa8542c-ae5d-4270-b474-6f073b507ac6"
                             }
                           ],
                           "true10": [],
@@ -4808,7 +4808,7 @@
                           "true15": [],
                           "false": []
                         },
-                        "id": "93b99fed-0d14-41b9-b10a-02c3221b8eae"
+                        "id": "98a54dc5-9ccf-4f6d-9d34-d0fd23170343"
                       }
                     ],
                     "true9": [
@@ -4859,7 +4859,7 @@
                             {
                               "command": "EVENT_GBVM_SCRIPT",
                               "args": {
-                                "script": "VM_PUSH_CONST 2\nVM_REPLACE_TILE_XY 17, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_POP 1",
+                                "script": "VM_PUSH_CONST 0\nVM_REPLACE_TILE_XY 17, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_POP 1",
                                 "references": [
                                   {
                                     "type": "background",
@@ -4872,10 +4872,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "76e32c28-c852-4172-8dca-96faad1bb111"
+                              "id": "16b26143-f354-40c5-bc33-268fe8ff5745"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "30",
                                 "flag1": true,
@@ -4896,7 +4896,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "fa3f2e0e-0fae-4f97-a19c-b89b1707cddb"
+                              "id": "d2e361f6-b32f-4bbd-9811-d2f01185e783"
                             }
                           ],
                           "true1": [
@@ -4916,10 +4916,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "f625344f-999b-4edc-9516-341937fe4201"
+                              "id": "349f0417-3e58-42a9-8f06-50733125f349"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "30",
                                 "flag1": false,
@@ -4940,7 +4940,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "afa0f19b-d87d-4385-a6d2-3b31b3ec8cca"
+                              "id": "1fdec942-5f29-47a8-bfda-c830a891c4af"
                             }
                           ],
                           "true2": [
@@ -4960,10 +4960,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "cbc14bca-c211-4a5a-b7c5-babd243dd875"
+                              "id": "5ce72d06-35c8-4c6b-b242-ba057bca9d8c"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "30",
                                 "flag1": false,
@@ -4984,7 +4984,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "de913a1d-8b68-4e9e-b8ea-0662f2e2a3e7"
+                              "id": "46b02d1a-ed4d-4546-b549-7e5116a86448"
                             }
                           ],
                           "true3": [
@@ -5004,10 +5004,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "db1bc8e1-3297-499f-9d78-17c7bd62462c"
+                              "id": "697ca37d-9b4b-4d45-b2ea-07b6c480715b"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "30",
                                 "flag1": false,
@@ -5028,7 +5028,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "b262d581-7f0a-454c-acaf-d70e46d7d778"
+                              "id": "4f22d83d-3bd6-41af-aec4-f6fb9895f534"
                             }
                           ],
                           "true4": [
@@ -5048,10 +5048,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "9c8b13ba-1b3a-40b4-8d14-cb22ab2a89b0"
+                              "id": "ff2d0d58-69b9-4929-96f2-bd90bc77f4d2"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "30",
                                 "flag1": false,
@@ -5072,7 +5072,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "38f0327d-b36c-4dea-b2e9-14cd2d05deb2"
+                              "id": "cb421e2b-b2aa-48d5-b139-cc045a286a6c"
                             }
                           ],
                           "true5": [
@@ -5092,10 +5092,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "00dd2cd2-e782-4720-acc3-ea7656f74f30"
+                              "id": "5092ef8a-c00b-4bd9-bd4a-4d15221a348a"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "30",
                                 "flag1": false,
@@ -5116,7 +5116,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "376199a7-b379-4290-8595-36a42cb87698"
+                              "id": "484b9e4e-d508-45aa-ba64-5a70277479a7"
                             }
                           ],
                           "true6": [
@@ -5136,10 +5136,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "3a9d70fd-9dc0-42aa-afc6-ebd23ccdecd2"
+                              "id": "c60fe78a-e1e6-4425-90f3-1013d719fe28"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "30",
                                 "flag1": false,
@@ -5160,7 +5160,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "1aff8b17-57eb-4dab-a224-179859c8b595"
+                              "id": "54cd4467-cd93-4d3e-91f0-53d15f4a6bc5"
                             }
                           ],
                           "true7": [
@@ -5180,10 +5180,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "26e7d935-3778-41c3-bd02-84156e4dacad"
+                              "id": "360debbb-d352-4859-aba4-9147382bb958"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "30",
                                 "flag1": false,
@@ -5204,7 +5204,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "63d9b747-23a5-4f9e-b385-b4111d92b3aa"
+                              "id": "7ca2cc2e-b1b1-4c41-8fee-4c990253b3aa"
                             }
                           ],
                           "true8": [
@@ -5224,10 +5224,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "2e5e9369-583a-40d0-a0ae-8eedb8e77d57"
+                              "id": "97dfa7b5-2ddf-4c1e-82b7-372472328243"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "30",
                                 "flag1": false,
@@ -5248,7 +5248,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "c31930a6-4acb-4f2d-b3ed-2a4db5ca8469"
+                              "id": "697c7a0d-fe88-4d46-9c9d-3375b4cf4e83"
                             }
                           ],
                           "true9": [
@@ -5268,10 +5268,10 @@
                                 ],
                                 "__collapse": false
                               },
-                              "id": "a83bc2dd-ee85-4f9e-8af2-0b60aef60530"
+                              "id": "41134195-737a-4f2a-a8ee-a8a571eff35f"
                             },
                             {
-                              "command": "EVENT_CLEAR_FLAGS",
+                              "command": "EVENT_ADD_FLAGS",
                               "args": {
                                 "variable": "30",
                                 "flag1": false,
@@ -5292,7 +5292,7 @@
                                 "flag16": false,
                                 "__collapse": true
                               },
-                              "id": "ce63a725-3512-4120-8bdb-f5c96f0b7475"
+                              "id": "826e1745-0c02-4338-b860-87d5ae79f7da"
                             }
                           ],
                           "true10": [],
@@ -5303,7 +5303,7 @@
                           "true15": [],
                           "false": []
                         },
-                        "id": "da141d21-3fa4-4ca7-a48b-c5000d976ee8"
+                        "id": "a31f590c-2b9f-4826-9d0b-eff8c5de7e22"
                       }
                     ],
                     "true10": [],
@@ -5314,11 +5314,11 @@
                     "true15": [],
                     "false": []
                   },
-                  "id": "4730d029-b8b7-4ffd-87dd-c5b376867f42"
+                  "id": "75fe812e-95d7-47c0-a784-0c142bcb6ba0"
                 }
               ]
             },
-            "id": "ab349602-435c-4b63-a4d9-4e24ed70505f"
+            "id": "73bcff9e-38c8-42e6-868d-0973e2effbe2"
           },
           {
             "command": "EVENT_SET_INPUT_SCRIPT",
@@ -15358,7 +15358,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [

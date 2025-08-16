@@ -43,7 +43,7 @@
           {
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": false,
+              "__collapse": true,
               "__label": "flags check"
             },
             "children": {
@@ -51,7 +51,7 @@
                 {
                   "command": "EVENT_GROUP",
                   "args": {
-                    "__collapse": false,
+                    "__collapse": true,
                     "__label": "1"
                   },
                   "children": {
@@ -2480,7 +2480,7 @@
               "comparator": 100,
               "__collapseElse": false,
               "__disableElse": false,
-              "__collapse": true,
+              "__collapse": false,
               "condition": {
                 "type": "eq",
                 "valueA": {
@@ -2596,7 +2596,7 @@
                       "Aun no terminas!\nQuedan $V0$ celdas\npendientes!"
                     ],
                     "avatarId": "",
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "20b23b2d-e8e4-409d-9bdf-6f91a51886f2"
                 },

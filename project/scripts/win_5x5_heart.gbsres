@@ -45,7 +45,7 @@
           {
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": false,
+              "__collapse": true,
               "__label": "flags check"
             },
             "children": {
@@ -295,7 +295,7 @@
                 {
                   "command": "EVENT_GROUP",
                   "args": {
-                    "__collapse": true,
+                    "__collapse": false,
                     "__label": "2"
                   },
                   "children": {
@@ -303,7 +303,7 @@
                       {
                         "command": "EVENT_IF_FLAGS_COMPARE",
                         "args": {
-                          "variable": "21",
+                          "variable": "22",
                           "flag": 0,
                           "__collapseElse": false,
                           "__collapse": true
@@ -326,7 +326,7 @@
                       {
                         "command": "EVENT_IF_FLAGS_COMPARE",
                         "args": {
-                          "variable": "21",
+                          "variable": "22",
                           "flag": 1,
                           "__collapseElse": false,
                           "__collapse": true
@@ -349,7 +349,7 @@
                       {
                         "command": "EVENT_IF_FLAGS_COMPARE",
                         "args": {
-                          "variable": "21",
+                          "variable": "22",
                           "flag": 2,
                           "__collapseElse": false,
                           "__collapse": true
@@ -372,7 +372,7 @@
                       {
                         "command": "EVENT_IF_FLAGS_COMPARE",
                         "args": {
-                          "variable": "21",
+                          "variable": "22",
                           "flag": 3,
                           "__collapseElse": false,
                           "__collapse": true
@@ -395,7 +395,7 @@
                       {
                         "command": "EVENT_IF_FLAGS_COMPARE",
                         "args": {
-                          "variable": "21",
+                          "variable": "22",
                           "flag": 4,
                           "__collapseElse": false,
                           "__collapse": true
@@ -418,7 +418,7 @@
                       {
                         "command": "EVENT_IF_FLAGS_COMPARE",
                         "args": {
-                          "variable": "21",
+                          "variable": "22",
                           "flag": 5,
                           "__collapseElse": false,
                           "__collapse": true
@@ -441,7 +441,7 @@
                       {
                         "command": "EVENT_IF_FLAGS_COMPARE",
                         "args": {
-                          "variable": "21",
+                          "variable": "22",
                           "flag": 6,
                           "__collapseElse": false,
                           "__collapse": true
@@ -464,7 +464,7 @@
                       {
                         "command": "EVENT_IF_FLAGS_COMPARE",
                         "args": {
-                          "variable": "21",
+                          "variable": "22",
                           "flag": 7,
                           "__collapseElse": false,
                           "__collapse": true
@@ -487,7 +487,7 @@
                       {
                         "command": "EVENT_IF_FLAGS_COMPARE",
                         "args": {
-                          "variable": "21",
+                          "variable": "22",
                           "flag": 8,
                           "__collapseElse": false,
                           "__collapse": true
@@ -510,7 +510,7 @@
                       {
                         "command": "EVENT_IF_FLAGS_COMPARE",
                         "args": {
-                          "variable": "21",
+                          "variable": "22",
                           "flag": 9,
                           "__collapseElse": false,
                           "__collapse": true
@@ -2482,7 +2482,7 @@
               "comparator": 100,
               "__collapseElse": false,
               "__disableElse": false,
-              "__collapse": true,
+              "__collapse": false,
               "condition": {
                 "type": "eq",
                 "valueA": {
@@ -2598,7 +2598,7 @@
                       "Aun no terminas!\nQuedan $V0$ celdas\npendientes!"
                     ],
                     "avatarId": "",
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "951fd990-b1e2-48b6-9aac-e7249c0c53e4"
                 },
