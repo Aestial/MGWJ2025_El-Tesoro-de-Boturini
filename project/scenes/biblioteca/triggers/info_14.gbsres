@@ -1,41 +1,15 @@
 {
   "_resourceType": "trigger",
-  "id": "5eef950f-7c4f-4da4-be85-08fde2968244",
-  "name": "",
+  "id": "d7271670-938c-4071-8f07-cbba78e6b6f5",
+  "name": "info_14",
   "prefabId": "",
-  "x": 10,
-  "y": 25,
-  "symbol": "trigger_40",
+  "x": 6,
+  "y": 13,
+  "symbol": "trigger_50",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
   "script": [
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "position": "bottom",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 2,
-        "textY": 1,
-        "textHeight": 6,
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "any",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
-        "text": [
-          ""
-        ],
-        "__section": "text",
-        "avatarId": ""
-      },
-      "id": "f5b3a7f4-4375-401a-87ee-fdba90f32d78"
-    },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
@@ -66,20 +40,30 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "Los libros\nantiguos pueden",
-                "encuadernarse en\npiel, tela,",
-                "pergamino o papel"
+                "Generalmente,\nel papel común",
+                "fabricado con\npulpa de madera",
+                "se vuelve ácido y\namarillo con el\ntiempo."
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "6ebcc8e8-bb68-49e7-b1d0-e5f72b861770"
+            "id": "3b815acf-5aab-4655-9163-eb2863144bf0"
           }
         ]
       },
-      "id": "6e595f7b-121e-4314-9543-642f8cd6c078"
+      "id": "9984d648-afea-4135-b936-c42fda5ebac8"
     }
   ],
-  "leaveScript": [],
-  "_index": 6
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "54942e9b-99b3-40db-a4fd-fa350b0db28b"
+    }
+  ],
+  "_index": 17
 }

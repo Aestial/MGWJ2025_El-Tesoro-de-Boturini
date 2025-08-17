@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "bd7e5c24-5c60-4564-9116-88d154554a56",
-  "name": "",
+  "id": "5eef950f-7c4f-4da4-be85-08fde2968244",
+  "name": "info_3",
   "prefabId": "",
-  "x": 2,
+  "x": 10,
   "y": 25,
-  "symbol": "trigger_37",
+  "symbol": "trigger_40",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,20 +40,30 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "La BNAH resguarda\nmanuscritos",
-                "de hasta 500 años\nde antigüedad.",
-                "Por ejemplo: los\ncódices"
+                "Los libros\nantiguos pueden",
+                "encuadernarse en\npiel, tela,",
+                "pergamino o papel"
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "5f2ee63e-0f6c-4efe-bff0-e7733c1b8486"
+            "id": "6ebcc8e8-bb68-49e7-b1d0-e5f72b861770"
           }
         ]
       },
-      "id": "5f04aec6-9cac-4f87-9fd5-3a7f20abd050"
+      "id": "6e595f7b-121e-4314-9543-642f8cd6c078"
     }
   ],
-  "leaveScript": [],
-  "_index": 4
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "8e9132a9-f083-43c8-8770-e37fade1aea9"
+    }
+  ],
+  "_index": 6
 }

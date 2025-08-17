@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "08696394-fcbd-433d-85aa-e17d778d72e2",
-  "name": "",
+  "id": "c38abd1e-4b20-4db5-81de-17d2076b6a2c",
+  "name": "info_10",
   "prefabId": "",
-  "x": 10,
+  "x": 14,
   "y": 19,
-  "symbol": "trigger_45",
+  "symbol": "trigger_46",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,20 +40,31 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "La BNAH alberga\ndocumentos en",
-                "lenguas indígenas\nde todo México.",
-                "Como vocabularios\ny diccionarios."
+                "Un ambiente\ncontrolado de",
+                "temperatura y\nhumedad",
+                "es uno de los\ngrandes pilares",
+                "de la\nconservación."
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "35afc43c-8614-403c-b481-b61eeac671f0"
+            "id": "70c4ddd8-2271-4822-aa7a-806934b27f21"
           }
         ]
       },
-      "id": "4f0d5fb0-04aa-4542-bce8-acb7fc878974"
+      "id": "51e50495-47b5-474b-8dfc-1050e3ad57e5"
     }
   ],
-  "leaveScript": [],
-  "_index": 12
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "39f4156a-7ec3-4f91-8b5a-f88a30fa50ad"
+    }
+  ],
+  "_index": 13
 }

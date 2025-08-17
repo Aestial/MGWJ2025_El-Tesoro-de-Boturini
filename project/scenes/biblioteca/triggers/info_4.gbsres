@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "d7271670-938c-4071-8f07-cbba78e6b6f5",
-  "name": "",
+  "id": "ea27b297-08b9-4df5-a76b-934128cd781c",
+  "name": "info_4",
   "prefabId": "",
-  "x": 6,
-  "y": 13,
-  "symbol": "trigger_50",
+  "x": 14,
+  "y": 25,
+  "symbol": "trigger_41",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,20 +40,30 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "Generalmente,\nel papel común",
-                "fabricado con\npulpa de madera",
-                "se vuelve ácido y\namarillo con el\ntiempo."
+                "Un solo códice\npuede tardar\nmeses",
+                "en restaurarse\npor completo.",
+                "O hasta años!"
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "3b815acf-5aab-4655-9163-eb2863144bf0"
+            "id": "425d8463-938f-49e7-aade-24606cee5082"
           }
         ]
       },
-      "id": "9984d648-afea-4135-b936-c42fda5ebac8"
+      "id": "80db5493-a8f9-487b-9d6e-6b1b7bb464da"
     }
   ],
-  "leaveScript": [],
-  "_index": 17
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "f85ec30e-7d83-4f82-b5a1-71aff8d413cf"
+    }
+  ],
+  "_index": 7
 }

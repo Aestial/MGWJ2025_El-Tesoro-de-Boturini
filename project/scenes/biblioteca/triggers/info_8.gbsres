@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "2fdc0e70-305b-4f9a-99c2-fece280e047d",
-  "name": "",
+  "id": "8c105c57-37dd-4478-b66d-3e77838b65dc",
+  "name": "info_8",
   "prefabId": "",
-  "x": 2,
+  "x": 6,
   "y": 19,
-  "symbol": "trigger_27",
+  "symbol": "trigger_44",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,19 +40,29 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "En la\nrestauración,\nnunca se usan...",
-                "adhesivos que\npuedan dañar los\ndocumentos."
+                "El papel hecho a\nmano puede durar",
+                "siglos si se\nconserva\ncorrectamente."
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "6d5edd39-7878-4967-ab88-4db7116040bb"
+            "id": "bb7799a9-cbb0-4e32-8b64-b37c1cd66a0d"
           }
         ]
       },
-      "id": "2594792b-711b-4123-a44a-624b62112da9"
+      "id": "7f716062-1237-4ab4-8705-38b7fd386f4a"
     }
   ],
-  "leaveScript": [],
-  "_index": 10
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "9ea9acb4-8e07-437c-ac6f-68bf1449040c"
+    }
+  ],
+  "_index": 11
 }

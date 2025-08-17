@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "8e883470-7c85-46c7-a331-d32ee3a95b10",
-  "name": "",
+  "id": "bd7e5c24-5c60-4564-9116-88d154554a56",
+  "name": "info_1",
   "prefabId": "",
-  "x": 14,
-  "y": 13,
-  "symbol": "trigger_52",
+  "x": 2,
+  "y": 25,
+  "symbol": "trigger_37",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,20 +40,30 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "La BNAH es\nconsiderada",
-                "la biblioteca más\nimportante",
-                "en antropología \ne historia de\nMéxico."
+                "La BNAH resguarda\nmanuscritos",
+                "de hasta 500 años\nde antigüedad.",
+                "Por ejemplo: los\ncódices"
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "32778ed4-a0c5-47f9-baec-788a3f0abd72"
+            "id": "5f2ee63e-0f6c-4efe-bff0-e7733c1b8486"
           }
         ]
       },
-      "id": "a99ffb38-5607-4f20-ae5e-324a65aff6b7"
+      "id": "5f04aec6-9cac-4f87-9fd5-3a7f20abd050"
     }
   ],
-  "leaveScript": [],
-  "_index": 19
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "73da9456-55de-4ccf-99cb-29d1936aed1d"
+    }
+  ],
+  "_index": 4
 }

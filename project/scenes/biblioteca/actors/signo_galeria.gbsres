@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "9eb8a686-ddfd-478d-8245-6cdafb06268f",
-  "name": "",
+  "id": "5e48d2a0-4299-4957-bcf1-4e6f16c1d459",
+  "name": "Signo Galeria",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "adb96737-9823-4970-a5bc-84e648997b5f",
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_38",
+  "symbol": "actor_39",
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -35,12 +35,12 @@
         "closeDelayFrames": 30,
         "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
         "text": [
-          "Área de\nConservación"
+          "Galería"
         ],
         "__section": "text",
         "avatarId": ""
       },
-      "id": "9c683273-3840-4545-b8f8-ea3b14124eb3"
+      "id": "6fade19a-4097-465b-9085-9022969f08d8"
     }
   ],
   "startScript": [],
@@ -48,7 +48,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 5,
+  "x": 26,
   "y": 5,
-  "_index": 2
+  "_index": 3
 }

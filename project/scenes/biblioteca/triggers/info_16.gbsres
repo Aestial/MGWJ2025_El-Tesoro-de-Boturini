@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "60054228-2c9a-46b3-9fc1-b280e110a093",
-  "name": "",
+  "id": "8e883470-7c85-46c7-a331-d32ee3a95b10",
+  "name": "info_16",
   "prefabId": "",
-  "x": 26,
-  "y": 19,
-  "symbol": "trigger_48",
+  "x": 14,
+  "y": 13,
+  "symbol": "trigger_52",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,19 +40,30 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "El primer\ninventario formal\nde la BNAH",
-                "se hizo en el\nsiglo XIX."
+                "La BNAH es\nconsiderada",
+                "la biblioteca más\nimportante",
+                "en antropología \ne historia de\nMéxico."
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "67cd0757-eab3-478d-8d65-daa5bc2f19e0"
+            "id": "32778ed4-a0c5-47f9-baec-788a3f0abd72"
           }
         ]
       },
-      "id": "e6ad8e4b-e071-49cd-9daa-6ccb45bda5a1"
+      "id": "a99ffb38-5607-4f20-ae5e-324a65aff6b7"
     }
   ],
-  "leaveScript": [],
-  "_index": 15
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "b71e84fa-fb60-4d1b-944b-f4ed4f4d652b"
+    }
+  ],
+  "_index": 19
 }

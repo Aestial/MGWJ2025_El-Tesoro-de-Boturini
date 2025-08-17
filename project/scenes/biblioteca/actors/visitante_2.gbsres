@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "5e48d2a0-4299-4957-bcf1-4e6f16c1d459",
-  "name": "",
+  "id": "5ae7c3f5-2fe9-4788-ac22-e7c15b5259c7",
+  "name": "Visitante 2",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "adb96737-9823-4970-a5bc-84e648997b5f",
+  "spriteSheetId": "e0fefde3-a660-407e-a285-641b7cdd679c",
   "prefabId": "",
-  "direction": "down",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_39",
+  "symbol": "actor_45",
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -35,12 +35,30 @@
         "closeDelayFrames": 30,
         "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
         "text": [
-          "Galería"
+          "Shh!!! ",
+          "Estamos en una\nbiblioteca..."
         ],
         "__section": "text",
         "avatarId": ""
       },
-      "id": "6fade19a-4097-465b-9085-9022969f08d8"
+      "id": "15512313-06eb-487c-b3c9-cb520b60fb3a"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 2
+        },
+        "y": {
+          "type": "number",
+          "value": 20
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "1d87c2f0-c7ec-4224-a796-b11420079f60"
     }
   ],
   "startScript": [],
@@ -48,7 +66,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 26,
-  "y": 5,
-  "_index": 3
+  "x": 16,
+  "y": 20,
+  "_index": 5
 }

@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "c41c9ce8-3738-4f61-83ac-2c72d5e06a91",
-  "name": "",
+  "id": "2fdc0e70-305b-4f9a-99c2-fece280e047d",
+  "name": "info_7",
   "prefabId": "",
-  "x": 26,
-  "y": 25,
-  "symbol": "trigger_43",
+  "x": 2,
+  "y": 19,
+  "symbol": "trigger_27",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,21 +40,29 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "Hay libros que\nsolo se consultan",
-                "con autorización\nespecial.",
-                "son documentos\núnicos que por su\nestado de...",
-                "conservación\nrequieren\ncuidados\nespeciales."
+                "En la\nrestauración,\nnunca se usan...",
+                "adhesivos que\npuedan dañar los\ndocumentos."
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "b814396f-1e05-4091-a2f6-25d6833f0438"
+            "id": "6d5edd39-7878-4967-ab88-4db7116040bb"
           }
         ]
       },
-      "id": "77d90619-213e-4eb6-bfc7-13252f8638e7"
+      "id": "2594792b-711b-4123-a44a-624b62112da9"
     }
   ],
-  "leaveScript": [],
-  "_index": 9
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "e6bb160f-25c7-42c8-bb2a-12e33762b9c6"
+    }
+  ],
+  "_index": 10
 }

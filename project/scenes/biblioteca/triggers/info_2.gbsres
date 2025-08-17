@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "c38abd1e-4b20-4db5-81de-17d2076b6a2c",
-  "name": "",
+  "id": "c35cb1de-8a14-48b7-8d73-7220e7e17615",
+  "name": "info_2",
   "prefabId": "",
-  "x": 14,
-  "y": 19,
-  "symbol": "trigger_46",
+  "x": 6,
+  "y": 25,
+  "symbol": "trigger_39",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,21 +40,31 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "Un ambiente\ncontrolado de",
-                "temperatura y\nhumedad",
-                "es uno de los\ngrandes pilares",
-                "de la\nconservación."
+                "El acervo de la\nBNAH incluye\nmapas,",
+                "planos y cartas\nnáuticas. ",
+                "También fotos,\nmicrofilms",
+                "y entre otras\ncosas, audios."
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "70c4ddd8-2271-4822-aa7a-806934b27f21"
+            "id": "a7013ca9-ca1c-4323-b4db-f16c07cdeeb9"
           }
         ]
       },
-      "id": "51e50495-47b5-474b-8dfc-1050e3ad57e5"
+      "id": "97c153af-6a94-4453-bebd-2e43ccdca66e"
     }
   ],
-  "leaveScript": [],
-  "_index": 13
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "f011aaf4-934b-45c7-8afc-f393df221133"
+    }
+  ],
+  "_index": 5
 }

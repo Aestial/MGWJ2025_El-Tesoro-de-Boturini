@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "c35cb1de-8a14-48b7-8d73-7220e7e17615",
-  "name": "",
+  "id": "f581a9cf-1120-437c-a863-e5d2df86c799",
+  "name": "info_13",
   "prefabId": "",
-  "x": 6,
-  "y": 25,
-  "symbol": "trigger_39",
+  "x": 2,
+  "y": 13,
+  "symbol": "trigger_49",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,21 +40,29 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "El acervo de la\nBNAH incluye\nmapas,",
-                "planos y cartas\nnáuticas. ",
-                "También fotos,\nmicrofilms",
-                "y entre otras\ncosas, audios."
+                "La BNAH también\nguarda periódicos",
+                "y revistas de\nhace más de\n150 años."
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "a7013ca9-ca1c-4323-b4db-f16c07cdeeb9"
+            "id": "ecb8a03c-8c6b-40c8-ae14-6667b6bd29b1"
           }
         ]
       },
-      "id": "97c153af-6a94-4453-bebd-2e43ccdca66e"
+      "id": "af4b1e30-927d-46c6-9ec0-c87c34eaa9fd"
     }
   ],
-  "leaveScript": [],
-  "_index": 5
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "dcf9e450-5e6b-4aa6-ac9f-2f62fd32fe45"
+    }
+  ],
+  "_index": 16
 }

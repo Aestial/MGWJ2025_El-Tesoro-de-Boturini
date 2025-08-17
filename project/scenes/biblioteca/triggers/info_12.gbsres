@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "f581a9cf-1120-437c-a863-e5d2df86c799",
-  "name": "",
+  "id": "60054228-2c9a-46b3-9fc1-b280e110a093",
+  "name": "info_12",
   "prefabId": "",
-  "x": 2,
-  "y": 13,
-  "symbol": "trigger_49",
+  "x": 26,
+  "y": 19,
+  "symbol": "trigger_48",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,19 +40,29 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "La BNAH también\nguarda periódicos",
-                "y revistas de\nhace más de\n150 años."
+                "El primer\ninventario formal\nde la BNAH",
+                "se hizo en el\nsiglo XIX."
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "ecb8a03c-8c6b-40c8-ae14-6667b6bd29b1"
+            "id": "67cd0757-eab3-478d-8d65-daa5bc2f19e0"
           }
         ]
       },
-      "id": "af4b1e30-927d-46c6-9ec0-c87c34eaa9fd"
+      "id": "e6ad8e4b-e071-49cd-9daa-6ccb45bda5a1"
     }
   ],
-  "leaveScript": [],
-  "_index": 16
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "e2e6f94e-acaa-49ac-a80b-c9d9ea87aeae"
+    }
+  ],
+  "_index": 15
 }

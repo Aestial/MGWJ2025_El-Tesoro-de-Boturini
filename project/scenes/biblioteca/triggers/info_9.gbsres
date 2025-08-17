@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "816b7b21-b8b7-444b-8a67-67b2c36be527",
-  "name": "",
+  "id": "08696394-fcbd-433d-85aa-e17d778d72e2",
+  "name": "info_9",
   "prefabId": "",
   "x": 10,
-  "y": 13,
-  "symbol": "trigger_51",
+  "y": 19,
+  "symbol": "trigger_45",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,19 +40,30 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "Hay documentos\nque por\nfragilidad",
-                "solo pueden verse\nen formato\ndigital."
+                "La BNAH alberga\ndocumentos en",
+                "lenguas indígenas\nde todo México.",
+                "Como vocabularios\ny diccionarios."
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "096b5e8e-9f4d-47d9-9f9d-ceb11d0c090c"
+            "id": "35afc43c-8614-403c-b481-b61eeac671f0"
           }
         ]
       },
-      "id": "0785e0b4-0de0-4ca4-91ca-8f9147130ad3"
+      "id": "4f0d5fb0-04aa-4542-bce8-acb7fc878974"
     }
   ],
-  "leaveScript": [],
-  "_index": 18
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "0e91cfa7-84dc-4061-b361-cd38e66370b1"
+    }
+  ],
+  "_index": 12
 }

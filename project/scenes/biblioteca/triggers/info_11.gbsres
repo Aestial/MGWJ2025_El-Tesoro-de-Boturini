@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "ea27b297-08b9-4df5-a76b-934128cd781c",
-  "name": "",
+  "id": "738c43d7-ec30-4f41-adf6-2e3e5d70c54e",
+  "name": "info_11",
   "prefabId": "",
-  "x": 14,
-  "y": 25,
-  "symbol": "trigger_41",
+  "x": 22,
+  "y": 19,
+  "symbol": "trigger_47",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,20 +40,29 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "Un solo códice\npuede tardar\nmeses",
-                "en restaurarse\npor completo.",
-                "O hasta años!"
+                "Algunos\nmanuscritos\nfueron escritos",
+                "con pigmentos\nminerales o\nvegetales."
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "425d8463-938f-49e7-aade-24606cee5082"
+            "id": "bc3b54ba-8b50-416c-96e1-09f16892201d"
           }
         ]
       },
-      "id": "80db5493-a8f9-487b-9d6e-6b1b7bb464da"
+      "id": "be48572a-8501-4d18-9169-356cfffb2b2f"
     }
   ],
-  "leaveScript": [],
-  "_index": 7
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "c6f122d5-be84-4422-b8db-c1e823294c02"
+    }
+  ],
+  "_index": 14
 }

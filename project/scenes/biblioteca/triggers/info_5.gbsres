@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "8c105c57-37dd-4478-b66d-3e77838b65dc",
-  "name": "",
+  "id": "a52da68e-31ae-438b-bcae-349e9217dbab",
+  "name": "info_5",
   "prefabId": "",
-  "x": 6,
-  "y": 19,
-  "symbol": "trigger_44",
+  "x": 22,
+  "y": 25,
+  "symbol": "trigger_42",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,19 +40,29 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "El papel hecho a\nmano puede durar",
-                "siglos si se\nconserva\ncorrectamente."
+                "La BNAH custodia\nel archivo\npersonal de...",
+                "destacados \nhistoriadores\nmexicanos."
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "bb7799a9-cbb0-4e32-8b64-b37c1cd66a0d"
+            "id": "14f0702c-674b-4d13-8fda-b49d770df4d7"
           }
         ]
       },
-      "id": "7f716062-1237-4ab4-8705-38b7fd386f4a"
+      "id": "1025be2c-fea9-4501-89d8-fba53c42175a"
     }
   ],
-  "leaveScript": [],
-  "_index": 11
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "83f6b5af-73e8-461c-a492-930fe5109dfa"
+    }
+  ],
+  "_index": 8
 }

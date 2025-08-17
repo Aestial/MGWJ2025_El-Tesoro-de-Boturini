@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "738c43d7-ec30-4f41-adf6-2e3e5d70c54e",
-  "name": "",
+  "id": "816b7b21-b8b7-444b-8a67-67b2c36be527",
+  "name": "info_15",
   "prefabId": "",
-  "x": 22,
-  "y": 19,
-  "symbol": "trigger_47",
+  "x": 10,
+  "y": 13,
+  "symbol": "trigger_51",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 1,
@@ -40,19 +40,29 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "Algunos\nmanuscritos\nfueron escritos",
-                "con pigmentos\nminerales o\nvegetales."
+                "Hay documentos\nque por\nfragilidad",
+                "solo pueden verse\nen formato\ndigital."
               ],
               "__section": "text",
               "avatarId": ""
             },
-            "id": "bc3b54ba-8b50-416c-96e1-09f16892201d"
+            "id": "096b5e8e-9f4d-47d9-9f9d-ceb11d0c090c"
           }
         ]
       },
-      "id": "be48572a-8501-4d18-9169-356cfffb2b2f"
+      "id": "0785e0b4-0de0-4ca4-91ca-8f9147130ad3"
     }
   ],
-  "leaveScript": [],
-  "_index": 14
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "cf635c82-0390-416d-b6f5-33829ba0db3f"
+    }
+  ],
+  "_index": 18
 }
