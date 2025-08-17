@@ -12,6 +12,11 @@
       "symbol": "var_llaves"
     },
     {
+      "id": "2",
+      "name": "PicrossSolved",
+      "symbol": "var_picrosssolved"
+    },
+    {
       "id": "10",
       "name": "CurrentFrame",
       "symbol": "var_currentframe"
