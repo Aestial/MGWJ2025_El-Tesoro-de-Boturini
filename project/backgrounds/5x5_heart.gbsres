@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "8eb16a9e-f893-499d-895e-4fcd32420e35",
+  "name": "5x5 heart",
+  "symbol": "bg_5x5_heart",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "5x5 heart.png",
+  "tileColors": "",
+  "autoColor": false
+}

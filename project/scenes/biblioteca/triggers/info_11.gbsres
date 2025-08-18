@@ -1,0 +1,68 @@
+{
+  "_resourceType": "trigger",
+  "id": "738c43d7-ec30-4f41-adf6-2e3e5d70c54e",
+  "name": "info_11",
+  "prefabId": "",
+  "x": 22,
+  "y": 19,
+  "symbol": "trigger_47",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Algunos\nmanuscritos\nfueron escritos",
+                "con pigmentos\nminerales o\nvegetales."
+              ],
+              "__section": "text",
+              "avatarId": ""
+            },
+            "id": "bc3b54ba-8b50-416c-96e1-09f16892201d"
+          }
+        ]
+      },
+      "id": "be48572a-8501-4d18-9169-356cfffb2b2f"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "c6f122d5-be84-4422-b8db-c1e823294c02"
+    }
+  ],
+  "_index": 14
+}

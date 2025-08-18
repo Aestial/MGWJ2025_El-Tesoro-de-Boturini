@@ -1,0 +1,70 @@
+{
+  "_resourceType": "trigger",
+  "id": "c41c9ce8-3738-4f61-83ac-2c72d5e06a91",
+  "name": "info_6",
+  "prefabId": "",
+  "x": 26,
+  "y": 25,
+  "symbol": "trigger_43",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Hay libros que\nsolo se consultan",
+                "con autorización\nespecial.",
+                "son documentos\núnicos que por su\nestado de...",
+                "conservación\nrequieren\ncuidados\nespeciales."
+              ],
+              "__section": "text",
+              "avatarId": ""
+            },
+            "id": "b814396f-1e05-4091-a2f6-25d6833f0438"
+          }
+        ]
+      },
+      "id": "77d90619-213e-4eb6-bfc7-13252f8638e7"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "dfdfc049-b081-4dfb-8ef5-b87358764802"
+    }
+  ],
+  "_index": 9
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "61bc3988-6472-43da-a2a5-bebc904f52b6",
+  "name": "devlogo",
+  "symbol": "bg_devlogo",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "devlogo.png",
+  "tileColors": "",
+  "autoColor": false
+}

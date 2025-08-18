@@ -1,0 +1,55 @@
+{
+  "_resourceType": "actor",
+  "id": "2fde09cc-3d14-4d22-adde-3a137a4c0208",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "1e11d47e-733a-4342-94fb-d1a95b3b86a7",
+  "prefabId": "",
+  "direction": "up",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_46",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Haz jugado\nPicross?",
+          "Algunos se lo\ntoman muy en\nserio."
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "831a84db-f02d-49ee-8120-e911a4a4c366"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 14,
+  "y": 12,
+  "_index": 2
+}

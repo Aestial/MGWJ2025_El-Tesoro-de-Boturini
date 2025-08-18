@@ -1,0 +1,68 @@
+{
+  "_resourceType": "trigger",
+  "id": "a52da68e-31ae-438b-bcae-349e9217dbab",
+  "name": "info_5",
+  "prefabId": "",
+  "x": 22,
+  "y": 25,
+  "symbol": "trigger_42",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "La BNAH custodia\nel archivo\npersonal de...",
+                "destacados \nhistoriadores\nmexicanos."
+              ],
+              "__section": "text",
+              "avatarId": ""
+            },
+            "id": "14f0702c-674b-4d13-8fda-b49d770df4d7"
+          }
+        ]
+      },
+      "id": "1025be2c-fea9-4501-89d8-fba53c42175a"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "83f6b5af-73e8-461c-a492-930fe5109dfa"
+    }
+  ],
+  "_index": 8
+}

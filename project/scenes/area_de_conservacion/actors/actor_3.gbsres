@@ -1,0 +1,56 @@
+{
+  "_resourceType": "actor",
+  "id": "da420df6-ff09-484e-b160-bf88a18cf887",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "913465ef-e17a-4de4-ab60-e1ceabd6b833",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_42",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "En la\nconservación los\nguantes y las...",
+          "manos limpias\nprotegen a los\ndocumentos...",
+          "y a los usuarios."
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "18e409ed-312f-4233-afea-061f98be78c2"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 5,
+  "y": 12,
+  "_index": 3
+}

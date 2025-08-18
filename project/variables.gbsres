@@ -12,9 +12,84 @@
       "symbol": "var_llaves"
     },
     {
+      "id": "2",
+      "name": "PicrossSolved",
+      "symbol": "var_picrosssolved"
+    },
+    {
       "id": "10",
       "name": "CurrentFrame",
       "symbol": "var_currentframe"
+    },
+    {
+      "id": "20",
+      "name": "complete_flags",
+      "symbol": "var_complete_flags"
+    },
+    {
+      "id": "21",
+      "name": "picross_1",
+      "symbol": "var_picross_1"
+    },
+    {
+      "id": "22",
+      "name": "picross_2",
+      "symbol": "var_picross_2"
+    },
+    {
+      "id": "23",
+      "name": "picross_3",
+      "symbol": "var_picross_3"
+    },
+    {
+      "id": "24",
+      "name": "picross_4",
+      "symbol": "var_picross_4"
+    },
+    {
+      "id": "25",
+      "name": "picross_5",
+      "symbol": "var_picross_5"
+    },
+    {
+      "id": "26",
+      "name": "picross_6",
+      "symbol": "var_picross_6"
+    },
+    {
+      "id": "27",
+      "name": "picross_7",
+      "symbol": "var_picross_7"
+    },
+    {
+      "id": "28",
+      "name": "picross_8",
+      "symbol": "var_picross_8"
+    },
+    {
+      "id": "29",
+      "name": "picross_9",
+      "symbol": "var_picross_9"
+    },
+    {
+      "id": "30",
+      "name": "picross_10",
+      "symbol": "var_picross_10"
+    },
+    {
+      "id": "31",
+      "name": "x",
+      "symbol": "var_x"
+    },
+    {
+      "id": "32",
+      "name": "y",
+      "symbol": "var_y"
+    },
+    {
+      "id": "33",
+      "name": "picross_puzzle_complete",
+      "symbol": "var_picross_puzzle_complete"
     },
     {
       "id": "c9288d55-5048-4277-abec-14e10b39371c__L0",

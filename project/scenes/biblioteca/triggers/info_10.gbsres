@@ -1,0 +1,70 @@
+{
+  "_resourceType": "trigger",
+  "id": "c38abd1e-4b20-4db5-81de-17d2076b6a2c",
+  "name": "info_10",
+  "prefabId": "",
+  "x": 14,
+  "y": 19,
+  "symbol": "trigger_46",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Un ambiente\ncontrolado de",
+                "temperatura y\nhumedad",
+                "es uno de los\ngrandes pilares",
+                "de la\nconservación."
+              ],
+              "__section": "text",
+              "avatarId": ""
+            },
+            "id": "70c4ddd8-2271-4822-aa7a-806934b27f21"
+          }
+        ]
+      },
+      "id": "51e50495-47b5-474b-8dfc-1050e3ad57e5"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "39f4156a-7ec3-4f91-8b5a-f88a30fa50ad"
+    }
+  ],
+  "_index": 13
+}

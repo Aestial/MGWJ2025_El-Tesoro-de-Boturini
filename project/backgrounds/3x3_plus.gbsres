@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "05ee78c0-b045-4f8e-b6ce-9c5de29afc9b",
+  "name": "3x3 plus",
+  "symbol": "bg_3x3_plus",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "3x3 plus.png",
+  "tileColors": "",
+  "autoColor": false
+}

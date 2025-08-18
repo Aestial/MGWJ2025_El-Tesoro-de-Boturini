@@ -13,8 +13,8 @@
   "collisions": "0f87+007+0f8+004+0f8+00e+0f3+01!00a+0f4+0010+0f!04!00a+0f4+001c+0f4+001c+0f4+001c+0f14+004+0f1c+004+0f1c+004+0fc+001c+0f4+001c+0f4+001c+0f14+004+0f1c+004+0f1c+004+0fc+001c+0f4+001c+0f4+001c+0f14+004+0f1c+004+0f1c+004+0fc+001c+0f4+001c+0f4+001c+0f4+001c+0f4+001c+0fa+002+0fc+002+0f10+002+0fc+002+0f8+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 808,
-  "y": 384,
+  "x": 800,
+  "y": 440,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -22,6 +22,32 @@
         "musicId": "242da7b3-aca9-4185-8f57-3b4c3128da1a"
       },
       "id": "1849acac-bc15-4ef2-8e65-ef8d3868650a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "La biblioteca\nes muy grande\n\n:o"
+        ],
+        "__section": "text",
+        "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb"
+      },
+      "id": "abd1036d-f074-4132-b583-710ac29805ca"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -167,5 +193,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "orange"
+  "labelColor": "yellow"
 }

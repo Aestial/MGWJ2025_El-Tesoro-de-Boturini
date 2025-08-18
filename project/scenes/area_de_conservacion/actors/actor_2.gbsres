@@ -1,0 +1,56 @@
+{
+  "_resourceType": "actor",
+  "id": "3d9f9127-72c5-4c47-b885-65d4a6ab84a8",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "e0fefde3-a660-407e-a285-641b7cdd679c",
+  "prefabId": "",
+  "direction": "up",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_41",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "El polvo es\nenemigo del\npapel...",
+          "Contiene esporas,\nácidos e incluso\nmetales y...",
+          "excremento que \npueden dañar el\npapel"
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "7e14fa3c-9c63-41db-9679-c720e86f09ab"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 10,
+  "y": 7,
+  "_index": 2
+}

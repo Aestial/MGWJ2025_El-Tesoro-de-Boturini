@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b358f08b-44d8-472d-bc94-94eb9c4dbfd4",
+  "name": "win",
+  "symbol": "bg_win",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "win.png",
+  "tileColors": "",
+  "autoColor": false
+}

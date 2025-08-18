@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "88c195ac-697f-4997-812e-cc9a68dcfb99",
+  "name": "10x10 fort",
+  "symbol": "bg_10x10_fort",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "10x10 fort.png",
+  "tileColors": "",
+  "autoColor": false
+}

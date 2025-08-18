@@ -1,0 +1,58 @@
+{
+  "_resourceType": "actor",
+  "id": "e6e774fb-0f19-49a4-9435-d0ae16b2d708",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "1e11d47e-733a-4342-94fb-d1a95b3b86a7",
+  "prefabId": "",
+  "direction": "up",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_40",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "La luz directa\ndel sol puede...",
+          "borrar la tinta\nde un documento\nantiguo.",
+          "El daño por luz \nes acumulativo e \nirreversible... ",
+          "y genera\ndeterioro como...",
+          "desvanecimiento\nde las tintas."
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "816fb77f-47c9-4c92-b047-62cc39930ffb"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 5,
+  "y": 7,
+  "_index": 1
+}

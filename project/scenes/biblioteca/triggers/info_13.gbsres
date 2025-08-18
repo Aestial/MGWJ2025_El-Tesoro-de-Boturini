@@ -1,0 +1,68 @@
+{
+  "_resourceType": "trigger",
+  "id": "f581a9cf-1120-437c-a863-e5d2df86c799",
+  "name": "info_13",
+  "prefabId": "",
+  "x": 2,
+  "y": 13,
+  "symbol": "trigger_49",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "La BNAH también\nguarda periódicos",
+                "y revistas de\nhace más de\n150 años."
+              ],
+              "__section": "text",
+              "avatarId": ""
+            },
+            "id": "ecb8a03c-8c6b-40c8-ae14-6667b6bd29b1"
+          }
+        ]
+      },
+      "id": "af4b1e30-927d-46c6-9ec0-c87c34eaa9fd"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "dcf9e450-5e6b-4aa6-ac9f-2f62fd32fe45"
+    }
+  ],
+  "_index": 16
+}

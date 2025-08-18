@@ -1,0 +1,96 @@
+{
+  "_resourceType": "actor",
+  "id": "ba018937-9f9d-469b-b3bd-12a329e22e5f",
+  "name": "picross_1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "c56744da-29ea-4e7c-8f8d-1da7aaccd766",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_50",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Debo Restaurar \nmi mapa \ndel Metro..."
+        ],
+        "__section": "text",
+        "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb"
+      },
+      "id": "45115ef3-cfa1-497e-aa68-af8a39f8564a"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Restaurar",
+        "falseText": "Cancelar"
+      },
+      "id": "066a0b16-cde7-429a-a24a-aad396e2817e"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "8fc8afed-43f1-432d-bb67-290d0b27abee",
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "225a4e91-8e07-484e-9c76-2f64a68d1187"
+          }
+        ],
+        "false": []
+      },
+      "id": "34e9ebbb-3fa5-4486-9d5e-8a95eb36f6b4"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 5,
+  "y": 13,
+  "_index": 3
+}

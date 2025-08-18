@@ -1,0 +1,68 @@
+{
+  "_resourceType": "trigger",
+  "id": "2fdc0e70-305b-4f9a-99c2-fece280e047d",
+  "name": "info_7",
+  "prefabId": "",
+  "x": 2,
+  "y": 19,
+  "symbol": "trigger_27",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "En la\nrestauración,\nnunca se usan...",
+                "adhesivos que\npuedan dañar los\ndocumentos."
+              ],
+              "__section": "text",
+              "avatarId": ""
+            },
+            "id": "6d5edd39-7878-4967-ab88-4db7116040bb"
+          }
+        ]
+      },
+      "id": "2594792b-711b-4123-a44a-624b62112da9"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "e6bb160f-25c7-42c8-bb2a-12e33762b9c6"
+    }
+  ],
+  "_index": 10
+}

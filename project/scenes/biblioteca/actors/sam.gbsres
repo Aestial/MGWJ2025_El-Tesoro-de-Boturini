@@ -120,6 +120,60 @@
             "id": "47fd20a7-6428-4f72-b619-e2eb3a2713cc"
           },
           {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "¿Dónde está el \ncuadro de \n!F:7f4c8d4e-d530-4b5e-a49b-ccd83619d8ad!Boturini!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!?"
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
+            },
+            "id": "b2bd77a4-d7de-481f-a7d6-713698a06119"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "¿Siempre eres \nasí con las\npersonas?"
+              ],
+              "__section": "text",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
+            },
+            "id": "7c323593-cf1a-4bf2-877b-1ae01f6cc0df"
+          },
+          {
             "command": "EVENT_SOUND_PLAY_EFFECT",
             "args": {
               "type": "crash",
@@ -164,33 +218,6 @@
             "id": "bbfa9d8e-5172-4b01-9708-a7bf008c7529"
           },
           {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "¿Dónde está el \ncuadro de \n!F:7f4c8d4e-d530-4b5e-a49b-ccd83619d8ad!Boturini!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!?"
-              ],
-              "__section": "text",
-              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 2,
-              "textY": 1,
-              "textHeight": 6,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "any",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true,
-              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
-            },
-            "id": "b2bd77a4-d7de-481f-a7d6-713698a06119"
-          },
-          {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
               "musicId": "564d60d1-2234-45b8-9aeb-b73df778914f",
@@ -209,33 +236,6 @@
               "__collapse": true
             },
             "id": "cf526a40-8ea9-4828-9de6-6594178b14aa"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "¿Siempre eres \nasí con las\npersonas?"
-              ],
-              "__section": "text",
-              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 2,
-              "textY": 1,
-              "textHeight": 6,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "any",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true,
-              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
-            },
-            "id": "7c323593-cf1a-4bf2-877b-1ae01f6cc0df"
           },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
@@ -735,7 +735,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Escucha, déjame\nayudarte con \nlo que sea que\nestés haciendo",
+                "Escucha, déjame\nayudarte con ",
+                "lo que sea que\nestés haciendo",
                 "y después tú \npodrías \nayudarme a mí",
                 "¿Qué te parece?"
               ],
@@ -755,7 +756,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true,
+              "__collapse": false,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "b253c0c0-6605-4c91-a52e-3a151ec8729d"
@@ -781,7 +782,8 @@
                 "¿Ves las\nhabitaciones\nque están al\nfrente?",
                 "Entra en ellas",
                 "ahí encontrarás\nmesas de \ntrabajo",
-                "con algunas\ntareas que\ntengo que \nrealizar",
+                "con algunas\ntareas",
+                "que tengo que \nrealizar.",
                 "Hazlas por mí,\nson muy \nsencillas",
                 "y no te tomará\nmucho tiempo.",
                 "No te preocupes",
@@ -805,7 +807,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true,
+              "__collapse": false,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "dfe11e15-857c-4144-bc37-23472df0aba5"
@@ -852,7 +854,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true,
+              "__collapse": false,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "9c34e114-4edd-45b1-846b-4ebcbf45e896"

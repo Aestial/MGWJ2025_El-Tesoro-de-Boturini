@@ -1,0 +1,69 @@
+{
+  "_resourceType": "trigger",
+  "id": "08696394-fcbd-433d-85aa-e17d778d72e2",
+  "name": "info_9",
+  "prefabId": "",
+  "x": 10,
+  "y": 19,
+  "symbol": "trigger_45",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "La BNAH alberga\ndocumentos en",
+                "lenguas indígenas\nde todo México.",
+                "Como vocabularios\ny diccionarios."
+              ],
+              "__section": "text",
+              "avatarId": ""
+            },
+            "id": "35afc43c-8614-403c-b481-b61eeac671f0"
+          }
+        ]
+      },
+      "id": "4f0d5fb0-04aa-4542-bce8-acb7fc878974"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "0e91cfa7-84dc-4061-b361-cd38e66370b1"
+    }
+  ],
+  "_index": 12
+}

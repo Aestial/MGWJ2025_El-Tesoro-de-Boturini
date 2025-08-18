@@ -1,0 +1,69 @@
+{
+  "_resourceType": "trigger",
+  "id": "bd7e5c24-5c60-4564-9116-88d154554a56",
+  "name": "info_1",
+  "prefabId": "",
+  "x": 2,
+  "y": 25,
+  "symbol": "trigger_37",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "La BNAH resguarda\nmanuscritos",
+                "de hasta 500 años\nde antigüedad.",
+                "Por ejemplo: los\ncódices"
+              ],
+              "__section": "text",
+              "avatarId": ""
+            },
+            "id": "5f2ee63e-0f6c-4efe-bff0-e7733c1b8486"
+          }
+        ]
+      },
+      "id": "5f04aec6-9cac-4f87-9fd5-3a7f20abd050"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "73da9456-55de-4ccf-99cb-29d1936aed1d"
+    }
+  ],
+  "_index": 4
+}

@@ -1,0 +1,68 @@
+{
+  "_resourceType": "trigger",
+  "id": "60054228-2c9a-46b3-9fc1-b280e110a093",
+  "name": "info_12",
+  "prefabId": "",
+  "x": 26,
+  "y": 19,
+  "symbol": "trigger_48",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "El primer\ninventario formal\nde la BNAH",
+                "se hizo en el\nsiglo XIX."
+              ],
+              "__section": "text",
+              "avatarId": ""
+            },
+            "id": "67cd0757-eab3-478d-8d65-daa5bc2f19e0"
+          }
+        ]
+      },
+      "id": "e6ad8e4b-e071-49cd-9daa-6ccb45bda5a1"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "e2e6f94e-acaa-49ac-a80b-c9d9ea87aeae"
+    }
+  ],
+  "_index": 15
+}

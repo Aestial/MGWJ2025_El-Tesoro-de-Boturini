@@ -177,7 +177,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Ehh... ¿buscas un\ncuadro en una\nbiblioteca? "
+                "Ehh... ¿buscas\nun cuadro en\nuna biblioteca?"
               ],
               "__section": "text",
               "avatarId": "24a3290c-494e-4f16-81a7-f40a48742513",
@@ -269,6 +269,20 @@
               "__collapse": true
             },
             "id": "74bb7c9c-625f-4d90-9cd8-9f405b921883"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "12e3bdd7-0f23-4368-9d4d-a4f2d5da6e2f",
+              "priority": "low",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "eaa9d10d-6a4a-478c-9d97-d35203123112"
           }
         ]
       },

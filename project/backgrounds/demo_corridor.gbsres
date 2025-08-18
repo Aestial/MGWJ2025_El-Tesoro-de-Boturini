@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "966f9cba-02f0-4c46-9f1e-15f8bf9015cb",
+  "name": "demo corridor",
+  "symbol": "bg_demo_corridor",
+  "width": 40,
+  "height": 18,
+  "imageWidth": 320,
+  "imageHeight": 144,
+  "filename": "demo corridor.png",
+  "tileColors": "",
+  "autoColor": false
+}

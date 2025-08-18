@@ -13,7 +13,7 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_14",
-  "x": 608,
+  "x": 624,
   "y": 48,
   "script": [
     {

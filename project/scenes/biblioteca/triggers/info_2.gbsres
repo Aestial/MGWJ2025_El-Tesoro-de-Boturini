@@ -1,0 +1,70 @@
+{
+  "_resourceType": "trigger",
+  "id": "c35cb1de-8a14-48b7-8d73-7220e7e17615",
+  "name": "info_2",
+  "prefabId": "",
+  "x": 6,
+  "y": 25,
+  "symbol": "trigger_39",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "El acervo de la\nBNAH incluye\nmapas,",
+                "planos y cartas\nnáuticas. ",
+                "También fotos,\nmicrofilms",
+                "y entre otras\ncosas, audios."
+              ],
+              "__section": "text",
+              "avatarId": ""
+            },
+            "id": "a7013ca9-ca1c-4323-b4db-f16c07cdeeb9"
+          }
+        ]
+      },
+      "id": "97c153af-6a94-4453-bebd-2e43ccdca66e"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "f011aaf4-934b-45c7-8afc-f393df221133"
+    }
+  ],
+  "_index": 5
+}

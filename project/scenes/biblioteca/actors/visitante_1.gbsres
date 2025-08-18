@@ -1,0 +1,55 @@
+{
+  "_resourceType": "actor",
+  "id": "40aaa4ca-70a0-4422-9555-662d1a5da3df",
+  "name": "Visitante 1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "74cac517-9742-471c-ac09-ff5b40e535fd",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_44",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "El acervo\ndocumental crece\ncada año con...",
+          "nuevas\nadquisiciones y\ndonaciones."
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "d203ab28-0a6d-46f4-b9e5-bcaa0174482c"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 26,
+  "y": 28,
+  "_index": 4
+}

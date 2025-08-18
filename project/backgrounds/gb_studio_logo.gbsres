@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bdfa4231-a79d-4413-a344-da6c5517e0a9",
+  "name": "gb studio logo",
+  "symbol": "bg_gb_studio_logo",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "gb studio logo.png",
+  "tileColors": "",
+  "autoColor": false
+}

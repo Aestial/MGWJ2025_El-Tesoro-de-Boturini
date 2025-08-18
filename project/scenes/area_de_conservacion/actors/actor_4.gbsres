@@ -1,0 +1,55 @@
+{
+  "_resourceType": "actor",
+  "id": "2b86f078-c44e-42c9-91d0-cf511b058c90",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f3ec058e-807a-41ef-a195-b95c16b726c0",
+  "prefabId": "",
+  "direction": "up",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_43",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Muchos documentos\nse limpian con\nbrochas suaves...",
+          "nunca con trapos!"
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "67f6ffba-c655-4218-9928-639e442830aa"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 13,
+  "y": 14,
+  "_index": 4
+}

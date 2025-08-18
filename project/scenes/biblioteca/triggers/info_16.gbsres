@@ -1,0 +1,69 @@
+{
+  "_resourceType": "trigger",
+  "id": "8e883470-7c85-46c7-a331-d32ee3a95b10",
+  "name": "info_16",
+  "prefabId": "",
+  "x": 14,
+  "y": 13,
+  "symbol": "trigger_52",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "La BNAH es\nconsiderada",
+                "la biblioteca más\nimportante",
+                "en antropología \ne historia de\nMéxico."
+              ],
+              "__section": "text",
+              "avatarId": ""
+            },
+            "id": "32778ed4-a0c5-47f9-baec-788a3f0abd72"
+          }
+        ]
+      },
+      "id": "a99ffb38-5607-4f20-ae5e-324a65aff6b7"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "b71e84fa-fb60-4d1b-944b-f4ed4f4d652b"
+    }
+  ],
+  "_index": 19
+}
