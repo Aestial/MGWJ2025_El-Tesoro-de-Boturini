@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f52+01!0f2+01!0f2+01!0f6+01!0f6+00!012+00!0f2+00!016+00!012+0f4+004+0f2+00a+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+00f+0f5+00!0f4+009+0f6+00!0f4+009+0fd+002+0f31+",
+  "collisions": "0f52+01!0f2+01!0f2+01!0f6+01!0f6+00!012+00!0f2+00!016+00!012+0f4+004+0f2+00a+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+00f+0f5+00!0f2+00b+0f6+00!0f4+009+0fd+002+0f31+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
   "x": 328,
@@ -22,6 +22,24 @@
         "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3"
       },
       "id": "6cf07037-80f5-4265-95f7-8ccd6afead05"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 15,
+        "__collapse": true
+      },
+      "id": "8669e60d-9f69-4b05-bcc6-4d457fb52b76"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1,
+        "__collapse": true
+      },
+      "id": "43856b84-c285-4da8-bd48-d3b1f36f11d3"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",

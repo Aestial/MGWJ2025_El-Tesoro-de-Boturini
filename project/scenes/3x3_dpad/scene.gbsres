@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "597f1f24-9999-4e8f-9693-6f258c72af38",
   "_index": 16,
-  "name": "3x3 other",
+  "name": "3x3 dpad",
   "backgroundId": "05ee78c0-b045-4f8e-b6ce-9c5de29afc9b",
   "tilesetId": "",
   "width": 20,
@@ -5328,7 +5328,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -15358,7 +15358,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -15428,17 +15428,16 @@
                       {
                         "command": "EVENT_CALL_CUSTOM_EVENT",
                         "args": {
-                          "customEventId": "b5d56993-4eb9-4ad3-a15a-097b83cc91c0",
+                          "customEventId": "b440c255-9e01-49c8-9850-d94461755537",
+                          "$variable[V0]$": {
+                            "type": "variable",
+                            "value": "31"
+                          },
                           "$variable[V1]$": {
                             "type": "variable",
                             "value": "L1"
                           },
-                          "__collapse": false,
-                          "$actor[0]$": "4800aa67-09c4-4c80-a8fe-7ebed7963942",
-                          "$variable[V0]$": {
-                            "type": "variable",
-                            "value": "31"
-                          }
+                          "$actor[0]$": "4800aa67-09c4-4c80-a8fe-7ebed7963942"
                         },
                         "id": "0865384d-4ca5-4139-9f64-99a0a2a96506"
                       }
