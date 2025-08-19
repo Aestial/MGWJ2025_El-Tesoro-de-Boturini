@@ -301,7 +301,7 @@
       "id": "1ef7f8da-ad05-443f-93ad-fac4728cea78",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Controlls"
       },
       "children": {
@@ -15428,7 +15428,7 @@
                       {
                         "command": "EVENT_CALL_CUSTOM_EVENT",
                         "args": {
-                          "customEventId": "b5d56993-4eb9-4ad3-a15a-097b83cc91c0",
+                          "customEventId": "12bf032b-c49c-4161-a01d-aad7c9b2a4de",
                           "$variable[V0]$": {
                             "type": "variable",
                             "value": "31"
@@ -15764,6 +15764,6 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "2bd69faf-84df-43f1-9e44-01514636adbe",
-  "autoFadeEventCollapse": true,
+  "autoFadeEventCollapse": false,
   "labelColor": "yellow"
 }

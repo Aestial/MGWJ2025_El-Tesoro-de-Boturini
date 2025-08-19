@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "3x3 boleto.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
