@@ -1,0 +1,24 @@
+{
+  "_resourceType": "trigger",
+  "id": "8e910287-ba7c-4058-bb7c-f8c2b5658577",
+  "name": "alerta_picross",
+  "prefabId": "",
+  "x": 5,
+  "y": 12,
+  "symbol": "trigger_53",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "e2581a99-07c2-40ac-937a-e6ada3d6ff76"
+      },
+      "id": "c2397714-b283-4501-a84f-4c6b2131abeb"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 7
+}

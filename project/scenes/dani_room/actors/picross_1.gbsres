@@ -35,7 +35,7 @@
         "closeDelayFrames": 30,
         "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
         "text": [
-          "Debo Restaurar \nmi tarjeta \ndel Metro..."
+          "Debo Restaurar \nmi viejo boleto\ndel Metro..."
         ],
         "__section": "text",
         "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb"
@@ -43,25 +43,70 @@
       "id": "45115ef3-cfa1-497e-aa68-af8a39f8564a"
     },
     {
-      "command": "EVENT_CHOICE",
+      "command": "EVENT_MENU",
       "args": {
         "variable": "L0",
-        "trueText": "Restaurar",
-        "falseText": "Cancelar"
+        "items": 3,
+        "option1": "Restaurar",
+        "option2": "Instrucciones",
+        "option3": "Cancelar",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue",
+        "cancelOnLastOption": true
       },
-      "id": "066a0b16-cde7-429a-a24a-aad396e2817e"
+      "id": "0e0c7e1e-f41d-49c0-96d4-401d7f6574a2"
     },
     {
-      "command": "EVENT_IF",
+      "command": "EVENT_SWITCH",
       "args": {
-        "condition": {
-          "type": "variable",
-          "value": "L0"
-        },
-        "__collapseElse": true
+        "variable": "L0",
+        "choices": 2,
+        "__collapseCase0": false,
+        "value0": 1,
+        "__collapseCase1": false,
+        "value1": 2,
+        "__collapseCase2": false,
+        "value2": 3,
+        "__collapseCase3": false,
+        "value3": 4,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false
       },
       "children": {
-        "true": [
+        "true0": [
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {},
+            "id": "e7492d56-0b7d-4a15-804c-942b16cf5f86"
+          },
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
@@ -80,6 +125,65 @@
             "id": "225a4e91-8e07-484e-9c76-2f64a68d1187"
           }
         ],
+        "true1": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Estos numeros me\ndiran cual region\ndebo restaurar!",
+                "Si una region puzzle iconpuzzle iconpuzzle iconpuzzle icon",
+                ""
+              ],
+              "__section": "text",
+              "avatarId": ""
+            },
+            "id": "19ec42cb-c343-4198-ace7-c9042c59ecbf"
+          }
+        ],
+        "true2": [],
+        "true3": [],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "f9be9149-7485-4f9c-8723-be8663030be9"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [],
         "false": []
       },
       "id": "34e9ebbb-3fa5-4486-9d5e-8a95eb36f6b4"

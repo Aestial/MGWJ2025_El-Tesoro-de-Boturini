@@ -4,7 +4,7 @@
   "name": "actor",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "c3786f59-b8d7-4f07-8668-6ddac496766d",
+  "spriteSheetId": "34fece6f-2bd1-41bf-ac86-dd62fdf28bd2",
   "prefabId": "",
   "direction": "right",
   "moveSpeed": 1,
@@ -57,6 +57,6 @@
   "hit2Script": [],
   "hit3Script": [],
   "x": 3,
-  "y": 5,
+  "y": 4,
   "_index": 0
 }

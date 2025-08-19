@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "182dbf86-4df4-41f6-bd1b-72f6a02489e8",
+  "name": "3x3 boleto",
+  "symbol": "bg_3x3_boleto",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "3x3 boleto.png",
+  "tileColors": ""
+}
