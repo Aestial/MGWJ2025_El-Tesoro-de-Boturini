@@ -139,7 +139,7 @@
                     },
                     "direction": "down",
                     "fadeSpeed": 2,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "61b3c901-fcbd-41a1-8938-a934d7ec3d63"
                 }
@@ -242,7 +242,7 @@
                     },
                     "direction": "",
                     "fadeSpeed": "2",
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "a5b6d1f6-8dd9-474a-9ff8-1fd5b008bcfa"
                 }

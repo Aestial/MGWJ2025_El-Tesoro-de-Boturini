@@ -15389,7 +15389,7 @@
                     "choices": 2,
                     "__collapseCase0": false,
                     "value0": 1,
-                    "__collapseCase1": false,
+                    "__collapseCase1": true,
                     "value1": 2,
                     "__collapseCase2": false,
                     "value2": 3,
@@ -15444,22 +15444,11 @@
                     ],
                     "true1": [
                       {
-                        "command": "EVENT_SWITCH_SCENE",
+                        "command": "EVENT_SCENE_POP_STATE",
                         "args": {
-                          "sceneId": "11c9d6b1-0bc5-43fb-aaf9-7daaf4b332ab",
-                          "x": {
-                            "type": "number",
-                            "value": 5
-                          },
-                          "y": {
-                            "type": "number",
-                            "value": 12
-                          },
-                          "direction": "down",
-                          "fadeSpeed": "2",
-                          "__collapse": false
+                          "fadeSpeed": "2"
                         },
-                        "id": "92bfa11f-5c39-4774-96a6-af7bcc12137d"
+                        "id": "61e7d2f7-4c8c-44d0-a186-e9a88d680ba6"
                       }
                     ],
                     "true2": [],
@@ -15758,6 +15747,14 @@
           }
         ]
       }
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "564d60d1-2234-45b8-9aeb-b73df778914f",
+        "__collapse": true
+      },
+      "id": "bd071aa8-9d4b-4188-8a60-2f9f973bfb6e"
     }
   ],
   "playerHit1Script": [],

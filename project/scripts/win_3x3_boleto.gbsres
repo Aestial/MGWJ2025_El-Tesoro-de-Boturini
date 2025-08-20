@@ -2517,27 +2517,88 @@
                     "flag14": false,
                     "flag15": false,
                     "flag16": false,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "e3c4c5da-352c-4fc8-94dd-c7d8c4412834"
                 },
                 {
-                  "command": "EVENT_SWITCH_SCENE",
+                  "command": "EVENT_ACTOR_SET_STATE",
                   "args": {
-                    "sceneId": "11c9d6b1-0bc5-43fb-aaf9-7daaf4b332ab",
-                    "x": {
-                      "type": "number",
-                      "value": 5
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": 12
-                    },
-                    "direction": "down",
-                    "fadeSpeed": "2",
-                    "__collapse": false
+                    "actorId": "0",
+                    "spriteStateId": "Win",
+                    "__collapse": true
                   },
-                  "id": "9baf2e29-2855-43b1-bf7f-ecf5d1bbc527"
+                  "id": "2a5c5392-1799-4a38-8e3b-ef8f4bdbc7f1"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                  "args": {
+                    "actorId": "0",
+                    "speed": 7,
+                    "__collapse": true
+                  },
+                  "id": "d530c5fd-1c10-4b59-8ad2-7a4486fdae81"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 1.5,
+                    "frames": 30,
+                    "__collapse": true
+                  },
+                  "id": "1185cdcf-8e82-4170-8cb1-5626da46829b"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "¡Gran trabajo \nde restauracion!"
+                    ],
+                    "avatarId": "",
+                    "__collapse": true,
+                    "__section": "text",
+                    "position": "bottom",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 2,
+                    "textY": 1,
+                    "textHeight": 6,
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "any",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
+                  },
+                  "id": "ccfe622d-5ae4-4304-955c-ebc40f2916cc"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "0",
+                    "spriteStateId": "",
+                    "__collapse": true
+                  },
+                  "id": "c8d9db50-89b8-49c1-b6be-cded92af4938"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                  "args": {
+                    "actorId": "0",
+                    "speed": 31,
+                    "__collapse": true
+                  },
+                  "id": "e6bf02c2-5a19-4e51-9aca-744c1808002a"
+                },
+                {
+                  "command": "EVENT_SCENE_POP_STATE",
+                  "args": {
+                    "fadeSpeed": "2"
+                  },
+                  "id": "dfa79583-43f2-4add-8a91-475a514c08f0"
                 }
               ],
               "false": [
@@ -2595,10 +2656,10 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Aun no terminas!\nQuedan $V0$ celdas\npendientes!"
+                      "¡Aun no terminas!\nQuedan $V0$ celdas\npendientes!"
                     ],
                     "avatarId": "",
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "4a27be9d-fc39-4ff3-903b-94a42fa2f949"
                 },
