@@ -2,8 +2,8 @@
   "_resourceType": "scene",
   "id": "8fc8afed-43f1-432d-bb67-290d0b27abee",
   "_index": 20,
-  "name": "3x3 plus",
-  "backgroundId": "05ee78c0-b045-4f8e-b6ce-9c5de29afc9b",
+  "name": "3x3 boleto",
+  "backgroundId": "182dbf86-4df4-41f6-bd1b-72f6a02489e8",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -301,7 +301,7 @@
       "id": "1ef7f8da-ad05-443f-93ad-fac4728cea78",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Controlls"
       },
       "children": {
@@ -15389,7 +15389,7 @@
                     "choices": 2,
                     "__collapseCase0": false,
                     "value0": 1,
-                    "__collapseCase1": false,
+                    "__collapseCase1": true,
                     "value1": 2,
                     "__collapseCase2": false,
                     "value2": 3,
@@ -15428,7 +15428,7 @@
                       {
                         "command": "EVENT_CALL_CUSTOM_EVENT",
                         "args": {
-                          "customEventId": "b5d56993-4eb9-4ad3-a15a-097b83cc91c0",
+                          "customEventId": "12bf032b-c49c-4161-a01d-aad7c9b2a4de",
                           "$variable[V0]$": {
                             "type": "variable",
                             "value": "31"
@@ -15444,22 +15444,11 @@
                     ],
                     "true1": [
                       {
-                        "command": "EVENT_SWITCH_SCENE",
+                        "command": "EVENT_SCENE_POP_STATE",
                         "args": {
-                          "sceneId": "11c9d6b1-0bc5-43fb-aaf9-7daaf4b332ab",
-                          "x": {
-                            "type": "number",
-                            "value": 5
-                          },
-                          "y": {
-                            "type": "number",
-                            "value": 12
-                          },
-                          "direction": "down",
-                          "fadeSpeed": "2",
-                          "__collapse": false
+                          "fadeSpeed": "2"
                         },
-                        "id": "92bfa11f-5c39-4774-96a6-af7bcc12137d"
+                        "id": "61e7d2f7-4c8c-44d0-a186-e9a88d680ba6"
                       }
                     ],
                     "true2": [],
@@ -15758,12 +15747,20 @@
           }
         ]
       }
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "564d60d1-2234-45b8-9aeb-b73df778914f",
+        "__collapse": true
+      },
+      "id": "bd071aa8-9d4b-4188-8a60-2f9f973bfb6e"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "2bd69faf-84df-43f1-9e44-01514636adbe",
-  "autoFadeEventCollapse": true,
+  "autoFadeEventCollapse": false,
   "labelColor": "yellow"
 }

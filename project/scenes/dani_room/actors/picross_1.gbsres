@@ -17,72 +17,281 @@
   "symbol": "actor_50",
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF_FLAGS_COMPARE",
       "args": {
-        "position": "bottom",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 2,
-        "textY": 1,
-        "textHeight": 6,
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "any",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
-        "text": [
-          "Debo Restaurar \nmi mapa \ndel Metro..."
-        ],
-        "__section": "text",
-        "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb"
-      },
-      "id": "45115ef3-cfa1-497e-aa68-af8a39f8564a"
-    },
-    {
-      "command": "EVENT_CHOICE",
-      "args": {
-        "variable": "L0",
-        "trueText": "Restaurar",
-        "falseText": "Cancelar"
-      },
-      "id": "066a0b16-cde7-429a-a24a-aad396e2817e"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "variable",
-          "value": "L0"
-        },
-        "__collapseElse": true
+        "variable": "2",
+        "flag": 0,
+        "__collapseElse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_SWITCH_SCENE",
+            "command": "EVENT_TEXT",
             "args": {
-              "sceneId": "8fc8afed-43f1-432d-bb67-290d0b27abee",
-              "x": {
-                "type": "number",
-                "value": 8
-              },
-              "y": {
-                "type": "number",
-                "value": 7
-              },
-              "direction": "",
-              "fadeSpeed": "2"
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Mi hermosa área\nde restauración\nen casa..."
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+              "__collapse": false
             },
-            "id": "225a4e91-8e07-484e-9c76-2f64a68d1187"
+            "id": "ffbfc306-6253-4b97-93b3-303aaa40c755"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Debo restaurar \nmi viejo boleto\ndel Metro..."
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+              "__collapse": false
+            },
+            "id": "45115ef3-cfa1-497e-aa68-af8a39f8564a"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "number",
+                "value": 3
+              },
+              "__collapse": false
+            },
+            "id": "de2ec371-3054-412b-a433-8c095962fbf4"
+          },
+          {
+            "command": "EVENT_LOOP_WHILE",
+            "args": {
+              "condition": {
+                "type": "ne",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_MENU",
+                  "args": {
+                    "variable": "L0",
+                    "items": 3,
+                    "option1": "Restaurar",
+                    "option2": "Instrucciones",
+                    "option3": "Cancelar",
+                    "option4": "",
+                    "option5": "",
+                    "option6": "",
+                    "option7": "",
+                    "option8": "",
+                    "cancelOnB": true,
+                    "layout": "dialogue",
+                    "cancelOnLastOption": true,
+                    "__collapse": false
+                  },
+                  "id": "0e0c7e1e-f41d-49c0-96d4-401d7f6574a2"
+                },
+                {
+                  "command": "EVENT_SWITCH",
+                  "args": {
+                    "variable": "L0",
+                    "choices": 2,
+                    "__collapseCase0": false,
+                    "value0": 1,
+                    "__collapseCase1": false,
+                    "value1": 2,
+                    "__collapseCase2": false,
+                    "value2": 3,
+                    "__collapseCase3": false,
+                    "value3": 4,
+                    "__collapseCase4": false,
+                    "value4": 5,
+                    "__collapseCase5": false,
+                    "value5": 6,
+                    "__collapseCase6": false,
+                    "value6": 7,
+                    "__collapseCase7": false,
+                    "value7": 8,
+                    "__collapseCase8": false,
+                    "value8": 9,
+                    "__collapseCase9": false,
+                    "value9": 10,
+                    "__collapseCase10": false,
+                    "value10": 11,
+                    "__collapseCase11": false,
+                    "value11": 12,
+                    "__collapseCase12": false,
+                    "value12": 13,
+                    "__collapseCase13": false,
+                    "value13": 14,
+                    "__collapseCase14": false,
+                    "value14": 15,
+                    "__collapseCase15": false,
+                    "value15": 16,
+                    "__collapseElse": false,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true0": [
+                      {
+                        "command": "EVENT_SCENE_PUSH_STATE",
+                        "args": {},
+                        "id": "e7492d56-0b7d-4a15-804c-942b16cf5f86"
+                      },
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "8fc8afed-43f1-432d-bb67-290d0b27abee",
+                          "x": {
+                            "type": "number",
+                            "value": 8
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 7
+                          },
+                          "direction": "",
+                          "fadeSpeed": "2"
+                        },
+                        "id": "225a4e91-8e07-484e-9c76-2f64a68d1187"
+                      }
+                    ],
+                    "true1": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "position": "bottom",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 6,
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "any",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__presetId": "",
+                          "text": [
+                            "¡Mi boleto está\nmuy danado! DDD:",
+                            "¡Estos números\nson mi guía! ",
+                            "Para poder usarlo,\ndebo descubrir la",
+                            "imágen bajo estas \nmanchas de tiempo."
+                          ],
+                          "__section": "text",
+                          "avatarId": ""
+                        },
+                        "id": "19ec42cb-c343-4198-ace7-c9042c59ecbf"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "position": "bottom",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 6,
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "any",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+                          "text": [
+                            "Cada número indica\nun grupo de celdas",
+                            "consecutivas que\ndeben restaurarse.",
+                            "Por ejemplo, un !F:096d8fb9-5235-4d9e-9b22-183eea183b9a!3!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!\nsignifica que hay",
+                            "un bloque de !F:096d8fb9-5235-4d9e-9b22-183eea183b9a!3!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! \nceldas juntas.",
+                            "¡Un 2, 1 significa\nun bloque de 2, un",
+                            "espacio y luego un\nbloque de 1!",
+                            "Al presionar !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!A!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! se\ncubre la celda que",
+                            "necesita diferente\ndescontaminante.",
+                            "Cuando la celda no\ndebe de cubrirse y",
+                            "puedo marcarla con\nel boton !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!B!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!.",
+                            "Puedo limpiar las\nceldas con marcas",
+                            "y con coberturas\npresionando !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!START!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!.",
+                            "Debo relacionar la\ninformación de las\nfilas y columnas,",
+                            "para saber cuáles\ncasillas cubrir..."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "__collapse": false
+                        },
+                        "id": "f51262a5-979f-4e6e-a327-e0a654749f82"
+                      }
+                    ],
+                    "true2": [],
+                    "true3": [],
+                    "true4": [],
+                    "true5": [],
+                    "true6": [],
+                    "true7": [],
+                    "true8": [],
+                    "true9": [],
+                    "true10": [],
+                    "true11": [],
+                    "true12": [],
+                    "true13": [],
+                    "true14": [],
+                    "true15": [],
+                    "false": []
+                  },
+                  "id": "f9be9149-7485-4f9c-8723-be8663030be9"
+                }
+              ]
+            },
+            "id": "42a318fa-f45d-4cde-b455-47a6d6b30768"
+          }
+        ]
       },
-      "id": "34e9ebbb-3fa5-4486-9d5e-8a95eb36f6b4"
+      "id": "d0930d19-bc9d-45b9-955c-295aa0793a69"
     }
   ],
   "startScript": [],

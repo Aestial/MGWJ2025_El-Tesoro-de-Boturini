@@ -1,0 +1,9 @@
+{
+  "_resourceType": "emote",
+  "id": "e2581a99-07c2-40ac-937a-e6ada3d6ff76",
+  "name": "heal",
+  "symbol": "emote_heal",
+  "width": 16,
+  "height": 16,
+  "filename": "heal.png"
+}
