@@ -115,6 +115,11 @@
       "id": "45acee8e-f476-491d-b0e0-2a3dceab92d3__L1",
       "name": "Atajo Escenas",
       "symbol": "var_atajo_escenas"
+    },
+    {
+      "id": "bc118400-96bb-4de6-ad6e-b66cf6e34fa8__L0",
+      "name": "CurrentFrame",
+      "symbol": "var_currentframe_2"
     }
   ]
 }

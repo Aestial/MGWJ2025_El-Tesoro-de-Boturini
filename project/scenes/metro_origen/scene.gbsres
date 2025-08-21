@@ -19,7 +19,7 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "10",
+        "variable": "L0",
         "value": {
           "type": "number",
           "value": 0
@@ -27,6 +27,24 @@
         "__collapse": false
       },
       "id": "9f8c99c1-1622-4fe6-b5da-b9fe14b0870c"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 15,
+        "__collapse": true
+      },
+      "id": "39f8d06b-399b-4505-8f1b-804ee57957be"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1,
+        "__collapse": true
+      },
+      "id": "b7782b20-82a6-4e2b-9202-13f32b6d95f5"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -180,7 +198,7 @@
         "duration": 0.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -191,7 +209,7 @@
               "top_left_y": 7,
               "current_frame": "L0",
               "source_name": "escalator_tiles",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "2c9729cb-68e6-4db2-b800-8136f1488d19"
           },
@@ -203,7 +221,7 @@
                 "value": "$L0$%2 == 0"
               },
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [

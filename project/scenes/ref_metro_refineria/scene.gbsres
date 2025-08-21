@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "bc118400-96bb-4de6-ad6e-b66cf6e34fa8",
-  "_index": 23,
+  "_index": 21,
   "name": "ref_Metro Refineria",
   "backgroundId": "8d00037b-f163-44f6-bc1a-6243917e9704",
   "tilesetId": "",
@@ -13,8 +13,8 @@
   "collisions": "0fae+016+0f18+005+01!0f3+012+002+016+002+013+0f5+006+013+00f+0f5+001b+0f6+002+0f2+0013+0f7+02!0015+0fa+0013+0f3+003+023+01!0013+0f3+003+0f3+02!0013+0f3+003+0f3+01!0013+0f3+003+0f3+0014+0f1e+",
   "autoFadeSpeed": 1,
   "symbol": "scene_24",
-  "x": 776,
-  "y": 280,
+  "x": 736,
+  "y": 240,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -180,7 +180,7 @@
         "duration": 0.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -191,7 +191,7 @@
               "top_left_y": 7,
               "current_frame": "L0",
               "source_name": "escalator_tiles",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "a4fe919d-0eb2-427d-9894-f2cc65e9ef28"
           },
@@ -203,7 +203,7 @@
                 "value": "$L0$%2 == 0"
               },
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
