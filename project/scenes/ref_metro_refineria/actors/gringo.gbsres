@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "1e65eeae-611d-44e1-80c6-bc29170b4354",
+  "id": "7733192d-ddde-42bb-b312-7d6c7ce3038a",
   "name": "gringo",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_10",
+  "symbol": "actor_59",
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -40,7 +40,7 @@
         "__section": "text",
         "avatarId": ""
       },
-      "id": "d505c174-5150-40f1-9f99-71bab71c7f0e"
+      "id": "c5a5b7a9-52a5-4ab2-812a-52e302f18471"
     },
     {
       "command": "EVENT_ACTOR_EMOTE",
@@ -48,7 +48,7 @@
         "actorId": "player",
         "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
       },
-      "id": "2df7d2ff-8d8a-41b8-8617-d59a29f44e6b"
+      "id": "940443b9-1a01-45d8-acc3-2cd645f3f4fb"
     },
     {
       "command": "EVENT_WAIT",
@@ -56,7 +56,7 @@
         "time": 1,
         "frames": 30
       },
-      "id": "706dd4c6-2a58-41a0-a866-90113001faf9"
+      "id": "62a6ba3c-50a8-4b8a-bc8f-6dac94964c00"
     },
     {
       "command": "EVENT_ACTOR_EMOTE",
@@ -64,7 +64,7 @@
         "actorId": "$self$",
         "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
       },
-      "id": "7aa818f9-67fe-4f09-9f08-880f67c4d9b6"
+      "id": "36ecf245-f585-47a3-904f-c308b1b4a58c"
     },
     {
       "command": "EVENT_ACTOR_SET_DIRECTION",
@@ -75,7 +75,7 @@
           "value": "right"
         }
       },
-      "id": "897eacfc-a70c-421b-ac04-9e6f9649e694"
+      "id": "b1f7d0e8-4ec2-4d43-ad6d-35081c85aac8"
     }
   ],
   "startScript": [],

@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "0eff4bf5-e730-422b-af92-a986b40a41cf",
+  "id": "7f9907b7-14ad-4aec-9a9d-e323ef4cda1a",
   "name": "entrada_vagon_frente",
   "prefabId": "",
   "x": 20,
   "y": 7,
-  "symbol": "trigger_3",
+  "symbol": "trigger_54",
   "prefabScriptOverrides": {},
   "width": 2,
   "height": 1,
@@ -25,7 +25,7 @@
           {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
-              "actorId": "88d66031-f869-44ba-b213-e67f0c869aa6",
+              "actorId": "b5eab421-0303-4230-a738-da4b1ee4439a",
               "x": {
                 "type": "number",
                 "value": 12
@@ -38,15 +38,15 @@
               "useCollisions": false,
               "__collapse": true
             },
-            "id": "437511fb-5a42-4d1c-87f0-178bc8505020"
+            "id": "e60f9c9a-0b8a-4319-8732-635489128f8e"
           },
           {
             "command": "EVENT_ACTOR_HIDE",
             "args": {
-              "actorId": "88d66031-f869-44ba-b213-e67f0c869aa6",
+              "actorId": "b5eab421-0303-4230-a738-da4b1ee4439a",
               "__collapse": true
             },
-            "id": "162666ce-7f08-412e-8ff4-69d3739f62d8"
+            "id": "83dd8230-6ab8-474d-9ede-2993d0ea89a8"
           },
           {
             "command": "EVENT_MUSIC_PLAY",
@@ -54,7 +54,7 @@
               "musicId": "0072a16f-85f8-4339-bb4f-a359a63e1d77",
               "__collapse": true
             },
-            "id": "7ac5148f-1b70-46df-86db-23ad82b2524d"
+            "id": "ae8d3085-95aa-4d86-86cc-01986bafbe83"
           },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
@@ -72,7 +72,7 @@
               "useCollisions": true,
               "__collapse": true
             },
-            "id": "43c05565-bb23-4055-bbd8-b3081d474769"
+            "id": "271fa664-85af-46b1-847e-b21217e2dec3"
           },
           {
             "command": "EVENT_ACTOR_HIDE",
@@ -80,7 +80,7 @@
               "actorId": "$self$",
               "__collapse": true
             },
-            "id": "345f2ba5-c2a9-42c1-8ef5-17f1a5362856"
+            "id": "ca96cb81-f536-463f-a09b-2d7b4d7b2aa4"
           },
           {
             "command": "EVENT_WAIT",
@@ -90,7 +90,7 @@
               "__comment": false,
               "__collapse": true
             },
-            "id": "9e8825e0-a2ea-4643-baee-494d230afc41"
+            "id": "3bbd3a1a-ea58-437d-b607-24435b9a507d"
           },
           {
             "command": "EVENT_SWITCH_SCENE",
@@ -109,7 +109,7 @@
               "__comment": false,
               "__collapse": true
             },
-            "id": "7cd8277e-b1d4-4553-a375-1cb3a5bb9664"
+            "id": "f10803bf-d981-4194-8c4f-4f3da94bd783"
           },
           {
             "command": "EVENT_REMOVE_INPUT_SCRIPT",
@@ -118,11 +118,11 @@
                 "a"
               ]
             },
-            "id": "06152168-2d41-4dd3-8146-907cb19d663c"
+            "id": "033c4399-266a-46f7-8ad3-6ed85d8764ed"
           }
         ]
       },
-      "id": "71a8db8b-284e-4bd5-9aca-15bbfe1c8f0f"
+      "id": "7cf7d7c9-c508-468e-a05d-e27127807a33"
     },
     {
       "command": "EVENT_ACTOR_EMOTE",
@@ -131,12 +131,12 @@
         "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202",
         "__collapse": false
       },
-      "id": "e802a833-5217-4b61-a59e-022d333866e9"
+      "id": "2f23f923-57b3-4c3c-95f0-b05023e0b96d"
     },
     {
       "command": "EVENT_IF_ACTOR_DIRECTION",
       "args": {
-        "actorId": "0d36760d-255b-4dc7-9285-2558404a16a2",
+        "actorId": "526d980f-f3af-4e91-a6ee-ef3fecf52a5f",
         "direction": {
           "type": "direction",
           "value": "up"
@@ -149,15 +149,15 @@
           {
             "command": "EVENT_ACTOR_EMOTE",
             "args": {
-              "actorId": "0d36760d-255b-4dc7-9285-2558404a16a2",
+              "actorId": "526d980f-f3af-4e91-a6ee-ef3fecf52a5f",
               "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2"
             },
-            "id": "cf06eeca-486e-4d4f-a067-50c766880d4e"
+            "id": "7a6f63be-89d8-4609-a996-f2e49a3dd1e8"
           }
         ],
         "false": []
       },
-      "id": "98737e78-a9d5-49af-88c9-8418a4e69f72"
+      "id": "0badbc79-a994-4ed6-b388-39da7595027c"
     }
   ],
   "leaveScript": [
@@ -168,7 +168,7 @@
           "a"
         ]
       },
-      "id": "eca9828a-8ff7-4ae8-875f-23308707b39a"
+      "id": "18d7bd52-473c-4f8b-a7d5-16456be29cd3"
     }
   ],
   "_index": 0

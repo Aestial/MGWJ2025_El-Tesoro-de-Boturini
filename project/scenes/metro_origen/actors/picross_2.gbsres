@@ -1,0 +1,308 @@
+{
+  "_resourceType": "actor",
+  "id": "a5fcf1ee-fc23-4eac-9864-fcbcd07ca5e8",
+  "name": "picross_2",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "adb96737-9823-4970-a5bc-84e648997b5f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_8",
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "2",
+        "flag": 1,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "La Biblioteca\nesta cerca del \nMetro Auditorio",
+                "Pertenece a la \nlinea 7 (siete)"
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+              "__collapse": false
+            },
+            "id": "6db9714c-4c37-48c5-a3dc-ed87ac6aa338"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Hacia donde \ndebo ir?",
+                "Parece que este\nmapa necesita",
+                "un ligero\nretoque..."
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+              "__collapse": false
+            },
+            "id": "7be466b8-7344-48ef-8da5-369216549ad4"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "number",
+                "value": 3
+              },
+              "__collapse": false
+            },
+            "id": "e0fb8020-d499-4244-bd05-3fe1b1713a21"
+          },
+          {
+            "command": "EVENT_LOOP_WHILE",
+            "args": {
+              "condition": {
+                "type": "ne",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_MENU",
+                  "args": {
+                    "variable": "L0",
+                    "items": 3,
+                    "option1": "Restaurar",
+                    "option2": "Instrucciones",
+                    "option3": "Cancelar",
+                    "option4": "",
+                    "option5": "",
+                    "option6": "",
+                    "option7": "",
+                    "option8": "",
+                    "cancelOnB": true,
+                    "layout": "dialogue",
+                    "cancelOnLastOption": true,
+                    "__collapse": false
+                  },
+                  "id": "7af1c292-5412-480c-a946-aac71cb062a2"
+                },
+                {
+                  "command": "EVENT_SWITCH",
+                  "args": {
+                    "variable": "L0",
+                    "choices": 2,
+                    "__collapseCase0": false,
+                    "value0": 1,
+                    "__collapseCase1": false,
+                    "value1": 2,
+                    "__collapseCase2": false,
+                    "value2": 3,
+                    "__collapseCase3": false,
+                    "value3": 4,
+                    "__collapseCase4": false,
+                    "value4": 5,
+                    "__collapseCase5": false,
+                    "value5": 6,
+                    "__collapseCase6": false,
+                    "value6": 7,
+                    "__collapseCase7": false,
+                    "value7": 8,
+                    "__collapseCase8": false,
+                    "value8": 9,
+                    "__collapseCase9": false,
+                    "value9": 10,
+                    "__collapseCase10": false,
+                    "value10": 11,
+                    "__collapseCase11": false,
+                    "value11": 12,
+                    "__collapseCase12": false,
+                    "value12": 13,
+                    "__collapseCase13": false,
+                    "value13": 14,
+                    "__collapseCase14": false,
+                    "value14": 15,
+                    "__collapseCase15": false,
+                    "value15": 16,
+                    "__collapseElse": false,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true0": [
+                      {
+                        "command": "EVENT_SCENE_PUSH_STATE",
+                        "args": {},
+                        "id": "5795dfbf-64e2-4036-b5a6-59e414b429fc"
+                      },
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "b6932ced-c813-4ad3-922a-726bb44011ee",
+                          "x": {
+                            "type": "number",
+                            "value": 8
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 7
+                          },
+                          "direction": "",
+                          "fadeSpeed": "2"
+                        },
+                        "id": "c4fd283e-e2c1-42ea-82c7-2ca4777c2502"
+                      }
+                    ],
+                    "true1": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "position": "bottom",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 6,
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "any",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__presetId": "",
+                          "text": [
+                            "¡Los usuarios han \nvuelto a hacer de\nlas suyas!",
+                            "Las pistas dicen\ndonde hubo tinta.",
+                            "Para descifrarlo,\ndebo restaurar el \nmapa y descubrir",
+                            "el numero de la\nlinea correcta..."
+                          ],
+                          "__section": "text",
+                          "avatarId": ""
+                        },
+                        "id": "0b6d2b66-73ff-4c81-9807-151e008a100f"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "position": "bottom",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 6,
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "any",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+                          "text": [
+                            "Cada número indica\nun grupo de celdas",
+                            "consecutivas que\ndeben restaurarse.",
+                            "Por ejemplo, un !F:096d8fb9-5235-4d9e-9b22-183eea183b9a!3!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!\nsignifica que hay",
+                            "un bloque de !F:096d8fb9-5235-4d9e-9b22-183eea183b9a!3!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! \nceldas juntas.",
+                            "¡Un 2, 1 significa\nun bloque de 2, un",
+                            "espacio y luego un\nbloque de 1!",
+                            "Al presionar !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!A!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! se\ncubre la celda que",
+                            "necesita diferente\ndescontaminante.",
+                            "Cuando la celda no\ndebe de cubrirse y",
+                            "puedo marcarla con\nel boton !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!B!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!.",
+                            "Puedo limpiar las\nceldas con marcas",
+                            "y con coberturas\npresionando !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!START!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!.",
+                            "Debo relacionar la\ninformación de las\nfilas y columnas,",
+                            "para saber cuáles\ncasillas cubrir..."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "__collapse": false
+                        },
+                        "id": "fafc0ef6-8005-4612-abb6-32e3370b4479"
+                      }
+                    ],
+                    "true2": [],
+                    "true3": [],
+                    "true4": [],
+                    "true5": [],
+                    "true6": [],
+                    "true7": [],
+                    "true8": [],
+                    "true9": [],
+                    "true10": [],
+                    "true11": [],
+                    "true12": [],
+                    "true13": [],
+                    "true14": [],
+                    "true15": [],
+                    "false": []
+                  },
+                  "id": "7c5782de-d3ff-4cbe-9bc5-8b89844b4dbd"
+                }
+              ]
+            },
+            "id": "1e57c37d-bbd6-4f92-8300-8d25010c2a59"
+          }
+        ]
+      },
+      "id": "40643a03-cc64-4920-8150-9ad9da9b8383"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 26,
+  "y": 9,
+  "_index": 1
+}

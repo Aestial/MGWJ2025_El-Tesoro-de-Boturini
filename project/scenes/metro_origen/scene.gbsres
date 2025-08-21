@@ -2,15 +2,15 @@
   "_resourceType": "scene",
   "id": "c9288d55-5048-4277-abec-14e10b39371c",
   "_index": 1,
-  "name": "Metro Refineria",
-  "backgroundId": "8d00037b-f163-44f6-bc1a-6243917e9704",
+  "name": "Metro origen",
+  "backgroundId": "30d06cbb-b68b-4ba7-9428-a26ece8f1c96",
   "tilesetId": "",
   "width": 29,
   "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0fae+016+0f18+005+01!0f3+012+002+016+002+013+0f5+006+013+00f+0f5+001b+0f6+002+0f2+0013+0f7+02!0015+0fa+0013+0f3+003+023+01!0013+0f3+003+0f3+02!0013+0f3+003+0f3+01!0013+0f3+003+0f3+0014+0f1e+",
+  "collisions": "0fae+016+0f18+005+01!0f3+012+002+016+002+013+0f5+006+013+00f+0f5+001b+0f6+002+0f2+0013+0f7+02!0015+0fa+0013+0f3+001a+0f3+001a+0f3+001a+0f3+001a+0f1e+",
   "autoFadeSpeed": 1,
   "symbol": "scene_2",
   "x": 240,
@@ -236,6 +236,45 @@
         ]
       },
       "id": "1637d6bf-5692-43b6-9acd-7c66c6dd8224"
+    },
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "2",
+        "flag": 1,
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "tilesetId": "undefined",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "variable": "L0"
+            },
+            "id": "fa06a0d5-721a-45ec-828a-8d296165378f"
+          }
+        ],
+        "false": []
+      },
+      "id": "4831100c-f625-4411-bc41-b30c70f11c3e"
     }
   ],
   "playerHit1Script": [],

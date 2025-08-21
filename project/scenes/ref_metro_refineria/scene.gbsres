@@ -1,20 +1,20 @@
 {
   "_resourceType": "scene",
-  "id": "5d4c01a9-3279-440a-b130-b4007bec61e4",
-  "_index": 12,
-  "name": "Metro Auditorio",
-  "backgroundId": "30d06cbb-b68b-4ba7-9428-a26ece8f1c96",
+  "id": "bc118400-96bb-4de6-ad6e-b66cf6e34fa8",
+  "_index": 23,
+  "name": "ref_Metro Refineria",
+  "backgroundId": "8d00037b-f163-44f6-bc1a-6243917e9704",
   "tilesetId": "",
   "width": 29,
   "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0fae+016+0f18+005+01!0f3+012+002+016+002+013+0f5+006+013+00f+0f5+001b+0f6+002+0f2+0013+0f7+02!0015+0fa+0013+0f3+001a+0f3+001a+0f3+001a+0f3+001a+0f1e+",
+  "collisions": "0fae+016+0f18+005+01!0f3+012+002+016+002+013+0f5+006+013+00f+0f5+001b+0f6+002+0f2+0013+0f7+02!0015+0fa+0013+0f3+003+023+01!0013+0f3+003+0f3+02!0013+0f3+003+0f3+01!0013+0f3+003+0f3+0014+0f1e+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_7",
-  "x": 240,
-  "y": 824,
+  "symbol": "scene_24",
+  "x": 776,
+  "y": 280,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -23,16 +23,10 @@
         "value": {
           "type": "number",
           "value": 0
-        }
+        },
+        "__collapse": false
       },
-      "id": "cb73b9dc-dd0e-433a-a6bb-76424456159f"
-    },
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3"
-      },
-      "id": "42cc15e8-fc5d-4f4f-a56a-55ec571d2391"
+      "id": "d5d93299-e828-481a-ba9d-ddc46cd6b75c"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -42,7 +36,8 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": true,
+        "__comment": false
       },
       "children": {
         "true": [
@@ -51,7 +46,7 @@
             "args": {
               "__collapse": true
             },
-            "id": "46114e21-65a9-4d93-9f35-6d5bd1c3fd30"
+            "id": "a0d611c3-6609-4ac8-b1a4-bd95c3cc836c"
           },
           {
             "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -65,12 +60,12 @@
               "effect": 0,
               "__collapse": true
             },
-            "id": "a75489ce-0112-422a-a838-b8c0c8af493c"
+            "id": "9d9c67cd-63c1-4ffc-aabe-c2e457970f4e"
           },
           {
             "command": "EVENT_MENU",
             "args": {
-              "variable": "L0",
+              "variable": "T0",
               "items": 2,
               "option1": "Reanudar",
               "option2": "Menú principal",
@@ -83,22 +78,22 @@
               "cancelOnB": true,
               "layout": "dialogue",
               "cancelOnLastOption": false,
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "4e5ccf38-df6d-409b-a8ff-fa9512a06f61"
+            "id": "fb9a11bb-45a9-40dc-a775-313801683b8c"
           },
           {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
-              "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3",
-              "__collapse": true
+              "musicId": "564d60d1-2234-45b8-9aeb-b73df778914f",
+              "__collapse": false
             },
-            "id": "02bcbfb0-6da4-43eb-8bcd-4d5e6c4ae1f1"
+            "id": "6ccdb399-93ec-44fc-9705-d246837111bc"
           },
           {
             "command": "EVENT_SWITCH",
             "args": {
-              "variable": "L0",
+              "variable": "T0",
               "choices": 2,
               "__collapseCase0": false,
               "value0": 1,
@@ -133,7 +128,7 @@
               "__collapseCase15": false,
               "value15": 16,
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true0": [],
@@ -153,7 +148,7 @@
                     "direction": "",
                     "fadeSpeed": "2"
                   },
-                  "id": "5916d431-909a-4da6-b9d3-1a5f6e1b96dd"
+                  "id": "ac7e43ad-f904-4241-a063-793e845d0e82"
                 }
               ],
               "true2": [],
@@ -172,11 +167,11 @@
               "true15": [],
               "false": []
             },
-            "id": "9a0d8528-b4e1-4efa-ac0b-931b07548630"
+            "id": "a7ce5a47-3901-449a-97ba-402f08792912"
           }
         ]
       },
-      "id": "94813155-7401-49d8-b655-3cff059ecaea"
+      "id": "f458f67e-0acc-48fa-90b4-40cf35334ef1"
     },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -198,7 +193,7 @@
               "source_name": "escalator_tiles",
               "__collapse": true
             },
-            "id": "58611497-1123-44fc-8acd-7aaf266ec35a"
+            "id": "a4fe919d-0eb2-427d-9894-f2cc65e9ef28"
           },
           {
             "command": "EVENT_IF",
@@ -220,7 +215,7 @@
                     "source_idx": 32,
                     "source_name": "escalator_tiles"
                   },
-                  "id": "9b0c70a6-f0eb-43d3-948d-e20c06500d31"
+                  "id": "bafc44b2-e3cc-47b5-90e2-00f752611c2e"
                 }
               ],
               "false": [
@@ -232,20 +227,21 @@
                     "source_idx": 33,
                     "source_name": "escalator_tiles"
                   },
-                  "id": "7ed7a74e-51ed-4f21-a59c-a9e4cc49e169"
+                  "id": "189f2a9d-d2b0-43bb-9303-a4d15c7f374e"
                 }
               ]
             },
-            "id": "d94e7622-b6a4-46c8-9a52-06f5238b8a1c"
+            "id": "b9cbae3a-06d4-4151-8da8-c9acff06917f"
           }
         ]
       },
-      "id": "81550938-2b35-464b-9dd2-be69f405ebba"
+      "id": "15a84dd9-4beb-49ae-9d0f-489626ad5d65"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "c7f6d71e-7301-493b-96f7-17267a2b914e",
-  "labelColor": "yellow"
+  "labelColor": "yellow",
+  "autoFadeEventCollapse": false
 }
