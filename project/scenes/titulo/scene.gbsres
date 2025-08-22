@@ -63,6 +63,16 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "!F:7f4c8d4e-d530-4b5e-a49b-ccd83619d8ad!PRESIONA START",
+              "x": 3,
+              "y": 14,
+              "location": "background"
+            },
+            "id": "425bce1d-0477-4d64-bbbb-4ed5993391d7"
+          },
+          {
             "command": "EVENT_MENU",
             "args": {
               "variable": "L0",
@@ -121,7 +131,7 @@
               "__collapseCase15": false,
               "value15": 16,
               "__collapseElse": false,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true0": [

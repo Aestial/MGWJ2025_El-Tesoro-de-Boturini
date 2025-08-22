@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "3d394691-77fd-4a86-a48f-55f9fc28a714",
+  "name": "3x3_siete",
+  "symbol": "bg_3x3_siete",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "3x3_siete.png",
+  "tileColors": "",
+  "autoColor": false
+}

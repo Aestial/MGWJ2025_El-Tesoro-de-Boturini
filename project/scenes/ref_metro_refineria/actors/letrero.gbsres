@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "aee59243-bddd-4c5a-922a-2dc09da439bc",
+  "id": "02ae8e4f-3fd3-40e5-b38a-e4f20069a19c",
   "name": "letrero",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_11",
+  "symbol": "actor_60",
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -40,7 +40,7 @@
         "__section": "text",
         "avatarId": ""
       },
-      "id": "8d223a0e-4d42-423b-aec6-f812cc0987ed"
+      "id": "64832430-15ef-41a2-a264-3567f9b479a9"
     },
     {
       "command": "EVENT_CHOICE",
@@ -50,7 +50,7 @@
         "falseText": "Cancelar",
         "__collapse": false
       },
-      "id": "03d61afb-5ca8-4f3d-9e6b-a1ba337f1a0f"
+      "id": "a84ba318-57ce-4477-af8c-eb9217f0eea3"
     },
     {
       "command": "EVENT_IF",
@@ -97,17 +97,17 @@
                     "__section": "text",
                     "avatarId": ""
                   },
-                  "id": "494658c2-5031-47ec-9406-603068a63134"
+                  "id": "8e666f28-5c44-47e9-bce7-139a6f80605c"
                 }
               ],
               "load": []
             },
-            "id": "37540df6-f452-4b7c-9671-ef66fe643d86"
+            "id": "e2026160-973b-45b3-9494-949a2d0bdfdf"
           }
         ],
         "false": []
       },
-      "id": "1260235a-d52f-4440-bec6-2a2746087fc8"
+      "id": "400520cb-a337-4402-be19-654d7ff208c4"
     }
   ],
   "startScript": [],

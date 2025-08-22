@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
-  "id": "c9288d55-5048-4277-abec-14e10b39371c",
-  "_index": 1,
-  "name": "Metro Refineria",
+  "id": "bc118400-96bb-4de6-ad6e-b66cf6e34fa8",
+  "_index": 21,
+  "name": "ref_Metro Refineria",
   "backgroundId": "8d00037b-f163-44f6-bc1a-6243917e9704",
   "tilesetId": "",
   "width": 29,
@@ -12,9 +12,9 @@
   "spritePaletteIds": [],
   "collisions": "0fae+016+0f18+005+01!0f3+012+002+016+002+013+0f5+006+013+00f+0f5+001b+0f6+002+0f2+0013+0f7+02!0015+0fa+0013+0f3+003+023+01!0013+0f3+003+0f3+02!0013+0f3+003+0f3+01!0013+0f3+003+0f3+0014+0f1e+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_2",
-  "x": 240,
-  "y": 456,
+  "symbol": "scene_24",
+  "x": 736,
+  "y": 240,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -26,7 +26,7 @@
         },
         "__collapse": false
       },
-      "id": "9f8c99c1-1622-4fe6-b5da-b9fe14b0870c"
+      "id": "d5d93299-e828-481a-ba9d-ddc46cd6b75c"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -46,7 +46,7 @@
             "args": {
               "__collapse": true
             },
-            "id": "30441230-c2f8-4652-a236-df8e6dd10113"
+            "id": "a0d611c3-6609-4ac8-b1a4-bd95c3cc836c"
           },
           {
             "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -60,7 +60,7 @@
               "effect": 0,
               "__collapse": true
             },
-            "id": "79a40c06-e47e-4a01-9cf9-36caa374f4ff"
+            "id": "9d9c67cd-63c1-4ffc-aabe-c2e457970f4e"
           },
           {
             "command": "EVENT_MENU",
@@ -80,7 +80,7 @@
               "cancelOnLastOption": false,
               "__collapse": false
             },
-            "id": "b80415b1-7dc5-4cce-b555-36ebeee38162"
+            "id": "fb9a11bb-45a9-40dc-a775-313801683b8c"
           },
           {
             "command": "EVENT_MUSIC_PLAY",
@@ -88,7 +88,7 @@
               "musicId": "564d60d1-2234-45b8-9aeb-b73df778914f",
               "__collapse": false
             },
-            "id": "51ef4971-0f4c-4844-bf36-d989a7b7809b"
+            "id": "6ccdb399-93ec-44fc-9705-d246837111bc"
           },
           {
             "command": "EVENT_SWITCH",
@@ -148,7 +148,7 @@
                     "direction": "",
                     "fadeSpeed": "2"
                   },
-                  "id": "f6e4b899-c373-499d-bc6c-728f403b6201"
+                  "id": "ac7e43ad-f904-4241-a063-793e845d0e82"
                 }
               ],
               "true2": [],
@@ -167,11 +167,11 @@
               "true15": [],
               "false": []
             },
-            "id": "6f31343b-4c96-44fe-8736-9b8b16144d09"
+            "id": "a7ce5a47-3901-449a-97ba-402f08792912"
           }
         ]
       },
-      "id": "a71c7966-99db-4c79-a352-36f2b04235a6"
+      "id": "f458f67e-0acc-48fa-90b4-40cf35334ef1"
     },
     {
       "command": "EVENT_SET_TIMER_SCRIPT",
@@ -180,7 +180,7 @@
         "duration": 0.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -191,9 +191,9 @@
               "top_left_y": 7,
               "current_frame": "L0",
               "source_name": "escalator_tiles",
-              "__collapse": true
+              "__collapse": false
             },
-            "id": "2c9729cb-68e6-4db2-b800-8136f1488d19"
+            "id": "a4fe919d-0eb2-427d-9894-f2cc65e9ef28"
           },
           {
             "command": "EVENT_IF",
@@ -203,7 +203,7 @@
                 "value": "$L0$%2 == 0"
               },
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -215,7 +215,7 @@
                     "source_idx": 32,
                     "source_name": "escalator_tiles"
                   },
-                  "id": "55cae9db-ea2e-4ea6-adda-9b1215320b10"
+                  "id": "bafc44b2-e3cc-47b5-90e2-00f752611c2e"
                 }
               ],
               "false": [
@@ -227,15 +227,15 @@
                     "source_idx": 33,
                     "source_name": "escalator_tiles"
                   },
-                  "id": "67fb862b-d4fd-47fd-9aef-52611d5ea618"
+                  "id": "189f2a9d-d2b0-43bb-9303-a4d15c7f374e"
                 }
               ]
             },
-            "id": "bc50898e-caeb-4fe2-904a-a298d2a472c5"
+            "id": "b9cbae3a-06d4-4151-8da8-c9acff06917f"
           }
         ]
       },
-      "id": "1637d6bf-5692-43b6-9acd-7c66c6dd8224"
+      "id": "15a84dd9-4beb-49ae-9d0f-489626ad5d65"
     }
   ],
   "playerHit1Script": [],
