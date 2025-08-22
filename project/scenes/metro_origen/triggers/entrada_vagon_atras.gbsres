@@ -3,7 +3,7 @@
   "id": "bea779d3-59a8-43f3-be61-51a45ceb0c23",
   "name": "entrada_vagon_atras",
   "prefabId": "",
-  "x": 12,
+  "x": 10,
   "y": 7,
   "symbol": "trigger_6",
   "prefabScriptOverrides": {},
@@ -68,15 +68,15 @@
                     "actorId": "88d66031-f869-44ba-b213-e67f0c869aa6",
                     "x": {
                       "type": "number",
-                      "value": 20
+                      "value": 19
                     },
                     "y": {
                       "type": "number",
-                      "value": 8
+                      "value": 7
                     },
                     "moveType": "diagonal",
                     "useCollisions": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "bbb43d01-f181-490d-a4aa-cfcc915e36a5"
                 },
@@ -94,7 +94,7 @@
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 12
+                      "value": 10
                     },
                     "y": {
                       "type": "number",
@@ -102,7 +102,7 @@
                     },
                     "moveType": "horizontal",
                     "useCollisions": false,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "4e5ce873-ec3a-4638-a6bf-2fec7d09af66"
                 },
@@ -148,12 +148,29 @@
             "id": "7e417fc5-2c9e-48bc-98af-686f43312b81"
           },
           {
-            "command": "EVENT_ACTOR_EMOTE",
+            "command": "EVENT_IF_ACTOR_DIRECTION",
             "args": {
               "actorId": "$self$",
-              "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              },
+              "__collapseElse": true
             },
-            "id": "692d07f6-ad21-4a47-a876-ce8a8dff361c"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_EMOTE",
+                  "args": {
+                    "actorId": "$self$",
+                    "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+                  },
+                  "id": "692d07f6-ad21-4a47-a876-ce8a8dff361c"
+                }
+              ],
+              "false": []
+            },
+            "id": "03572333-1c2a-477c-96f5-bcb77d965920"
           }
         ],
         "false": []

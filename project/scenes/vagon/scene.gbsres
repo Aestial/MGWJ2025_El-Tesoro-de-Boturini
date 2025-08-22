@@ -10,11 +10,11 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f128+006+0f1a+006+0f3+0028+0f2+0028+0f2+0028+0f2+0028+0f2+0028+0f2+008+0f18+008+0fa9+",
+  "collisions": "0f127+007+0f1a+006+0f3+0028+0f2+0028+0f2+0028+0f2+0028+0f2+0028+0f2+008+0f18+008+0fa9+",
   "autoFadeSpeed": 1,
   "symbol": "scene_12",
-  "x": 344,
-  "y": 632,
+  "x": 312,
+  "y": 640,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",

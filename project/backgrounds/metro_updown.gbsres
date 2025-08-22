@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "e35f60e6-9255-430a-a558-d35b84515f47",
+  "name": "!metro_updown",
+  "symbol": "tileset_metro_tiles",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "!metro_updown.png",
+  "tileColors": "",
+  "autoColor": false
+}

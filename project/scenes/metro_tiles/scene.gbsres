@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "f9b82cbf-442c-4973-9173-def88534975d",
+  "_index": 23,
+  "name": "metro_tiles",
+  "backgroundId": "e35f60e6-9255-430a-a558-d35b84515f47",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 60,
+  "y": 640,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "purple"
+}

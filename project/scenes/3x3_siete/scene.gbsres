@@ -272,7 +272,8 @@
       "command": "EVENT_GBVM_SCRIPT",
       "args": {
         "script": "VM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 8, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 8, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 8, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\n\nVM_POP 10\n\nVM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 9, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 9, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 9, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\n\nVM_POP 10\n\nVM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 10, 7, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 10, 8, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\nVM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 10, 9, ___bank_bg_tileswap_tileset, _bg_tileswap_tileset, .ARG0\n\n\nVM_POP 10\n",
-        "__collapse": true
+        "__collapse": true,
+        "__comment": false
       },
       "id": "21387ba8-e3b3-4ceb-a04b-aa34a437b735"
     },
@@ -15438,7 +15439,7 @@
                             "value": "L1"
                           },
                           "$actor[0]$": "f7ba169a-bc33-49f9-899b-97ad793cec85",
-                          "__collapse": true
+                          "__collapse": false
                         },
                         "id": "22e36be0-f879-4bcb-979b-85011ee1e8a4"
                       }

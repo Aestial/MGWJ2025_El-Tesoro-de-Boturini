@@ -29,6 +29,96 @@
       "id": "9f8c99c1-1622-4fe6-b5da-b9fe14b0870c"
     },
     {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "2",
+        "flag": 1,
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": ";; ROW 1 (TOP)\n; push tile id value\nVM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 10, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 2\nVM_REPLACE_TILE_XY 11, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 12, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 13, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 14, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 18, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 19, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 20, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 21, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 4\nVM_REPLACE_TILE_XY 22, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 5\nVM_REPLACE_TILE_XY 23, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 6\nVM_REPLACE_TILE_XY 24, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\n\n;; ROW 2\nVM_PUSH_CONST 8\nVM_REPLACE_TILE_XY 10, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 9\nVM_REPLACE_TILE_XY 11, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 10\nVM_REPLACE_TILE_XY 12, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 13, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 14, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 18, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 19, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 11\nVM_REPLACE_TILE_XY 20, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 12\nVM_REPLACE_TILE_XY 21, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 13\nVM_REPLACE_TILE_XY 22, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 23, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 15\nVM_REPLACE_TILE_XY 24, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\n\n;; ROW 3\nVM_PUSH_CONST 17\nVM_REPLACE_TILE_XY 10, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 18\nVM_REPLACE_TILE_XY 11, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 19\nVM_REPLACE_TILE_XY 12, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 20\nVM_REPLACE_TILE_XY 13, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 21\nVM_REPLACE_TILE_XY 14, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 18, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 22\nVM_REPLACE_TILE_XY 19, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 23\nVM_REPLACE_TILE_XY 20, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 24\nVM_REPLACE_TILE_XY 21, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 25\nVM_REPLACE_TILE_XY 22, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 26\nVM_REPLACE_TILE_XY 23, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 27\nVM_REPLACE_TILE_XY 24, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\n\n;; ROW 4\nVM_PUSH_CONST 29\nVM_REPLACE_TILE_XY 10, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 30\nVM_REPLACE_TILE_XY 11, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 31\nVM_REPLACE_TILE_XY 12, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 32\nVM_REPLACE_TILE_XY 13, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 33\nVM_REPLACE_TILE_XY 14, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 18, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 35\nVM_REPLACE_TILE_XY 19, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 36\nVM_REPLACE_TILE_XY 20, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 37\nVM_REPLACE_TILE_XY 21, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 38\nVM_REPLACE_TILE_XY 22, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 39\nVM_REPLACE_TILE_XY 23, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 40\nVM_REPLACE_TILE_XY 24, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\n",
+              "__collapse": true,
+              "__comment": false,
+              "__label": "Train Up"
+            },
+            "id": "b10e0212-a4fe-4091-b407-04e483eaf117"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 2,
+              "duration": 1,
+              "frames": 30,
+              "__scriptTabs": "end",
+              "__collapse": true
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "expression",
+                      "value": "$L0$%3 == 0"
+                    },
+                    "__collapseElse": false,
+                    "__collapse": false,
+                    "__comment": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_GBVM_SCRIPT",
+                        "args": {
+                          "script": ";; ROW 1 (TOP)\n; push tile id value\nVM_PUSH_CONST 1\nVM_REPLACE_TILE_XY 10, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 2\nVM_REPLACE_TILE_XY 11, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 12, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 13, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 14, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 18, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 19, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 20, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 3\nVM_REPLACE_TILE_XY 21, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 4\nVM_REPLACE_TILE_XY 22, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 5\nVM_REPLACE_TILE_XY 23, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 6\nVM_REPLACE_TILE_XY 24, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\n\n;; ROW 2\nVM_PUSH_CONST 8\nVM_REPLACE_TILE_XY 10, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 9\nVM_REPLACE_TILE_XY 11, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 10\nVM_REPLACE_TILE_XY 12, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 13, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 14, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 18, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 19, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 11\nVM_REPLACE_TILE_XY 20, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 12\nVM_REPLACE_TILE_XY 21, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 13\nVM_REPLACE_TILE_XY 22, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 23, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 15\nVM_REPLACE_TILE_XY 24, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\n\n;; ROW 3\nVM_PUSH_CONST 17\nVM_REPLACE_TILE_XY 10, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 18\nVM_REPLACE_TILE_XY 11, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 19\nVM_REPLACE_TILE_XY 12, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 20\nVM_REPLACE_TILE_XY 13, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 21\nVM_REPLACE_TILE_XY 14, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 18, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 22\nVM_REPLACE_TILE_XY 19, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 23\nVM_REPLACE_TILE_XY 20, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 24\nVM_REPLACE_TILE_XY 21, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 25\nVM_REPLACE_TILE_XY 22, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 26\nVM_REPLACE_TILE_XY 23, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 27\nVM_REPLACE_TILE_XY 24, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\n\n;; ROW 4\nVM_PUSH_CONST 29\nVM_REPLACE_TILE_XY 10, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 30\nVM_REPLACE_TILE_XY 11, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 31\nVM_REPLACE_TILE_XY 12, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 32\nVM_REPLACE_TILE_XY 13, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 33\nVM_REPLACE_TILE_XY 14, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 18, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 35\nVM_REPLACE_TILE_XY 19, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 36\nVM_REPLACE_TILE_XY 20, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 37\nVM_REPLACE_TILE_XY 21, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 38\nVM_REPLACE_TILE_XY 22, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 39\nVM_REPLACE_TILE_XY 23, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 40\nVM_REPLACE_TILE_XY 24, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\n",
+                          "__collapse": true,
+                          "__comment": false,
+                          "__label": "Train Up"
+                        },
+                        "id": "04c03e5f-f620-4933-a5cb-1bd0ddbae72f"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_GBVM_SCRIPT",
+                        "args": {
+                          "script": ";; ROW 1 (TOP)\n; push tile id value\nVM_PUSH_CONST 42\nVM_REPLACE_TILE_XY 10, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 43\nVM_REPLACE_TILE_XY 11, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 12, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 13, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 14, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 18, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 19, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 20, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 44\nVM_REPLACE_TILE_XY 21, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 45\nVM_REPLACE_TILE_XY 22, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 46\nVM_REPLACE_TILE_XY 23, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 6\nVM_REPLACE_TILE_XY 24, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\n\n;; ROW 2\nVM_PUSH_CONST 48\nVM_REPLACE_TILE_XY 10, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 49\nVM_REPLACE_TILE_XY 11, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 12, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 13, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 14, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 18, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 19, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 20, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 50\nVM_REPLACE_TILE_XY 21, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 51\nVM_REPLACE_TILE_XY 22, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 52\nVM_REPLACE_TILE_XY 23, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 15\nVM_REPLACE_TILE_XY 24, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\n\n;; ROW 3\nVM_PUSH_CONST 54\nVM_REPLACE_TILE_XY 10, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 55\nVM_REPLACE_TILE_XY 11, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 56\nVM_REPLACE_TILE_XY 12, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 57\nVM_REPLACE_TILE_XY 13, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 58\nVM_REPLACE_TILE_XY 14, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 18, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 59\nVM_REPLACE_TILE_XY 19, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 60\nVM_REPLACE_TILE_XY 20, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 61\nVM_REPLACE_TILE_XY 21, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 62\nVM_REPLACE_TILE_XY 22, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 63\nVM_REPLACE_TILE_XY 23, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 27\nVM_REPLACE_TILE_XY 24, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\n\n;; ROW 4\nVM_PUSH_CONST 66\nVM_REPLACE_TILE_XY 10, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 67\nVM_REPLACE_TILE_XY 11, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 68\nVM_REPLACE_TILE_XY 12, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 69\nVM_REPLACE_TILE_XY 13, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 70\nVM_REPLACE_TILE_XY 14, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 18, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 71\nVM_REPLACE_TILE_XY 19, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 72\nVM_REPLACE_TILE_XY 20, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 73\nVM_REPLACE_TILE_XY 21, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 74\nVM_REPLACE_TILE_XY 22, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 75\nVM_REPLACE_TILE_XY 23, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 40\nVM_REPLACE_TILE_XY 24, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\n",
+                          "__collapse": false,
+                          "__comment": false,
+                          "__label": "Train Down"
+                        },
+                        "id": "d8a06893-2526-4f09-bdae-dae6c4589809"
+                      }
+                    ]
+                  },
+                  "id": "9a344bf6-0817-44dc-841e-a75e8dc14c1e"
+                }
+              ]
+            },
+            "id": "f3841ed6-224e-4c30-a824-d1d82c1a7aa0"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": ";; ROW 1 (TOP)\n; push tile id value\nVM_PUSH_CONST 6\nVM_REPLACE_TILE_XY 10, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 11, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 12, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 13, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 14, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 18, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 19, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 20, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 21, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 22, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 23, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 24, 4, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\n\n;; ROW 2\nVM_PUSH_CONST 15\nVM_REPLACE_TILE_XY 10, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 11, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 12, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 13, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 14, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 18, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 19, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 20, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 21, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 22, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 23, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 24, 5, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\n\n;; ROW 3\nVM_PUSH_CONST 64\nVM_REPLACE_TILE_XY 10, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 11, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 12, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 13, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 14, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 18, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 19, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 20, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 21, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 22, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 23, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 24, 6, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\n\n;; ROW 4\nVM_PUSH_CONST 76\nVM_REPLACE_TILE_XY 10, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 11, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 12, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 13, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 15, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 17, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 14, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 16, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 18, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 19, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 20, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 21, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 22, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 23, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_REPLACE_TILE_XY 24, 7, ___bank_tileset_metro_tiles_tileset, _tileset_metro_tiles_tileset, .ARG0\nVM_POP 1\n",
+              "__collapse": true,
+              "__comment": false,
+              "__label": "No Train"
+            },
+            "id": "c9e96eaa-cc7b-48bb-818a-9fa724174716"
+          }
+        ]
+      },
+      "id": "829a45b3-1990-47e7-a12a-9a6b929329b0"
+    },
+    {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
         "actorId": "$self$",
@@ -209,7 +299,7 @@
               "top_left_y": 7,
               "current_frame": "L0",
               "source_name": "escalator_tiles",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "2c9729cb-68e6-4db2-b800-8136f1488d19"
           },
@@ -221,7 +311,8 @@
                 "value": "$L0$%2 == 0"
               },
               "__collapseElse": false,
-              "__collapse": false
+              "__collapse": true,
+              "__label": "Clock Animator"
             },
             "children": {
               "true": [
@@ -231,7 +322,8 @@
                     "target_x": 17,
                     "target_y": 3,
                     "source_idx": 32,
-                    "source_name": "escalator_tiles"
+                    "source_name": "escalator_tiles",
+                    "__collapse": false
                   },
                   "id": "55cae9db-ea2e-4ea6-adda-9b1215320b10"
                 }
@@ -243,7 +335,8 @@
                     "target_x": 17,
                     "target_y": 3,
                     "source_idx": 33,
-                    "source_name": "escalator_tiles"
+                    "source_name": "escalator_tiles",
+                    "__collapse": false
                   },
                   "id": "67fb862b-d4fd-47fd-9aef-52611d5ea618"
                 }
@@ -254,45 +347,6 @@
         ]
       },
       "id": "1637d6bf-5692-43b6-9acd-7c66c6dd8224"
-    },
-    {
-      "command": "EVENT_IF_FLAGS_COMPARE",
-      "args": {
-        "variable": "2",
-        "flag": 1,
-        "__collapseElse": true,
-        "__collapse": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
-            "args": {
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "tilesetId": "undefined",
-              "tileIndex": {
-                "type": "number",
-                "value": 0
-              },
-              "frames": {
-                "type": "number",
-                "value": 1
-              },
-              "variable": "L0"
-            },
-            "id": "fa06a0d5-721a-45ec-828a-8d296165378f"
-          }
-        ],
-        "false": []
-      },
-      "id": "4831100c-f625-4411-bc41-b30c70f11c3e"
     }
   ],
   "playerHit1Script": [],

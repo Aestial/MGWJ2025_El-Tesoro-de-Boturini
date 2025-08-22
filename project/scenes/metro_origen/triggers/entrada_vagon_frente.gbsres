@@ -7,7 +7,7 @@
   "y": 7,
   "symbol": "trigger_3",
   "prefabScriptOverrides": {},
-  "width": 2,
+  "width": 1,
   "height": 1,
   "script": [
     {
@@ -67,15 +67,15 @@
                     "actorId": "88d66031-f869-44ba-b213-e67f0c869aa6",
                     "x": {
                       "type": "number",
-                      "value": 12
+                      "value": 10
                     },
                     "y": {
                       "type": "number",
-                      "value": 8
+                      "value": 7
                     },
                     "moveType": "horizontal",
                     "useCollisions": false,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "437511fb-5a42-4d1c-87f0-178bc8505020"
                 },
@@ -93,7 +93,7 @@
                     "actorId": "$self$",
                     "x": {
                       "type": "number",
-                      "value": 20
+                      "value": 19
                     },
                     "y": {
                       "type": "number",
@@ -101,7 +101,7 @@
                     },
                     "moveType": "horizontal",
                     "useCollisions": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "43c05565-bb23-4055-bbd8-b3081d474769"
                 },
@@ -147,13 +147,29 @@
             "id": "71a8db8b-284e-4bd5-9aca-15bbfe1c8f0f"
           },
           {
-            "command": "EVENT_ACTOR_EMOTE",
+            "command": "EVENT_IF_ACTOR_DIRECTION",
             "args": {
               "actorId": "$self$",
-              "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
-              "__collapse": false
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              },
+              "__collapseElse": true
             },
-            "id": "e802a833-5217-4b61-a59e-022d333866e9"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_EMOTE",
+                  "args": {
+                    "actorId": "$self$",
+                    "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+                  },
+                  "id": "6a3b9b82-09aa-450a-a892-bb5a1f2e6373"
+                }
+              ],
+              "false": []
+            },
+            "id": "216836d6-e072-43fd-88a8-5195a31fe176"
           }
         ],
         "false": []

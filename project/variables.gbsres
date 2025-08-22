@@ -120,6 +120,11 @@
       "id": "bc118400-96bb-4de6-ad6e-b66cf6e34fa8__L0",
       "name": "CurrentFrame",
       "symbol": "var_currentframe_2"
+    },
+    {
+      "id": "c9288d55-5048-4277-abec-14e10b39371c__L1",
+      "name": "Local 1",
+      "symbol": "var_local_1"
     }
   ]
 }
