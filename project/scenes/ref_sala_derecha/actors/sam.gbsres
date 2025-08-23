@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "a165b329-c237-4021-afe8-c5a73f900b8b",
+  "id": "30dc7c49-d5e3-4360-a8e3-1c03c4b9bffe",
   "name": "Sam",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_4",
+  "symbol": "actor_67",
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -41,7 +41,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "68fb96e6-87d9-4b78-87a1-b093ada2bc75"
+      "id": "df6f1ea3-0e04-4552-8514-a4707f0acb99"
     },
     {
       "command": "EVENT_TEXT",
@@ -66,7 +66,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "11b9aa3b-446e-46d6-a852-f0eea713a3af"
+      "id": "75ad714c-ba4c-4927-a9a6-1d9e0019c0ed"
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",
@@ -83,7 +83,7 @@
         "moveType": "vertical",
         "useCollisions": true
       },
-      "id": "e35fa581-11b0-4c00-9d60-2e9d8de8184b"
+      "id": "ea44be2d-7ccd-44c2-b15a-23bd3c2e8677"
     }
   ],
   "startScript": [],

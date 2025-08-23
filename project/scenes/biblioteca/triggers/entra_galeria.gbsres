@@ -3,7 +3,7 @@
   "id": "cff79b26-a156-4ae0-99da-2ae1532dda11",
   "name": "entra_galeria",
   "prefabId": "",
-  "x": 22,
+  "x": 23,
   "y": 4,
   "symbol": "trigger_13",
   "prefabScriptOverrides": {},
@@ -22,16 +22,16 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "59e2d2cb-9aeb-4ecf-9702-2026a0b75127",
+              "sceneId": "ef8277d1-a13e-4a24-b077-25d996ad9209",
               "x": {
                 "type": "number",
-                "value": 9
+                "value": 8
               },
               "y": {
                 "type": "number",
                 "value": 15
               },
-              "direction": "right",
+              "direction": "up",
               "fadeSpeed": "2"
             },
             "id": "1450022a-5c75-49b1-9390-374f8f02f4dd"

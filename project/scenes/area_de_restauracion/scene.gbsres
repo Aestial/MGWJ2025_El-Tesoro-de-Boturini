@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
-  "id": "ef8277d1-a13e-4a24-b077-25d996ad9209",
-  "_index": 6,
-  "name": "Sala_Derecha",
+  "id": "4f73e47b-2bd5-47ae-9296-8f1264e2b86e",
+  "_index": 4,
+  "name": "Area de Restauracion",
   "backgroundId": "2728218e-2b9b-4d6e-a4d6-94a42b6b00b5",
   "tilesetId": "",
   "width": 22,
@@ -12,10 +12,25 @@
   "spritePaletteIds": [],
   "collisions": "0f87+0010+0f6+0010+0f6+0010+0f6+0010+0f6+004+0f!04!003+0f4+003+0f6+004+0f!04!003+0f4+004+0f4+005+0f!04!003+0f4+004+0f4+0012+0f4+0012+0f4+0012+0f4+0012+0fa+002+0f14+002+0f22+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_11",
-  "x": 912,
-  "y": 232,
+  "symbol": "scene_9",
+  "x": 768,
+  "y": 328,
   "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3"
+      },
+      "id": "6fd13af1-9ba3-4f91-b3e2-20150eeae62c"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "9e79591c-6ce0-443e-8544-80efc646630f",
+        "__collapse": true
+      },
+      "id": "9633ffc9-522c-4356-ba6e-1ddefc929ed0"
+    },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
@@ -31,7 +46,7 @@
           {
             "command": "EVENT_MUSIC_STOP",
             "args": {},
-            "id": "fff17ebf-efb5-4d50-93cb-f3d1cad2f27f"
+            "id": "a7f7fce6-4965-4393-b747-42e38c193d84"
           },
           {
             "command": "EVENT_MENU",
@@ -51,14 +66,14 @@
               "cancelOnLastOption": false,
               "__collapse": false
             },
-            "id": "17a591b2-78e3-4daa-8b77-98273c3ebd89"
+            "id": "eec424a0-9b9b-42be-bbd1-1a51ae93b7cd"
           },
           {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
               "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3"
             },
-            "id": "7b80a3ae-17a9-46f7-a6ab-7b06f8241fba"
+            "id": "799a6b49-f322-40b4-a2f4-d532ea79430c"
           },
           {
             "command": "EVENT_SWITCH",
@@ -117,7 +132,7 @@
                     "direction": "",
                     "fadeSpeed": "2"
                   },
-                  "id": "3603980d-53b3-4827-b0e5-df6798e293e0"
+                  "id": "301446d3-06c3-4caa-a59a-60ca8fa3338a"
                 }
               ],
               "true2": [],
@@ -136,11 +151,25 @@
               "true15": [],
               "false": []
             },
-            "id": "f780609c-d2e2-44d7-a1d9-c199ff9c20d3"
+            "id": "dee54f8c-d416-4bcc-bedc-79d6c159b2d8"
           }
         ]
       },
-      "id": "e41353be-f8d7-4b45-a271-d697400bdc17"
+      "id": "9897bd1b-3ea6-4ab4-8b72-57ac4f802063"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "ff08e7a8-6dd3-452f-a49e-10ee2cc9d6c5",
+        "priority": "high",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "9ec35281-1143-466a-8596-f36100da7b0b"
     }
   ],
   "playerHit1Script": [],

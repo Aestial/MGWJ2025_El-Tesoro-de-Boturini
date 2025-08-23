@@ -1,36 +1,21 @@
 {
   "_resourceType": "scene",
-  "id": "e23da37e-3ccc-49c1-8fdd-f15bb41f91e5",
-  "_index": 2,
-  "name": "Recepcion",
-  "backgroundId": "e8899160-13ec-4dfc-be8e-d8bdf1dfc7c6",
+  "id": "f1c392c9-c8c5-4d46-8fff-ed9bb8c81120",
+  "_index": 27,
+  "name": "ref_Sala Derecha",
+  "backgroundId": "2728218e-2b9b-4d6e-a4d6-94a42b6b00b5",
   "tilesetId": "",
   "width": 22,
   "height": 20,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f5c+004+0f6+004+0f8+004+0f6+004+0f7+0010+0f6+0010+0f6+0010+0f6+0010+0f9+002+0f14+002+0f10+0010+0f6+0012+0f4+0012+0f4+0011+0f5+0011+0fb+002+0f14+002+0f22+",
+  "collisions": "0f87+0010+0f6+0010+0f6+0010+0f6+0010+0f6+004+0f!04!003+0f4+003+0f6+004+0f!04!003+0f4+004+0f4+005+0f!04!003+0f4+004+0f4+0012+0f4+0012+0f4+0012+0f4+0012+0fa+002+0f14+002+0f22+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_3",
-  "x": 768,
-  "y": 848,
+  "symbol": "scene_28",
+  "x": 1384,
+  "y": 30,
   "script": [
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "242da7b3-aca9-4185-8f57-3b4c3128da1a"
-      },
-      "id": "fe2d87b3-dcd4-4938-99a5-abcd57607c1d"
-    },
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "9e79591c-6ce0-443e-8544-80efc646630f",
-        "__collapse": true
-      },
-      "id": "5517a8d9-4966-4da5-bcb1-9f6ea44bc26e"
-    },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
@@ -46,21 +31,7 @@
           {
             "command": "EVENT_MUSIC_STOP",
             "args": {},
-            "id": "1a81c7de-7d47-4166-a6f3-6ccb7c28a351"
-          },
-          {
-            "command": "EVENT_SOUND_PLAY_EFFECT",
-            "args": {
-              "type": "ff08e7a8-6dd3-452f-a49e-10ee2cc9d6c5",
-              "priority": "high",
-              "pitch": 4,
-              "frequency": 200,
-              "duration": 0.5,
-              "wait": true,
-              "effect": 0,
-              "__collapse": true
-            },
-            "id": "1f355dce-bb07-4dea-adf1-a3517172d11c"
+            "id": "39f2f87c-f320-49aa-9dce-279896179926"
           },
           {
             "command": "EVENT_MENU",
@@ -80,14 +51,14 @@
               "cancelOnLastOption": false,
               "__collapse": false
             },
-            "id": "c3b8beec-9c13-4723-b2cd-c621475edd9c"
+            "id": "e10cf6fe-931d-459a-81bd-6b158f59b0e7"
           },
           {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
-              "musicId": "242da7b3-aca9-4185-8f57-3b4c3128da1a"
+              "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3"
             },
-            "id": "00a7911d-fd13-4444-9351-3074bd32a123"
+            "id": "621a4927-e3a4-40ca-bc4e-67052383ebb1"
           },
           {
             "command": "EVENT_SWITCH",
@@ -146,7 +117,7 @@
                     "direction": "",
                     "fadeSpeed": "2"
                   },
-                  "id": "f95d4abf-a68a-4c2f-af58-86a1e0ae973d"
+                  "id": "45cf4712-775e-47a3-b9ee-79eb828152c2"
                 }
               ],
               "true2": [],
@@ -165,15 +136,15 @@
               "true15": [],
               "false": []
             },
-            "id": "7983a4c7-391d-4a09-b593-1ae0d5d04345"
+            "id": "f5e906c9-dd19-47ca-8b9a-9e44cae7b9b7"
           }
         ]
       },
-      "id": "afa0d6b6-ab3b-44c8-9aad-3173acb67f48"
+      "id": "3cb8b25a-9241-45a6-99bc-e166d6716bbd"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "yellow"
+  "labelColor": "gray"
 }

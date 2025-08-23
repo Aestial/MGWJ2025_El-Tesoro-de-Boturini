@@ -1,8 +1,8 @@
 {
   "_resourceType": "script",
   "id": "0751e511-ad18-4d00-b095-a150058007d2",
-  "name": "win 10x10 escudo",
-  "description": "",
+  "name": "win 10x10 codice",
+  "description": "Picross 5 - Conservacion",
   "variables": {
     "V0": {
       "id": "V0",
@@ -2482,7 +2482,7 @@
               "comparator": 100,
               "__collapseElse": false,
               "__disableElse": false,
-              "__collapse": true,
+              "__collapse": false,
               "condition": {
                 "type": "eq",
                 "valueA": {
@@ -2503,9 +2503,9 @@
                     "variable": "33",
                     "flag1": false,
                     "flag2": false,
-                    "flag3": true,
+                    "flag3": false,
                     "flag4": false,
-                    "flag5": false,
+                    "flag5": true,
                     "flag6": false,
                     "flag7": false,
                     "flag8": false,
@@ -2522,22 +2522,11 @@
                   "id": "b3d146fb-394d-4685-956b-ad28f5bb92e5"
                 },
                 {
-                  "command": "EVENT_SWITCH_SCENE",
+                  "command": "EVENT_SCENE_POP_STATE",
                   "args": {
-                    "sceneId": "59e2d2cb-9aeb-4ecf-9702-2026a0b75127",
-                    "x": {
-                      "type": "number",
-                      "value": 29
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": 15
-                    },
-                    "direction": "right",
-                    "fadeSpeed": "2",
-                    "__collapse": true
+                    "fadeSpeed": "2"
                   },
-                  "id": "1e0e84fc-8400-4654-9c06-6a3825ffde6c"
+                  "id": "9db63412-a3e8-45e6-8741-abae05627f20"
                 }
               ],
               "false": [
