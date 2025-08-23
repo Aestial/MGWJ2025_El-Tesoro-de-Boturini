@@ -21,7 +21,8 @@
       "args": {
         "variable": "2",
         "flag": 0,
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -44,7 +45,9 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "Mi hermosa área\nde restauración\nen casa..."
+                "¡Con esta \ncubierta ",
+                "los hongos le \nharan lo que ",
+                "el viento a \nJuarez!!"
               ],
               "__section": "text",
               "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
@@ -73,7 +76,7 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "Debo restaurar \nmi viejo boleto\ndel Metro..."
+                "Debo conservar\neste codice..."
               ],
               "__section": "text",
               "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",

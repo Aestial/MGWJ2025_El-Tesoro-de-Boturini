@@ -25,6 +25,35 @@
       "id": "3f6c9068-ca47-43d8-889a-7e1cf6c74977"
     },
     {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "2",
+        "flag": 4,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "7ae0d838-75f2-49c3-a4bf-5221ea12fbf8"
+            },
+            "id": "7fa2b6aa-1a72-473d-bbff-f0481e07d629"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "7ae0d838-75f2-49c3-a4bf-5221ea12fbf8"
+            },
+            "id": "42c7f64c-e8f5-4474-a112-c58499f8d8f8"
+          }
+        ]
+      },
+      "id": "863a58dd-e029-404e-be47-15fce15cd29c"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
