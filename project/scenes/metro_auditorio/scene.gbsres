@@ -14,25 +14,23 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_7",
   "x": 248,
-  "y": 824,
+  "y": 864,
   "script": [
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "10",
-        "value": {
-          "type": "number",
-          "value": 0
-        }
-      },
-      "id": "cb73b9dc-dd0e-433a-a6bb-76424456159f"
-    },
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3"
+        "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3",
+        "__collapse": true
       },
       "id": "42cc15e8-fc5d-4f4f-a56a-55ec571d2391"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "9e79591c-6ce0-443e-8544-80efc646630f",
+        "__collapse": true
+      },
+      "id": "05554135-0075-4d9d-9a32-cb2e0af147f6"
     },
     {
       "command": "EVENT_GBVM_SCRIPT",
@@ -43,6 +41,18 @@
         "__label": "Train Up"
       },
       "id": "dbab2591-1179-4deb-b293-361e77738a6d"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "10",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "cb73b9dc-dd0e-433a-a6bb-76424456159f"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
