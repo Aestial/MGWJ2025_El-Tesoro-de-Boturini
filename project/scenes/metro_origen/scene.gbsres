@@ -24,9 +24,17 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "9f8c99c1-1622-4fe6-b5da-b9fe14b0870c"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "9e79591c-6ce0-443e-8544-80efc646630f",
+        "__collapse": true
+      },
+      "id": "69eeaa28-1cac-4685-a109-9a7e016bfdb6"
     },
     {
       "command": "EVENT_IF_FLAGS_COMPARE",
@@ -34,7 +42,7 @@
         "variable": "2",
         "flag": 1,
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -117,24 +125,6 @@
         ]
       },
       "id": "829a45b3-1990-47e7-a12a-9a6b929329b0"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
-      "args": {
-        "actorId": "$self$",
-        "speed": 15,
-        "__collapse": true
-      },
-      "id": "39f8d06b-399b-4505-8f1b-804ee57957be"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
-      "args": {
-        "actorId": "$self$",
-        "speed": 1,
-        "__collapse": true
-      },
-      "id": "b7782b20-82a6-4e2b-9202-13f32b6d95f5"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -288,7 +278,7 @@
         "duration": 0.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
