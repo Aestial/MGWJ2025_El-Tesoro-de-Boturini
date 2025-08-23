@@ -2517,7 +2517,7 @@
                     "flag14": false,
                     "flag15": false,
                     "flag16": false,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "5d26e799-0981-47ec-a8e7-f193a9daea61"
                 },
