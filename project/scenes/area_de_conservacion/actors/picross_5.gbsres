@@ -20,7 +20,7 @@
       "command": "EVENT_IF_FLAGS_COMPARE",
       "args": {
         "variable": "2",
-        "flag": 0,
+        "flag": 4,
         "__collapseElse": false,
         "__collapse": false
       },
@@ -110,7 +110,7 @@
                   "value": 0
                 }
               },
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [

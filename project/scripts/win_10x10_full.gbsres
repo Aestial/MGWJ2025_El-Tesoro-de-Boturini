@@ -45,7 +45,7 @@
           {
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": true,
+              "__collapse": false,
               "__label": "flags check"
             },
             "children": {
@@ -64,7 +64,7 @@
                           "variable": "21",
                           "flag": 0,
                           "__collapseElse": false,
-                          "__collapse": false
+                          "__collapse": true
                         },
                         "children": {
                           "true": [
@@ -87,7 +87,7 @@
                           "variable": "21",
                           "flag": 1,
                           "__collapseElse": false,
-                          "__collapse": false
+                          "__collapse": true
                         },
                         "children": {
                           "true": [

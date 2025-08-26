@@ -2526,7 +2526,7 @@
                   "args": {
                     "actorId": "0",
                     "spriteStateId": "Win",
-                    "__collapse": true,
+                    "__collapse": false,
                     "__comment": true
                   },
                   "id": "ced9f8e9-dd2c-48d5-83d6-fc7a8291e45c"
