@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "04a7972d-588a-48e3-b550-8891c7f185b3",
+  "name": "sale_biblioteca_der",
+  "prefabId": "",
+  "x": 8,
+  "y": 18,
+  "symbol": "trigger_61",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f190a4cb-4476-4fad-afac-ef12a4d6d6bb",
+        "x": {
+          "type": "number",
+          "value": 23
+        },
+        "y": {
+          "type": "number",
+          "value": 6
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
+      },
+      "id": "34262566-b5a1-4739-b512-f7cef5e596fa"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

@@ -19,27 +19,18 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3"
+        "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3",
+        "__collapse": true
       },
       "id": "6cf07037-80f5-4265-95f7-8ccd6afead05"
     },
     {
-      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "actorId": "$self$",
-        "speed": 15,
+        "customEventId": "9e79591c-6ce0-443e-8544-80efc646630f",
         "__collapse": true
       },
-      "id": "8669e60d-9f69-4b05-bcc6-4d457fb52b76"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
-      "args": {
-        "actorId": "$self$",
-        "speed": 1,
-        "__collapse": true
-      },
-      "id": "43856b84-c285-4da8-bd48-d3b1f36f11d3"
+      "id": "cb021708-b64c-4958-84dd-1771151a1e20"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",

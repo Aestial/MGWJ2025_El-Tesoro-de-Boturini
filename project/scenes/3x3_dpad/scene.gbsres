@@ -13,8 +13,8 @@
   "collisions": "007f+0f5+00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f5+0094+",
   "autoFadeSpeed": 1,
   "symbol": "scene_17",
-  "x": 1056,
-  "y": 456,
+  "x": 1264,
+  "y": 440,
   "script": [
     {
       "id": "6ff3b518-8896-4e8d-8dc6-66631a2bc189",
@@ -15765,5 +15765,5 @@
   "playerHit3Script": [],
   "playerSpriteSheetId": "2bd69faf-84df-43f1-9e44-01514636adbe",
   "autoFadeEventCollapse": true,
-  "labelColor": "yellow"
+  "labelColor": "gray"
 }

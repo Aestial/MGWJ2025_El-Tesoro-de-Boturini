@@ -1,0 +1,29 @@
+{
+  "_resourceType": "script",
+  "id": "9e79591c-6ce0-443e-8544-80efc646630f",
+  "name": "ResetTopDownPlayer",
+  "description": "After Picross",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_10",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 15,
+        "__collapse": true
+      },
+      "id": "f71eaf41-d2b8-43c9-a303-c51c36f7380c"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1,
+        "__collapse": true
+      },
+      "id": "bf74788d-c1a8-493c-92d7-1f38deeabf95"
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "ab08799c-1d06-4b76-a0da-bee5264bbce0",
+  "id": "7ae0d838-75f2-49c3-a4bf-5221ea12fbf8",
   "name": "Sam",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "a4a1c3ad-0430-420d-9270-5b23fc53d358",
   "prefabId": "",
-  "direction": "left",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -14,15 +14,15 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_3",
+  "symbol": "actor_70",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Terminaste",
-          "¿Ves? Fue rápido",
-          "Casi lo que dura\nuna ”Jam”"
+          "Wow...",
+          "Pensé que serían\nmás difíciles",
+          "¿Ya me dejas mirar\nel cuadro?"
         ],
         "__section": "text",
         "avatarId": "",
@@ -41,14 +41,13 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "a394d5fc-fbe6-4961-8e6a-eb5e37996ce5"
+      "id": "629c76f5-8ce9-453d-b81a-6c098e32d176"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Sí, ahora es tu \nturno",
-          "¿Dónde está el\ncuadro?"
+          "Sí, pásale, ya es\nhora de cerrar de\ntodos modos"
         ],
         "__section": "text",
         "avatarId": "",
@@ -67,154 +66,25 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "5b9f3e07-8147-4da1-af20-0f8459d9ca4d"
+      "id": "3910afe4-1b2d-4ae9-a8ac-445ef085b304"
     },
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_ACTOR_MOVE_TO",
       "args": {
-        "text": [
-          "Aquí, detrás de \nmí, en la pared"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "948bfec6-0765-4610-8ed2-0d7db11ac2e5"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "¡¡¡¿Qué?!!!",
-          "¿Siempre estuvo\nahí? :o"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "aa26b387-5611-4677-9208-2540502786ad"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Así pasa con las\nredes sociales",
-          "el cerebro se \natrofia"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "cd71a073-ec80-43a0-92d0-474fac9f3073"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Juraba que era\nen la quinta \npuerta",
-          "Ahí debería estar\nel *final boss*"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "a05f8cc2-7680-433d-b9e1-7d2f45f6384c"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "No, esa solo es \nuna bodega",
-          "Pero si quieres\nun final boss",
-          "solo tenías que\ndecirlo"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "a7681f95-d50a-4d2d-b8fd-1d249d193a90"
-    },
-    {
-      "command": "EVENT_SWITCH_SCENE",
-      "args": {
-        "sceneId": "027619bc-3fa5-4237-ba84-887fe84c2aff",
+        "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 16
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 9
         },
-        "direction": "",
-        "fadeSpeed": "2"
+        "moveType": "vertical",
+        "useCollisions": true,
+        "__comment": true
       },
-      "id": "d87571df-1eb2-4516-abbf-d072c79624d7"
+      "id": "5936aa06-0e1f-447f-9007-1ae322cc2c19"
     }
   ],
   "startScript": [],
@@ -222,7 +92,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 17,
-  "y": 12,
-  "_index": 0
+  "x": 7,
+  "y": 8,
+  "_index": 1
 }

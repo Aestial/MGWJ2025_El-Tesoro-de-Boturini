@@ -1,0 +1,363 @@
+{
+  "_resourceType": "actor",
+  "id": "f08252fa-a2ee-4c0e-9642-8d39ef383462",
+  "name": "picross_4",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "a4a1c3ad-0430-420d-9270-5b23fc53d358",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_20",
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "2",
+        "flag": 3,
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Hiciste trampa!"
+              ],
+              "__section": "text",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+              "__collapse": true
+            },
+            "id": "f3580fba-a05a-4bb0-a829-0c1f39ec86ae"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Es hora..."
+              ],
+              "__section": "text",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+              "__collapse": true
+            },
+            "id": "417fb671-079f-4acb-bba5-d10eeb577e0f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "De de de de"
+              ],
+              "__section": "presets",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+              "__collapse": true
+            },
+            "id": "17a0f8ee-8825-4953-a5aa-2fa96b862020"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Del duelo!!!"
+              ],
+              "__section": "presets",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+              "__collapse": true
+            },
+            "id": "c2594375-6efb-4a23-882f-273e6cb126ba"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "number",
+                "value": 2
+              },
+              "__collapse": false
+            },
+            "id": "80eaa499-431c-4815-a0bc-0809bd7b6fb8"
+          },
+          {
+            "command": "EVENT_LOOP_WHILE",
+            "args": {
+              "condition": {
+                "type": "ne",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_MENU",
+                  "args": {
+                    "variable": "L0",
+                    "items": 2,
+                    "option1": "Aceptar desafio",
+                    "option2": "Cancelar",
+                    "option3": "Cancelar",
+                    "option4": "",
+                    "option5": "",
+                    "option6": "",
+                    "option7": "",
+                    "option8": "",
+                    "cancelOnB": true,
+                    "layout": "dialogue",
+                    "cancelOnLastOption": true,
+                    "__collapse": false
+                  },
+                  "id": "c63ab3d2-961d-4965-abe3-daff80423bd7"
+                },
+                {
+                  "command": "EVENT_SWITCH",
+                  "args": {
+                    "variable": "L0",
+                    "choices": 1,
+                    "__collapseCase0": false,
+                    "value0": 1,
+                    "__collapseCase1": false,
+                    "value1": 2,
+                    "__collapseCase2": false,
+                    "value2": 3,
+                    "__collapseCase3": false,
+                    "value3": 4,
+                    "__collapseCase4": false,
+                    "value4": 5,
+                    "__collapseCase5": false,
+                    "value5": 6,
+                    "__collapseCase6": false,
+                    "value6": 7,
+                    "__collapseCase7": false,
+                    "value7": 8,
+                    "__collapseCase8": false,
+                    "value8": 9,
+                    "__collapseCase9": false,
+                    "value9": 10,
+                    "__collapseCase10": false,
+                    "value10": 11,
+                    "__collapseCase11": false,
+                    "value11": 12,
+                    "__collapseCase12": false,
+                    "value12": 13,
+                    "__collapseCase13": false,
+                    "value13": 14,
+                    "__collapseCase14": false,
+                    "value14": 15,
+                    "__collapseCase15": false,
+                    "value15": 16,
+                    "__collapseElse": false,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true0": [
+                      {
+                        "command": "EVENT_SCENE_PUSH_STATE",
+                        "args": {
+                          "__comment": false,
+                          "__collapse": true
+                        },
+                        "id": "6dc8d95d-333b-4fd1-bec2-d0e896c6eb2a"
+                      },
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "d2a48fa0-db9d-43de-a3ac-b037e9c8ee90",
+                          "x": {
+                            "type": "number",
+                            "value": 8
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 7
+                          },
+                          "direction": "",
+                          "fadeSpeed": "2",
+                          "__collapse": false
+                        },
+                        "id": "ff065859-e45c-4b5c-bec5-df5de9eb2137"
+                      }
+                    ],
+                    "true1": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "position": "bottom",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 6,
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "any",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__presetId": "",
+                          "text": [
+                            "¡Los usuarios han \nvuelto a hacer de\nlas suyas!",
+                            "Las pistas dicen\ndonde hubo tinta.",
+                            "Para descifrarlo,\ndebo restaurar el \nmapa y descubrir",
+                            "el numero de la\nlinea correcta..."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "__collapse": true
+                        },
+                        "id": "cfa00a6d-bff0-4436-a05b-a3e03967b922"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "position": "bottom",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 6,
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "any",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+                          "text": [
+                            "Cada número indica\nun grupo de celdas",
+                            "consecutivas que\ndeben restaurarse.",
+                            "Por ejemplo, un !F:096d8fb9-5235-4d9e-9b22-183eea183b9a!3!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!\nsignifica que hay",
+                            "un bloque de !F:096d8fb9-5235-4d9e-9b22-183eea183b9a!3!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! \nceldas juntas.",
+                            "¡Un 2, 1 significa\nun bloque de 2, un",
+                            "espacio y luego un\nbloque de 1!",
+                            "Al presionar !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!A!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! se\ncubre una celda\ncon tinta",
+                            "Cuando la celda no\nnecesita tinta, ",
+                            "puedo marcarla con\nlapiz (boton !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!B!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!).",
+                            "Puedo limpiar las\nceldas con tinta o\nlapiz con !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!START!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! !",
+                            "Debo relacionar la\ninformación de las\nfilas y columnas",
+                            "para saber cuáles\ncasillas entintar!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "__collapse": true
+                        },
+                        "id": "71aa8b46-96ff-4e4f-8c6c-a4f3173dde70"
+                      }
+                    ],
+                    "true2": [],
+                    "true3": [],
+                    "true4": [],
+                    "true5": [],
+                    "true6": [],
+                    "true7": [],
+                    "true8": [],
+                    "true9": [],
+                    "true10": [],
+                    "true11": [],
+                    "true12": [],
+                    "true13": [],
+                    "true14": [],
+                    "true15": [],
+                    "false": []
+                  },
+                  "id": "048d1672-ff85-422d-be33-978a57d782dc"
+                }
+              ]
+            },
+            "id": "7553e689-8261-4f47-9b42-5e3978df117b"
+          }
+        ]
+      },
+      "id": "662726a5-b3f4-4d34-8c4e-34bbb8f78528"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 2,
+  "y": 16,
+  "_index": 3
+}

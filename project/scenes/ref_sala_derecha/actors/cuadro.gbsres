@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "7b6ec541-912f-4c06-8fc8-681f32e3b3c7",
+  "id": "1d1d30cf-de85-49ec-bd1c-19941439bbad",
   "name": "Cuadro",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_5",
+  "symbol": "actor_68",
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -40,7 +40,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "7d1fcaa0-fa3d-44e0-a4f4-71bfaccbd7c0"
+      "id": "8bbf74b7-e56e-4733-9cb4-efa7e98e220a"
     },
     {
       "command": "EVENT_TEXT",
@@ -65,7 +65,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "13d6dae4-810b-433f-9078-c8aadbae7a16"
+      "id": "6f6c6187-a8f8-480d-af21-02e5a8c4b6d8"
     },
     {
       "command": "EVENT_TEXT",
@@ -90,7 +90,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "0a89e79f-8b5a-4e11-a768-20153c78d922"
+      "id": "5137f34d-39c9-4c84-a9a9-08859a53445d"
     },
     {
       "command": "EVENT_TEXT",
@@ -115,7 +115,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "4d4fc55b-453c-4e31-897e-a6684a77e9e7"
+      "id": "a1d682bf-dfd8-45bd-ab6e-7a89c984eb52"
     },
     {
       "command": "EVENT_TEXT",
@@ -145,7 +145,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "86a14aea-cb28-4712-bd76-242ed4d36f87"
+      "id": "69a8c57d-f736-41f3-8de5-0892c1e6a6ae"
     },
     {
       "command": "EVENT_TEXT",
@@ -170,7 +170,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "2e6e6dda-fe44-477e-ad4e-cdc5469948ad"
+      "id": "72a597f1-f950-412f-a6ca-32a615b4716a"
     },
     {
       "command": "EVENT_TEXT",
@@ -195,7 +195,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "e668a42a-d38b-4bf3-8f34-83279ff63608"
+      "id": "f7babf86-5152-4c64-a750-0bfbd9620e3a"
     },
     {
       "command": "EVENT_TEXT",
@@ -222,7 +222,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "2cb093c0-6ab6-4df3-abbf-2b83f1e6edc2"
+      "id": "1ead4e97-c85c-4b0b-9d25-380113e48a54"
     },
     {
       "command": "EVENT_TEXT",
@@ -247,7 +247,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "e5ff4265-6ae6-4080-b8b1-c834770f25a5"
+      "id": "8bc8264c-b79a-4c51-b938-d640e077499f"
     },
     {
       "command": "EVENT_TEXT",
@@ -275,7 +275,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "d9e60ca7-401a-47c9-a646-0496743c453e"
+      "id": "717fca61-03b2-4af5-95c6-ba542fa93a14"
     },
     {
       "command": "EVENT_TEXT",
@@ -300,7 +300,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "207ac737-ef80-4924-b0f7-163513dc0222"
+      "id": "6f14c9f5-436f-4959-8f4a-a0e4c9571dda"
     },
     {
       "command": "EVENT_TEXT",
@@ -327,7 +327,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "8e3e7a0f-955f-40de-ba72-9fe4bbf815b6"
+      "id": "1bcf116f-02f1-406f-b9ec-c70de18e8a4c"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -344,7 +344,7 @@
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "e914769e-43ab-4daf-bce6-56d170d06bc5"
+      "id": "0be0079d-6c98-4600-888a-8559fe1587aa"
     }
   ],
   "startScript": [],

@@ -13,8 +13,8 @@
   "collisions": "0f127+007+0f1a+006+0f3+0028+0f2+0028+0f2+0028+0f2+0028+0f2+0028+0f2+008+0f18+008+0fa9+",
   "autoFadeSpeed": 1,
   "symbol": "scene_12",
-  "x": 312,
-  "y": 640,
+  "x": 136,
+  "y": 656,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -22,6 +22,14 @@
         "musicId": "242da7b3-aca9-4185-8f57-3b4c3128da1a"
       },
       "id": "42a6d5bc-242d-4d96-a8ce-f29aa2af9e3b"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "9e79591c-6ce0-443e-8544-80efc646630f",
+        "__collapse": true
+      },
+      "id": "a0ac1b6c-d9c2-48c6-9a94-70ac20fc058b"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -160,7 +168,7 @@
         "duration": 0.5,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [

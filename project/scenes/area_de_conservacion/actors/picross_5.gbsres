@@ -1,0 +1,308 @@
+{
+  "_resourceType": "actor",
+  "id": "d38b959b-d6d2-48ba-b020-4f245d3cc4ba",
+  "name": "picross_5",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "c56744da-29ea-4e7c-8f8d-1da7aaccd766",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_66",
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "2",
+        "flag": 4,
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "¡Con esta \ncubierta ",
+                "los hongos le \nharan lo que ",
+                "el viento a \nJuarez!!"
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+              "__collapse": false
+            },
+            "id": "83ceb8d3-e952-4bc7-8d11-27da390a33ff"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Debo conservar\neste codice..."
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+              "__collapse": false
+            },
+            "id": "8eca933f-f16b-4340-b79f-f7043b1740bb"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "number",
+                "value": 3
+              },
+              "__collapse": false
+            },
+            "id": "1798f608-1c9f-4de3-92cc-cdcfab0f864c"
+          },
+          {
+            "command": "EVENT_LOOP_WHILE",
+            "args": {
+              "condition": {
+                "type": "ne",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_MENU",
+                  "args": {
+                    "variable": "L0",
+                    "items": 3,
+                    "option1": "Restaurar",
+                    "option2": "Instrucciones",
+                    "option3": "Cancelar",
+                    "option4": "",
+                    "option5": "",
+                    "option6": "",
+                    "option7": "",
+                    "option8": "",
+                    "cancelOnB": true,
+                    "layout": "dialogue",
+                    "cancelOnLastOption": true,
+                    "__collapse": false
+                  },
+                  "id": "192a84de-d3ec-4db6-ae21-1380e5869186"
+                },
+                {
+                  "command": "EVENT_SWITCH",
+                  "args": {
+                    "variable": "L0",
+                    "choices": 2,
+                    "__collapseCase0": false,
+                    "value0": 1,
+                    "__collapseCase1": false,
+                    "value1": 2,
+                    "__collapseCase2": false,
+                    "value2": 3,
+                    "__collapseCase3": false,
+                    "value3": 4,
+                    "__collapseCase4": false,
+                    "value4": 5,
+                    "__collapseCase5": false,
+                    "value5": 6,
+                    "__collapseCase6": false,
+                    "value6": 7,
+                    "__collapseCase7": false,
+                    "value7": 8,
+                    "__collapseCase8": false,
+                    "value8": 9,
+                    "__collapseCase9": false,
+                    "value9": 10,
+                    "__collapseCase10": false,
+                    "value10": 11,
+                    "__collapseCase11": false,
+                    "value11": 12,
+                    "__collapseCase12": false,
+                    "value12": 13,
+                    "__collapseCase13": false,
+                    "value13": 14,
+                    "__collapseCase14": false,
+                    "value14": 15,
+                    "__collapseCase15": false,
+                    "value15": 16,
+                    "__collapseElse": false,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true0": [
+                      {
+                        "command": "EVENT_SCENE_PUSH_STATE",
+                        "args": {},
+                        "id": "3f78c66a-b080-497a-9795-b1289d6e18b6"
+                      },
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "3cfc4550-785e-43cc-9b7a-9fb7b719b19a",
+                          "x": {
+                            "type": "number",
+                            "value": 8
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 7
+                          },
+                          "direction": "",
+                          "fadeSpeed": "2"
+                        },
+                        "id": "4b63eb15-b166-4254-b2d0-ff68c0386d6d"
+                      }
+                    ],
+                    "true1": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "position": "bottom",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 6,
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "any",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__presetId": "",
+                          "text": [
+                            "¡Mi boleto está\nmuy danado! DDD:",
+                            "¡Estos números\nson mi guía! ",
+                            "Para poder usarlo,\ndebo descubrir la",
+                            "imágen bajo estas \nmanchas de tiempo."
+                          ],
+                          "__section": "text",
+                          "avatarId": ""
+                        },
+                        "id": "5e248bd5-43c2-4cae-99eb-a33d950ed038"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "position": "bottom",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 6,
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "any",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+                          "text": [
+                            "Cada número indica\nun grupo de celdas",
+                            "consecutivas que\ndeben restaurarse.",
+                            "Por ejemplo, un !F:096d8fb9-5235-4d9e-9b22-183eea183b9a!3!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!\nsignifica que hay",
+                            "un bloque de !F:096d8fb9-5235-4d9e-9b22-183eea183b9a!3!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! \nceldas juntas.",
+                            "¡Un 2, 1 significa\nun bloque de 2, un",
+                            "espacio y luego un\nbloque de 1!",
+                            "Al presionar !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!A!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! se\ncubre la celda que",
+                            "necesita diferente\ndescontaminante.",
+                            "Cuando la celda no\ndebe de cubrirse y",
+                            "puedo marcarla con\nel boton !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!B!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!.",
+                            "Puedo limpiar las\nceldas con marcas",
+                            "y con coberturas\npresionando !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!START!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!.",
+                            "Debo relacionar la\ninformación de las\nfilas y columnas",
+                            "para saber cuáles\ncasillas cubrir..."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "__collapse": false
+                        },
+                        "id": "27fe0056-4f3e-4ce8-a1d0-7eb4a67a455e"
+                      }
+                    ],
+                    "true2": [],
+                    "true3": [],
+                    "true4": [],
+                    "true5": [],
+                    "true6": [],
+                    "true7": [],
+                    "true8": [],
+                    "true9": [],
+                    "true10": [],
+                    "true11": [],
+                    "true12": [],
+                    "true13": [],
+                    "true14": [],
+                    "true15": [],
+                    "false": []
+                  },
+                  "id": "8143eb40-ebc7-4e24-9fc4-2d74e0cec6c1"
+                }
+              ]
+            },
+            "id": "b0a4d371-edef-482a-8db7-16fce9be94b5"
+          }
+        ]
+      },
+      "id": "1c8eb2bd-4348-447a-b31a-eec1a7ffe63b"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 13,
+  "y": 10,
+  "_index": 0
+}

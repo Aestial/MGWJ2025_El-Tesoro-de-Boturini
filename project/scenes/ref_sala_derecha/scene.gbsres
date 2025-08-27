@@ -1,0 +1,150 @@
+{
+  "_resourceType": "scene",
+  "id": "f1c392c9-c8c5-4d46-8fff-ed9bb8c81120",
+  "_index": 27,
+  "name": "ref_Sala Derecha",
+  "backgroundId": "2728218e-2b9b-4d6e-a4d6-94a42b6b00b5",
+  "tilesetId": "",
+  "width": 22,
+  "height": 20,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f87+0010+0f6+0010+0f6+0010+0f6+0010+0f6+004+0f!04!003+0f4+003+0f6+004+0f!04!003+0f4+004+0f4+005+0f!04!003+0f4+004+0f4+0012+0f4+0012+0f4+0012+0f4+0012+0fa+002+0f14+002+0f22+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_28",
+  "x": 1384,
+  "y": 30,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "39f2f87c-f320-49aa-9dce-279896179926"
+          },
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "L0",
+              "items": 2,
+              "option1": "Reanudar",
+              "option2": "Menú principal",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "cancelOnLastOption": false,
+              "__collapse": false
+            },
+            "id": "e10cf6fe-931d-459a-81bd-6b158f59b0e7"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "22e19de6-9a04-4d75-b1ea-591855a045f3"
+            },
+            "id": "621a4927-e3a4-40ca-bc4e-67052383ebb1"
+          },
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "L0",
+              "choices": 2,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": false
+            },
+            "children": {
+              "true0": [],
+              "true1": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "98698bb4-7246-4e86-9886-0818b9156392",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "45cf4712-775e-47a3-b9ee-79eb828152c2"
+                }
+              ],
+              "true2": [],
+              "true3": [],
+              "true4": [],
+              "true5": [],
+              "true6": [],
+              "true7": [],
+              "true8": [],
+              "true9": [],
+              "true10": [],
+              "true11": [],
+              "true12": [],
+              "true13": [],
+              "true14": [],
+              "true15": [],
+              "false": []
+            },
+            "id": "f5e906c9-dd19-47ca-8b9a-9e44cae7b9b7"
+          }
+        ]
+      },
+      "id": "3cb8b25a-9241-45a6-99bc-e166d6716bbd"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "gray"
+}

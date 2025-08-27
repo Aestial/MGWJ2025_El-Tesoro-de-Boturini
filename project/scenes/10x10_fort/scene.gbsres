@@ -13,8 +13,8 @@
   "collisions": "007f+0fc+008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0fc+00!",
   "autoFadeSpeed": 1,
   "symbol": "scene_19",
-  "x": 1424,
-  "y": 456,
+  "x": 1632,
+  "y": 440,
   "script": [
     {
       "id": "2a56c94c-83b5-4fed-b0ba-5122dddb02ae",
@@ -314,7 +314,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -323,17 +323,17 @@
                   "args": {
                     "variable": "31",
                     "choices": 10,
-                    "__collapseCase0": false,
+                    "__collapseCase0": true,
                     "value0": 8,
-                    "__collapseCase1": false,
+                    "__collapseCase1": true,
                     "value1": 9,
-                    "__collapseCase2": false,
+                    "__collapseCase2": true,
                     "value2": 10,
-                    "__collapseCase3": false,
+                    "__collapseCase3": true,
                     "value3": 11,
-                    "__collapseCase4": false,
+                    "__collapseCase4": true,
                     "value4": 12,
-                    "__collapseCase5": false,
+                    "__collapseCase5": true,
                     "value5": 13,
                     "__collapseCase6": false,
                     "value6": 14,
@@ -357,7 +357,7 @@
                     "value15": 16,
                     "__collapseElse": false,
                     "__disableElse": true,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true0": [
@@ -3865,7 +3865,7 @@
                           "value15": 16,
                           "__collapseElse": false,
                           "__disableElse": true,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "8"
                         },
                         "children": {
@@ -4322,9 +4322,9 @@
                         "args": {
                           "variable": "32",
                           "choices": 10,
-                          "__collapseCase0": true,
+                          "__collapseCase0": false,
                           "value0": 7,
-                          "__collapseCase1": true,
+                          "__collapseCase1": false,
                           "value1": 8,
                           "__collapseCase2": false,
                           "value2": 9,
@@ -4356,7 +4356,7 @@
                           "value15": 16,
                           "__collapseElse": false,
                           "__disableElse": true,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "9"
                         },
                         "children": {
@@ -4851,7 +4851,7 @@
                           "value15": 16,
                           "__collapseElse": false,
                           "__disableElse": true,
-                          "__collapse": false,
+                          "__collapse": true,
                           "__label": "10"
                         },
                         "children": {
@@ -5328,7 +5328,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -5371,7 +5371,7 @@
                     "value15": 16,
                     "__collapseElse": false,
                     "__disableElse": true,
-                    "__collapse": false,
+                    "__collapse": true,
                     "__comment": false
                   },
                   "children": {
@@ -15358,7 +15358,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -15764,6 +15764,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "yellow",
+  "labelColor": "gray",
   "playerSpriteSheetId": "2bd69faf-84df-43f1-9e44-01514636adbe"
 }

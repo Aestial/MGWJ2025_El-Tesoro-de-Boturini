@@ -13,15 +13,24 @@
   "collisions": "0f87+007+0f8+004+0f8+00e+0f3+01!00a+0f4+0010+0f!04!00a+0f4+001c+0f4+001c+0f4+001c+0f14+004+0f1c+004+0f1c+004+0fc+001c+0f4+001c+0f4+001c+0f14+004+0f1c+004+0f1c+004+0fc+001c+0f4+001c+0f4+001c+0f14+004+0f1c+004+0f1c+004+0fc+001c+0f4+001c+0f4+001c+0f4+001c+0f4+001c+0fa+002+0fc+002+0f10+002+0fc+002+0f8+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 744,
-  "y": 456,
+  "x": 736,
+  "y": 544,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "242da7b3-aca9-4185-8f57-3b4c3128da1a"
+        "musicId": "242da7b3-aca9-4185-8f57-3b4c3128da1a",
+        "__collapse": true
       },
       "id": "1849acac-bc15-4ef2-8e65-ef8d3868650a"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "9e79591c-6ce0-443e-8544-80efc646630f",
+        "__collapse": true
+      },
+      "id": "a86fcc10-2422-4082-aef0-202230b1c272"
     },
     {
       "command": "EVENT_TEXT",
@@ -45,7 +54,8 @@
           "La biblioteca\nes muy grande\n\n:o"
         ],
         "__section": "text",
-        "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb"
+        "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+        "__collapse": true
       },
       "id": "abd1036d-f074-4132-b583-710ac29805ca"
     },
@@ -193,5 +203,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "yellow"
+  "labelColor": "yellow",
+  "autoFadeEventCollapse": true
 }
