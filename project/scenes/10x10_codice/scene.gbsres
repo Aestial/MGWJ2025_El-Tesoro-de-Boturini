@@ -15428,7 +15428,7 @@
                       {
                         "command": "EVENT_CALL_CUSTOM_EVENT",
                         "args": {
-                          "customEventId": "3c48b102-1a05-4b45-aa53-91021028227d",
+                          "customEventId": "917dc322-597a-4e3c-81a0-37407db8a064",
                           "$variable[V0]$": {
                             "type": "variable",
                             "value": "31"
@@ -15437,8 +15437,7 @@
                             "type": "variable",
                             "value": "L1"
                           },
-                          "$actor[0]$": "88d2013b-af15-4e1c-ab82-a216aa93be70",
-                          "__collapse": false
+                          "$actor[0]$": "88d2013b-af15-4e1c-ab82-a216aa93be70"
                         },
                         "id": "196b30e4-dc14-4d8e-92d5-c63d7d08d0d7"
                       }

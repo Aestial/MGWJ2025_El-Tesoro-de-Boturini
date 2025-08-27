@@ -15378,7 +15378,7 @@
                     "cancelOnB": true,
                     "layout": "menu",
                     "cancelOnLastOption": true,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "130df113-3566-45f3-af6a-db5a9decab9f"
                 },

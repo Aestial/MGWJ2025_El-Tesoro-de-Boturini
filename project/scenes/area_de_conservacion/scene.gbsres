@@ -29,7 +29,8 @@
       "args": {
         "variable": "2",
         "flag": 4,
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
         "true": [
