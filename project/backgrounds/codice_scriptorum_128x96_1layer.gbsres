@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5caf8d04-ea52-4f8e-b5c7-f52dbe6af079",
+  "name": "Codice_Scriptorum_128x96_1layer",
+  "symbol": "bg_codice_scriptorum_128x96",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Codice_Scriptorum_128x96_1layer.png",
+  "tileColors": "",
+  "autoColor": false
+}

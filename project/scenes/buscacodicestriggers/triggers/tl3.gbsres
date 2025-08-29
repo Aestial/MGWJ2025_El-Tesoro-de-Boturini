@@ -1,0 +1,251 @@
+{
+  "_resourceType": "trigger",
+  "id": "88e36594-c5ea-4f95-820d-53c37ff3399b",
+  "name": "tL3",
+  "prefabId": "",
+  "x": 16,
+  "y": 6,
+  "symbol": "trigger_5",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "10"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "¡Exacto!"
+              ],
+              "__section": "text",
+              "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "af1b6946-61d1-4713-91b6-c32151a360ca"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "d935d168-f860-4b7e-8fbf-042a7590a13c",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "b3a5bf7f-cf11-405b-b7da-9b6c242720c7"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Esa es una mala\ncopia.\nSigue buscando."
+              ],
+              "__section": "text",
+              "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "143131ca-dde1-4118-ac1b-f157d91080be"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "10"
+            },
+            "id": "84c1059b-8723-4cd6-b416-9504a415750f"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "10"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 3
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "2da74d24-8fa2-4032-a6b6-46e26478d1a1",
+                    "spriteStateId": "vidas03",
+                    "loopAnim": true
+                  },
+                  "id": "d088f14e-f0cf-41d2-b7a2-e4410ab0155d"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Olvídalo"
+                    ],
+                    "__section": "text",
+                    "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "10c6c2c2-73fc-42df-98a6-f5964e99c8a6"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Tienes la gracia\nde un cachorro."
+                    ],
+                    "__section": "text",
+                    "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "91e2263e-7e75-4bf6-abef-b7d2e778f1d6"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Sigue con lo tuyo\ny no me quites\ntiempo."
+                    ],
+                    "__section": "text",
+                    "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "17fcfaba-0a26-48bc-9abb-7504f036577b"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "false"
+                    },
+                    "__collapse": false
+                  },
+                  "id": "39b855ad-c322-4417-bbdc-935def5e26f9"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "82"
+                  },
+                  "id": "cdd6154f-3171-4107-b157-52cf91f2fda0"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "e8b980e8-adda-424a-b04a-fdd097c61b08",
+                    "x": {
+                      "type": "number",
+                      "value": 10
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 8
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "2b35dc65-7550-41a5-8249-9f6d8ea5b2ff"
+                }
+              ],
+              "false": []
+            },
+            "id": "226099e6-1850-4ef9-a4a3-e524bc0fa218"
+          }
+        ],
+        "false": []
+      },
+      "id": "3e541d38-0b12-4d18-961a-be08b09e9570"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

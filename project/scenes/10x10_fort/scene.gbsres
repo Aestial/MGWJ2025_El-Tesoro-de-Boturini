@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "1e6ce7e9-7075-4eea-85eb-bc7870382fa5",
-  "_index": 18,
+  "_index": 20,
   "name": "10x10 fort",
   "backgroundId": "88c195ac-697f-4997-812e-cc9a68dcfb99",
   "tilesetId": "",
@@ -12,7 +12,7 @@
   "spritePaletteIds": [],
   "collisions": "007f+0fc+008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0fc+00!",
   "autoFadeSpeed": 1,
-  "symbol": "scene_19",
+  "symbol": "scene_20",
   "x": 1632,
   "y": 440,
   "script": [
