@@ -2,8 +2,8 @@
   "_resourceType": "scene",
   "id": "3cfc4550-785e-43cc-9b7a-9fb7b719b19a",
   "_index": 26,
-  "name": "10x10 codice",
-  "backgroundId": "88c195ac-697f-4997-812e-cc9a68dcfb99",
+  "name": "10x10 catedral",
+  "backgroundId": "be84e9fb-cc49-4388-88fd-beadca9fb2a8",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -15437,7 +15437,7 @@
                             "type": "variable",
                             "value": "L1"
                           },
-                          "$actor[0]$": "88d2013b-af15-4e1c-ab82-a216aa93be70"
+                          "$actor[0]$": "f69acbf8-e2ae-410b-bb77-2d66b8313ebf"
                         },
                         "id": "196b30e4-dc14-4d8e-92d5-c63d7d08d0d7"
                       }
@@ -15753,6 +15753,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "orange",
+  "labelColor": "green",
   "playerSpriteSheetId": "2bd69faf-84df-43f1-9e44-01514636adbe"
 }

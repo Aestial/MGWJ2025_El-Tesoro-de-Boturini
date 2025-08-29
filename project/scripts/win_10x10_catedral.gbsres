@@ -1,7 +1,7 @@
 {
   "_resourceType": "script",
   "id": "917dc322-597a-4e3c-81a0-37407db8a064",
-  "name": "win 10x10 fort",
+  "name": "win 10x10 catedral",
   "description": "",
   "variables": {
     "V0": {
@@ -2520,8 +2520,43 @@
                   "id": "3bdc5f98-6f3f-446c-ba0f-450698a31aae"
                 },
                 {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "0",
+                    "spriteStateId": "Win",
+                    "__collapse": true,
+                    "__comment": false
+                  },
+                  "id": "65c8e0ea-9c25-4642-bcf7-8bc8796dc680"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                  "args": {
+                    "actorId": "0",
+                    "speed": 7,
+                    "__collapse": true,
+                    "__comment": false
+                  },
+                  "id": "ee42a43d-185c-4f93-9d03-52b195a387d4"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 1.5,
+                    "frames": 30,
+                    "__collapse": true
+                  },
+                  "id": "3cd6ab27-e5eb-4733-9fb4-db4ba80349eb"
+                },
+                {
                   "command": "EVENT_TEXT",
                   "args": {
+                    "text": [
+                      "¡Gran trabajo \nde restauracion!"
+                    ],
+                    "avatarId": "",
+                    "__collapse": true,
+                    "__section": "text",
                     "position": "bottom",
                     "minHeight": 4,
                     "maxHeight": 7,
@@ -2536,20 +2571,33 @@
                     "closeButton": "any",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
-                    "text": [
-                      "Buen trabajo!"
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
+                    "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
+                  },
+                  "id": "61779b13-4afa-480f-b9c1-ffebe029c12f"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "0",
+                    "spriteStateId": "",
                     "__collapse": true
                   },
-                  "id": "c52a853a-8b6b-4b3e-9ff1-423b12ee048f"
+                  "id": "82d0e75c-a0aa-4364-b342-50e06b58cc83"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+                  "args": {
+                    "actorId": "0",
+                    "speed": 31,
+                    "__collapse": true
+                  },
+                  "id": "a5b6e458-bb98-4703-94fc-37429107198b"
                 },
                 {
                   "command": "EVENT_SCENE_POP_STATE",
                   "args": {
-                    "fadeSpeed": "2"
+                    "fadeSpeed": "2",
+                    "__collapse": true
                   },
                   "id": "5770593f-1d5a-4fd5-9b5d-5c15f9707667"
                 }

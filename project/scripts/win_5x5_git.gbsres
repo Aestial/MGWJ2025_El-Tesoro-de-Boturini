@@ -2517,7 +2517,7 @@
                     "flag14": false,
                     "flag15": false,
                     "flag16": false,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "5d26e799-0981-47ec-a8e7-f193a9daea61"
                 },
@@ -2526,8 +2526,8 @@
                   "args": {
                     "actorId": "0",
                     "spriteStateId": "Win",
-                    "__collapse": false,
-                    "__comment": true
+                    "__collapse": true,
+                    "__comment": false
                   },
                   "id": "ced9f8e9-dd2c-48d5-83d6-fc7a8291e45c"
                 },
@@ -2537,7 +2537,7 @@
                     "actorId": "0",
                     "speed": 7,
                     "__collapse": true,
-                    "__comment": true
+                    "__comment": false
                   },
                   "id": "d570610b-1712-486d-a38d-06d6faaf9edb"
                 },

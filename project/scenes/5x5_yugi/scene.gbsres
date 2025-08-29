@@ -15434,7 +15434,7 @@
                             "value": "L1"
                           },
                           "__collapse": false,
-                          "$actor[0]$": "57442eb7-6733-45ee-a0d8-5bb132132a71",
+                          "$actor[0]$": "d93f73dc-346f-4fa3-9a31-795210a4a0ca",
                           "$variable[V0]$": {
                             "type": "variable",
                             "value": "31"
@@ -15753,6 +15753,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "yellow",
+  "labelColor": "green",
   "playerSpriteSheetId": "2bd69faf-84df-43f1-9e44-01514636adbe"
 }

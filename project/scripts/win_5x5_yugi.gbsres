@@ -2527,7 +2527,7 @@
                     "actorId": "0",
                     "spriteStateId": "Win",
                     "__collapse": true,
-                    "__comment": true
+                    "__comment": false
                   },
                   "id": "a31c287a-d8af-4141-a46b-68e0e641a9ae"
                 },
@@ -2537,7 +2537,7 @@
                     "actorId": "0",
                     "speed": 7,
                     "__collapse": true,
-                    "__comment": true
+                    "__comment": false
                   },
                   "id": "4502cde7-c69b-4dbf-85dd-97cbe1c1bee8"
                 },

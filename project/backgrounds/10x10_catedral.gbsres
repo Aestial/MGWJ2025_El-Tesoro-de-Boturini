@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "be84e9fb-cc49-4388-88fd-beadca9fb2a8",
+  "name": "10x10 catedral",
+  "symbol": "bg_10x10_catedral",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "10x10 catedral.png",
+  "tileColors": ""
+}
