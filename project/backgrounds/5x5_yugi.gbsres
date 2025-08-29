@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "29c5ea5d-b128-4173-a59c-e4fc1adc76c5",
+  "name": "5x5 yugi",
+  "symbol": "bg_5x5_yugi",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "5x5 yugi.png",
+  "tileColors": ""
+}
