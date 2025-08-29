@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "5d4c01a9-3279-440a-b130-b4007bec61e4",
-  "_index": 12,
+  "_index": 14,
   "name": "Metro Auditorio",
   "backgroundId": "30d06cbb-b68b-4ba7-9428-a26ece8f1c96",
   "tilesetId": "",
@@ -12,7 +12,7 @@
   "spritePaletteIds": [],
   "collisions": "0fae+016+0f18+005+01!0f3+012+002+016+002+013+0f5+006+013+00f+0f5+001b+0f6+002+0f2+0013+0f7+02!0015+0fa+0013+0f3+001a+0f3+001a+0f3+001a+0f3+001a+0f1e+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_7",
+  "symbol": "scene_14",
   "x": 248,
   "y": 864,
   "script": [

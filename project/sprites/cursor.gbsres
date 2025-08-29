@@ -12,7 +12,7 @@
     {
       "id": "13961fb5-6b6e-49c2-a4e2-093f25a25c6b",
       "name": "",
-      "animationType": "fixed",
+      "animationType": "cursor",
       "flipLeft": false,
       "animations": [
         {
@@ -48,37 +48,6 @@
                   "priority": false
                 }
               ]
-            },
-            {
-              "id": "82e8b50e-1d3e-422a-9a29-e36157ef087c",
-              "tiles": [
-                {
-                  "id": "dd9166a9-e78a-4682-b0f4-4d87070c85a6",
-                  "x": 0,
-                  "y": 0,
-                  "sliceX": 16,
-                  "sliceY": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "palette": 0,
-                  "paletteIndex": 0,
-                  "objPalette": "OBP0",
-                  "priority": false
-                },
-                {
-                  "id": "ce09f626-b22a-441b-9614-df9dcfe96fe2",
-                  "x": 8,
-                  "y": 0,
-                  "sliceX": 24,
-                  "sliceY": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "palette": 0,
-                  "paletteIndex": 0,
-                  "objPalette": "OBP0",
-                  "priority": false
-                }
-              ]
             }
           ]
         },
@@ -87,7 +56,34 @@
           "frames": [
             {
               "id": "3cebf601-02c9-40c4-8594-bf31d91bccdb",
-              "tiles": []
+              "tiles": [
+                {
+                  "id": "8ed6d753-4b36-4c7f-9999-c57d133c0268",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                },
+                {
+                  "id": "10cb1d7d-9fe4-4f38-9e19-c3511a5a04cf",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 0,
+                  "priority": false
+                }
+              ]
             }
           ]
         },

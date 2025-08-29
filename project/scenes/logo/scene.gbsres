@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "c1ac33bf-8a9a-4eb5-9444-1ff47d16ddeb",
-  "_index": 8,
+  "_index": 10,
   "name": "Logo",
   "backgroundId": "5600b223-b8dc-4c48-bbb6-c885cf850cc5",
   "tilesetId": "",
@@ -12,7 +12,7 @@
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_0",
+  "symbol": "scene_6",
   "x": 60,
   "y": 48,
   "script": [

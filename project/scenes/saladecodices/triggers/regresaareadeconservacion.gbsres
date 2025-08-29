@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "cbfbe5c9-7330-4673-b6da-496268851cfe",
+  "name": "regresaAreaDeConservacion",
+  "prefabId": "",
+  "x": 8,
+  "y": 17,
+  "symbol": "trigger_71",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "ef8277d1-a13e-4a24-b077-25d996ad9209",
+        "x": {
+          "type": "number",
+          "value": 17
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
+      },
+      "id": "ce052151-9bfa-4eb4-9c54-af94e9381cc3"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

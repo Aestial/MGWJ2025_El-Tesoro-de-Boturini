@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "d2a48fa0-db9d-43de-a3ac-b037e9c8ee90",
-  "_index": 25,
+  "_index": 27,
   "name": "5x5 yugi",
   "backgroundId": "29c5ea5d-b128-4173-a59c-e4fc1adc76c5",
   "tilesetId": "",
@@ -12,7 +12,7 @@
   "spritePaletteIds": [],
   "collisions": "007f+0f7+00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f7+006a+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_22",
+  "symbol": "scene_27",
   "x": 520,
   "y": 864,
   "script": [

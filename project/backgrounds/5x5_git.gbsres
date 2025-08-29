@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "5x5 git.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

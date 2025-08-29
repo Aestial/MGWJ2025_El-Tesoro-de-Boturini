@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "ef8277d1-a13e-4a24-b077-25d996ad9209",
-  "_index": 6,
+  "_index": 8,
   "name": "Area de Conservacion",
   "backgroundId": "2728218e-2b9b-4d6e-a4d6-94a42b6b00b5",
   "tilesetId": "",
@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f87+0010+0f6+0010+0f6+0010+0f6+0010+0f6+004+0f!04!003+0f4+003+0f6+004+0f!04!003+0f4+004+0f4+005+0f!04!003+0f4+004+0f4+0012+0f4+0012+0f4+0012+0f4+0012+0fa+002+0f14+002+0f22+",
+  "collisions": "0f87+0011+0f5+0011+0f5+0011+0f5+0011+0f5+004+0f!04!003+0f4+004+0f5+004+0f!04!003+0f4+004+0f4+005+0f!04!003+0f4+004+0f4+0012+0f4+0012+0f4+0012+0f4+0012+0fa+002+0f14+002+0f22+",
   "autoFadeSpeed": 1,
   "symbol": "scene_11",
   "x": 984,
