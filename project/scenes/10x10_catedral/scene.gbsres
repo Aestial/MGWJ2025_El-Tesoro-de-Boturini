@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "3cfc4550-785e-43cc-9b7a-9fb7b719b19a",
-  "_index": 26,
+  "_index": 25,
   "name": "10x10 catedral",
   "backgroundId": "be84e9fb-cc49-4388-88fd-beadca9fb2a8",
   "tilesetId": "",
@@ -301,7 +301,7 @@
       "id": "9f3e48c5-6369-412f-9b68-5ea781a88168",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Controlls"
       },
       "children": {
@@ -15748,6 +15748,13 @@
           }
         ]
       }
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "88e1669e-cfd8-41c0-ba4d-bd24ce6616e8"
+      },
+      "id": "1245ad81-c2e8-4744-98c0-21881f98c589"
     }
   ],
   "playerHit1Script": [],

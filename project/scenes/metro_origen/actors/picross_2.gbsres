@@ -254,22 +254,24 @@
                           "text": [
                             "Cada número indica\nun grupo de celdas",
                             "consecutivas que\ndeben restaurarse.",
-                            "Por ejemplo, un !F:096d8fb9-5235-4d9e-9b22-183eea183b9a!3!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!\nsignifica que hay",
+                            "Por ejemplo, un !F:7f4c8d4e-d530-4b5e-a49b-ccd83619d8ad!3!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!\nsignifica que hay",
                             "un bloque de !F:096d8fb9-5235-4d9e-9b22-183eea183b9a!3!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! \nceldas juntas.",
-                            "¡Un 2, 1 significa\nun bloque de 2, un",
+                            "¡Un !F:7f4c8d4e-d530-4b5e-a49b-ccd83619d8ad!2, 1 !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!significa\nun bloque de 2, un",
                             "espacio y luego un\nbloque de 1!",
-                            "Al presionar !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!A!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! se\ncubre una celda\ncon tinta",
-                            "Cuando la celda no\nnecesita tinta, ",
-                            "puedo marcarla con\nlapiz (boton !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!B!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!).",
-                            "Puedo limpiar las\nceldas con tinta o\nlapiz con !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!START!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! !",
+                            "Al presionar !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!A!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! se\ncubre la celda que",
+                            "quieres cubrir.",
+                            "Cuando la celda no\ndebe de cubrirse",
+                            "puedo marcarla con\nel botón !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!B!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!.",
+                            "Puedo reiniciar\nlas celdas",
+                            "presionando !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!START!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!.",
                             "Debo relacionar la\ninformación de las\nfilas y columnas",
-                            "para saber cuáles\ncasillas entintar!"
+                            "para saber cuáles\ncasillas cubrir..."
                           ],
                           "__section": "text",
                           "avatarId": "",
                           "__collapse": true
                         },
-                        "id": "fafc0ef6-8005-4612-abb6-32e3370b4479"
+                        "id": "ac1bdd81-569d-47c7-9588-5d41884f8df3"
                       }
                     ],
                     "true2": [],

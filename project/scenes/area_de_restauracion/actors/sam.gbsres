@@ -21,25 +21,27 @@
       "args": {
         "text": [
           "Terminaste",
-          "¿Ves? Fue rápido",
-          "Casi lo que dura\nuna ”Jam”"
+          "¿Ves?\nFue rápido",
+          "Casi lo que\ndura una ”Jam”"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
         "minHeight": 4,
         "maxHeight": 7,
-        "textX": 1,
+        "textX": 2,
         "textY": 1,
-        "textHeight": 5,
+        "textHeight": 6,
         "position": "bottom",
         "clearPrevious": true,
         "showFrame": "true",
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
-        "closeButton": "a",
+        "closeButton": "any",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "__collapse": true
       },
       "id": "a394d5fc-fbe6-4961-8e6a-eb5e37996ce5"
     },
@@ -47,50 +49,76 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Sí, ahora es tu \nturno",
+          "Sí, ahora es tu\nturno",
           "¿Dónde está el\ncuadro?"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
         "minHeight": 4,
         "maxHeight": 7,
-        "textX": 1,
+        "textX": 2,
         "textY": 1,
-        "textHeight": 5,
+        "textHeight": 6,
         "position": "bottom",
         "clearPrevious": true,
         "showFrame": "true",
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
-        "closeButton": "a",
+        "closeButton": "any",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "__collapse": true
       },
       "id": "5b9f3e07-8147-4da1-af20-0f8459d9ca4d"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "e462a992-4966-4d49-a6b9-9e2f56db09e9",
+        "__collapse": true
+      },
+      "id": "e3893630-1cbd-4f48-8fa9-d350fe157300"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "a9823e87-471a-4a3c-81e5-fb21c34bb3eb",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0,
+        "__collapse": true
+      },
+      "id": "aa356d68-c60f-4f81-9fed-b35e0a5b97bd"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Aquí, detrás de \nmí, en la pared"
+          "Aquí, en la\nmesa"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
         "minHeight": 4,
         "maxHeight": 7,
-        "textX": 1,
+        "textX": 2,
         "textY": 1,
-        "textHeight": 5,
+        "textHeight": 6,
         "position": "bottom",
         "clearPrevious": true,
         "showFrame": "true",
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
-        "closeButton": "a",
+        "closeButton": "any",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "__collapse": true
       },
       "id": "948bfec6-0765-4610-8ed2-0d7db11ac2e5"
     },
@@ -102,21 +130,23 @@
           "¿Siempre estuvo\nahí? :o"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
         "minHeight": 4,
         "maxHeight": 7,
-        "textX": 1,
+        "textX": 2,
         "textY": 1,
-        "textHeight": 5,
+        "textHeight": 6,
         "position": "bottom",
         "clearPrevious": true,
         "showFrame": "true",
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
-        "closeButton": "a",
+        "closeButton": "any",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "__collapse": true
       },
       "id": "aa26b387-5611-4677-9208-2540502786ad"
     },
@@ -124,25 +154,28 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Así pasa con las\nredes sociales",
+          "¿No lo habías\nvisto?",
+          "Así pasa con\nlas redes\nsociales",
           "el cerebro se \natrofia"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
         "minHeight": 4,
         "maxHeight": 7,
-        "textX": 1,
+        "textX": 2,
         "textY": 1,
-        "textHeight": 5,
+        "textHeight": 6,
         "position": "bottom",
         "clearPrevious": true,
         "showFrame": "true",
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
-        "closeButton": "a",
+        "closeButton": "any",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "__collapse": true
       },
       "id": "cd71a073-ec80-43a0-92d0-474fac9f3073"
     },
@@ -150,25 +183,26 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Juraba que era\nen la quinta \npuerta",
-          "Ahí debería estar\nel *final boss*"
+          "¿Y qué hace\naquí en la \nmesa?"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
         "minHeight": 4,
         "maxHeight": 7,
-        "textX": 1,
+        "textX": 2,
         "textY": 1,
-        "textHeight": 5,
+        "textHeight": 6,
         "position": "bottom",
         "clearPrevious": true,
         "showFrame": "true",
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
-        "closeButton": "a",
+        "closeButton": "any",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "__collapse": true
       },
       "id": "a05f8cc2-7680-433d-b9e1-7d2f45f6384c"
     },
@@ -176,33 +210,553 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "No, esa solo es \nuna bodega",
-          "Pero si quieres\nun final boss",
-          "solo tenías que\ndecirlo"
+          "Las y los\nrestauradores",
+          "están\ntrabajando\nen él."
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
         "minHeight": 4,
         "maxHeight": 7,
-        "textX": 1,
+        "textX": 2,
         "textY": 1,
-        "textHeight": 5,
+        "textHeight": 6,
         "position": "bottom",
         "clearPrevious": true,
         "showFrame": "true",
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
-        "closeButton": "a",
+        "closeButton": "any",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "__collapse": true
       },
       "id": "a7681f95-d50a-4d2d-b8fd-1d249d193a90"
     },
     {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "¿Qué le pasó?\n\n:O"
+        ],
+        "__section": "text",
+        "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+        "__collapse": true
+      },
+      "id": "52428d36-232c-4e72-9fbf-e879b96b5e46"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "El cuadro se\nencuentra en",
+          "buenas\ncondiciones.",
+          "Pero es\nimportante\nprevenir...",
+          "lo que ahora\nharemos es \ndarle",
+          "!F:7f4c8d4e-d530-4b5e-a49b-ccd83619d8ad!Limpieza\nsuperficial"
+        ],
+        "__section": "text",
+        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+        "__collapse": true
+      },
+      "id": "9952b7cf-7684-4f8c-bf8d-633774654891"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "¿Qué es eso?"
+        ],
+        "__section": "text",
+        "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+        "__collapse": true
+      },
+      "id": "97941eb7-905a-47ea-9363-e807674b42b9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Usamos una\nbrocha para",
+          "remover polvo,\nesporas y",
+          "otras\npartículas",
+          "Que en el\nfuturo podrían",
+          "llegar a\ndañarlo",
+          "Es un\nexcelente",
+          "método \npreventivo"
+        ],
+        "__section": "text",
+        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+        "__collapse": true
+      },
+      "id": "d4dd07fe-5b66-48a8-badc-f9e57e359967"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 12
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": false
+      },
+      "id": "1e5f762c-a0cf-47d7-be88-6165d8890823"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Wow... de esa\nforma conservas",
+          "en lugar de\nrestaurar!"
+        ],
+        "__section": "text",
+        "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+        "__collapse": true
+      },
+      "id": "d053f097-ccc5-4b0f-8bec-938076992df6"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 16
+        },
+        "y": {
+          "type": "number",
+          "value": 7
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": true
+      },
+      "id": "2d3402fc-2a90-403e-8ec6-08d00c7158bd"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Pues bien, ahí\nestá el cuadro",
+          "¿Qué buscas en \nél?"
+        ],
+        "__section": "text",
+        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+        "__collapse": true
+      },
+      "id": "c947c386-ebd0-490d-9b0b-7d533f561db5"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "564d60d1-2234-45b8-9aeb-b73df778914f",
+        "__collapse": true
+      },
+      "id": "3ae6e857-4d06-4826-b088-5274f19a3148"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 17
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": true
+      },
+      "id": "0f159b45-2e20-4298-a01c-c5d6db3e0de6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "¡El Tesoro!",
+          "!F:d923f6f8-8526-4576-bc69-e8c980835bff!¡El tesoro\nde Borutini!",
+          "El director lo\ndijo en el\nvideo:",
+          "!F:d923f6f8-8526-4576-bc69-e8c980835bff!Boturini reunió\nun tesoro tan\nvalioso",
+          "!F:d923f6f8-8526-4576-bc69-e8c980835bff!que muchos aún\nsiguen",
+          "!F:d923f6f8-8526-4576-bc69-e8c980835bff!dedicando su \nvida a buscarlo",
+          "!F:d923f6f8-8526-4576-bc69-e8c980835bff!entre los\nlibros de su\ncolección"
+        ],
+        "__section": "text",
+        "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+        "__collapse": true
+      },
+      "id": "04c564ce-9118-495f-98e1-dc28e04fbb03"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Vaya...",
+          "En serio las\nredes sociales",
+          "atrofian el\ncerebro"
+        ],
+        "__section": "text",
+        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+        "__collapse": true
+      },
+      "id": "5ace20de-a2bc-47c2-a8be-4e18cc559d29"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 12
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": true
+      },
+      "id": "c50ec6a6-a90c-4d57-b633-a1b18c8fcb8d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Todo esto para\nnada..."
+        ],
+        "__section": "text",
+        "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+        "__collapse": true
+      },
+      "id": "57e4e03b-1e22-4363-bfe9-0eaae2d3158f"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Te diré algo",
+          "si quieres\nencontrar el\ntesoro",
+          "vuelve mañana.",
+          "Te ayudaré a\nencontrarlo",
+          "Comenzaremos\nbuscándolo en",
+          "en...",
+          "en este libro\nde aquí.",
+          "No te preocupes",
+          "repartiremos\nganancias."
+        ],
+        "__section": "text",
+        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+        "__collapse": true
+      },
+      "id": "f638dc8b-d71e-470a-9a6d-6630af259a7c"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 14
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": true
+      },
+      "id": "d0d8390e-3098-44c4-bf07-e47355ff6774"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "50/50"
+        ],
+        "__section": "text",
+        "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+        "__collapse": true
+      },
+      "id": "9784caaa-ccd8-48bd-a96d-2e82f6275204"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "80/20 en \nrealidad...",
+          "pero ya veremos\ncon el tiempo.",
+          "Primero hay que\nbuscarlo."
+        ],
+        "__section": "text",
+        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+        "__collapse": true
+      },
+      "id": "4020cf7f-13c5-4419-9862-4e50928259ff"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "888cdf22-e7d8-4374-ae69-8cecf5acc22c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Aquí termina el\njuego!",
+          "Muchas gracias\npor jugar!!",
+          "Yo volveré a mi\ncuarto!",
+          "Tengo un juego\nque desarrollar\n:)"
+        ],
+        "__section": "text",
+        "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+        "__collapse": true
+      },
+      "id": "404e0353-bed9-4dd6-a412-7ee8406c9fe2"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "12e3bdd7-0f23-4368-9d4d-a4f2d5da6e2f",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "316e5d2e-cfe1-457f-8a3a-e9964da6f6ce"
+    },
+    {
+      "command": "EVENT_FADE_OUT",
+      "args": {
+        "speed": 6
+      },
+      "id": "d5afa444-44b5-4c42-b65a-8199fdfc11a0"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "027619bc-3fa5-4237-ba84-887fe84c2aff",
+        "sceneId": "ff2872d2-61fd-471c-b52b-c963853f5799",
         "x": {
           "type": "number",
           "value": 0
@@ -214,7 +768,7 @@
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "d87571df-1eb2-4516-abbf-d072c79624d7"
+      "id": "6fb7c47f-fd30-4230-82fc-0a5558cf987c"
     }
   ],
   "startScript": [],

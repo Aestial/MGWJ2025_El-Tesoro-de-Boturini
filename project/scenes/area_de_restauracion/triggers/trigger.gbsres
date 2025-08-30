@@ -29,7 +29,8 @@
         "closeDelayFrames": 30,
         "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
         "text": [
-          "Los hongos pueden\ndesarrollarse en\nel papel\ncontaminado en\nlugares húmedos."
+          "Los hongos pueden\ndesarrollarse en",
+          "el papel\ncontaminado en\nlugares húmedos."
         ],
         "__section": "text",
         "avatarId": ""

@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "d2a48fa0-db9d-43de-a3ac-b037e9c8ee90",
-  "_index": 25,
+  "_index": 24,
   "name": "5x5 yugi",
   "backgroundId": "29c5ea5d-b128-4173-a59c-e4fc1adc76c5",
   "tilesetId": "",
@@ -301,7 +301,7 @@
       "id": "4b1bd636-1f5f-469b-97c1-77f1bdf03434",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Controlls"
       },
       "children": {
@@ -15748,6 +15748,13 @@
           }
         ]
       }
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "88e1669e-cfd8-41c0-ba4d-bd24ce6616e8"
+      },
+      "id": "42d3fb21-23bc-4a42-8fcc-576426b72920"
     }
   ],
   "playerHit1Script": [],

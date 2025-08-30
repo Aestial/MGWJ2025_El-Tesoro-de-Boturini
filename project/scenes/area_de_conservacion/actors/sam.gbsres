@@ -20,26 +20,26 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Wow...",
-          "Pensé que serían\nmás difíciles",
-          "¿Ya me dejas mirar\nel cuadro?"
+          "Sam el libro\nquedó increíble",
+          "¿Qué querías\nque hiciera con\nél?"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
         "minHeight": 4,
         "maxHeight": 7,
-        "textX": 1,
+        "textX": 2,
         "textY": 1,
-        "textHeight": 5,
+        "textHeight": 6,
         "position": "bottom",
         "clearPrevious": true,
         "showFrame": "true",
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
-        "closeButton": "a",
+        "closeButton": "any",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
       },
       "id": "629c76f5-8ce9-453d-b81a-6c098e32d176"
     },
@@ -47,24 +47,137 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Sí, pásale, ya es\nhora de cerrar de\ntodos modos"
+          "Nada!",
+          "Ese trabajo lo\ntiene que hacer",
+          "alguien\nprofesional!"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
         "minHeight": 4,
         "maxHeight": 7,
-        "textX": 1,
+        "textX": 2,
         "textY": 1,
-        "textHeight": 5,
+        "textHeight": 6,
         "position": "bottom",
         "clearPrevious": true,
         "showFrame": "true",
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
-        "closeButton": "a",
+        "closeButton": "any",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
+      },
+      "id": "50273507-099b-4eb7-83a7-2a4c5ace8b72"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Ay... qué bueno\nque me quitaron",
+          "mi marcador en\nla entrada."
+        ],
+        "__section": "text",
+        "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb"
+      },
+      "id": "3bf27994-b542-42f0-9593-92e133ee6afb"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Lo que quería\nera que me",
+          "llevaras mis\nlentes..."
+        ],
+        "__section": "text",
+        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
+      },
+      "id": "e6261746-b0d6-4c6b-a5b6-962a9ca9456c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Pero ya los\ntraes puestos!",
+          "Mejor ya\nllévame a ver",
+          "el cuadro! \nPor fis... :)"
+        ],
+        "__section": "text",
+        "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb"
+      },
+      "id": "25eed924-8a6a-453d-9777-0ccb4f03d372"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Sí, pásale a la\notra habitación",
+          "Ya es hora de\ncerrar",
+          "de todos modos."
+        ],
+        "__section": "text",
+        "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
       },
       "id": "3910afe4-1b2d-4ae9-a8ac-445ef085b304"
     },

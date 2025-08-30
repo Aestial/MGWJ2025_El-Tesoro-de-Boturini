@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "8fc8afed-43f1-432d-bb67-290d0b27abee",
-  "_index": 20,
+  "_index": 19,
   "name": "3x3 boleto",
   "backgroundId": "182dbf86-4df4-41f6-bd1b-72f6a02489e8",
   "tilesetId": "",
@@ -301,7 +301,7 @@
       "id": "1ef7f8da-ad05-443f-93ad-fac4728cea78",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Controlls"
       },
       "children": {
@@ -15751,8 +15751,8 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "564d60d1-2234-45b8-9aeb-b73df778914f",
-        "__collapse": true
+        "musicId": "88e1669e-cfd8-41c0-ba4d-bd24ce6616e8",
+        "__collapse": false
       },
       "id": "bd071aa8-9d4b-4188-8a60-2f9f973bfb6e"
     }

@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "5e48d2a0-4299-4957-bcf1-4e6f16c1d459",
-  "name": "Signo Galeria",
+  "id": "7a9c87ab-1cec-4007-aa33-26e5f7165235",
+  "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "adb96737-9823-4970-a5bc-84e648997b5f",
+  "spriteSheetId": "e0fefde3-a660-407e-a285-641b7cdd679c",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,8 +14,15 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_39",
+  "symbol": "actor_56",
   "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "88e1669e-cfd8-41c0-ba4d-bd24ce6616e8"
+      },
+      "id": "955f0eac-b2cf-4c90-9779-1bb4c96c0044"
+    },
     {
       "command": "EVENT_TEXT",
       "args": {
@@ -35,12 +42,12 @@
         "closeDelayFrames": 30,
         "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
         "text": [
-          "Área de\nRestauración"
+          "Track: Picross"
         ],
         "__section": "text",
         "avatarId": ""
       },
-      "id": "6fade19a-4097-465b-9085-9022969f08d8"
+      "id": "1ac33a0a-458c-469a-9844-4d5451821b5c"
     }
   ],
   "startScript": [],
@@ -48,7 +55,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 26,
-  "y": 5,
+  "x": 12,
+  "y": 9,
   "_index": 3
 }

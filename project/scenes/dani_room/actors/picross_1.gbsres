@@ -48,7 +48,7 @@
               ],
               "__section": "text",
               "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "ffbfc306-6253-4b97-93b3-303aaa40c755"
           }
@@ -77,7 +77,7 @@
               ],
               "__section": "text",
               "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "45115ef3-cfa1-497e-aa68-af8a39f8564a"
           },
@@ -222,7 +222,8 @@
                             "imágen bajo estas \nmanchas de tiempo."
                           ],
                           "__section": "text",
-                          "avatarId": ""
+                          "avatarId": "",
+                          "__collapse": true
                         },
                         "id": "19ec42cb-c343-4198-ace7-c9042c59ecbf"
                       },
@@ -247,24 +248,24 @@
                           "text": [
                             "Cada número indica\nun grupo de celdas",
                             "consecutivas que\ndeben restaurarse.",
-                            "Por ejemplo, un !F:096d8fb9-5235-4d9e-9b22-183eea183b9a!3!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!\nsignifica que hay",
+                            "Por ejemplo, un !F:7f4c8d4e-d530-4b5e-a49b-ccd83619d8ad!3!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!\nsignifica que hay",
                             "un bloque de !F:096d8fb9-5235-4d9e-9b22-183eea183b9a!3!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! \nceldas juntas.",
-                            "¡Un 2, 1 significa\nun bloque de 2, un",
+                            "¡Un !F:7f4c8d4e-d530-4b5e-a49b-ccd83619d8ad!2, 1 !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!significa\nun bloque de 2, un",
                             "espacio y luego un\nbloque de 1!",
                             "Al presionar !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!A!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! se\ncubre la celda que",
-                            "necesita diferente\ndescontaminante.",
-                            "Cuando la celda no\ndebe de cubrirse y",
-                            "puedo marcarla con\nel boton !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!B!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!.",
-                            "Puedo limpiar las\nceldas con marcas",
-                            "y con coberturas\npresionando !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!START!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!.",
+                            "quieres cubrir.",
+                            "Cuando la celda no\ndebe de cubrirse",
+                            "puedo marcarla con\nel botón !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!B!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!.",
+                            "Puedo reiniciar\nlas celdas",
+                            "presionando !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!START!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!.",
                             "Debo relacionar la\ninformación de las\nfilas y columnas",
                             "para saber cuáles\ncasillas cubrir..."
                           ],
                           "__section": "text",
                           "avatarId": "",
-                          "__collapse": false
+                          "__collapse": true
                         },
-                        "id": "f51262a5-979f-4e6e-a327-e0a654749f82"
+                        "id": "26a37ca0-7c36-400b-a3df-2f07b7435247"
                       }
                     ],
                     "true2": [],

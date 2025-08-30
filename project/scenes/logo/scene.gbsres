@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "c1ac33bf-8a9a-4eb5-9444-1ff47d16ddeb",
-  "_index": 8,
+  "_index": 7,
   "name": "Logo",
   "backgroundId": "5600b223-b8dc-4c48-bbb6-c885cf850cc5",
   "tilesetId": "",
@@ -19,7 +19,7 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "be066e46-f78f-410e-8c60-c68be3393fab",
+        "musicId": "3dd0b266-a093-485c-bc67-365592af6376",
         "__collapse": false
       },
       "id": "fa8322a0-483c-4f99-bed2-97a7c4a58f9e"

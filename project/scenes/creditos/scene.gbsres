@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "ff2872d2-61fd-471c-b52b-c963853f5799",
-  "_index": 10,
+  "_index": 9,
   "name": "Creditos",
   "backgroundId": "3658e558-18a9-41b6-a73e-5dd1462c6932",
   "tilesetId": "",
@@ -27,7 +27,7 @@
     {
       "command": "EVENT_TEXT_DRAW",
       "args": {
-        "text": "!F:e37cb3fc-2de7-4eea-8602-acfdf4268590!Desarrollado\npor:\n\n!F:0ec06c16-adde-4958-9a99-9b47445996f1!Cris, Jaime y\n  Sebastián.\n\n\n  !F:eb868072-9c52-4c7c-9f38-5cdf615d1615!MGWJ 2025",
+        "text": "!F:e37cb3fc-2de7-4eea-8602-acfdf4268590!Desarrollado\npor:\n\n!F:0ec06c16-adde-4958-9a99-9b47445996f1!Jaime, Cris\nSeb y Héctor\n\n  !F:eb868072-9c52-4c7c-9f38-5cdf615d1615!MGWJ 2025",
         "x": 3,
         "y": 5,
         "location": "background"
@@ -58,6 +58,11 @@
         "speed": 1
       },
       "id": "cc85b562-8e79-4760-b684-090859ccc564"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "6911bf9b-17fc-4ea8-a76d-c4e6adac9f88"
     },
     {
       "command": "EVENT_WAIT",

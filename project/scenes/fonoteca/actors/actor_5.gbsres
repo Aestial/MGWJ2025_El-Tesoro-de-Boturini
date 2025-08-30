@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "5e48d2a0-4299-4957-bcf1-4e6f16c1d459",
-  "name": "Signo Galeria",
+  "id": "019ee2ba-12f3-4271-97e2-dffe86c4ecd3",
+  "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "adb96737-9823-4970-a5bc-84e648997b5f",
+  "spriteSheetId": "7d7d4768-4c5f-4e87-8cc7-927695b85648",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_39",
+  "symbol": "actor_77",
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -35,12 +35,13 @@
         "closeDelayFrames": 30,
         "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
         "text": [
-          "Área de\nRestauración"
+          "Un cofre del\ntesoro...",
+          "Pero no es el de\nBoturini."
         ],
         "__section": "text",
         "avatarId": ""
       },
-      "id": "6fade19a-4097-465b-9085-9022969f08d8"
+      "id": "a58950f6-3680-46be-a664-723cef1f1d4e"
     }
   ],
   "startScript": [],
@@ -48,7 +49,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 26,
-  "y": 5,
-  "_index": 3
+  "x": 25,
+  "y": 4,
+  "_index": 7
 }

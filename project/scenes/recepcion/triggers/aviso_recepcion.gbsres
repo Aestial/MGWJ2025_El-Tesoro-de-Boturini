@@ -29,24 +29,27 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "La biblioteca \ncierra en 30 \nminutos!"
+                "La biblioteca \ncierra en 30 \nminutos!",
+                "Y me quedo con\nese marcador\nrojo...",
+                "rayar cosas, no\nayuda a\nconservarlas!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "24a3290c-494e-4f16-81a7-f40a48742513",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "d5206031-0293-4d7c-822d-b850c36d1306"
           },

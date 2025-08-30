@@ -49,9 +49,92 @@
               ],
               "__section": "text",
               "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "fd025c57-9172-46ec-9476-c90c437a36ed"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Con gusto! es\nmi especialidad"
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb"
+            },
+            "id": "af23bcf6-b5d0-4d39-874b-61d7e677ce63"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Oye... y por\nqué pintaste",
+                "con marcador el\nteclado de mi\ncomputadora?",
+                "Así recuperas\nla versión\nanterior?"
+              ],
+              "__section": "text",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+              "__collapse": true
+            },
+            "id": "475f3f30-575e-4430-bed0-41a196699e6e"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Ya llegamos a\nla estación!",
+                "Aquí me bajo,\nadios!"
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+              "__collapse": true
+            },
+            "id": "a81b90e5-3193-4bd1-b6c7-75947f617270"
           }
         ],
         "false": [
@@ -129,9 +212,10 @@
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
                 "Soy nuevo y por\nalgun extrano ",
-                "motivo todo ha \ndesaparecido!"
+                "motivo todo mi\nproyecto",
+                "desapareció!"
               ],
-              "__section": "layout",
+              "__section": "text",
               "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "__collapse": true
             },
@@ -156,6 +240,7 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
+                "Están usando\nrepositorios?",
                 "Creo que puedo\nayudarte!",
                 "Saca tu compu!"
               ],
@@ -184,13 +269,41 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "¿Aqui? Esta\nbien, en verdad\nlo necesito..."
+                "¿Aqui? ¿en el\nmetro?",
+                "Esta bien,\nen verdad\nlo necesito..."
               ],
               "__section": "text",
               "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "__collapse": false
             },
             "id": "86940dd9-8850-4c97-9674-5af7067ada83"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Solo hay que\n!F:d923f6f8-8526-4576-bc69-e8c980835bff!restaurar !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!a una",
+                "versión\nanterior."
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb"
+            },
+            "id": "7d4e5ba1-41a6-4c2d-adde-4fde6670af51"
           },
           {
             "command": "EVENT_SET_VALUE",
