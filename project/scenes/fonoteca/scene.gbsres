@@ -13,7 +13,7 @@
   "collisions": "0f82+001c+0f4+001c+0f4+001c+0f4+001c+0f4+001c+0f4+001c+0f4+001c+0f4+001c+0f4+001c+0f4+001c+0f4+001c+0fb+002+0f55+",
   "autoFadeSpeed": 1,
   "symbol": "scene_16",
-  "x": 60,
+  "x": 64,
   "y": 240,
   "script": [
     {
@@ -27,5 +27,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "yellow"
+  "labelColor": "green"
 }
