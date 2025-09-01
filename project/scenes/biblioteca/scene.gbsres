@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "f190a4cb-4476-4fad-afac-ef12a4d6d6bb",
-  "_index": 3,
+  "_index": 6,
   "name": "Biblioteca",
   "backgroundId": "8769cf1c-b66f-4ce1-a35d-5711d717ee8d",
   "tilesetId": "",
@@ -12,9 +12,9 @@
   "spritePaletteIds": [],
   "collisions": "0f87+007+0f8+004+0f8+00e+0f3+01!00a+0f4+0010+0f!04!00a+0f4+001c+0f4+001c+0f4+001c+0f14+004+0f1c+004+0f1c+004+0fc+001c+0f4+001c+0f4+001c+0f14+004+0f1c+004+0f1c+004+0fc+001c+0f4+001c+0f4+001c+0f14+004+0f1c+004+0f1c+004+0fc+001c+0f4+001c+0f4+001c+0f4+001c+0f4+001c+0fa+002+0fc+002+0f10+002+0fc+002+0f8+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_4",
-  "x": 736,
-  "y": 544,
+  "symbol": "scene_5",
+  "x": 960,
+  "y": 448,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",

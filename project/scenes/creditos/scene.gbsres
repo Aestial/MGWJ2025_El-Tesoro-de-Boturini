@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "ff2872d2-61fd-471c-b52b-c963853f5799",
-  "_index": 9,
+  "_index": 11,
   "name": "Creditos",
   "backgroundId": "3658e558-18a9-41b6-a73e-5dd1462c6932",
   "tilesetId": "",
@@ -12,7 +12,7 @@
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_6",
+  "symbol": "scene_8",
   "x": 408,
   "y": 48,
   "script": [

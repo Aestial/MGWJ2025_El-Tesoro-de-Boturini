@@ -1,0 +1,254 @@
+{
+  "_resourceType": "trigger",
+  "id": "0f36b458-c37d-4ce3-acca-f75690409808",
+  "name": "tL4",
+  "prefabId": "",
+  "x": 4,
+  "y": 11,
+  "symbol": "trigger_6",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "10"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "¿Me quieres tomar\nel pelo?"
+              ],
+              "__section": "text",
+              "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a19155fd-9d2c-4388-9a6e-5d2c65e36d0c"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "d935d168-f860-4b7e-8fbf-042a7590a13c",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "8c507382-6e31-4802-bef1-1cc5544b830f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Esfuérzate un \npoco más."
+              ],
+              "__section": "text",
+              "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "176653ce-2246-439a-821a-ce5358ea5c4a"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "10"
+            },
+            "id": "cbcc5a7b-dbf6-4913-ab99-5596b3f58027"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "10"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 3
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "2da74d24-8fa2-4032-a6b6-46e26478d1a1",
+                    "spriteStateId": "vidas03",
+                    "loopAnim": true
+                  },
+                  "id": "bb3dbc0a-9eda-4ddc-b1b3-cd1754a2ad09"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Olvídalo"
+                    ],
+                    "__section": "text",
+                    "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 2,
+                    "textY": 1,
+                    "textHeight": 6,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "any",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
+                  },
+                  "id": "1d73d244-c5b1-481c-89fd-19cf271090b6"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Tienes la \ngracia de un \ncachorro."
+                    ],
+                    "__section": "text",
+                    "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 2,
+                    "textY": 1,
+                    "textHeight": 6,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "any",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
+                  },
+                  "id": "fb9cca20-bd60-4110-8bb7-3d55110901ac"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Sigue con lo \ntuyo y no me \nquites tiempo."
+                    ],
+                    "__section": "text",
+                    "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 2,
+                    "textY": 1,
+                    "textHeight": 6,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "any",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
+                  },
+                  "id": "877c40e1-f7a0-4d34-a712-e27890b5321d"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "false"
+                    },
+                    "__collapse": false
+                  },
+                  "id": "22baa331-c3b7-46de-80b1-56c789617a86"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "82"
+                  },
+                  "id": "c5e70a68-5fab-4d7c-a4d2-8d000118e0ff"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "e8b980e8-adda-424a-b04a-fdd097c61b08",
+                    "x": {
+                      "type": "number",
+                      "value": 10
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 8
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "32ae7914-beb8-4e7e-80f0-5bbf8be69218"
+                }
+              ],
+              "false": []
+            },
+            "id": "6d5697c5-a20c-464b-ad16-b0a975127af5"
+          }
+        ],
+        "false": []
+      },
+      "id": "b8c599d1-38cc-484b-b837-9105f7ddec3e"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 4
+}

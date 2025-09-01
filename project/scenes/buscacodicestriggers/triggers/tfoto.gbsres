@@ -1,0 +1,42 @@
+{
+  "_resourceType": "trigger",
+  "id": "64419d85-b9b0-42e0-a4b7-3775cea98532",
+  "name": "tFoto",
+  "prefabId": "",
+  "x": 4,
+  "y": 6,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Esta es la \nfoto."
+        ],
+        "__section": "text",
+        "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
+      },
+      "id": "0316696b-0eaa-4b94-8708-f15c56b50291"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "0c566180-e9fa-41e5-8d19-240b5b004284",
-  "_index": 16,
+  "_index": 18,
   "name": "5x5 heart",
   "backgroundId": "8eb16a9e-f893-499d-895e-4fcd32420e35",
   "tilesetId": "",
@@ -12,7 +12,7 @@
   "spritePaletteIds": [],
   "collisions": "007f+0f7+00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f!005+0f!00d+0f7+006a+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_18",
+  "symbol": "scene_19",
   "x": 1448,
   "y": 440,
   "script": [

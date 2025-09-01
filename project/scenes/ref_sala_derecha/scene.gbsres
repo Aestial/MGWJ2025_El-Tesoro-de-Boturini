@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "f1c392c9-c8c5-4d46-8fff-ed9bb8c81120",
-  "_index": 26,
+  "_index": 28,
   "name": "ref_Sala Derecha",
   "backgroundId": "2728218e-2b9b-4d6e-a4d6-94a42b6b00b5",
   "tilesetId": "",
@@ -12,7 +12,7 @@
   "spritePaletteIds": [],
   "collisions": "0f87+0010+0f6+0010+0f6+0010+0f6+0010+0f6+004+0f!04!003+0f4+003+0f6+004+0f!04!003+0f4+004+0f4+005+0f!04!003+0f4+004+0f4+0012+0f4+0012+0f4+0012+0f4+0012+0fa+002+0f14+002+0f22+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_28",
+  "symbol": "scene_29",
   "x": 1384,
   "y": 30,
   "script": [

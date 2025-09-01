@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_2",
+  "symbol": "actor_4",
   "script": [
     {
       "command": "EVENT_IF_FLAGS_COMPARE",

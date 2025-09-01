@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "4f73e47b-2bd5-47ae-9296-8f1264e2b86e",
-  "_index": 4,
+  "_index": 7,
   "name": "Area de Restauracion",
   "backgroundId": "2728218e-2b9b-4d6e-a4d6-94a42b6b00b5",
   "tilesetId": "",
@@ -13,8 +13,8 @@
   "collisions": "0f87+0010+0f6+0010+0f6+0010+0f6+0010+0f6+004+0f!04!003+0f4+003+0f6+004+0f!04!003+0f4+004+0f4+005+0f!04!003+0f4+004+0f4+0012+0f4+0012+0f4+0012+0f4+0012+0fa+002+0f14+002+0f22+",
   "autoFadeSpeed": 1,
   "symbol": "scene_9",
-  "x": 768,
-  "y": 328,
+  "x": 776,
+  "y": 232,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",

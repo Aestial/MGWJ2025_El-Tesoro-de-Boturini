@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "679d8a00-d97f-4c67-83c7-debe26f53e83",
-  "_index": 12,
+  "_index": 14,
   "name": "Made with GB Studio",
   "backgroundId": "dfac0fb4-1ef6-4669-abfd-9c28b75d806a",
   "tilesetId": "",
@@ -12,7 +12,7 @@
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_14",
+  "symbol": "scene_15",
   "x": 584,
   "y": 48,
   "script": [

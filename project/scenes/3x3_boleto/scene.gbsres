@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "8fc8afed-43f1-432d-bb67-290d0b27abee",
-  "_index": 19,
+  "_index": 21,
   "name": "3x3 boleto",
   "backgroundId": "182dbf86-4df4-41f6-bd1b-72f6a02489e8",
   "tilesetId": "",
@@ -12,7 +12,7 @@
   "spritePaletteIds": [],
   "collisions": "007f+0f5+00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f5+0094+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_21",
+  "symbol": "scene_22",
   "x": 512,
   "y": 240,
   "script": [
