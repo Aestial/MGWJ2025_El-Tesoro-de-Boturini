@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "679d8a00-d97f-4c67-83c7-debe26f53e83",
-  "_index": 15,
+  "_index": 12,
   "name": "Made with GB Studio",
   "backgroundId": "dfac0fb4-1ef6-4669-abfd-9c28b75d806a",
   "tilesetId": "",
@@ -19,7 +19,7 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "be066e46-f78f-410e-8c60-c68be3393fab",
+        "musicId": "d66d9390-5cfe-4b64-9b79-7f7e4065020e",
         "__collapse": false
       },
       "id": "12e52719-9a5a-4a52-a26b-eb0c8988f443"

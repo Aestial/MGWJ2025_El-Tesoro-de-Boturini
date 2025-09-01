@@ -15,7 +15,75 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_13",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Guardar juego",
+        "falseText": "Cancelar",
+        "__collapse": true
+      },
+      "id": "68b9f00b-db07-4004-ac0d-96ffa615e4ce"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SAVE_DATA",
+            "args": {
+              "saveSlot": 0,
+              "__scriptTabs": "save"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "position": "bottom",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 2,
+                    "textY": 1,
+                    "textHeight": 6,
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "any",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+                    "text": [
+                      "El progreso ha\nsido guardado!",
+                      "Es seguro apagar\nel sistema..."
+                    ],
+                    "__section": "text",
+                    "avatarId": ""
+                  },
+                  "id": "9f45bebd-3742-4757-bc6e-511371c46a26"
+                }
+              ],
+              "load": []
+            },
+            "id": "ec6e87bc-2b34-4eac-95fc-3b2a6e3a3bb7"
+          }
+        ],
+        "false": []
+      },
+      "id": "37b79f61-2b04-441d-86ea-50fbc86a0436"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

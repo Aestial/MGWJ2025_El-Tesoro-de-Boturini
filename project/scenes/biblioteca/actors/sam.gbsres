@@ -29,7 +29,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Ya vete"
+                "Ve a la\nhabitación"
               ],
               "__section": "text",
               "avatarId": "",
@@ -47,7 +47,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "c2b89fbd-5ae4-43d7-8965-09946e351ed7"
           }
@@ -756,7 +756,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "b253c0c0-6605-4c91-a52e-3a151ec8729d"
@@ -779,8 +779,8 @@
               "text": [
                 "Qué\ninsistente...",
                 "En fin",
-                "¿Ves las\nhabitaciones\nque están al\nfrente?",
-                "Entra en ellas",
+                "¿Ves la\nhabitación\nque está al\nfrente?",
+                "Entra en ella",
                 "ahí encontrarás\nmesas de \ntrabajo",
                 "con algunas\ntareas",
                 "que tengo que \nrealizar.",
@@ -807,7 +807,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "dfe11e15-857c-4144-bc37-23472df0aba5"
@@ -854,7 +854,7 @@
               "closeButton": "any",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false,
+              "__collapse": true,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "9c34e114-4edd-45b1-846b-4ebcbf45e896"

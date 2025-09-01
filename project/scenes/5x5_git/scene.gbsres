@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "d1da916a-cf54-4e2b-a419-c5e5de2eb789",
-  "_index": 26,
+  "_index": 23,
   "name": "5x5 git",
   "backgroundId": "0e05a86b-bb24-43d5-9881-8d7e9e298160",
   "tilesetId": "",
@@ -301,7 +301,7 @@
       "id": "b9be3489-479d-4857-811d-0b3df2a64c39",
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Controlls"
       },
       "children": {
@@ -15748,6 +15748,13 @@
           }
         ]
       }
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "88e1669e-cfd8-41c0-ba4d-bd24ce6616e8"
+      },
+      "id": "6ea54657-886a-4fde-bdff-2c0a068c5bb9"
     }
   ],
   "playerHit1Script": [],

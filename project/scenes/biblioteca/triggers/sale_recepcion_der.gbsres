@@ -3,7 +3,7 @@
   "id": "36a4f74c-10c5-4acb-86b4-515c7a697e93",
   "name": "sale_recepcion_der",
   "prefabId": "",
-  "x": 22,
+  "x": 8,
   "y": 30,
   "symbol": "trigger_24",
   "prefabScriptOverrides": {},
@@ -29,5 +29,5 @@
     }
   ],
   "leaveScript": [],
-  "_index": 3
+  "_index": 2
 }

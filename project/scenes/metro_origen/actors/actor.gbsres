@@ -1,0 +1,133 @@
+{
+  "_resourceType": "actor",
+  "id": "782f2df7-16c4-4758-ac1e-a0b9ec782373",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b87d9134-2df6-4e8f-aa48-387f68f184f1",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_72",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "¿Por qué traes un\nmarcador?"
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "93a9ea09-35be-4a1d-b05d-9825eef181bd"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Lo usé para\npintar mi",
+          "boleto del\nmetro"
+        ],
+        "__section": "text",
+        "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb"
+      },
+      "id": "d8e5b694-247e-4b26-a2dd-d4185939942d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Espero no hagas\nalgo así con ",
+          "los carteles del\nmetro",
+          "Eso es bandalismo"
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "31e533fd-945a-4226-8e7e-47cddf7a3435"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 2
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "a066a280-8d73-42d9-96c8-86dcfd0cce75"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "9e1b06cb-7db9-4686-9f96-f2fb618ba141"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 24,
+  "y": 10,
+  "_index": 2
+}

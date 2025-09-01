@@ -45,13 +45,13 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "¡Con esta \ncubierta ",
-                "los hongos le \nharan lo que ",
-                "el viento a \nJuarez!!"
+                "Se ve muy bien\nencuadernado!",
+                "Sam parece ser\nbueno en esto",
+                "Y la Catedral\nes muy bonita!"
               ],
               "__section": "text",
               "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "83ceb8d3-e952-4bc7-8d11-27da390a33ff"
           }
@@ -76,13 +76,199 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "Debo conservar\neste codice..."
+                "Un libro\nsobre... ",
+                "La catedral\nmetropolitana!"
               ],
               "__section": "text",
               "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "8eca933f-f16b-4340-b79f-f7043b1740bb"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "decb7e39-f3dd-469e-97cb-5de032291aea"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Ese fue el tema\nde la Game Jam",
+                "hace unos años!"
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+              "__collapse": true
+            },
+            "id": "cd74ce9d-9d0f-43d8-bdd3-e6e34d0d047e"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 13
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "6db4453d-6205-4665-90ac-eecca85d74e0"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Hay una nota de\nSam...",
+                "Dice que usó un\npunzón para",
+                "encuadernar el\nlibro",
+                "Al parecer así\nse protegerá\nmejor."
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+              "__collapse": true
+            },
+            "id": "cdac4d2d-8a56-42d9-bbf7-5c874e6f1b94"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 13
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "686c561c-c3c2-4db1-8582-20daed3eeaab"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Pero ya lo \nencuadernó!",
+                "Entonces qué\ndebo hacer?"
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+              "__collapse": true
+            },
+            "id": "3dfe73a8-eb39-4006-8c6a-105d765c3fb5"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 13
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "709124ac-7ff7-4d01-a8fd-98e3b2ffc3e4"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Wow! mira la\nportada!"
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+              "__collapse": true
+            },
+            "id": "cd213dd3-dcf5-497e-aae8-d531b34230ed"
           },
           {
             "command": "EVENT_SET_VALUE",
@@ -110,7 +296,7 @@
                   "value": 0
                 }
               },
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -219,10 +405,10 @@
                           "closeDelayFrames": 30,
                           "__presetId": "",
                           "text": [
-                            "¡Mi boleto está\nmuy danado! DDD:",
-                            "¡Estos números\nson mi guía! ",
-                            "Para poder usarlo,\ndebo descubrir la",
-                            "imágen bajo estas \nmanchas de tiempo."
+                            "Ya jugaste antes",
+                            "Ahora el desafío\nes mayor",
+                            "Descubre la\ncatedral escondida",
+                            "en el trabajo de\nSam"
                           ],
                           "__section": "text",
                           "avatarId": ""
@@ -250,16 +436,16 @@
                           "text": [
                             "Cada número indica\nun grupo de celdas",
                             "consecutivas que\ndeben restaurarse.",
-                            "Por ejemplo, un !F:096d8fb9-5235-4d9e-9b22-183eea183b9a!3!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!\nsignifica que hay",
+                            "Por ejemplo, un !F:7f4c8d4e-d530-4b5e-a49b-ccd83619d8ad!3!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!\nsignifica que hay",
                             "un bloque de !F:096d8fb9-5235-4d9e-9b22-183eea183b9a!3!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! \nceldas juntas.",
-                            "¡Un 2, 1 significa\nun bloque de 2, un",
+                            "¡Un !F:7f4c8d4e-d530-4b5e-a49b-ccd83619d8ad!2, 1 !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!significa\nun bloque de 2, un",
                             "espacio y luego un\nbloque de 1!",
                             "Al presionar !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!A!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47! se\ncubre la celda que",
-                            "necesita diferente\ndescontaminante.",
-                            "Cuando la celda no\ndebe de cubrirse y",
-                            "puedo marcarla con\nel boton !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!B!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!.",
-                            "Puedo limpiar las\nceldas con marcas",
-                            "y con coberturas\npresionando !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!START!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!.",
+                            "quieres cubrir.",
+                            "Cuando la celda no\ndebe de cubrirse",
+                            "puedo marcarla con\nel botón !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!B!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!.",
+                            "Puedo reiniciar\nlas celdas",
+                            "presionando !F:c76ce32a-50e3-4c42-ab2e-373a9a1d1955!START!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!.",
                             "Debo relacionar la\ninformación de las\nfilas y columnas",
                             "para saber cuáles\ncasillas cubrir..."
                           ],

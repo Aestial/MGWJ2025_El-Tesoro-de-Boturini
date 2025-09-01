@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "5e48d2a0-4299-4957-bcf1-4e6f16c1d459",
-  "name": "Signo Galeria",
+  "id": "e574f9db-549d-4ff3-bfd5-9058941e7aa9",
+  "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "adb96737-9823-4970-a5bc-84e648997b5f",
+  "spriteSheetId": "4ffb8a61-3a7f-40e8-a479-ca3b680bc893",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,8 +14,15 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_39",
+  "symbol": "actor_76",
   "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "a00e1126-188b-4b67-8996-499d27a12db8"
+      },
+      "id": "67cb8b36-5a3f-447d-9a6c-46caf371fd6d"
+    },
     {
       "command": "EVENT_TEXT",
       "args": {
@@ -35,12 +42,12 @@
         "closeDelayFrames": 30,
         "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
         "text": [
-          "Área de\nRestauración"
+          "Track: El Secreto\ndel Códice"
         ],
         "__section": "text",
         "avatarId": ""
       },
-      "id": "6fade19a-4097-465b-9085-9022969f08d8"
+      "id": "d12ad8ae-0a75-4374-b6b7-b918ac9258d9"
     }
   ],
   "startScript": [],
@@ -48,7 +55,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 26,
+  "x": 17,
   "y": 5,
-  "_index": 3
+  "_index": 6
 }

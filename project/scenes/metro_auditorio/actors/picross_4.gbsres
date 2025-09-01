@@ -45,13 +45,100 @@
               "closeDelayFrames": 30,
               "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
               "text": [
-                "Hiciste trampa!"
+                "Mi carta!",
+                "Le sabes a esto\nde cuidar cosas",
+                "¿Verdad?"
               ],
               "__section": "text",
               "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "__collapse": true
             },
             "id": "f3580fba-a05a-4bb0-a829-0c1f39ec86ae"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Claro! Podría\nrestaurar la",
+                "economía del\npaís :P"
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+              "__collapse": true
+            },
+            "id": "7c3f38f7-7c16-4e53-843b-bcacd039ad9b"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Espera...",
+                "La funda ahora\nes roja",
+                "¿se dañó mi\ncarta? :x"
+              ],
+              "__section": "text",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+              "__collapse": true
+            },
+            "id": "ad6b1de8-39aa-4494-b4b0-1f04fabdfc9b"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "No,la pinté con\nmi marcador",
+                "Jeje :P"
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+              "__collapse": true
+            },
+            "id": "e9db9740-8d0b-4b6b-abfb-5015c92e80a4"
           }
         ],
         "false": [
@@ -130,11 +217,211 @@
               "text": [
                 "Del duelo!!!"
               ],
-              "__section": "presets",
+              "__section": "text",
               "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
               "__collapse": true
             },
             "id": "c2594375-6efb-4a23-882f-273e6cb126ba"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Ay! ¿Qué traes?\n:s"
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+              "__collapse": true
+            },
+            "id": "95537c1b-9c50-4c07-8c14-7409e8b8d727"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "¿Nunca jugaste?"
+              ],
+              "__section": "text",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+              "__collapse": true
+            },
+            "id": "76ecd18e-64fd-49c0-8a62-ffa5e1b49f0e"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Sí, pero no \ngritando en ",
+                "pleno andén"
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+              "__collapse": true
+            },
+            "id": "aa0bb1cd-27e6-49be-9bc1-509f9f393cae"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Disculpa, estoy\nalgo molesto"
+              ],
+              "__section": "text",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+              "__collapse": true
+            },
+            "id": "88614d31-86fb-4602-9a5e-b316003482b7"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "También vas a\nperder",
+                "tu empleo?"
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+              "__collapse": true
+            },
+            "id": "cf610448-364c-4536-8050-770e0605cfaa"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Es mi carta, la\nmás valiosa.",
+                "Se está pegando\na su funda.",
+                "Creo que la \ntemperatura",
+                "le está\nafectando.",
+                "No quiero que\nla impresión",
+                "se despegue del\ncartón..."
+              ],
+              "__section": "text",
+              "avatarId": "13bd8025-792a-488a-991e-ff72e2febc38",
+              "__collapse": true
+            },
+            "id": "40f0b765-f6fb-45b9-a993-cfd4d9e573fd"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "position": "bottom",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 6,
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "any",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+              "text": [
+                "Ya veo...",
+                "Aquí tengo unas\npinzas.",
+                "Si la removemos\ndespacio",
+                "podemos evitar\nque la fricción",
+                "provoque que se\ndesprenda"
+              ],
+              "__section": "text",
+              "avatarId": "196f20d1-beea-467b-bb69-3e3144896ebb",
+              "__collapse": true
+            },
+            "id": "8a685208-0b25-4dc8-8f04-a8d0a694b5aa"
           },
           {
             "command": "EVENT_SET_VALUE",
@@ -162,7 +449,7 @@
                   "value": 0
                 }
               },
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
