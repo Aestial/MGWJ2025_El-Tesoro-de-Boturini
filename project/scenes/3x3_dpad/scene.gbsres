@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "597f1f24-9999-4e8f-9693-6f258c72af38",
-  "_index": 16,
+  "_index": 18,
   "name": "3x3 dpad",
   "backgroundId": "e1604bcb-b7c2-467f-8ca6-29f4e8445878",
   "tilesetId": "",
@@ -12,7 +12,7 @@
   "spritePaletteIds": [],
   "collisions": "007f+0f5+00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f5+0094+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_17",
+  "symbol": "scene_18",
   "x": 1264,
   "y": 440,
   "script": [

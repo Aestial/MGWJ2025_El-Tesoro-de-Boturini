@@ -1,0 +1,54 @@
+{
+  "_resourceType": "actor",
+  "id": "2df40b2b-35fd-456d-81de-134b48e0a55e",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "adb96737-9823-4970-a5bc-84e648997b5f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_73",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "position": "bottom",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "text": [
+          "Sala de códices\n               =>"
+        ],
+        "__section": "text",
+        "avatarId": ""
+      },
+      "id": "86698810-dacc-40c4-8771-ba606f044bd2"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 17,
+  "y": 6,
+  "_index": 2
+}

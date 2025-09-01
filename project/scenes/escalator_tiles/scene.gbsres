@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "ffa02b4e-40dd-43c0-b260-9780b7dbc87f",
-  "_index": 9,
+  "_index": 11,
   "name": "escalator_tiles",
   "backgroundId": "84b4d3e6-0d06-49e9-8552-8134a89df8c0",
   "tilesetId": "",
@@ -12,7 +12,7 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_5",
+  "symbol": "scene_7",
   "x": 60,
   "y": 456,
   "script": [],

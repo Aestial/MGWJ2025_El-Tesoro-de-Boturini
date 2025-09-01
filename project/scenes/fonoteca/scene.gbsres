@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "b68bd904-a86d-4c31-9366-656a4845064c",
-  "_index": 14,
+  "_index": 16,
   "name": "Fonoteca",
   "backgroundId": "daddadd3-bba1-4647-8532-b45cf75e3361",
   "tilesetId": "",
@@ -12,7 +12,7 @@
   "spritePaletteIds": [],
   "collisions": "0f82+001c+0f4+001c+0f4+001c+0f4+001c+0f4+001c+0f4+001c+0f4+001c+0f4+001c+0f4+001c+0f4+001c+0f4+001c+0fb+002+0f55+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_15",
+  "symbol": "scene_16",
   "x": 60,
   "y": 240,
   "script": [
