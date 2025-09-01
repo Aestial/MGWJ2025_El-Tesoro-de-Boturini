@@ -13,58 +13,164 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_2",
-  "x": 1592,
-  "y": 856,
+  "x": 752,
+  "y": 472,
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
-        "text": [
-          "La primera imágen\nes una fotografía"
+        "input": [
+          "start"
         ],
-        "__section": "text",
-        "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true,
+        "__comment": false
       },
-      "id": "a4176f0d-fd07-4ecc-8b29-7cd14c7f81f4"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {
+              "__collapse": true
+            },
+            "id": "749fd1ea-ec8d-4e77-83bf-5c693c5a5c96"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "ff08e7a8-6dd3-452f-a49e-10ee2cc9d6c5",
+              "priority": "high",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "88727c85-3358-4661-88f2-99a3978d2395"
+          },
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "T0",
+              "items": 2,
+              "option1": "Reanudar",
+              "option2": "Menú principal",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "cancelOnLastOption": false,
+              "__collapse": false
+            },
+            "id": "5b35c58c-449f-4d0e-adeb-99c02dc47d1d"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "564d60d1-2234-45b8-9aeb-b73df778914f",
+              "__collapse": false
+            },
+            "id": "22a68c1d-c531-4017-a783-5d2099b2aa28"
+          },
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "T0",
+              "choices": 2,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true0": [],
+              "true1": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "98698bb4-7246-4e86-9886-0818b9156392",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "b20f7619-163a-4f61-9dd5-f9ed8b7e87ab"
+                }
+              ],
+              "true2": [],
+              "true3": [],
+              "true4": [],
+              "true5": [],
+              "true6": [],
+              "true7": [],
+              "true8": [],
+              "true9": [],
+              "true10": [],
+              "true11": [],
+              "true12": [],
+              "true13": [],
+              "true14": [],
+              "true15": [],
+              "false": []
+            },
+            "id": "2836cc26-7f9a-48bd-8f7e-6f73901459c5"
+          }
+        ]
+      },
+      "id": "3053eb7a-0828-4a46-a19d-9104942cfd5d"
     },
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_SET_VALUE",
       "args": {
-        "text": [
-          "Busca el original\nen el conjunto\nde documentos."
-        ],
-        "__section": "text",
-        "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "variable": "0",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
       },
-      "id": "54042482-b0e0-4925-87ed-345573153889"
+      "id": "935fc00f-0367-4172-835f-509589d97e72"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -73,23 +179,70 @@
         "value": {
           "type": "number",
           "value": 0
-        }
+        },
+        "__collapse": true
       },
       "id": "3f28b287-2b04-4e7a-95fd-75e0bc87f370"
     },
     {
-      "command": "EVENT_SET_VALUE",
+      "command": "EVENT_TEXT",
       "args": {
-        "variable": "0",
-        "value": {
-          "type": "true"
-        }
+        "text": [
+          "La primera \nimágen es una \nfotografía."
+        ],
+        "__section": "text",
+        "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "__collapse": true
       },
-      "id": "935fc00f-0367-4172-835f-509589d97e72"
+      "id": "a4176f0d-fd07-4ecc-8b29-7cd14c7f81f4"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Busca el \noriginal en el \nconjunto de \ndocumentos."
+        ],
+        "__section": "text",
+        "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 6,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "any",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07",
+        "__collapse": true
+      },
+      "id": "54042482-b0e0-4925-87ed-345573153889"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "d04475bf-ddb3-4509-9363-b1a9de18e9fd"
+  "playerSpriteSheetId": "d04475bf-ddb3-4509-9363-b1a9de18e9fd",
+  "labelColor": "blue",
+  "autoFadeEventCollapse": true
 }

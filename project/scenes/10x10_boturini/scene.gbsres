@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "e6490da1-f0a8-4faf-9564-d31534b28d34",
-  "_index": 27,
+  "_index": 29,
   "name": "10x10 boturini",
   "backgroundId": "88c195ac-697f-4997-812e-cc9a68dcfb99",
   "tilesetId": "",
@@ -13,8 +13,8 @@
   "collisions": "007f+0fc+008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0fc+00!",
   "autoFadeSpeed": 1,
   "symbol": "scene_30",
-  "x": 800,
-  "y": 120,
+  "x": 832,
+  "y": 40,
   "script": [
     {
       "id": "c7b81991-8496-4ea9-aa1e-7b9bb6e67f24",

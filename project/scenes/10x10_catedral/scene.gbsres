@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "3cfc4550-785e-43cc-9b7a-9fb7b719b19a",
-  "_index": 25,
+  "_index": 27,
   "name": "10x10 catedral",
   "backgroundId": "be84e9fb-cc49-4388-88fd-beadca9fb2a8",
   "tilesetId": "",
@@ -13,8 +13,8 @@
   "collisions": "007f+0fc+008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0fc+00!",
   "autoFadeSpeed": 1,
   "symbol": "scene_28",
-  "x": 1024,
-  "y": 120,
+  "x": 1048,
+  "y": 40,
   "script": [
     {
       "id": "468adf04-1d43-4f15-b3cb-76e2019c4e4d",

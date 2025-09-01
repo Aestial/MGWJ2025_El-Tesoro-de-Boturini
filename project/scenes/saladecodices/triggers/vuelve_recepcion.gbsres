@@ -1,7 +1,7 @@
 {
   "_resourceType": "trigger",
   "id": "cbfbe5c9-7330-4673-b6da-496268851cfe",
-  "name": "regresaAreaDeConservacion",
+  "name": "vuelve_recepcion",
   "prefabId": "",
   "x": 8,
   "y": 17,
@@ -13,14 +13,14 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "ef8277d1-a13e-4a24-b077-25d996ad9209",
+        "sceneId": "e23da37e-3ccc-49c1-8fdd-f15bb41f91e5",
         "x": {
           "type": "number",
-          "value": 17
+          "value": 5
         },
         "y": {
           "type": "number",
-          "value": 12
+          "value": 6
         },
         "direction": "down",
         "fadeSpeed": "2"

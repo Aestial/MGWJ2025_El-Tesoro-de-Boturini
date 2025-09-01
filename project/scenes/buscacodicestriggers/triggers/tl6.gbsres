@@ -38,18 +38,19 @@
               "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "4652ef0d-1176-4ec9-a1f2-33d62eb5537c"
           },
@@ -76,18 +77,19 @@
               "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "21f7c13e-a19c-48b3-bf90-89cf800c6f64"
           },
@@ -112,7 +114,7 @@
                   "value": 3
                 }
               },
-              "__collapseElse": true
+              "__collapseElse": false
             },
             "children": {
               "true": [
@@ -135,18 +137,19 @@
                     "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
                     "minHeight": 4,
                     "maxHeight": 7,
-                    "textX": 1,
+                    "textX": 2,
                     "textY": 1,
-                    "textHeight": 5,
+                    "textHeight": 6,
                     "position": "bottom",
                     "clearPrevious": true,
                     "showFrame": "true",
                     "speedIn": -1,
                     "speedOut": -1,
                     "closeWhen": "key",
-                    "closeButton": "a",
+                    "closeButton": "any",
                     "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
+                    "closeDelayFrames": 30,
+                    "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
                   },
                   "id": "db53705b-d8a7-4885-84b8-63d297c1058f"
                 },
@@ -154,24 +157,25 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Tienes la gracia\nde un cachorro."
+                      "Tienes la \ngracia de un \ncachorro."
                     ],
                     "__section": "text",
                     "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
                     "minHeight": 4,
                     "maxHeight": 7,
-                    "textX": 1,
+                    "textX": 2,
                     "textY": 1,
-                    "textHeight": 5,
+                    "textHeight": 6,
                     "position": "bottom",
                     "clearPrevious": true,
                     "showFrame": "true",
                     "speedIn": -1,
                     "speedOut": -1,
                     "closeWhen": "key",
-                    "closeButton": "a",
+                    "closeButton": "any",
                     "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
+                    "closeDelayFrames": 30,
+                    "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
                   },
                   "id": "10df5564-6498-4307-9da4-d13d0bc44bd6"
                 },
@@ -179,24 +183,25 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Sigue con lo tuyo\ny no me quites\ntiempo."
+                      "Sigue con lo \ntuyo y no me \nquites tiempo."
                     ],
                     "__section": "text",
                     "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
                     "minHeight": 4,
                     "maxHeight": 7,
-                    "textX": 1,
+                    "textX": 2,
                     "textY": 1,
-                    "textHeight": 5,
+                    "textHeight": 6,
                     "position": "bottom",
                     "clearPrevious": true,
                     "showFrame": "true",
                     "speedIn": -1,
                     "speedOut": -1,
                     "closeWhen": "key",
-                    "closeButton": "a",
+                    "closeButton": "any",
                     "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
+                    "closeDelayFrames": 30,
+                    "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
                   },
                   "id": "4369223a-5f89-4a30-b0ba-57bc3e1b7150"
                 },

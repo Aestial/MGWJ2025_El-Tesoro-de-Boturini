@@ -38,26 +38,27 @@
               "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "03329d12-fea2-4a2f-bb89-fed9e5c997af"
           },
           {
             "command": "EVENT_SOUND_PLAY_EFFECT",
             "args": {
-              "type": "bbff6b84-acda-4375-b231-c701e2d7b8b4",
-              "priority": "medium",
+              "type": "14295c8e-6de6-471e-af80-abc42cd290c8",
+              "priority": "high",
               "pitch": 4,
               "frequency": 200,
               "duration": 0.5,
@@ -72,7 +73,7 @@
               "text": [
                 "¡Lo encontraste!"
               ],
-              "__section": "text",
+              "__section": "presets",
               "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
               "minHeight": 4,
               "maxHeight": 7,
@@ -166,18 +167,19 @@
               "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "a9b1ee58-e033-404a-8f17-ba314e29a064"
           },
@@ -185,24 +187,25 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Tienes la gracia\nde un cachorro."
+                "Tienes la \ngracia de un \ncachorro."
               ],
               "__section": "text",
               "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "4663dd23-5bb2-4736-8c5b-6ee5da12d122"
           },
@@ -210,24 +213,25 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Sigue con lo tuyo\ny no me quites\ntiempo."
+                "Sigue con lo \ntuyo y no me \nquites tiempo."
               ],
-              "__section": "text",
+              "__section": "presets",
               "avatarId": "c00ff1c9-bdcb-4b56-9b9b-d091de3398b6",
               "minHeight": 4,
               "maxHeight": 7,
-              "textX": 1,
+              "textX": 2,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 6,
               "position": "bottom",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
               "speedOut": -1,
               "closeWhen": "key",
-              "closeButton": "a",
+              "closeButton": "any",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__presetId": "23c36d71-340b-455c-9408-3abaa1fa8d07"
             },
             "id": "beb7a97c-fb85-4f9f-9f7a-89b0ec0f0f2e"
           },
