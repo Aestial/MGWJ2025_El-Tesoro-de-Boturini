@@ -243,6 +243,6 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "d04475bf-ddb3-4509-9363-b1a9de18e9fd",
-  "labelColor": "blue",
+  "labelColor": "green",
   "autoFadeEventCollapse": true
 }
