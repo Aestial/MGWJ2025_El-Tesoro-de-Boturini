@@ -75,8 +75,7 @@ https://www.gbstudio.dev/docs/getting-started/saving-loading
 
 ### 📄 Licencia
 
-Este proyecto está bajo Licencia CC0 1.0 Universal - dominio público.
-Puedes usar libremente el código, arte y diseño para cualquier propósito.
+Este proyecto está bajo Licencia MIT. Inclye esta licencia si planeas usar el código, arte y diseño para cualquier propósito.
 
 ### 🌐 Enlaces importantes
 * 🎮 [Página del juego en itch.io](https://aestial.itch.io/el-tesoro-de-boturini).
