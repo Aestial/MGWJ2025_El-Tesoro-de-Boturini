@@ -1,6 +1,6 @@
 # 🕹️ El Tesoro de Boturini - Game Boy Edition
 
-[![CC0 License](https://img.shields.io/badge/License-CC0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GB Studio](https://img.shields.io/badge/Engine-GB%20Studio-4a752c.svg)](https://www.gbstudio.dev/)
 [![Game Jam](https://img.shields.io/badge/Game%20Jam-MGWJ%202025-8bac0f.svg)](https://itch.io/jam/mini-game-work-jam-2025)
 <p align="center">
@@ -18,7 +18,7 @@
 
 [Descarga la ROM para Game Boy (.gb)](https://aestial.itch.io/mgwj-2025)
 
-## 🌟 Sobre el juego
+## Sobre el juego
 
 "El Tesoro de Boturini" es una aventura gráfica desarrollada para **Game Boy** que combina:
 - 🏛️ Exploración en la Biblioteca Nacional de Antropología e Historia
@@ -50,7 +50,7 @@ Visita la [página del juego en itch.io](https://aestial.itch.io/mgwj-2025) y ju
 1. Graba la ROM en un cartucho flash
 2. ¡Juega en tu Game Boy original!
 
-## 🧩 Cómo contribuir
+## Cómo contribuir
 
 ¡Tu ayuda es bienvenida! Puedes contribuir de varias formas:
 
@@ -73,9 +73,9 @@ https://www.gbstudio.dev/download/
 #### Abrir proyecto en GB Studio
 https://www.gbstudio.dev/docs/getting-started/saving-loading
 
-### 📄 Licencia
+### Licencia
 
-Este proyecto está bajo Licencia MIT. Inclye esta licencia si planeas usar el código, arte y diseño para cualquier propósito.
+Este proyecto está bajo Licencia MIT. Incluye esta licencia si planeas usar el código, arte y diseño para cualquier propósito.
 
 ### 🌐 Enlaces importantes
 * 🎮 [Página del juego en itch.io](https://aestial.itch.io/el-tesoro-de-boturini).
